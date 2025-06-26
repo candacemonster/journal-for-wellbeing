@@ -1,35 +1,36 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+  <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+    <h1>About Journal for Wellbeing</h1>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
+    <p><strong>Journal for Wellbeing</strong> is a quiet blog about the practice of journaling. It explores how writing things down — honestly, regularly, imperfectly — can help us listen inward and live with more intention.</p>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+    <p>Posts are published without urgency. Topics include the psychology of journaling, reflective prompts, and thoughts on paper, memory, and mood. The goal isn’t to optimize — just to notice.</p>
 
-<h4>Questions or bug reports?</h4>
+    <h4 class="mt-5">Transparency</h4>
+    <p>This site uses basic analytics to understand what’s useful, and some pages contain ads or affiliate links (e.g., to Bookshop.org or eBay). These are selected with care and help cover maintenance costs. Nothing is paywalled or sponsored in disguise.</p>
 
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+    <h4 class="mt-5">Who's behind this?</h4>
+    <p>This project is maintained by someone who journals often and thinks slowly. There’s no personal brand, coaching offer, or productivity funnel — just an interest in the written word and what it reveals.</p>
 
-</div>
+    <h4 class="mt-5">Colophon</h4>
+    <p>This site is built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and uses the <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll" target="_blank">Mediumish theme</a> by <a href="https://www.wowthemes.net" target="_blank">WowThemes</a>, adapted for a softer and quieter feel. It’s hosted with GitHub Pages.</p>
 
-<div class="col-md-4">
+    <p class="text-muted small mt-4">© {{ site.time | date: '%Y' }} Journal for Wellbeing. Feel free to quote or share with credit and a link back.</p>
 
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
+  </div>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
-</div>
-</div>
+  <div class="col-md-4">
+    <div class="sticky-top sticky-top-80">
+      <h5>Elsewhere</h5>
+      <p>This project occasionally shows up on other platforms — but this site is its home.</p>
+    </div>
+  </div>
 </div>

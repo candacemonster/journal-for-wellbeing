@@ -1,3 +1,28 @@
+# Journal for Wellbeing
+
+A soft, minimalist blog built with [Jekyll](https://jekyllrb.com), focused on journaling, presence, and intentional living.
+
+This site uses a customized version of the [Mediumish Jekyll theme](https://github.com/wowthemesnet/mediumish-theme-jekyll) by [WowThemes](https://www.wowthemes.net).
+
+Live site: [https://journalforwellbeing.com](https://journalforwellbeing.com)
+
+---
+
+## About
+
+**Journal for Wellbeing** is a digital space centered on thoughtful reflection and the practice of writing as a tool for healing and awareness. It includes:
+
+- Custom site identity and visual styling
+- Disqus comment integration
+- Google AdSense and affiliate tracking
+- Updated layout and metadata
+- No heavy frameworks or unnecessary features
+- A focus on clarity, accessibility, and calm presentation
+
+This project is designed to be low-maintenance, readable, and intentional.
+
+---
+
 # Mediumish - Jekyll Theme
 
 [Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)

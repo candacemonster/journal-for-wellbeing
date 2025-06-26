@@ -232,6 +232,7 @@ span.post-read {
 }
 
 span.post-read-more {
+      display: none !important;
     align-items: center;
     display: inline-block;
     float: right;
