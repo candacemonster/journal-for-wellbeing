@@ -94,3 +94,5 @@ show_author_box: false
 
 sass:
   style: compressed
+  sass_dir: _sass
+
