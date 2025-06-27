@@ -5,9 +5,15 @@ description: "..."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 url: "https://journalforwellbeing.com"
-baseurl: "" 
+baseurl: ""
 lang: en-US
 timezone: UTC
+twitter_username: journalwell
+author: "Journal for Wellbeing"
+social:
+  links:
+    - https://twitter.com/journalwell
+    - https://mastodon.social/@journalwell
 google_analytics: 'G-QS47EGNW5T'
 disqus: 'journalforwellbeing'
 include: ["_pages"]
