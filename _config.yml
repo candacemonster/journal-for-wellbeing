@@ -69,7 +69,7 @@ adsense-data-ad-slot: ""
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock, docker-compose.yml, site/]
 
 # Show or hide future-dated posts, author, etc.,
 future: false
