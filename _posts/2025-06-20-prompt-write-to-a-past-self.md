@@ -3,7 +3,7 @@ layout: post
 title:  "Prompt: Write to a Past Self"
 author: 
 featured: true
-categories: [journal, prompts]
+categories: [prompts]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Start Where You Are"
 author: 
 featured: 
-categories: [journal, encouragement]
+categories: [journal]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDN2bnE2c2Y2b3J4Z3NpcHZjN3RnNmQ5czBrdDMzZ2ljYW8wb2R5cyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KDR4XGKyzJ6UwxqmJM/giphy.gif
 ---
 

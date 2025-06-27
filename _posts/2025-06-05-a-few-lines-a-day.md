@@ -2,7 +2,7 @@
 layout: post
 title:  "A Few Lines a Day: How Journaling Changes Your Brain"
 author: 
-categories: [journal, science, practice]
+categories: [science, practice]
 image: assets/images/sixteen-miles-out-0I75875sRVU-unsplash.jpg
 ---
 
