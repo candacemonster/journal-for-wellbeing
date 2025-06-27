@@ -6,6 +6,8 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 url: "https://journalforwellbeing.com"
 baseurl: "" 
+lang: en-US
+timezone: UTC
 google_analytics: 'G-QS47EGNW5T'
 disqus: 'journalforwellbeing'
 include: ["_pages"]
