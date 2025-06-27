@@ -11,18 +11,18 @@ Journaling isn’t just a reflective or creative practice—it’s a scientifica
 
 According to multiple peer-reviewed studies, expressive writing can significantly reduce stress, improve immune function, and enhance mental clarity. Here’s a look at what the research shows:
 
-### 🧠 Mental Health & Mood
+### Mental Health & Mood
 
 A widely cited study by Dr. James Pennebaker found that writing about emotional experiences for just 15–20 minutes a day, over 3–5 consecutive days, led to lasting improvements in mood, stress levels, and even job performance.
 
 > "When people write about emotional upheavals, they often begin to organize and structure the experience."  
 > — *Pennebaker & Beall, 1986*
 
-### ❤️ Physical Health
+### Physical Health
 
 Writing about difficult experiences can even improve physical health. One randomized study showed that people who journaled about trauma had fewer doctor visits and stronger immune responses (Pennebaker et al., 1997).
 
-### 💬 Cognitive Benefits
+### Cognitive Benefits
 
 Journaling promotes what's known as "cognitive reappraisal"—the ability to reframe challenging situations. This helps reduce rumination and supports decision-making (King, 2001).
 

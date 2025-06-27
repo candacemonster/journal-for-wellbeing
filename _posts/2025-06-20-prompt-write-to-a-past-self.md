@@ -5,6 +5,8 @@ author:
 featured: true
 categories: [prompts]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
+excerpt: "This reflective prompt encourages you to write a letter to a past version of yourself. A compassionate practice for healing, closure, and inner connection."
+
 ---
 
 There’s a version of you who’s lived through something difficult. Maybe she still lives inside you. Maybe he’s long gone. Maybe they visit in dreams or on long drives.

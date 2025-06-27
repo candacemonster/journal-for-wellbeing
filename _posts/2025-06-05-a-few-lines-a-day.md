@@ -4,6 +4,8 @@ title:  "A Few Lines a Day: How Journaling Changes Your Brain"
 author: 
 categories: [science, practice]
 image: assets/images/sixteen-miles-out-0I75875sRVU-unsplash.jpg
+excerpt: "You don’t have to write pages to receive the benefits of journaling. Here’s how even a few simple lines each day can help you build presence, clarity, and self-trust."
+
 ---
 
 What happens in your brain when you journal?
