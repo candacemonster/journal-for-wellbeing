@@ -3,7 +3,7 @@ layout: post
 title:  "On Noticing: A Gentle Start to Journaling"
 author: 
 categories: [journal, foundations]
-image: assets/images/1.jpg
+image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ejljZjFia3FsaTR6OTN2YmNmbWJ1aWxwcmR2am51bmRhcGNnaWVoZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2A0jTOgSpH4p0dZoHN/giphy.gif
 ---
 
 There’s a quiet magic in noticing.
