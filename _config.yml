@@ -76,7 +76,7 @@ adsense-data-ad-client: "ca-pub-6236889265406066"
 adsense-data-ad-slot: "9525717750"
 
 # Lazy Images
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 # Build exclusions
 exclude:
