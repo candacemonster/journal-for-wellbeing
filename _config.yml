@@ -16,7 +16,9 @@ social:
     - #
 google_analytics: 'G-QS47EGNW5T'
 disqus: 'journalforwellbeing'
-include: ["_pages"]
+include:
+  - _pages
+  - _redirects
 permalink: /:title/
 
 # Authors
@@ -77,9 +79,6 @@ adsense-data-ad-slot: "9525717750"
 
 # Lazy Images
 lazyimages: "enabled"
-
-include:
-  - _redirects
 
 # Build exclusions
 exclude:
