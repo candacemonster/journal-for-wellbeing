@@ -78,6 +78,9 @@ adsense-data-ad-slot: "9525717750"
 # Lazy Images
 lazyimages: "enabled"
 
+include:
+  - _redirects
+
 # Build exclusions
 exclude:
   - changelog.md
