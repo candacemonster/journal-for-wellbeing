@@ -1,67 +1,18 @@
-# Mediumish Jekyll Theme - Change Log
+# Journal for Wellbeing - Change Log
 
-## 2019-05-16, v1.0.36
-- docker-composer.yml
-- better responsiveness for 1920x1080 resolution
+## 2025-07-01, v1.0.2
+- Published Mid-Year Check-In post
+- Added July Journal Prompt PDF (downloadable)
+- Enabled Disqus comments on posts
+- Added meta tags and sitemap.xml
+- Created custom 404.html page
 
-## 2019-04-02, v1.0.35
-- Fixed Github pages issue with ratings under 1
-- Added support for local avatars
+## 2025-06-29, v1.0.1
+- Linked Privacy Policy in footer
+- Enabled Google Analytics (G-QS47EGNW5T)
 
-## 2019-03-22, v1.0.34
-- Deferred font awesome and google fonts
-
-## 2019-03-22, v1.0.33
-- Added image lazy load (config.yml - lazyimages: "enabled/disabled")
-- Added object cover images instead of background images for home featured cards
-- Removed disqus count from homepage for better performance
-
-## 2019-03-20, v1.0.32
-- Centered avatar image on smaller devices
-- Removed .html endings in cats/tags
-- Added Linkedin share 
-- Added Table of Contents (toc:true)
-- Added Paragraph before TOC (beforetoc: "My short description here")
-
-
-## 2019-03-20, v1.0.31
-- Added adsense support (activate via _config.yml)
-- Fixed share for large headers
-
-## 2019-03-20, v1.0.30
-- Added Tags support
-- Removed Google + sharing, no longer needed
-
-## 2019-03-01, v1.0.29
-- Fixed Jumbotron categories link
-
-## 2019-03-01, v1.0.28
-- Added blurred text on spoilers
-- Added half stars for ratings
-
-## 2019-03-01, v1.0.27
-- Reveal hidden spoilers on click
-- Syntax line numbers
-- Post rating stars
-- Fixed category links with more than 1 word
-
-## 2019-02-14
-- Fixed Feed site title not showing
-- Added 404 page
-
-## 2019-02-10
-- Fixed CSS Jumbotron categories
-
-## 2019-02-09
-- Fixed Category links are now compatible with Github pages. Archive still available for non Github pages.
-- Added Search
-- Added SEO
-
-## 2018-11-08
-- Fixed reponsive footer jumbotron for tags
-
-## 2018-11-07
-- Added external image support
-
-## 2018-09-12
-- Added option to disable comments in a specific post with `comments: false` in YAML front matter
+## 2025-06-28, v1.0.0
+- Launched Journal for Wellbeing site with Jekyll
+- Applied minimal theme with featured post support
+- Added initial blog posts and category structure
+- Configured _config.yml with site title, description, and social links
