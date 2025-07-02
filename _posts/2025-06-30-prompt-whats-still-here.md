@@ -1,10 +1,16 @@
 ---
 layout: post
 title: "Prompt: What's Still Here?"
-author: maren
+author: 
 categories: [prompts]
-image: assets/images/prompt-still.jpg
-excerpt: "Sometimes the most powerful discoveries come from looking at what hasn't left us."
+tags: []
+image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3emFyOHR5ZHhyeWJjemt2MXF5d3dycWh2aTNiMzVvdjJsdjVhNnN3cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1hMdWxlfKh13NOMRvP/giphy.gif
+description: " "
+excerpt: "Healing isn’t always loud. This quiet prompt invites you to notice what’s remained — the steady, nourishing parts of your life that are still here."
+date: 2025-06-30
+featured: false
+hidden: false
+rating: 
 ---
 
 Sometimes healing doesn't arrive as a wave of change, but as a quiet reminder of what has stayed.

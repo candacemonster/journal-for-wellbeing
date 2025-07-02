@@ -3,8 +3,14 @@ layout: post
 title: "The Science of Journaling: What Research Really Says"
 author: 
 categories: [science]
-image: assets/images/journaling-science.jpg
+tags: []
+image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YjhoZGJzYWs5dHRzdm04YXV6aW1yeWM5Y2x5YnU2N2h3dWVoeHU1NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fqIBaMWI7m7O8/giphy.gif
+description: " "
 excerpt: "Backed by decades of peer-reviewed research, journaling has measurable effects on mental, emotional, and even physical health. Here's what science says."
+date: 2025-06-28
+featured: false
+hidden: false
+rating: 
 ---
 
 Journaling isn’t just a reflective or creative practice—it’s a scientifically supported tool for wellbeing.

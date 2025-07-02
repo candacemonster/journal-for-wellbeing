@@ -3,9 +3,14 @@ layout: post
 title:  "On Noticing: A Gentle Start to Journaling"
 author: 
 categories: [journal]
+tags: []
 image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ejljZjFia3FsaTR6OTN2YmNmbWJ1aWxwcmR2am51bmRhcGNnaWVoZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2A0jTOgSpH4p0dZoHN/giphy.gif
+description: " "
 excerpt: "The act of noticing is a quiet form of mindfulness. This post explores how awareness, even in small moments, can deepen your journaling and your life."
-
+date: 2025-06-27
+featured: false
+hidden: false
+rating: 
 ---
 
 There’s a quiet magic in noticing.

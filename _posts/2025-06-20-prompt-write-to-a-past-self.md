@@ -2,11 +2,15 @@
 layout: post
 title:  "Prompt: Write to a Past Self"
 author: 
-featured: true
 categories: [prompts]
+tags: []
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
+description: " "
 excerpt: "This reflective prompt encourages you to write a letter to a past version of yourself. A compassionate practice for healing, closure, and inner connection."
-
+date: 2025-06-13
+featured: true
+hidden: true
+rating: 
 ---
 
 There’s a version of you who’s lived through something difficult. Maybe she still lives inside you. Maybe he’s long gone. Maybe they visit in dreams or on long drives.
