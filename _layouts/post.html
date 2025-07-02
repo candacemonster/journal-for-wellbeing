@@ -22,7 +22,7 @@ post_class: post-template
             <div class="mainheading">
 
                 <!-- Author Box -->
-{% if page.author and site.show_author_box %}
+                {% if page.author and site.show_author_box %}
                 <div class="row post-top-meta">
                     <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
                         {% if author.avatar %}
@@ -43,27 +43,21 @@ post_class: post-template
 
             </div>
 
-            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
             {% if site.adsense == "enabled" %}
                 {% include adsense-under-header.html %}
             {% endif %}
-            <!-- End Adsense -->
 
             <!-- Post Featured Image -->
             {% if page.image %}
-
-            {% if site.lazyimages == "enabled" %}
-            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-            {% else %}
-            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                {% if site.lazyimages == "enabled" %}
+                <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                {% else %}
+                <img class="featured-image img-fluid" src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+                {% endif %}
             {% endif %}
-
-            {% endif %}
-            <!-- End Featured Image -->
 
             <!-- Post Content -->
             <div class="article-post">
-                <!-- Toc if any -->
                 {% if page.toc %}
                     {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
@@ -73,28 +67,24 @@ post_class: post-template
                         {% include toc.html html=content %}
                     </div>
                 {% endif %}
-                <!-- End Toc -->
                 {{content}}
             </div>
 
-            <!-- Rating -->
             {% if page.rating %}
             <div class="rating mb-4 d-flex align-items-center">
                 <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
             </div>
             {% endif %}
 
-            <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>
                 {% if page.last_modified_at %}
                 (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
                 {% endif %}
-                </small>
+            </small>
             </p>
 
-            <!-- Post Categories -->
             <div class="after-post-cats">
                 <ul class="tags mb-4">
                     {% assign sortedCategories = page.categories | sort %}
@@ -105,9 +95,7 @@ post_class: post-template
                     {% endfor %}
                 </ul>
             </div>
-            <!-- End Categories -->
 
-            <!-- Post Tags -->
             <div class="after-post-tags">
                 <ul class="tags">
                     {% assign sortedTags = page.tags | sort %}
@@ -118,9 +106,7 @@ post_class: post-template
                     {% endfor %}
                 </ul>
             </div>
-            <!-- End Tags -->
 
-            <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
             <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
@@ -130,7 +116,6 @@ post_class: post-template
             {% endif %}
             <div class="clearfix"></div>
             </div>
-            <!-- End Categories -->
 
         </div>
         <!-- End Post -->
@@ -151,12 +136,10 @@ post_class: post-template
         </div>
     </div>
 {% endif %}
-<!--End Comments
+<!-- End Comments
 ================================================== -->
 
-<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
-https://search.google.com/structured-data/testing-tool/u/0/
-================================================== -->
+<!-- Review Schema (if rated) -->
 {% if page.rating %}
 <script type="application/ld+json">
 {
@@ -170,7 +153,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
     "@type": "Person",
     "name": "{{ author.display_name }}"
   },
-  "datePublished": "{{ page.date | date:"%Y-%m-%d" }}",
+  "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
   "reviewRating": {
     "@type": "Rating",
     "ratingValue": "{{ page.rating }}",
@@ -179,3 +162,6 @@ https://search.google.com/structured-data/testing-tool/u/0/
 }
 </script>
 {% endif %}
+
+<!-- Dynamic Article Schema -->
+{% include article-schema.html %}

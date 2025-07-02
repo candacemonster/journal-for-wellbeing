@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "The Science of Journaling: What Research Really Says"
-author: 
 categories: [science]
-tags: []
-image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YjhoZGJzYWs5dHRzdm04YXV6aW1yeWM5Y2x5YnU2N2h3dWVoeHU1NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fqIBaMWI7m7O8/giphy.gif
-description: " "
+tags: [evidence, research, wellbeing, expressive-writing]
+image: https://media.giphy.com/media/fqIBaMWI7m7O8/giphy.gif
+description: "Journaling has measurable effects on emotional resilience, immune health, and stress reduction. Here’s what the research actually says about expressive writing."
 excerpt: "Backed by decades of peer-reviewed research, journaling has measurable effects on mental, emotional, and even physical health. Here's what science says."
 date: 2025-06-28
 featured: false
 hidden: false
-rating: 
 ---
 
 Journaling isn’t just a reflective or creative practice—it’s a scientifically supported tool for wellbeing.
@@ -41,8 +39,10 @@ Whether you're writing long-form reflections or jotting a few words at the end o
 
 ---
 
-**References:**
+**References**
 
-- Pennebaker, J. W., & Beall, S. K. (1986). Confronting a traumatic event: Toward an understanding of inhibition and disease.
-- Pennebaker, J. W., Kiecolt-Glaser, J. K., & Glaser, R. (1997). Disclosure of traumas and immune function.
-- King, L. A. (2001). The health benefits of writing about life goals.
+Pennebaker, J. W., & Beall, S. K. (1986). [Confronting a traumatic event: Toward an understanding of inhibition and disease](https://doi.org/10.1037/0022-3514.52.4.706). *Journal of Personality and Social Psychology, 52*(4), 706–713. https://doi.org/10.1037/0022-3514.52.4.706
+
+Pennebaker, J. W., Kiecolt-Glaser, J. K., & Glaser, R. (1997). [Disclosure of traumas and immune function: Health implications for psychotherapy](https://doi.org/10.1037/0033-2909.121.3.375). *Psychological Bulletin, 121*(3), 375–392. https://doi.org/10.1037/0033-2909.121.3.375
+
+King, L. A. (2001). [The health benefits of writing about life goals](https://doi.org/10.1037/0022-3514.80.5.676). *Journal of Personality and Social Psychology, 80*(5), 676–689. https://doi.org/10.1037/0022-3514.80.5.676

@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "The Journaling Ritual: Setting the Scene"
-author: 
+title: "The Journaling Ritual: Setting the Scene"
 categories: [journal, practice]
-tags: []
-image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZDNqM3J5b2xkZTdsbWpldm16dmw2M2wyODRxdjU1cG83ZjRuYWJpeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/IneGbyWjjEcnK/giphy.gif
-description: " "
+tags: [ritual, routine, mindfulness]
+image: https://media.giphy.com/media/IneGbyWjjEcnK/giphy.gif
+description: "Journaling can become more than a habit—it can be a meaningful ritual. Here's how to create a writing practice that feels sacred, calming, and consistent."
 excerpt: "Journaling can be more than a habit—it can be a ritual. Learn how to create a consistent practice that feels nourishing, grounded, and sacred in your daily life."
 date: 2025-06-13
 featured: false
 hidden: false
-rating: 
 ---
 
 You don’t need a dedicated room or a new journal to begin. But having a few gentle rituals can help make journaling something you look forward to — and return to.

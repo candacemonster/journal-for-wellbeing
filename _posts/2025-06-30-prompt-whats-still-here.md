@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "Prompt: What's Still Here?"
-author: 
 categories: [prompts]
-tags: []
-image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3emFyOHR5ZHhyeWJjemt2MXF5d3dycWh2aTNiMzVvdjJsdjVhNnN3cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/1hMdWxlfKh13NOMRvP/giphy.gif
-description: " "
+tags: [healing, reflection, grounding]
+image: https://media.giphy.com/media/1hMdWxlfKh13NOMRvP/giphy.gif
+description: "Healing isn’t always loud. This soft prompt invites you to notice what has remained — the steady, nourishing parts of your life that are still here."
 excerpt: "Healing isn’t always loud. This quiet prompt invites you to notice what’s remained — the steady, nourishing parts of your life that are still here."
 date: 2025-06-30
 featured: false
 hidden: false
-rating: 
 ---
 
 Sometimes healing doesn't arrive as a wave of change, but as a quiet reminder of what has stayed.

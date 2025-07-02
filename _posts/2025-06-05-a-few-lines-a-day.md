@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "A Few Lines a Day: How Journaling Changes Your Brain"
-author: 
+title: "A Few Lines a Day: How Journaling Changes Your Brain"
 categories: [science, practice]
-tags: []
+tags: [neuroscience, journaling, habits]
 image: assets/images/sixteen-miles-out-0I75875sRVU-unsplash.jpg
-description: " "
+description: "Even a few honest lines of journaling each day can rewire your brain toward emotional clarity, calm, and self-trust."
 excerpt: "You don’t have to write pages to receive the benefits of journaling. Here’s how even a few simple lines each day can help you build presence, clarity, and self-trust."
 date: 2025-06-05
 featured: false
 hidden: false
-rating: 
 ---
 
 What happens in your brain when you journal?

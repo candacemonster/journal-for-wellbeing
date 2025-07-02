@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "A Quiet Mid-Year Check-In"
-author: 
 categories: [prompts]
 tags: [reflection, prompts, mindfulness]
-image: 
-description: " "
+image: assets/images/elin-melaas-wfz8p_EsNQU-unsplash.jpg
+description: "This gentle mid-year check-in invites you to pause and reflect—without pressure. A journaling prompt for grounding, honesty, and subtle clarity."
 excerpt: "The year is half-spent. Now is a good time to ask: How are you, really?"
 date: 2025-07-07
 featured: false
 hidden: false
-rating: 
 ---
 
 We often rush through the midpoint of the year—busily crossing things off, adding more. But July invites something quieter: reflection.
