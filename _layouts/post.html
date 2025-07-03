@@ -40,12 +40,15 @@ post_class: post-template
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
+                            </div>
 
-            </div>
+<!-- Google AdSense Ad -->
+{% if site.adsense == "enabled" %}
+  {% include adsense-under-header.html %}
+{% endif %}
 
-            {% if site.adsense == "enabled" %}
-                {% include adsense-under-header.html %}
-            {% endif %}
+
+
 
             <!-- Post Featured Image -->
             {% if page.image %}

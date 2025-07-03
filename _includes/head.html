@@ -23,4 +23,18 @@
   {% endif %}
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="icon" href="{{ '/assets/images/logo.png' | relative_url }}" type="image/png" />
+
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QS47EGNW5T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QS47EGNW5T');
+  </script>
+
+  <!-- Google AdSense (global script) -->
+  <script data-ad-client="ca-pub-6236889265406066" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
