@@ -21,7 +21,7 @@ comments: false
     <p>This project is maintained by someone who journals often and thinks slowly. There’s no personal brand, coaching offer, or productivity funnel — just an interest in the written word and what it reveals.</p>
 
     <h4 class="mt-5">Colophon</h4>
-    <p>This site is built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and uses the <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll" target="_blank">Mediumish theme</a> by <a href="https://www.wowthemes.net" target="_blank">WowThemes</a>, adapted for a softer and quieter feel. It’s hosted with GitHub Pages.</p>
+    <p>This site is built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> and uses the <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll" target="_blank" rel="noopener noreferrer">Mediumish theme</a> by <a href="https://www.wowthemes.net" target="_blank" rel="noopener noreferrer">WowThemes</a>, adapted for a softer and quieter feel. It’s hosted with GitHub Pages.</p>
 
     <p class="text-muted small mt-4">© {{ site.time | date: '%Y' }} Journal for Wellbeing. Feel free to quote or share with credit and a link back.</p>
 
