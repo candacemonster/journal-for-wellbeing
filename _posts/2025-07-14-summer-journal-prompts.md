@@ -3,11 +3,11 @@ layout: post
 title: "7 Summer Journal Prompts for a Softer Season"
 categories: [prompts]
 tags: [journal prompts, mindfulness, seasonal]
-image: 
+image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eWM2YThjZTBsOTJ3a29tYzRzMjJiemN2YWZxNjZudzZ3YWx5MjJ3aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7buiEVyi9GAXgzw4/giphy.gif
 description: "A soft, reflective roundup of summer journaling prompts — designed to slow you down and invite gentle self-connection."
 excerpt: "Let the pages hold your July. A collection of gentle prompts for reflection."
 date: 2025-07-14
-featured: false
+featured: true
 hidden: false
 ---
 
@@ -17,7 +17,7 @@ You don’t need to fill a whole page. Even a few lines are enough. Let your jou
 
 ---
 
-## 🌿 7 Summer Prompts
+## 7 Summer Prompts
 
 1. **What does peace feel like in my body right now?**  
    Can I name its shape, its temperature, its pace?

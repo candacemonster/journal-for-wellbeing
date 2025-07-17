@@ -7,7 +7,7 @@ image: https://media.giphy.com/media/RQ6ovU1SDm4Mg/giphy.gif
 description: "This gentle prompt invites you to pause and listen inward: What part of you wants to be heard right now? A soft, presence-based journaling invitation."
 excerpt: "Sometimes the quietest parts of us are asking to be heard. This gentle weekend prompt invites you to listen inward — no pressure, just presence."
 date: 2025-06-29
-featured: true
+featured: false
 hidden: false
 ---
 
