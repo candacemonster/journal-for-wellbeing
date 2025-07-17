@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Focus on Your Future, Not the Past"
-author: solenya
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness]
 image: assets/images/focus-future-path.jpg
@@ -10,7 +9,6 @@ excerpt: "A gentle reminder that growth lives in what you choose next—not what
 date: 2025-07-01
 featured: false
 hidden: false
-rating: 
 ---
 
 The past has a funny way of clinging to us — not just in memory, but in identity. Mistakes we’ve made, opportunities we missed, or versions of ourselves we’ve long outgrown can start to feel like permanent fixtures. But they’re not. They’re chapters — not the title of your story.

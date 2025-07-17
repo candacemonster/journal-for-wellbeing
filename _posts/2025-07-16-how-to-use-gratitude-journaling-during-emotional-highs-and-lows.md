@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How to Use Gratitude Journaling During Emotional Highs and Lows"
-author: solenya
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness, journaling, gratitude]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxNDNjN3A3Mm1rbmd2emZobDEydHJhZmY1aThhcTNub281OHl0MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/09dtD1tY2tNAviMmM3/giphy.gif
@@ -10,7 +9,6 @@ excerpt: "A gentle guide to balancing joy and discomfort through a mindful grati
 date: 2025-07-01
 featured: true
 hidden: true
-rating: 
 ---
 
 Gratitude journaling isn’t just for your best days. It’s a tool that helps you **hold space for both light and dark** — without forcing a silver lining.
