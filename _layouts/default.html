@@ -7,8 +7,7 @@
 
   <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
-  <!-- Page Title -->
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <!-- Page Title is handled by jekyll-seo-tag -->
 
   <!-- SEO Tags -->
   {% seo %}
@@ -36,6 +35,10 @@
 
   <!-- Scripts -->
   <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+  <!-- Google AdSense (global script) -->
+  <script data-ad-client="ca-pub-6236889265406066" async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -94,7 +97,7 @@
   <div class="site-content">
     <div class="container">
       <div class="mainheading">
-        <h1 class="sitetitle">{{ site.name }}</h1>
+        <div class="sitetitle">{{ site.name }}</div>
         <p class="lead">{{ site.description }}</p>
       </div>
 
@@ -149,7 +152,7 @@
             Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
           </div>
           <div class="col-md-6 col-sm-6 text-center text-lg-right">
-            <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+            <a target="_blank" rel="noopener noreferrer" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
             &nbsp;|&nbsp;
             <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
           </div>
@@ -170,7 +173,7 @@
   <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
   {% if page.layout == 'post' %}
-    <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+    <script id="dsq-count-scr" src="https://{{site.disqus}}.disqus.com/count.js"></script>
     {% include article-schema.html %}
   {% endif %}
 </body>
