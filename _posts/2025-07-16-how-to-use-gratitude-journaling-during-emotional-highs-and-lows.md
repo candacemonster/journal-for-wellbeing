@@ -8,8 +8,8 @@ image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxNDNjN3A3Mm1rbmd2emZo
 description: "Learn how to use gratitude journaling to stay grounded through emotional highs and lows—without bypassing what you're really feeling."
 excerpt: "A gentle guide to balancing joy and discomfort through a mindful gratitude journaling practice."
 date: 2025-07-01
-featured: false
-hidden: false
+featured: true
+hidden: true
 rating: 
 ---
 

@@ -8,7 +8,7 @@ description: "A soft, reflective roundup of summer journaling prompts — design
 excerpt: "Let the pages hold your July. A collection of gentle prompts for reflection."
 date: 2025-07-14
 featured: true
-hidden: false
+hidden: true
 ---
 
 Summer tends to rush in—with long days and busy plans. These prompts invite you to slow down, reflect, and return to yourself.
