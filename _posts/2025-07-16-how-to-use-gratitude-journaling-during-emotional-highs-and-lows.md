@@ -1,94 +1,78 @@
 ---
 layout: post
-title:  "How to Use Gratitude Journaling During Emotional Highs and Lows"
+title: "How to Use Gratitude Journaling During Emotional Highs and Lows"
+author: 
 categories: [journal, reflection]
-tags: [wellbeing, mindfulness, journaling, gratitude]
+tags: [wellbeing, mindfulness, journaling, gratitude, emotional-regulation]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxNDNjN3A3Mm1rbmd2emZobDEydHJhZmY1aThhcTNub281OHl0MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/09dtD1tY2tNAviMmM3/giphy.gif
-description: "Learn how to use gratitude journaling to stay grounded through emotional highs and lows—without bypassing what you're really feeling."
-excerpt: "A gentle guide to balancing joy and discomfort through a mindful gratitude journaling practice."
+description: "Use gratitude journaling to stay grounded through emotional highs and lows—without bypassing what you actually feel."
+excerpt: "A gentle guide to letting gratitude hold space with the hard stuff—so you stay honest, regulated, and present."
 date: 2025-07-01
-featured: true
-hidden: true
+featured: false
+hidden: false
+permalink: /gratitude-journaling-highs-lows/
 ---
 
-Gratitude journaling isn’t just for your best days. It’s a tool that helps you **hold space for both light and dark** — without forcing a silver lining.
+Gratitude journaling isn’t a highlight reel. It’s a way to **stand on something steady while still telling the truth**. No forced silver linings; no pretending. Just: *Both are here, and I’m meeting them.*
 
----
+### When You’re Low  
+On hard days “What am I grateful for?” can feel accusatory. Reframe it so your nervous system doesn’t bolt:
 
-## Why Gratitude Journaling Isn’t Just for “Good Days”
+- “One thing that didn’t completely suck today was …”
+- “I’m proud of myself for …”
+- “Today I showed up for myself by …”
+- “The smallest relief was …”
+- “A neutral thing I can name is …” (neutral counts when positive feels fake)
 
-Gratitude isn't about ignoring pain or slapping on toxic positivity. It's about making room for all your feelings — the messy, the mundane, and the meaningful — while still finding something solid to stand on.
+This is gritty gratitude: evidence you’re still here, still participating.
 
-When you're emotionally overwhelmed, journaling can be a lifeline. Even one line of truth can ground you.
+### When You’re High  
+When peace, clarity, tenderness, or joy visits—*amplify it deliberately*:
 
----
+- “I want to remember this moment because …”
+- “I felt fully alive when …”
+- “Right now I’m savoring …”
+- “My body feels … and I want to anchor that.”
 
-## Journaling Through the Lows
+You’re creating emotional touchstones your future, wobblier self can return to.
 
-On hard days, the prompt *“What are you grateful for?”* might feel impossible. Try reframing:
+### Holding Two Truths  
+Use a both/and line daily for a week:
 
-- “One thing that didn’t suck today was…”
-- “I’m proud of myself for…”
-- “Today, I showed up for myself by…”
+> *“Right now I feel __________ and __________. Both are valid.”*
 
-This kind of gentle, gritty gratitude reminds you: even in the storm, you're still here.
+Example: *“Right now I feel deeply tired and quietly grateful. Both are valid.”*  
+This trains your emotional system out of binary thinking.
 
----
+### A 5-Minute Micro Ritual (Low Energy Friendly)
+1. Three slow breaths (longer exhale).  
+2. Name one feeling (guess if unsure).  
+3. One sentence of honest reality (“My chest is tight; I kept going anyway.”)  
+4. One sentence of gratitude or grounded noticing (“The dog leaned on me; that helped.”)  
+5. Optional “glimmer”: a tiny flicker you want to keep (sun on the mug, cool air, a text).
 
-## Journaling Through the Highs
+Stop. Close. That **counts**. Frequency > length.
 
-When you’re riding a wave of peace, love, or clarity — amplify it.
+### Prompts to Rotate
+- “Something small that supported me today was …”
+- “I almost missed noticing …”
+- “I softened for a second when …”
+- “A past me would be grateful I …”
+- “What feels fragile *and* worth appreciating is …”
 
-Try:
+### Avoiding Toxic Positivity
+You are not required to convert pain into a lesson mid-feeling. If gratitude feels impossible, anchor in **neutral observation** first (“Rain today. Body heavy. Still here.”). Neutral is a bridge to softer appreciation later.
 
-- “I want to remember this moment because…”
-- “I felt fully alive when…”
-- “Something I’m savoring right now is…”
+### Related Notes (for gentle deepening)
+- Starting messy if you’re stuck: [Start Where You Are](/start-where-you-are/)
+- Keeping it tiny & consistent: [A Few Lines a Day](/a-few-lines-a-day/)
+- Building a simple container: [The Journaling Ritual](/journaling-ritual/)
+- If fatigue is part of the picture: [Journaling Through Fatigue: A Gentle Approach for Chronic Illness Warriors](/journaling-through-fatigue-a-gentle-approach-for-chronic-illness-warriors/)
+- Broader framing & benefits: [The Science of Journaling](/journaling-science-benefits/)
 
-Capture it. Cement it. These moments become emotional touchstones you can return to.
+### Optional Download
+*Want a 7-day printable for highs & lows?* **[Download here]** (add link when ready).
 
----
+You don’t have to choose between gratitude and honesty. Let the page hold both. One line of truth + one line of appreciation or neutrality is still a legitimate practice. Repetition slowly rewires how your system meets extremes.
 
-## Holding Two Truths at Once
-
-This prompt helps balance complexity:
-
-> “Right now, I’m feeling both __________ and __________. And both are valid.”
-
-Example:
-> *Right now, I’m feeling both deeply tired and incredibly grateful. And both are valid.*
-
-Let that sentence live in your journal for a week. Watch what unfolds.
-
----
-
-## A 5-Minute Gratitude Ritual
-
-If you’re short on time or energy, try this:
-
-1. Take 3 deep breaths  
-2. Name one feeling (no judgment)  
-3. Write one sentence of gratitude  
-4. Optional: Add a “glimmer” — a tiny moment of peace or beauty
-
-That’s it. Small steps count.
-
----
-
-## Want More Gentle Prompts?
-
-🖋 **Download my free printable:  
-“7 Days of Journaling Through Emotional Highs and Lows”**  
-→ *[Download here]* (insert link)
-
----
-
-## Related Posts You May Enjoy
-
-- [A Few Lines a Day: Minimalist Journaling That Sticks](/a-few-lines-a-day/)
-- [Journaling Through Fatigue: A Gentle Approach for Chronic Illness Warriors](/journaling-through-fatigue-a-gentle-approach-for-chronic-illness-warriors/)
-- [Unveiling the Power of Journaling: A Journey to Self-Discovery](/unveiling-the-power-of-journaling-a-journey-to-self-discovery/)
-
----
-
-*You don’t have to choose between gratitude and honesty. Let your journal hold both.*
+*Both can live here. You can, too.*

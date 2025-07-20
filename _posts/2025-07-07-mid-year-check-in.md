@@ -1,29 +1,33 @@
 ---
 layout: post
 title: "A Quiet Mid-Year Check-In"
-categories: [prompts]
-tags: [reflection, prompts, mindfulness]
+author: 
+categories: [prompts, reflection]
+tags: [reflection, prompts, mindfulness, midyear]
 image: assets/images/elin-melaas-wfz8p_EsNQU-unsplash.jpg
-description: "This gentle mid-year check-in invites you to pause and reflect—without pressure. A journaling prompt for grounding, honesty, and subtle clarity."
-excerpt: "The year is half-spent. Now is a good time to ask: How are you, really?"
+description: "A soft mid-year journaling check-in—pause without pressure, notice what held meaning, what drained you, and what you need next."
+excerpt: "Halfway through the year is a doorway, not a deadline. A gentle pause to ask: How am I, really?"
 date: 2025-07-07
 featured: false
 hidden: false
 ---
 
-We often rush through the midpoint of the year—busily crossing things off, adding more. But July invites something quieter: reflection.
+We tend to rush past the middle of the year—tallying what didn’t happen, piling on what “should.” July can be something quieter: a small pause to look with tenderness.
 
-Find a moment. A morning with tea. An evening with fading light.
+Find a pocket of stillness. Early light with tea. Evening when the air thins. A few breaths.
 
-Ask yourself:
-- What felt meaningful in the first half of the year?
-- What drained me?
-- Where did I surprise myself?
-- What do I want to feel more of?
+Let these questions open slowly:
 
-This isn’t about performance. It’s about presence.
+- What truly felt meaningful the first half of the year?  
+- What quietly drained me (even if it looked “productive”)?  
+- Where did I surprise myself—in resilience, softness, honesty?  
+- What do I want to feel more of (not just achieve more of)?  
+- What patterns want to end? What rhythms want to continue?  
 
-📓 *Prompt to try:*  
-*“At the beginning of the year, I thought ___. Now I feel ___. What do I need next?”*
+**Prompt:** *“At the beginning of the year, I thought ___. Now I feel ___. What do I need next?”*
 
-Let your answers come gently. Mid-year isn’t a deadline—it’s a doorway.
+Write a few honest lines. No audit, no scoring, no retroactive perfection plan. Just presence with what *was* and what *is.*
+
+If starting feels stiff, the reminder to begin messy is [here](/start-where-you-are/). If you’d rather keep it tiny—only a few lines—that note lives [here](/a-few-lines-a-day/). If a small ritual helps you settle, there’s one mapped [here](/journaling-ritual/).
+
+Close the notebook when you feel a little more in step with yourself. Mid-year isn’t a verdict. It’s a doorway you can walk through at your own pace.

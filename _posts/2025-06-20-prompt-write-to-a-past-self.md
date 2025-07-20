@@ -1,32 +1,36 @@
 ---
 layout: post
 title: "Prompt: Write to a Past Self"
+author: 
 categories: [prompts]
-tags: [healing, reflection, inner-child]
+tags: [healing, reflection, inner-child, self-compassion]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
-description: "This reflective prompt encourages you to write a letter to a past version of yourself — a gentle act of self-compassion, understanding, and healing."
-excerpt: "This reflective prompt encourages you to write a letter to a past version of yourself. A compassionate practice for healing, closure, and inner connection."
+description: "Write a letter to a past version of yourself—not to fix them, but to witness them with the tenderness they deserved."
+excerpt: "A raw, compassionate journaling prompt: write to a past self you still carry—offer presence instead of correction."
 date: 2025-06-13
 featured: false
 hidden: false
 ---
 
-There’s a version of you who’s lived through something difficult. Maybe she still lives inside you. Maybe he’s long gone. Maybe they visit in dreams or on long drives.
+There’s a version of you who went through something hard. Maybe she still sits in your chest on quiet afternoons. Maybe he only shows up when you’re tired. Maybe they drift through old songs or long drives.
 
-This prompt is an invitation to meet them again — with softness.
+This prompt is an invitation to sit with them—not to edit their story—just to witness it.
 
-## Prompt
+**Prompt (simple):**  
+Pick a past self you still feel protective, ashamed, tender, or angry about. Write them a letter. No fixing. No “you should have.” Just contact.
 
-Choose a version of your past self that you carry strong feelings about. Write them a letter. Not to correct or scold. Simply to connect.
+Possible first lines (choose one and keep moving):
 
-You might begin with:
+- “I remember how lonely it felt when…”
+- “You didn’t deserve how silent everyone was.”
+- “I see now how hard you were trying.”
+- “You were never the problem.”
+- “No one told you it was okay to feel that.”
 
-+ “I remember how lonely it was during…”
-+ “You didn’t deserve the silence you received.”
-+ “I see now how hard you were trying.”
+Give that self what was missing: naming, warmth, a steady voice that doesn’t leave. If advice wants to rush in, slow it. Presence first. Advice rarely heals a wound that hasn’t been witnessed.
 
-Give this self whatever you wish you’d received then: acknowledgment, understanding, kindness, even just someone to listen.
+Close however you need: *“I’m here now.”* Or *“You weren’t wrong to need more.”*
 
-You’re not rewriting the past. You’re tending to it.
+You’re not rewriting the past—you’re integrating it. Attention is how we tell an earlier self: *You mattered then. You still matter.*
 
-Sometimes the most profound healing comes not from advice — but from presence.
+If that stirs more than you can hold, pause, breathe, maybe come back tomorrow. The act of meeting them at all is enough.

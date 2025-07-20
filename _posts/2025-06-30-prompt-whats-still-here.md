@@ -1,33 +1,36 @@
 ---
 layout: post
 title: "Prompt: What's Still Here?"
+author: 
 categories: [prompts]
-tags: [healing, reflection, grounding]
+tags: [healing, reflection, grounding, presence]
 image: https://media.giphy.com/media/1hMdWxlfKh13NOMRvP/giphy.gif
-description: "Healing isn’t always loud. This soft prompt invites you to notice what has remained — the steady, nourishing parts of your life that are still here."
-excerpt: "Healing isn’t always loud. This quiet prompt invites you to notice what’s remained — the steady, nourishing parts of your life that are still here."
+description: "A grounding prompt: notice what has quietly remained—people, practices, inner parts—that still nourish you."
+excerpt: "Healing can be a quiet inventory of what’s remained. This prompt invites you to notice the steady, nourishing things still here."
 date: 2025-06-30
 featured: false
 hidden: false
 ---
 
-Sometimes healing doesn't arrive as a wave of change, but as a quiet reminder of what has stayed.
+Sometimes healing doesn’t feel like breakthrough—just the realization that some things *never left.*
 
-This week’s journal prompt invites you to shift focus—not to what you’ve lost, but to what has remained.
+Instead of scanning for what’s missing, pause and look at what stayed: the person who still checks in, the trail you keep walking, the small habit that keeps you tethered, the inner voice that didn’t abandon you.
 
----
+**Prompt:** *“What’s still here?”*
 
-## Prompt:
+Let it open into gentle sub-questions:
 
-**What’s still here?**  
-What feelings, people, places, or parts of yourself have remained steady—even through change?
+- What (or who) do I keep returning to without forcing it?  
+- What continues to nourish me quietly in the background?  
+- Which parts of me went dim but have not actually disappeared?  
+- What anchors held when everything else shifted?  
 
-- What have you come back to, again and again?  
-- What continues to nourish you quietly in the background?  
-- What old parts of you might be waiting patiently to be seen again?
+List without polishing. Objects, names, sensations, routines, words. If meaning tries to rush in, let it, but you don’t owe an interpretation today. Inventory first. Meaning can arrive later.
 
-Take a few moments to write. You don’t have to make meaning right away—just notice what’s still here.
+If you feel tempted to judge the list as “not enough,” breathe and add one more small, ordinary thing (the mug that’s always beside you, the dog’s steady presence, the way morning light still finds the same corner).
 
----
+This is a grounding practice: locating continuity. What remains is often what matters.
 
-You can save or revisit this question whenever you need grounding. What remains is often what matters most.
+If beginning at all feels hard, the reminder to simply start is [here](/start-where-you-are/). If you want to keep it to a few honest lines, that note lives [here](/a-few-lines-a-day/).
+
+Close the notebook when you feel a little more *with* yourself. Return to this prompt whenever you feel emptied out. There is usually more still here than the anxious mind reports.

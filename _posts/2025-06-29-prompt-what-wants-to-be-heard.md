@@ -1,35 +1,34 @@
 ---
 layout: post
 title: "Prompt: What Wants to Be Heard"
+author: 
 categories: [prompts]
-tags: [emotional-awareness, reflection, journaling]
+tags: [emotional-awareness, reflection, journaling, presence]
 image: https://media.giphy.com/media/RQ6ovU1SDm4Mg/giphy.gif
-description: "This gentle prompt invites you to pause and listen inward: What part of you wants to be heard right now? A soft, presence-based journaling invitation."
-excerpt: "Sometimes the quietest parts of us are asking to be heard. This gentle weekend prompt invites you to listen inward — no pressure, just presence."
+description: "Pause for five unpolished minutes and ask: What part of me wants to be heard right now? A soft, presence-first journaling invitation."
+excerpt: "A gentle prompt: ask which part of you wants to be heard right now—offer it a few honest lines without trying to fix anything."
 date: 2025-06-29
 featured: false
 hidden: false
 ---
 
-Sometimes the quietest parts of ourselves are the ones that need our attention most.
+Sometimes the quietest part is the one carrying the most.
 
-This weekend, carve out just five minutes — no expectations, no pressure to make sense of it all — and listen inward.
+Take five unhurried minutes. No goal. No need to “process.” Just a page and a little breath.
 
-## Prompt:
+**Prompt:** *“What part of me wants to be heard right now?”*
 
-**“What part of me wants to be heard right now?”**
+Let whatever answers speak in its own texture:
+- A tired voice that just wants rest  
+- A sharp edge that’s been holding everything together  
+- A small, unsure feeling that thought it had to stay quiet  
 
-Let your pen follow the voice that answers.  
-It might whisper. It might ramble. It might not make much sense at first.
+Write *as* it or *to* it. Spelling, grammar, coherence—all optional. If nothing comes, write “I’m listening” until a thread appears.
 
-That’s okay.
+You’re not solving. You’re offering space. A few plain lines can shift the inner climate from static to presence.
 
-You’re not trying to solve anything. You’re just offering space.
+If you need permission to start messy, that reminder is [here](/start-where-you-are/). If keeping it tiny helps you return tomorrow, the “few lines” note is [here](/a-few-lines-a-day/).
 
-Even a few lines can create a shift — from internal noise to presence.
+Let the page hold what’s too soft (or tangled) to say aloud. Close the notebook when the voice feels acknowledged—even if it’s mid-sentence.
 
-Let the page hold what’s too soft to say aloud.
-
----
-
-*Return to this question anytime you feel disconnected from yourself. It's always a place to begin.*
+Return to this question whenever you feel blurred or disconnected. It’s always a place to begin.
