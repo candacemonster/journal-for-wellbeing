@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When You Haven’t Journaled in Days (And Anxiety is Loud)"
+title: "When I Haven’t Journaled and My Mind Is Loud"
 author: solenya
 date: 2025-07-20
 permalink: /haven’t-journaled-in-days-anxiety/

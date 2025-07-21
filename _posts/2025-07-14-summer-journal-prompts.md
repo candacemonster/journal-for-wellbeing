@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "7 Summer Journal Prompts for a Softer Season"
+title: "Gentle Prompts for a Soft Summer"
 author: 
 categories: [prompts, seasonal]
 tags: [journal-prompts, mindfulness, summer, reflection]

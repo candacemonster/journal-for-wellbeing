@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Journaling Through Fatigue: A Gentle Approach for Chronic Illness Warriors"
+title: "Writing When I’m Too Tired to Write"
 author: 
 categories: [journal, reflection]
 tags: [wellbeing, chronic illness, fatigue, self-care, mindfulness]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Few Lines a Day: How Journaling Changes Your Brain"
+title: "A Few Lines That Change Everything"
 author: 
 categories: [journal, science]
 tags: [neuroscience, journaling, habits, self-trust]

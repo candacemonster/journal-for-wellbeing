@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unveiling the Power of Journaling: A Journey to Self-Discovery"
+title: "What Journaling Is Teaching Me"
 author: 
 date: 2025-07-19
 permalink: /unveiling-power-of-journaling/

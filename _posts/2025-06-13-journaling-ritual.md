@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Journaling Ritual: Setting the Scene"
+title: "How I Begin My Journaling Ritual"
 author: 
 categories: [journal, practice]
 tags: [ritual, routine, mindfulness]

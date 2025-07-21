@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Use Gratitude Journaling During Emotional Highs and Lows"
+title: "Gratitude, Even on the Hard Days"
 author: 
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness, journaling, gratitude, emotional-regulation]

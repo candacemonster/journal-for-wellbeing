@@ -30,14 +30,6 @@ authors:
     web:
     twitter:
     description: ""
-  virelle:
-    name: Virelle
-    display_name: Virelle
-    gravatar:
-    email:
-    web:
-    twitter:
-    description: ""
 
 # Plugins
 plugins:
