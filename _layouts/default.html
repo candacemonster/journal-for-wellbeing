@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Solenya">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
 
   <!-- Page Title is handled by jekyll-seo-tag -->
 
@@ -66,39 +69,40 @@
       crossorigin="anonymous">
   </noscript>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
-    <div class="container pr-0">
-      <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+  <div class="container pr-0">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarMediumish">
-        <ul class="navbar-nav ml-auto">
-          {% if page.url == "/" %}
-          <li class="nav-item active">
-          {% else %}
-          <li class="nav-item">
-          {% endif %}
-            <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-          </li>
-          {% include search-lunr.html %}
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item{% if page.url == "/" %} active{% endif %}">
+          <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/archive">Archive</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/contact">Contact</a>
+        </li>
+        {% include search-lunr.html %}
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <div class="site-content">
     <div class="container">
       <div class="mainheading">
         <div class="sitetitle">{{ site.name }}</div>
-        <p class="lead">{{ site.description }}</p>
       </div>
 
       <div class="main-content">
@@ -144,21 +148,23 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-6 text-center text-lg-left">
-            Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
-          </div>
-          <div class="col-md-6 col-sm-6 text-center text-lg-right">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
-            &nbsp;|&nbsp;
-            <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
-          </div>
-        </div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 text-center text-lg-left">
+        Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
       </div>
-    </footer>
+      <div class="col-md-6 col-sm-6 text-center text-lg-right">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+        &nbsp;|&nbsp;
+        <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
+        &nbsp;|&nbsp;
+        <a href="{{ '/terms/' | relative_url }}">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+</footer>
   </div> <!-- /.site-content -->
 
   <!-- Scripts -->

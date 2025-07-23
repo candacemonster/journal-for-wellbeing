@@ -5,26 +5,27 @@ title: Home
 
 {% if page.url == "/" %}
 
+<!-- Site Intro
+================================================== -->
+<section class="site-intro mb-4">
+  <p class="lead text-center">
+    Welcome to <strong>Journal for Wellbeing</strong> — a quiet space for exploring mindfulness, emotional resilience, and the healing power of writing. You'll find reflective prompts, honest essays, and resources to support your inner life.
+  </p>
+</section>
+
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Featured</span></h2>
-
-    </div>
-    <div class="row">
-
+  <div class="section-title">
+    <h2><span>Featured</span></h2>
+  </div>
+  <div class="row">
     {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
+      {% if post.featured == true %}
+        {% include featuredbox.html %}
+      {% endif %}
     {% endfor %}
-
-    </div>
+  </div>
 </section>
 
 {% endif %}
@@ -32,31 +33,21 @@ title: Home
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
+  <div class="section-title">
+    <h2><span>All Stories</span></h2>
+  </div>
+  <div class="row listrecent">
+    {% for post in paginator.posts %}
+      {% include postbox.html %}
+    {% endfor %}
+  </div>
 </section>
 
 <!-- Pagination
 ================================================== -->
 <div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
+  <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+  <span class="navigation" role="navigation">
     {% include pagination.html %}
-</span>
+  </span>
 </div>
-

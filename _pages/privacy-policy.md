@@ -6,25 +6,30 @@ permalink: /privacy-policy/
 
 ## Privacy Policy
 
-**Last updated: June 27, 2025**
+**Last updated: July 23, 2025**
 
-Journal for Wellbeing values your privacy. This policy outlines how your data may be collected and used when you visit this site.
+Journal for Wellbeing values your privacy. This policy outlines how data may be collected and used when you visit this site.
 
 ### 1. Google AdSense & Cookies
 
-We use third-party vendors, including Google, to serve ads on this site. These vendors may use cookies to serve ads based on your prior visits to this website or other websites.
+This site uses Google AdSense to serve ads. Google and its advertising partners may use cookies to personalize and measure ads based on your visits to this and other websites.
 
-- Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this site and/or other sites on the Internet.
-- You may opt out of personalized advertising by visiting [Ads Settings](https://www.google.com/settings/ads). You can also visit [www.aboutads.info](https://www.aboutads.info/) to opt out of a third-party vendor’s use of cookies for personalized advertising.
+- You can learn how Google uses data in its [Privacy & Terms](https://policies.google.com/technologies/partner-sites).
+- To manage your ad preferences or opt out of personalized advertising, visit [Ads Settings](https://www.google.com/settings/ads) or [www.aboutads.info](https://www.aboutads.info/).
 
-### 2. Data Collection
+### 2. Analytics
 
-This site does not directly collect personal information from visitors. However, third-party services like Google AdSense may collect anonymous data for ad delivery and performance tracking.
+This site may use lightweight, privacy-respecting analytics to understand general usage patterns (such as popular pages or traffic sources). No personally identifiable information is collected, and no behavioral profiling is performed.
 
-### 3. Managing Cookies
+### 3. Embedded Content & Outbound Links
 
-You can manage or disable cookies through your web browser settings. Visit your browser's help section for more information on how to do this.
+Some pages may include embedded content (e.g., videos, maps) or links to third-party sites. These services may collect data or use cookies independently of Journal for Wellbeing.
 
-### 4. Contact
+### 4. Managing Cookies
 
-If you have any questions about this privacy policy, please contact us at journalforwellbeing@gmail.com.
+You can manage or disable cookies in your browser settings. Most browsers allow you to block or delete existing cookies or set preferences for future sites.
+
+### 5. Contact
+
+If you have any questions about this privacy policy, feel free to email:  
+📧 [journalforwellbeing@gmail.com](mailto:journalforwellbeing@gmail.com)

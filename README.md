@@ -1,48 +1,57 @@
 # Journal for Wellbeing
 
-A soft, minimalist blog built with [Jekyll](https://jekyllrb.com), focused on journaling, presence, and intentional living.
-
-This site uses a customized version of the [Mediumish Jekyll theme](https://github.com/wowthemesnet/mediumish-theme-jekyll) by [WowThemes](https://www.wowthemes.net).
-
-Live site: [https://journalforwellbeing.com](https://journalforwellbeing.com)
+A soft, minimalist blog built with [Jekyll](https://jekyllrb.com), exploring journaling, presence, and the healing power of writing. Live at:  
+👉 [https://journalforwellbeing.com](https://journalforwellbeing.com)
 
 ---
 
-## About
+## About This Site
 
-**Journal for Wellbeing** is a digital space centered on thoughtful reflection and the practice of writing as a tool for healing and awareness. It includes:
+**Journal for Wellbeing** is a digital space for thoughtful journalers, reluctant diarists, and anyone drawn to quiet clarity through the page.
 
-- Custom site identity and visual styling
-- Disqus comment integration
-- Google AdSense and affiliate tracking
-- Updated layout and metadata
-- No heavy frameworks or unnecessary features
-- A focus on clarity, accessibility, and calm presentation
+This project includes:
 
-This project is designed to be low-maintenance, readable, and intentional.
+- Custom branding and theme modifications
+- Clean layout with a focus on readability and calm presentation
+- Google AdSense and lightweight affiliate integration
+- Disqus comments (on selected posts)
+- Accessible design, no heavy frameworks
+- Hosted on GitHub Pages, built for low-maintenance publishing
 
 ---
 
-# Mediumish - Jekyll Theme
+## Theme Attribution
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+This site is built on a customized version of the  
+[Mediumish Jekyll Theme](https://github.com/wowthemesnet/mediumish-theme-jekyll) by [WowThemes](https://www.wowthemes.net).
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+Original theme links:  
+[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp;|&nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp;|&nbsp; [Docs](https://bootstrapstarter.com/template-mediumish-bootstrap-jekyll/)
 
+![Mediumish Theme Screenshot](assets/images/mediumish-jekyll-template.png)
 
-### Copyright
+---
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+## License
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+The underlying theme, **Mediumish for Jekyll**, is licensed under the MIT License.  
+Copyright © 2019 [Sal](https://www.wowthemes.net)
 
-<a href="https://www.wowthemes.net/donate/" target="_blank" rel="noopener noreferrer"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+If you find the theme useful, consider supporting the creator:  
+[Buy Sal a Coffee →](https://www.wowthemes.net/donate/)
 
-### Contribute
+---
 
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+## Contributing
 
-Thank you!
+This repo isn’t currently set up for contributions, but if you fork the base theme:
+
+1. [Fork the original repo](https://github.com/wowthemesnet/mediumish-theme-jekyll)
+2. Clone your fork locally
+3. Create a new branch for your changes
+4. Commit and push
+5. Open a pull request to the original theme repo (if you'd like to share updates)
+
+---
+
+> _“This site is intentionally quiet. No bloated tools. Just clear writing and a soft place to land.”_

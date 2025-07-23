@@ -3,19 +3,17 @@ layout: default
 title: Archive
 ---
 
-<!-- Begin List Posts
+<!-- Begin All Posts List
 ================================================== -->
 <section class="recent-posts">
-<div class="section-title">
-    <h2>Archive of posts with <span>{{ page.type }} '{{ page.title }}'</span></h2>
-</div>
-<div class="row listrecent">
+  <div class="section-title">
+    <h2><span>All Posts</span></h2>
+  </div>
 
-{% for post in page.posts %}
-
-    {% include postbox.html %}
-
-{% endfor %}
-
-</div>
+  <div class="row listrecent">
+    {% assign all_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in all_posts %}
+      {% include postbox.html %}
+    {% endfor %}
+  </div>
 </section>

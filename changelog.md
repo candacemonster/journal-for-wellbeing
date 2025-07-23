@@ -1,18 +1,30 @@
-# Journal for Wellbeing - Change Log
+# Journal for Wellbeing – Changelog
 
-## 2025-07-01, v1.0.2
-- Published Mid-Year Check-In post
-- Added July Journal Prompt PDF (downloadable)
-- Enabled Disqus comments on posts
-- Added meta tags and sitemap.xml
-- Created custom 404.html page
+All notable changes to this project will be documented here.
 
-## 2025-06-29, v1.0.1
-- Linked Privacy Policy in footer
-- Enabled Google Analytics (G-QS47EGNW5T)
+---
 
-## 2025-06-28, v1.0.0
-- Launched Journal for Wellbeing site with Jekyll
-- Applied minimal theme with featured post support
-- Added initial blog posts and category structure
-- Configured _config.yml with site title, description, and social links
+## [v1.0.2] – July 1, 2025
+
+- Published “Mid-Year Check-In” post
+- Added downloadable July Journal Prompt PDF
+- Enabled Disqus comments on individual posts
+- Added SEO meta tags and `sitemap.xml` for better indexing
+- Created a custom `404.html` page with themed messaging
+
+---
+
+## [v1.0.1] – June 29, 2025
+
+- Linked Privacy Policy in the site footer
+- Enabled Google Analytics (Measurement ID: `G-QS47EGNW5T`)
+
+---
+
+## [v1.0.0] – June 28, 2025
+
+- Launched **Journal for Wellbeing** site using Jekyll
+- Applied customized Mediumish theme with featured post support
+- Published initial set of blog posts
+- Implemented category-based structure for navigation
+- Configured `_config.yml` with site metadata, author name, and social links
