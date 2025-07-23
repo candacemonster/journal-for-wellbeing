@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt: Write to a Past Self"
-author: 
+author: journaler
 categories: [prompts]
 tags: [healing, reflection, inner-child, self-compassion]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
@@ -12,25 +12,42 @@ featured: false
 hidden: false
 ---
 
-There’s a version of you who went through something hard. Maybe she still sits in your chest on quiet afternoons. Maybe he only shows up when you’re tired. Maybe they drift through old songs or long drives.
+There’s a version of you who went through something hard.  
+Maybe she still sits in your chest on quiet afternoons.  
+Maybe he only shows up when you’re tired.  
+Maybe they drift through old songs or long drives.
 
 This prompt is an invitation to sit with them—not to edit their story—just to witness it.
 
 **Prompt (simple):**  
-Pick a past self you still feel protective, ashamed, tender, or angry about. Write them a letter. No fixing. No “you should have.” Just contact.
+Pick a past self you still feel protective, ashamed, tender, or angry about.  
+Write them a letter.  
 
-Possible first lines (choose one and keep moving):
+No fixing. No *“you should have.”* Just presence.
 
-- “I remember how lonely it felt when…”
-- “You didn’t deserve how silent everyone was.”
-- “I see now how hard you were trying.”
-- “You were never the problem.”
-- “No one told you it was okay to feel that.”
+Possible first lines—choose one and keep moving:
 
-Give that self what was missing: naming, warmth, a steady voice that doesn’t leave. If advice wants to rush in, slow it. Presence first. Advice rarely heals a wound that hasn’t been witnessed.
+- “I remember how lonely it felt when…”  
+- “You didn’t deserve how silent everyone was.”  
+- “I see now how hard you were trying.”  
+- “You were never the problem.”  
+- “No one told you it was okay to feel that.”  
 
-Close however you need: *“I’m here now.”* Or *“You weren’t wrong to need more.”*
+Give that self what was missing: naming, warmth, a steady voice that doesn’t leave.  
+If advice wants to rush in, slow it.  
+Presence first. Advice rarely heals a wound that hasn’t been witnessed.
 
-You’re not rewriting the past—you’re integrating it. Attention is how we tell an earlier self: *You mattered then. You still matter.*
+Close however you need:  
+*“I’m here now.”*  
+Or: *“You weren’t wrong to need more.”*
 
-If that stirs more than you can hold, pause, breathe, maybe come back tomorrow. The act of meeting them at all is enough.
+You’re not rewriting the past.  
+You’re integrating it.  
+
+Attention is how we tell an earlier self: *You mattered then. You still matter.*
+
+If that stirs more than you can hold, pause.  
+Breathe.  
+Come back tomorrow if you need to.  
+
+The act of meeting them at all is enough.

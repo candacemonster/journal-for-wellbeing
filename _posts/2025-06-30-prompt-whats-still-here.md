@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt: What's Still Here?"
-author: 
+author: journaler
 categories: [prompts]
 tags: [healing, reflection, grounding, presence]
 image: https://media.giphy.com/media/1hMdWxlfKh13NOMRvP/giphy.gif
@@ -12,25 +12,36 @@ featured: false
 hidden: false
 ---
 
-Sometimes healing doesn’t feel like breakthrough—just the realization that some things *never left.*
+Healing isn’t always dramatic. Sometimes it’s as quiet as realizing: *this never left.*
 
-Instead of scanning for what’s missing, pause and look at what stayed: the person who still checks in, the trail you keep walking, the small habit that keeps you tethered, the inner voice that didn’t abandon you.
+Rather than scanning for what’s missing, pause to notice what remained:
+- The person who still checks in  
+- The path you keep walking  
+- A phrase you always return to  
+- An inner voice that stayed present, even when dim
 
-**Prompt:** *“What’s still here?”*
+---
 
-Let it open into gentle sub-questions:
+### Prompt: *What’s still here?*
 
-- What (or who) do I keep returning to without forcing it?  
-- What continues to nourish me quietly in the background?  
-- Which parts of me went dim but have not actually disappeared?  
-- What anchors held when everything else shifted?  
+Let the question expand gently:
 
-List without polishing. Objects, names, sensations, routines, words. If meaning tries to rush in, let it, but you don’t owe an interpretation today. Inventory first. Meaning can arrive later.
+- Who or what do I return to without forcing it?  
+- What continues to nourish me in small, background ways?  
+- Which parts of me faded but never disappeared?  
+- What has anchored me through change?
 
-If you feel tempted to judge the list as “not enough,” breathe and add one more small, ordinary thing (the mug that’s always beside you, the dog’s steady presence, the way morning light still finds the same corner).
+Write a list—no need to explain or organize. Include names, objects, sensations, routines. Let the simple act of inventory be enough.
 
-This is a grounding practice: locating continuity. What remains is often what matters.
+If judgment shows up (“this isn’t deep enough”), breathe. Add one more ordinary thing: a chipped mug, a patch of sun, the dog who always waits. Healing often hides in the consistent.
 
-If beginning at all feels hard, the reminder to simply start is [here](/start-where-you-are/). If you want to keep it to a few honest lines, that note lives [here](/a-few-lines-a-day/).
+This is a practice in locating continuity. What remains might be what matters most.
 
-Close the notebook when you feel a little more *with* yourself. Return to this prompt whenever you feel emptied out. There is usually more still here than the anxious mind reports.
+---
+
+### Gentle Follow-Ups
+
+- For a soft way to begin: [Start Where You Are](/start-where-you-are/)  
+- To keep entries tiny and doable: [A Few Lines a Day](/a-few-lines-a-day/)
+
+Close the notebook when you feel a little more *with* yourself. Return to this prompt anytime you feel unmoored. There's usually more still here than the anxious mind reports.

@@ -1,34 +1,36 @@
 ---
 layout: post
 title: "Prompt: What Wants to Be Heard"
-author: 
+author: candace
 categories: [prompts]
 tags: [emotional-awareness, reflection, journaling, presence]
 image: https://media.giphy.com/media/RQ6ovU1SDm4Mg/giphy.gif
-description: "Pause for five unpolished minutes and ask: What part of me wants to be heard right now? A soft, presence-first journaling invitation."
-excerpt: "A gentle prompt: ask which part of you wants to be heard right now—offer it a few honest lines without trying to fix anything."
+description: "Pause for five unpolished minutes and ask: What needs a voice right now? A soft, presence-first journaling invitation."
+excerpt: "A gentle prompt: ask what you haven’t been letting yourself say—and offer it a few honest lines, without needing to fix anything."
 date: 2025-06-29
 featured: false
 hidden: false
 ---
 
-Sometimes the quietest part is the one carrying the most.
+Sometimes the thing we most need to say is the one we’ve been quietly avoiding.
 
-Take five unhurried minutes. No goal. No need to “process.” Just a page and a little breath.
+Take five minutes. Unrushed. No pressure to solve anything. Just a page, a breath, and a little space to listen inward.
 
-**Prompt:** *“What part of me wants to be heard right now?”*
+**Prompt:**  
+*“What have I not let myself say out loud?”*  
+or  
+*“What have I been feeling but holding back?”*
 
-Let whatever answers speak in its own texture:
-- A tired voice that just wants rest  
-- A sharp edge that’s been holding everything together  
-- A small, unsure feeling that thought it had to stay quiet  
+Let whatever surfaces be enough—tiredness, frustration, uncertainty, hope. Don’t try to clean it up or explain it. Write a few lines just as it is.
 
-Write *as* it or *to* it. Spelling, grammar, coherence—all optional. If nothing comes, write “I’m listening” until a thread appears.
+You can write as if you’re speaking to that feeling—“You’ve been carrying this for a while.” Or from it—“I’m exhausted and need a break.” Either way is fine.
 
-You’re not solving. You’re offering space. A few plain lines can shift the inner climate from static to presence.
+If nothing comes at first, write: *“I’m listening.”* Keep the pen moving. Even that shows presence.
 
-If you need permission to start messy, that reminder is [here](/start-where-you-are/). If keeping it tiny helps you return tomorrow, the “few lines” note is [here](/a-few-lines-a-day/).
+No fixing. No conclusions. Just honesty.
 
-Let the page hold what’s too soft (or tangled) to say aloud. Close the notebook when the voice feels acknowledged—even if it’s mid-sentence.
+If starting messy feels hard, [this note](/start-where-you-are/) might help. If keeping it short helps you return tomorrow, [this one](/a-few-lines-a-day/) is for you.
 
-Return to this question whenever you feel blurred or disconnected. It’s always a place to begin.
+Close the notebook when something in you feels named—even if it’s only a fragment.
+
+You listened. That’s enough for today.
