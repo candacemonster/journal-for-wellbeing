@@ -4,11 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description | strip_html | truncate: 160 }}{% endif %}">
-
-  <!-- Impact Verification -->
+   <!-- Impact Verification -->
   <meta name='impact-site-verification' value='e44c15c5-1218-44c8-8fa6-1364bf7f611c' />
-
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | truncate: 160 }}{% else %}{{ site.description | strip_html | truncate: 160 }}{% endif %}">
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ page.title | default: site.title }}" />
