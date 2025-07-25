@@ -84,7 +84,7 @@ To keep it tiny & consistent:
 For a soft writing container:  
 → [The Journaling Ritual]({{ site.baseurl }}/journaling-ritual/)  
 Low energy adaptation:  
-→ [Journaling Through Fatigue]({{ site.baseurl }}/journaling-through-fatigue-a-gentle-approach-for-chronic-illness-warriors/)  
+→ [Journaling Through Fatigue]({{ site.baseurl }}/journaling-through-fatigue/)  
 Curious about evidence:  
 → [The Science of Journaling]({{ site.baseurl }}/journaling-science-benefits/)
 

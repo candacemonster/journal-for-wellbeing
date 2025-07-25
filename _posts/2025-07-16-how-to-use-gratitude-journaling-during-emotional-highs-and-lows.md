@@ -95,7 +95,7 @@ That’s a bridge. Gratitude can wait. Presence comes first.
 - Begin messy if you’re stuck: [Start Where You Are](/start-where-you-are/)  
 - Keep it small: [A Few Lines a Day](/a-few-lines-a-day/)  
 - Build a soft routine: [The Journaling Ritual](/journaling-ritual/)  
-- Writing when you’re tired: [Journaling Through Fatigue](/journaling-through-fatigue-a-gentle-approach-for-chronic-illness-warriors/)  
+- Writing when you’re tired: [Journaling Through Fatigue](/journaling-through-fatigue/)  
 - Evidence-based perspective: [The Science of Journaling](/journaling-science-benefits/)
 
 ---
