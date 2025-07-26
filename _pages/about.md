@@ -9,9 +9,7 @@ comments: false
   <div class="col-md-8 pr-5">
 
     <p class="lead">Journal for Wellbeing is a space for thoughtful journalers, reluctant diarists, and anyone seeking quiet clarity through the page.</p>
-
-    <h1>About Journal for Wellbeing</h1>
-
+    
     <p><strong>Journal for Wellbeing</strong> is a quiet corner about putting things on paper—honestly, regularly, imperfectly. Not a system. Just a practice of pausing long enough to notice what’s actually here.</p>
 
     <p>Posts show up when they’re ready. No content calendar. You’ll find reflective prompts, tiny grounding practices, gentle notes on attention, mood, memory, and the occasional research thread—distilled without hype. The point isn’t to optimize; it’s to notice and stay in honest contact with yourself.</p>
