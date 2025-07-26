@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Start Where You Are"
-author: journaler
+author: Willow Pages
 categories: [journal, reflection]
 tags: [beginning, self-compassion, journaling]
 image: https://media.giphy.com/media/KDR4XGKyzJ6UwxqmJM/giphy.gif

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt: What's Still Here?"
-author: journaler
+author: Willow Pages
 categories: [prompts]
 tags: [healing, reflection, grounding, presence]
 image: https://media.giphy.com/media/1hMdWxlfKh13NOMRvP/giphy.gif

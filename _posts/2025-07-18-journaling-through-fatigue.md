@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Writing When I’m Too Tired to Write"
-author: 
+author: Willow Pages
 categories: [journal, reflection]
 tags: [wellbeing, chronic illness, fatigue, self-care, mindfulness]
 image: assets/images/a-book-1975830_1280.jpg

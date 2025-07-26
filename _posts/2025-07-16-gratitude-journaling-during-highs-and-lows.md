@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gratitude, Even on the Hard Days"
-author: journaler
+author: Willow Pages
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness, journaling, gratitude, emotional-regulation]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxNDNjN3A3Mm1rbmd2emZobDEydHJhZmY1aThhcTNub281OHl0MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/09dtD1tY2tNAviMmM3/giphy.gif

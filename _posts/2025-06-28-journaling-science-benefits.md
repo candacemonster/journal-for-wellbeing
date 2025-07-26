@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Science of Journaling: What Research Really Says"
-author: journaler
+author: Willow Pages
 categories: [science, journal]
 tags: [evidence, research, wellbeing, expressive-writing, neuroscience]
 image: https://media.giphy.com/media/fqIBaMWI7m7O8/giphy.gif

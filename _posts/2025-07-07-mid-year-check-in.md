@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Quiet Mid-Year Check-In"
-author: journaler
+author: Willow Pages
 categories: [prompts, reflection]
 tags: [reflection, prompts, mindfulness, midyear]
 image: assets/images/elin-melaas-wfz8p_EsNQU-unsplash.jpg

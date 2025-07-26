@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Few Lines That Change Everything"
-author: journaler
+author: Willow Pages
 categories: [journal, science]
 tags: [neuroscience, journaling, habits, self-trust]
 image: assets/images/sixteen-miles-out-0I75875sRVU-unsplash.jpg
