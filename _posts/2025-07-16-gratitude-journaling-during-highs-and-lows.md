@@ -10,7 +10,6 @@ excerpt: "A gentle guide to letting gratitude hold space with the hard stuff—s
 date: 2025-07-01
 featured: false
 hidden: false
-permalink: /gratitude-journaling-highs-lows/
 ---
 
 When you live with chronic illness, you don’t always get clean slates or full capacity days. But you *can* build small moments of steadiness. Gratitude journaling—when done honestly—can be one of them. Not as a fix, not as a bypass. Just as a quiet way to say: *something held me today, even if the day was hard.*

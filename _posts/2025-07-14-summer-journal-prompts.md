@@ -10,7 +10,6 @@ excerpt: "Let July (or whatever month you’re in) move slower. Seven gentle sum
 date: 2025-07-14
 featured: true
 hidden: false
-permalink: /summer-journal-prompts/
 ---
 
 Summer rushes in with long light and busy intentions. These prompts are a counterweight: gentle invitations to slow down and notice what’s actually here. You don’t need full pages—three honest lines count.

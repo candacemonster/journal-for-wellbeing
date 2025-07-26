@@ -10,7 +10,6 @@ excerpt: "In the fog of exhaustion, your voice still matters. Gentle ways to jou
 date: 2025-07-18
 featured: false
 hidden: false
-permalink: /journaling-through-fatigue/
 ---
 
 Living with chronic illness or persistent fatigue means starting each day already in a deficit. Even neutral tasks feel elevation-grade. Identity can blur. Voice can feel distant.

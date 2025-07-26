@@ -10,7 +10,6 @@ excerpt: "A gentle collection of tiny grounding practices—pick one, pause a mi
 date: 2025-01-01
 featured: true
 hidden: false
-permalink: /daily-grounding-practices/
 ---
 
 You don’t always have space for a full journaling session. Sometimes you just need to *land*—one notch lower in tension, one notch higher in presence. These micro grounding practices are deliberately small. Choose one. Let it be enough.

@@ -10,7 +10,6 @@ excerpt: "Growth isn’t in rewind; it’s in what you choose next. A soft remin
 date: 2025-07-01
 featured: false
 hidden: false
-permalink: /focus-on-your-future/
 ---
 
 The past has a way of trying to stick—tugging at your attention, auditioning as identity. But those older versions of you? They’re chapters, not the title. You’re allowed to keep writing.
