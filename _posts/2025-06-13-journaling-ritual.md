@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Begin My Journaling Ritual"
-author: Willow Pages
+author: willow_pages
 categories: [journal, practice]
 tags: [ritual, routine, mindfulness]
 image: https://media.giphy.com/media/IneGbyWjjEcnK/giphy.gif

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Daily Grounding Practices"
-author: Willow Pages
+author: willow_pages
 categories: [journal, practice]
 tags: [grounding, mindfulness, presence, nervous-system]
 image: assets/images/janesca-CgwXHfrjips-unsplash.jpg

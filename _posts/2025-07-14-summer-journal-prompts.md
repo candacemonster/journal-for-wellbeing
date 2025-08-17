@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gentle Prompts for a Soft Summer"
-author: Willow Pages
+author: willow_pages
 categories: [prompts, seasonal]
 tags: [journal-prompts, mindfulness, summer, reflection]
 image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eWM2YThjZTBsOTJ3a29tYzRzMjJiemN2YWZxNjZudzZ3YWx5MjJ3aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7buiEVyi9GAXgzw4/giphy.gif

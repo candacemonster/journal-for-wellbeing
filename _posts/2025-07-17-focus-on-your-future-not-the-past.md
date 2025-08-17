@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Focus on Your Future, Not the Past"
-author: Willow Pages
+author: willow_pages
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness, self-compassion, renewal]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdmaGlpOXU1NGJ2MXp2OWhtM2xmNDQxcmdzaWh1ZXg1NzlzbWVnMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kit7OGuNpZQzDZRmrm/giphy.gif

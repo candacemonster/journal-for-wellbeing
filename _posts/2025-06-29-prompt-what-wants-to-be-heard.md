@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt: What Wants to Be Heard"
-author: Willow Pages
+author: willow_pages
 categories: [prompts]
 tags: [emotional-awareness, reflection, journaling, presence]
 image: https://media.giphy.com/media/RQ6ovU1SDm4Mg/giphy.gif

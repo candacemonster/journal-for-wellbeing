@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When I Haven’t Journaled and My Mind Is Loud"
-author: Willow Pages
+author: willow_pages
 date: 2025-07-20
 permalink: /haven’t-journaled-in-days-anxiety/
 categories: [journal, reflection]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On Noticing: A Gentle Start to Journaling"
-author: Willow Pages
+author: willow_pages
 categories: [journal, reflection]
 tags: [mindfulness, presence, awareness, beginners]
 image: https://media.giphy.com/media/2A0jTOgSpH4p0dZoHN/giphy.gif

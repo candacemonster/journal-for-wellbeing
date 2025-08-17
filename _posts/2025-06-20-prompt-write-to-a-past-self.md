@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt: Write to a Past Self"
-author: Willow Pages
+author: willow_pages
 categories: [prompts]
 tags: [healing, reflection, inner-child, self-compassion]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg

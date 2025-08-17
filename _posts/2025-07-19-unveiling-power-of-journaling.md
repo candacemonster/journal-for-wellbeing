@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Journaling Is Teaching Me"
-author: Willow Pages
+author: willow_pages
 date: 2025-07-19
 permalink: /unveiling-power-of-journaling/
 categories: [journal, reflection]
