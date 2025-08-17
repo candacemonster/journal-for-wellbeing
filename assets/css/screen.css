@@ -900,3 +900,19 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+/* AdSense styling */
+.adsense-container {
+  margin: 20px 0;
+  clear: both;
+}
+
+.adsense-post {
+  margin: 30px 0;
+  clear: both;
+}
+
+.adsense-container ins.adsbygoogle[data-ad-status="unfilled"],
+.adsense-post ins.adsbygoogle[data-ad-status="unfilled"] {
+  display: none !important;
+}

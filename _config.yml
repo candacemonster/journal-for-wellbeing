@@ -17,7 +17,6 @@ include:
   - _pages
   - _redirects
 permalink: /:title/
-
 # Authors
 authors:
   willow_pages:
@@ -25,14 +24,12 @@ authors:
     bio: >
       Curator of mindful writing and gentle prompts. 
       Believes six honest lines can change an afternoon.
-    avatar: ""   # 300×300 px square
+    # avatar: ""   # 300×300 px square
     email: "journalforwellbeing@gmail.com"
     web: "https://journalforwellbeing.com"
     # twitter: "journal4well"
     # instagram: "journalforwellbeing"
     # mastodon: "https://indieweb.social/@journaler"
-
-
 
 # Plugins
 plugins:
@@ -43,7 +40,6 @@ plugins:
   - jekyll-archives
   - jekyll-redirect-from
   - jekyll-include-cache
-
 # Archives
 jekyll-archives:
   enabled:
@@ -51,29 +47,25 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-
 # Pagination
-paginate: 6
+paginate: 5
 paginate_path: /page:num/
-
 # Other
 markdown: kramdown
-
 kramdown:
   input: GFM
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
       line_numbers: true
-
 # Adsense
 adsense: "enabled"
 adsense-data-ad-client: "ca-pub-6236889265406066"
 adsense-data-ad-slot: "9525717750"
-
+# Google Analytics
+google_analytics: G-QS47EGNW5T
 # Lazy Images
 lazyimages: "enabled"
-
 # Build exclusions
 exclude:
   - changelog.md
@@ -83,12 +75,9 @@ exclude:
   - Gemfile.lock
   - docker-compose.yml
   - site/
-
 # Misc
 future: false
 show_author_box: false
-
 sass:
   style: compressed
   sass_dir: _sass
-
