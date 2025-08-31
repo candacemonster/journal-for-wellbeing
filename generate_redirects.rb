@@ -37,7 +37,8 @@ redirects = [
   "the-benefits-of-journaling-for-mental-health",
   "the-benefits-of-journaling-for-self-discovery",
   "the-benefits-of-journaling-for-self-esteem",
-  "the-mindful-nomad" 
+  "the-mindful-nomad",
+  "a-quiet-mid-year-check-in/", 
 ]
 
 redirects.each do |path|
