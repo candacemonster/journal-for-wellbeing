@@ -12,54 +12,73 @@ featured: false
 hidden: false
 ---
 
-The past has a way of trying to stick—tugging at your attention, auditioning as identity. But those older versions of you? They’re chapters, not the title. You’re allowed to keep writing.
+The past has a way of trying to stick—tugging at your attention, auditioning as identity.  
+But those older versions of you? They’re chapters, not the title. You’re allowed to keep writing.
 
 You can spend hours replaying what you “should” have done. But growth rarely lives in the re-run. It lives in the next real thing—right now.
 
-Maybe you’re rebuilding after a stretch of survival. Maybe you’re starting over after something broke down. Maybe you just realized you want a different kind of ease or honesty. Whatever the reason: you’re allowed to begin again from *here*.
+Maybe you’re rebuilding after a stretch of survival. Maybe you’re starting over after something broke down. Maybe you just realized you crave a different kind of ease or honesty. Whatever the reason: you’re allowed to begin again from *here*.
+
+---
+
+### Why Facing Forward is Powerful
+
+Research in self-compassion and positive psychology (see Dr. Kristin Neff, Dr. Barbara Fredrickson) shows that gently orienting toward the future improves well-being and builds motivation—without shame about the past.  
+Reflecting on what’s next (instead of what’s missing) helps the brain release ruminative cycles and opens up new pathways for growth.
 
 ---
 
 ### You’re Not Behind
 
-There is no master timeline. There is no one clock. You are not late. Arrival is still arrival—even if it felt delayed.
+There’s no master timeline. No universal clock. You’re not late. Arrival is still arrival—even if it took a while.
 
 ---
 
 ### Forward Isn’t Always Fast
 
 Sometimes forward is:
-- A nap
-- A new boundary
-- A quiet week where nothing “visible” happens, but your nervous system exhales
+- A nap.
+- A new boundary.
+- A quiet week where nothing “visible” happens, but your nervous system exhales.
 
-That’s progress. Even if no one else sees it.
-
----
-
-### The Past Can Inform—Not Define
-
-The past may clarify what didn’t work. It may help you name what you value now. But it doesn’t get to author who shows up today—unless you hand it the pen.
-
-You’re not the sum of regrets. You’re the author of what’s still unwritten.
+That counts as progress—even if no one else sees it.
 
 ---
 
-### A Gentle Prompt for Today
+### The Past Informs, Not Defines
 
-Try this 3-step reflection—pen and paper, or even just in thought:
+The past can clarify what didn’t work, or what matters now.  
+But it doesn’t get to author who shows up today—unless you hand it the pen.
 
-1. Name one pattern you’re done rehearsing  
-2. Name one feeling you want more of this season  
-3. Write one micro action that nurtures that feeling  
+You are not the sum of regrets. You are the author of what’s still unwritten.
+
+---
+
+### Gentle Three-Step Prompt for Today
+
+Try this reflection with pen and paper (or just in thought):
+
+1. Name one pattern you’re done rehearsing.
+2. Name one feeling you want more of this season.
+3. Write one micro-action that nurtures that feeling.  
    *(Example: 5-minute walk, three true lines, ask for help, say no, sip water with full presence)*
 
-You don’t have to plan the whole year. Just enact that one action. Let the next page turn on its own.
+You don’t have to plan the whole year.  
+Just enact that one action. Let the next page turn on its own.
 
 ---
 
-If beginning at all feels tangled, the “start messy” reminder is [here](/start-where-you-are/). If you’d rather write just a few honest lines, that approach is [here](/a-few-lines-a-day/). When a small ritual helps you settle, there’s one outlined [here](/journaling-ritual/). For grounding into the *now*, try the daily practices [here](/daily-grounding-practices/).
+#### Where to Go From Here
+
+- Beginning feels tangled? The “start messy” reminder is [here](/start-where-you-are/).
+- Prefer just a few honest lines? [A Few Lines That Change Everything](/a-few-lines-a-day/).
+- Need ritual to settle? [Journaling Ritual](/journaling-ritual/).
+- For daily, gentle grounding: [Daily Grounding Practices](/daily-grounding-practices/).
+
+---
 
 The page—and your life—are still in draft.
 
 You’re allowed to face forward.
+
+**What’s one small thing your future self might thank you for today? (You can share it here, or carry it quietly into the next chapter.)**

@@ -14,7 +14,8 @@ hidden: false
 
 Healing isn’t always dramatic. Sometimes it’s as quiet as realizing: *this never left.*
 
-Rather than scanning for what’s missing, pause to notice what remained:
+Rather than scanning for what’s missing, try pausing to notice what’s remained:
+
 - The person who still checks in  
 - The path you keep walking  
 - A phrase you always return to  
@@ -22,18 +23,25 @@ Rather than scanning for what’s missing, pause to notice what remained:
 
 ---
 
+### Why This Matters
+
+Studies in gratitude and post-traumatic growth (see Dr. Robert Emmons and Dr. Sonja Lyubomirsky) show that focusing on what endures and nourishes—instead of just what’s missing—grounds us and supports resilience.  
+This kind of “continuity journaling” can help us feel less fragmented and more anchored, especially through transitions or losses.
+
+---
+
 ### Prompt: *What’s still here?*
 
 Let the question expand gently:
 
-- Who or what do I return to without forcing it?  
-- What continues to nourish me in small, background ways?  
-- Which parts of me faded but never disappeared?  
+- Who or what do I return to without forcing it?
+- What continues to nourish me in small, background ways?
+- Which parts of me faded but never disappeared?
 - What has anchored me through change?
 
-Write a list—no need to explain or organize. Include names, objects, sensations, routines. Let the simple act of inventory be enough.
+Write a list—no need to explain or organize. Include names, objects, sensations, routines. Let the simple act of making an inventory be enough.
 
-If judgment shows up (“this isn’t deep enough”), breathe. Add one more ordinary thing: a chipped mug, a patch of sun, the dog who always waits. Healing often hides in the consistent.
+If judgment shows up (“this isn’t deep enough”), breathe. Add one more ordinary thing: a chipped mug, a patch of sun, the dog who always waits. *Healing often hides in the consistent.*
 
 This is a practice in locating continuity. What remains might be what matters most.
 
@@ -41,7 +49,16 @@ This is a practice in locating continuity. What remains might be what matters mo
 
 ### Gentle Follow-Ups
 
-- For a soft way to begin: [Start Where You Are](/start-where-you-are/)  
+- For a soft way to begin: [Start Where You Are](/start-where-you-are/)
 - To keep entries tiny and doable: [A Few Lines a Day](/a-few-lines-a-day/)
+- Explore more grounding: [Daily Grounding Practices](/daily-grounding-practices/)
 
-Close the notebook when you feel a little more *with* yourself. Return to this prompt anytime you feel unmoored. There's usually more still here than the anxious mind reports.
+---
+
+Close the notebook when you feel a little more *with* yourself.  
+Return to this prompt anytime you feel unmoored.  
+There’s usually more still here than the anxious mind reports.
+
+---
+
+**What’s still here for you? If you’d like, add a line below—a small, steady thing that’s never quite left.**

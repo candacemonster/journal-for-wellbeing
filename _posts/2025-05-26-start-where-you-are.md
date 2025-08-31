@@ -19,24 +19,61 @@ Not sitting in a sun-lit, plant-curated nook with the perfect linen notebook.
 
 You can begin a journaling practice from the ordinary clutter of today.
 
-Right here: the tightness behind your ribs, the tab you forgot to close, the thing you meant to say, the fatigue, the small flicker that still wants something. That’s raw material. Ink doesn’t ask for polish—it asks for contact.
+> **Right here:**  
+> The tightness behind your ribs, the tab you forgot to close, the thing you meant to say, the fatigue, the small flicker that still wants something. That’s raw material.  
+> Ink doesn’t ask for polish—it asks for contact.
+
+---
+
+### Permission to Begin
 
 Set a pen down. Date the page—or don’t.  
-Write the first *present* thing you notice:  
-*“Tired. Mild headache. Don’t want to start. Still here.”*  
-That counts.
+Write the first *present* thing you notice, no matter how mundane or “unworthy.”
 
-If ritual helps, I wrote about making a very simple one—candle, cup, breath—so the body learns *“we drop here now”* ([read it here]({{ site.baseurl }}/journaling-ritual/)).  
-If you’d rather keep it tiny, a few honest lines a day are enough ([that note is here]({{ site.baseurl }}/a-few-lines-a-day/)).
+*Example entry: “Tired. Mild headache. Don’t want to start. Still here.” That counts.*
 
-You are not a project to optimize.  
-You are a person making a quiet mark that says: *I existed in this moment and paid attention.*
+Most people wait to feel organized, inspired, or “unburdened” before starting. But writing from the mess is how you build a habit—even three honest lines make space for your real self.
+
+---
+
+### Why the Imperfect Start Matters
+
+Neuroscience shows that naming your current state—even if it’s tired, sad, or scattered—helps the brain move from vague overwhelm to grounded presence. (See Dr. Dan Siegel’s “Name it to tame it.”)
+
+Journaling is not a self-improvement contest—it’s a quiet act of paying attention to your lived experience.
+
+---
+
+### Tiny Rituals & Next Steps
+
+If ritual helps, [here’s a gentle setup]({{ site.baseurl }}/journaling-ritual/): candle, cup, breath—so your body learns “we drop here now.”
+
+If you’d rather keep it tiny, a few honest lines a day are enough ([see: A Few Lines a Day]({{ site.baseurl }}/a-few-lines-a-day/)).
+
+For days when energy is low, [adaptations and soft entries live here]({{ site.baseurl }}/journaling-through-fatigue/).
+
+---
+
+### Gentle Reminders
+
+- **You are not a project to optimize.**  
+- You are a person making a quiet mark that says: *I existed in this moment and paid attention.*
 
 Start exactly where you are.
 
-Then—when you arrive tomorrow—you’ll already be someone who writes, even if it’s only three true lines.
+Tomorrow, the mere act of showing up—even for three ordinary sentences—makes you a writer in your own life.
 
 A page doesn’t need perfection.  
 It needs presence.
 
-*If you want a gentle next step, wander over to the little ritual or the “few lines” note above.*
+---
+
+**Not sure what to write? Try a “word weather” check-in:**  
+- Foggy. Unsettled. Curious. Stuck. Hopeful.  
+Or list three things you sense, see, or feel.
+
+---
+
+*If you want a gentle next step, wander over to the little ritual, try a few lines, or peek at [grounding practices here]({{ site.baseurl }}/daily-grounding-practices/).*
+
+**What will you notice this time—all imperfections allowed?**

@@ -16,21 +16,50 @@ Sometimes the thing we most need to say is the one we’ve been quietly avoiding
 
 Take five minutes. Unrushed. No pressure to solve anything. Just a page, a breath, and a little space to listen inward.
 
-**Prompt:**  
+---
+
+### Why Listening Inward Matters
+
+Naming the truth of a feeling—even without fixing or changing it—reduces the grip of shame, rumination, or invisible overwhelm.  
+Dr. Dan Siegel calls this “name it to tame it”: when we put words to an experience, the brain’s emotional reactivity decreases and self-trust grows.  
+Listening first (before leaping to solution) is a skill—even a kindness—we can give ourselves.
+
+---
+
+### The Prompt
+
+**Ask:**  
 *“What have I not let myself say out loud?”*  
 or  
 *“What have I been feeling but holding back?”*
 
-Let whatever surfaces be enough—tiredness, frustration, uncertainty, hope. Don’t try to clean it up or explain it. Write a few lines just as it is.
+Let whatever surfaces be enough—tiredness, frustration, uncertainty, hope. Don’t try to clean it up or explain it away. Write a few lines just as it arrives.
 
-You can write as if you’re speaking to that feeling—“You’ve been carrying this for a while.” Or from it—“I’m exhausted and need a break.” Either way is fine.
+---
 
-If nothing comes at first, write: *“I’m listening.”* Keep the pen moving. Even that shows presence.
+### Ways to Write
 
-No fixing. No conclusions. Just honesty.
+- Write as if you’re speaking to that feeling:  
+  “You’ve been carrying this for a while. I’m here now.”
+- Or, write *from* it:  
+  “I’m exhausted and need a break.”  
+Either way, presence counts more than polish.
 
-If starting messy feels hard, [this note](/start-where-you-are/) might help. If keeping it short helps you return tomorrow, [this one](/a-few-lines-a-day/) is for you.
+If nothing comes at first, write: *“I’m listening.”*  
+Keep the pen (or cursor) moving. Even that is a form of presence.
 
-Close the notebook when something in you feels named—even if it’s only a fragment.
+---
+
+No fixing. No conclusions. Just honesty.  
+If you need permission to start in the mess, [this note](/start-where-you-are/) helps.  
+Prefer brevity? [A Few Lines That Change Everything](/a-few-lines-a-day/) might be right for you.
+
+---
+
+Close the notebook or note when something in you feels named—even if it’s only a fragment.
 
 You listened. That’s enough for today.
+
+---
+
+**What wants to be heard in you—right now? If you care to share, a line or two is always welcome (but never required).**
