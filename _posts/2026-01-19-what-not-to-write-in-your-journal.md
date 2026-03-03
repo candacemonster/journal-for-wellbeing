@@ -7,7 +7,7 @@ tags: [mental-health, self-care, rumination, emotional-regulation, journaling, b
 image: assets/images/journaling 7.jpg
 description: "Not all journaling patterns support your wellbeing. Learn what kinds of writing can leave you more stuck, flooded, or self-critical, and how to adjust your practice."
 excerpt: "Journaling is powerful, but some patterns can leave you more stuck than when you started. Here is what to watch for and how to adjust."
-date: 2026-03-03
+date: 2026-01-19
 featured: false
 hidden: false
 ---

@@ -7,7 +7,7 @@ tags: [journaling, self-compassion, mental-health, self-care, getting-started, s
 image: assets/images/journaling 14.jpg
 description: "If you haven't written in weeks or months, you haven't failed at journaling. Here is how to return gently, without guilt, catch-up pressure, or shame."
 excerpt: "Taking a break from journaling is normal. Here is how to return without guilt, catch-up pressure, or self-criticism, starting from one small sentence."
-date: 2026-03-03
+date: 2026-01-09
 featured: false
 hidden: false
 ---

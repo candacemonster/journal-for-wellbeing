@@ -7,7 +7,7 @@ tags: [journaling, mental-health, morning-pages, sleep, self-care, habits, mindf
 image: assets/images/journaling 10.jpg
 description: "Both morning and evening journaling have real benefits for mental health. Here is how to decide which suits you, and why you might not need to choose just one."
 excerpt: "Morning or evening journaling? Both have genuine benefits. Here is how to find the time that supports your particular nervous system."
-date: 2026-03-03
+date: 2026-01-04
 featured: false
 hidden: false
 ---

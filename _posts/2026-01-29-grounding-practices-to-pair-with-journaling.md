@@ -7,7 +7,7 @@ tags: [grounding, mental-health, self-care, anxiety, mindfulness, nervous-system
 image: assets/images/journaling 12.jpg
 description: "Short 1 to 3 minute grounding practices to use before or after journaling, so your nervous system stays anchored while you explore what is hard."
 excerpt: "One to three minute grounding practices to use before or after journaling, so your nervous system stays settled while you write about what is difficult."
-date: 2026-03-03
+date: 2026-01-29
 featured: false
 hidden: false
 ---

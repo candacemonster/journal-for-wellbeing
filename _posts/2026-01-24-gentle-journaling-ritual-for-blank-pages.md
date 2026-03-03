@@ -7,7 +7,7 @@ tags: [journaling, getting-started, self-care, rituals, mindfulness, anxiety, gr
 image: assets/images/journaling 11.jpg
 description: "A gentle, seven-step journaling ritual to make blank pages feel inviting instead of intimidating, even when you are anxious, tired, or unsure what to say."
 excerpt: "If blank pages make you freeze, a gentle ritual can change that. Here is a seven-step framework that removes the pressure and makes it easier to begin."
-date: 2026-03-03
+date: 2026-01-24
 featured: false
 hidden: false
 ---
