@@ -7,25 +7,25 @@ Journal for Wellbeing
    DESIGN TOKENS â€“ desert pastel palette
    ============================================= */
 :root {
-  --bg:           #FAF5EE;
-  --surface:      #FDFAF6;
-  --surface-alt:  #F3EAE0;
-  --border:       rgba(180, 140, 100, 0.18);
-  --text:         #3A2D23;
-  --text-muted:   #8A7060;
-  --accent:       #B5705C;
-  --accent-hover: #9A5A47;
-  --accent-light: rgba(181, 112, 92, 0.10);
+  --bg:           #f5f0ea;
+  --surface:      #fdfbf8;
+  --surface-alt:  #ede5d8;
+  --border:       rgba(139, 111, 196, 0.15);
+  --text:         #2a2118;
+  --text-muted:   #6b5a4a;
+  --accent:       #6b4fa0;
+  --accent-hover: #5a3d8a;
+  --accent-light: rgba(139, 111, 196, 0.10);
   --sage:         #8FA888;
   --sage-hover:   #718A69;
   --sand:         #D4B896;
-  --blush:        #D4A99A;
-  --gold:         #C9A96E;
-  --nav-bg:       rgba(250, 245, 238, 0.97);
-  --footer-bg:    #EFE5D8;
-  --shadow-sm:    0 2px 8px rgba(90, 60, 35, 0.08);
-  --shadow-md:    0 4px 20px rgba(90, 60, 35, 0.12);
-  --shadow-lg:    0 8px 32px rgba(90, 60, 35, 0.15);
+  --blush:        #c4b5fd;
+  --gold:         #9b2f2f;
+  --nav-bg:       rgba(245, 240, 234, 0.97);
+  --footer-bg:    #e8ddd0;
+  --shadow-sm:    0 2px 8px rgba(42, 33, 24, 0.07);
+  --shadow-md:    0 4px 20px rgba(42, 33, 24, 0.10);
+  --shadow-lg:    0 8px 32px rgba(42, 33, 24, 0.13);
   --radius:       12px;
   --radius-sm:    6px;
   --radius-pill:  999em;

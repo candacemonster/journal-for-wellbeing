@@ -12,10 +12,10 @@
   white-space: nowrap; border: 0;
 }
 
-/* Bootstrap overrides for desert pastel theme */
+/* Bootstrap overrides for card-matched palette */
 body {
-  background-color: #FAF5EE;
-  color: #3A2D23;
+  background-color: #f5f0ea;
+  color: #2a2118;
 }
 
 /* Navbar toggler matches the warm palette */
@@ -29,17 +29,17 @@ body {
 
 /* Badge / category pills */
 .badge-primary {
-  background-color: #B5705C;
-  border-color: #B5705C;
+  background-color: #6b4fa0;
+  border-color: #6b4fa0;
 }
 
 /* Text color helpers */
 .text-dark {
-  color: #3A2D23 !important;
+  color: #2a2118 !important;
 }
 
 .text-muted {
-  color: #8A7060 !important;
+  color: #6b5a4a !important;
 }
 
 // Use modern Sass module system

@@ -12,12 +12,30 @@
   <!-- Page Title is handled by jekyll-seo-tag -->
   <!-- SEO Tags -->
   {% seo %}
-  <!-- Open Graph (override if needed) -->
-  <meta property="og:image" content="{{ site.url }}/assets/images/logo.png">
+  <!-- Open Graph -->
+  {% if page.image %}
+    {% if page.image contains '://' %}
+      {% assign og_image = page.image %}
+    {% else %}
+      {% assign og_image = site.url | append: '/' | append: page.image %}
+    {% endif %}
+  {% else %}
+    {% assign og_image = site.url | append: '/assets/images/og-default.jpg' %}
+  {% endif %}
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="{{ site.title }}">
   <!-- Twitter Card -->
+  {% if page.image %}
+    {% assign twitter_image = og_image %}
+  {% else %}
+    {% assign twitter_image = site.url | append: '/assets/images/twitter-card.jpg' %}
+  {% endif %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/logo.png">
+  <meta name="twitter:image" content="{{ twitter_image }}">
   {% if site.twitter_username %}
   <meta name="twitter:site" content="@{{ site.twitter_username }}">
   {% endif %}
