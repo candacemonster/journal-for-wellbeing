@@ -116,9 +116,11 @@
 </nav>
   <div class="site-content">
     <div class="container">
+      {% unless page.url == "/" %}
       <div class="mainheading">
         <h1 class="sitetitle">{{ site.name }}</h1>
       </div>
+      {% endunless %}
       <!-- AdSense (below header on all pages) -->
       {% if site.adsense == "enabled" %}
         <div class="adsense-container mb-4 text-center">
