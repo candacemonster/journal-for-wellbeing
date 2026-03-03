@@ -379,38 +379,38 @@
     // Fade out whatever is playing
     fadeStop(0.7);
 
-    setTimeout(function () {
-      var gainNode = ctx.createGain();
-      var osc      = ctx.createOscillator();
-      var lfo      = ctx.createOscillator();
-      var lfoGain  = ctx.createGain();
+    // NOTE: oscillator must be started synchronously within the user gesture
+    // (no setTimeout) so that iOS Chrome/Safari allows AudioContext to play.
+    var gainNode = ctx.createGain();
+    var osc      = ctx.createOscillator();
+    var lfo      = ctx.createOscillator();
+    var lfoGain  = ctx.createGain();
 
-      osc.type = 'sine';
-      osc.frequency.value = hz;
+    osc.type = 'sine';
+    osc.frequency.value = hz;
 
-      // Very gentle tremolo (bowl-like shimmer)
-      lfo.type = 'sine';
-      lfo.frequency.value = 0.28;
-      lfoGain.gain.value  = 0.05;
-      lfo.connect(lfoGain);
-      lfoGain.connect(gainNode.gain);
+    // Very gentle tremolo (bowl-like shimmer)
+    lfo.type = 'sine';
+    lfo.frequency.value = 0.28;
+    lfoGain.gain.value  = 0.05;
+    lfo.connect(lfoGain);
+    lfoGain.connect(gainNode.gain);
 
-      // Fade in
-      gainNode.gain.setValueAtTime(0, ctx.currentTime);
-      gainNode.gain.linearRampToValueAtTime(1, ctx.currentTime + 3.5);
+    // Start silent and fade in — overlaps smoothly with the fade-out above
+    gainNode.gain.setValueAtTime(0, ctx.currentTime);
+    gainNode.gain.linearRampToValueAtTime(1, ctx.currentTime + 3.5);
 
-      osc.connect(gainNode);
-      gainNode.connect(masterGain);
+    osc.connect(gainNode);
+    gainNode.connect(masterGain);
 
-      osc.start();
-      lfo.start();
+    osc.start();
+    lfo.start();
 
-      activeNodes = { osc: osc, lfo: lfo, gainNode: gainNode };
-      activeHz    = hz;
+    activeNodes = { osc: osc, lfo: lfo, gainNode: gainNode };
+    activeHz    = hz;
 
-      updateUI(hz, name);
-      startTimer();
-    }, 750);
+    updateUI(hz, name);
+    startTimer();
   }
 
   function updateUI(hz, name) {
