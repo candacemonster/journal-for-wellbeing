@@ -1,0 +1,520 @@
+{% comment %} Floating Sound Frequencies Player {% endcomment %}
+<style>
+#sbp-wrap {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1035;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  font-family: 'Lora', Georgia, serif;
+}
+
+/* Panel */
+#sbp-panel {
+  display: none;
+  flex-direction: column;
+  width: 310px;
+  max-height: 490px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.14);
+  overflow: hidden;
+}
+#sbp-panel.sbp-open {
+  display: flex;
+  animation: sbp-slide-up 0.22s ease-out;
+}
+@keyframes sbp-slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Header */
+.sbp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 15px 10px;
+  background: linear-gradient(135deg, #ede9fe 0%, #f5f3ff 100%);
+  border-bottom: 1px solid #e9d8fd;
+  flex-shrink: 0;
+}
+.sbp-header-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #553c9a;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.sbp-close {
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: #9f7aea;
+  cursor: pointer;
+  padding: 0 2px;
+  line-height: 1;
+}
+.sbp-close:hover { color: #553c9a; }
+
+/* Intro */
+.sbp-intro {
+  padding: 9px 15px;
+  font-size: 11.5px;
+  color: #718096;
+  line-height: 1.55;
+  background: #faf5ff;
+  border-bottom: 1px solid #ede9fe;
+  flex-shrink: 0;
+}
+
+/* Now-playing bar */
+#sbp-now-playing {
+  display: none;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 15px;
+  background: #ede9fe;
+  font-size: 11.5px;
+  color: #553c9a;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+#sbp-now-playing.sbp-visible { display: flex; }
+.sbp-pulse {
+  width: 8px;
+  height: 8px;
+  background: #9f7aea;
+  border-radius: 50%;
+  animation: sbp-pulse-anim 1.3s ease-in-out infinite;
+  flex-shrink: 0;
+}
+@keyframes sbp-pulse-anim {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.3; transform: scale(0.65); }
+}
+#sbp-stop-btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid #c4b5fd;
+  color: #9f7aea;
+  border-radius: 20px;
+  padding: 2px 9px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: 'Lora', Georgia, serif;
+}
+#sbp-stop-btn:hover { background: #9f7aea; color: #fff; }
+
+/* Scrollable list */
+.sbp-list {
+  overflow-y: auto;
+  flex: 1;
+}
+.sbp-list::-webkit-scrollbar { width: 4px; }
+.sbp-list::-webkit-scrollbar-track { background: #f7f3ff; }
+.sbp-list::-webkit-scrollbar-thumb { background: #c4b5fd; border-radius: 2px; }
+
+/* Frequency row */
+.sbp-row {
+  display: flex;
+  align-items: center;
+  padding: 9px 13px;
+  border-bottom: 1px solid #f3f0ff;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.sbp-row:last-child { border-bottom: none; }
+.sbp-row:hover { background: #faf5ff; }
+.sbp-row.sbp-playing { background: #f0e6ff; }
+.sbp-info { flex: 1; min-width: 0; }
+.sbp-hz {
+  font-size: 13px;
+  font-weight: 700;
+  color: #553c9a;
+  display: inline;
+}
+.sbp-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9f7aea;
+  display: inline;
+  margin-left: 5px;
+}
+.sbp-desc {
+  font-size: 11px;
+  color: #a0aec0;
+  display: block;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+.sbp-play-btn {
+  background: none;
+  border: 2px solid #c4b5fd;
+  color: #9f7aea;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 10px;
+  flex-shrink: 0;
+  margin-left: 10px;
+  transition: all 0.18s;
+  padding: 0;
+  line-height: 1;
+}
+.sbp-play-btn:hover,
+.sbp-row.sbp-playing .sbp-play-btn {
+  background: #9f7aea;
+  border-color: #9f7aea;
+  color: #fff;
+}
+
+/* Footer controls */
+.sbp-controls {
+  padding: 10px 13px 11px;
+  background: #faf5ff;
+  border-top: 1px solid #ede9fe;
+  flex-shrink: 0;
+}
+.sbp-volume-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.sbp-ctrl-label {
+  font-size: 11px;
+  color: #a0aec0;
+  white-space: nowrap;
+  width: 46px;
+}
+#sbp-volume {
+  flex: 1;
+  accent-color: #9f7aea;
+  cursor: pointer;
+  height: 3px;
+}
+.sbp-timer-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.sbp-timer-btn {
+  background: none;
+  border: 1px solid #c4b5fd;
+  color: #9f7aea;
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: 'Lora', Georgia, serif;
+  transition: all 0.15s;
+}
+.sbp-timer-btn:hover,
+.sbp-timer-btn.sbp-timer-active {
+  background: #9f7aea;
+  border-color: #9f7aea;
+  color: #fff;
+}
+
+/* Disclaimer */
+.sbp-disclaimer {
+  font-size: 10px;
+  color: #cbd5e0;
+  text-align: center;
+  padding: 4px 14px 9px;
+  background: #faf5ff;
+  line-height: 1.4;
+}
+
+/* Toggle button */
+#sbp-toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: #9f7aea;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 18px;
+  font-size: 13.5px;
+  font-family: 'Lora', Georgia, serif;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(159,122,234,0.38);
+  transition: background 0.2s, transform 0.18s, box-shadow 0.2s;
+  white-space: nowrap;
+}
+#sbp-toggle:hover {
+  background: #805ad5;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 24px rgba(159,122,234,0.45);
+}
+#sbp-toggle.sbp-btn-active { background: #805ad5; }
+
+/* Mobile */
+@media (max-width: 520px) {
+  #sbp-wrap { bottom: 14px; right: 12px; }
+  #sbp-panel { width: calc(100vw - 24px); }
+  #sbp-toggle span { display: none; }
+  #sbp-toggle { padding: 12px 13px; border-radius: 50%; }
+}
+</style>
+
+<div id="sbp-wrap">
+  <div id="sbp-panel" role="dialog" aria-modal="false" aria-label="Sound Frequencies Player">
+
+    <div class="sbp-header">
+      <span class="sbp-header-title">
+        <i class="fas fa-spa"></i> Sound Frequencies
+      </span>
+      <button class="sbp-close" id="sbp-close-btn" aria-label="Close player">&#10005;</button>
+    </div>
+
+    <div class="sbp-intro">
+      Pure tones generated live in your browser — no audio files, fully private. Use headphones for the best experience. Complementary only, not medical advice.
+    </div>
+
+    <div id="sbp-now-playing">
+      <span class="sbp-pulse"></span>
+      <span id="sbp-np-text">Playing</span>
+      <button id="sbp-stop-btn">Stop &#9646;</button>
+    </div>
+
+    <div class="sbp-list" id="sbp-list"></div>
+
+    <div class="sbp-controls">
+      <div class="sbp-volume-row">
+        <span class="sbp-ctrl-label"><i class="fas fa-volume-down"></i> Vol</span>
+        <input type="range" id="sbp-volume" min="0" max="100" value="38" aria-label="Volume">
+      </div>
+      <div class="sbp-timer-row">
+        <span class="sbp-ctrl-label">Timer</span>
+        <button class="sbp-timer-btn sbp-timer-active" data-mins="0">Off</button>
+        <button class="sbp-timer-btn" data-mins="5">5 min</button>
+        <button class="sbp-timer-btn" data-mins="10">10 min</button>
+        <button class="sbp-timer-btn" data-mins="20">20 min</button>
+        <button class="sbp-timer-btn" data-mins="30">30 min</button>
+      </div>
+    </div>
+
+    <div class="sbp-disclaimer">Tones are created locally in your browser. Nothing is stored or sent anywhere.</div>
+
+  </div>
+
+  <button id="sbp-toggle" aria-label="Open sound frequency player">
+    <i class="fas fa-spa"></i>
+    <span>Sound Bath</span>
+  </button>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var FREQS = [
+    { hz: 396, name: 'Grounding',    desc: 'Releasing fear, worry and guilt' },
+    { hz: 432, name: 'Calm',         desc: 'Deep relaxation and inner stillness' },
+    { hz: 528, name: 'Healing',      desc: 'Stress relief · the love frequency' },
+    { hz: 639, name: 'Connection',   desc: 'Emotional balance and relationships' },
+    { hz: 741, name: 'Clarity',      desc: 'Focus, intuition and self-expression' },
+    { hz: 852, name: 'Awareness',    desc: 'Returning to inner order and calm' },
+    { hz: 963, name: 'Stillness',    desc: 'Deep meditation and presence' }
+  ];
+
+  var audioCtx    = null;
+  var masterGain  = null;
+  var activeNodes = null;
+  var activeHz    = null;
+  var timerMins   = 0;
+  var timerHandle = null;
+
+  function initCtx() {
+    if (!audioCtx) {
+      audioCtx   = new (window.AudioContext || window.webkitAudioContext)();
+      masterGain = audioCtx.createGain();
+      masterGain.gain.value = parseFloat(document.getElementById('sbp-volume').value) / 100;
+      masterGain.connect(audioCtx.destination);
+    }
+    // Resume on user gesture (required by browsers)
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    return audioCtx;
+  }
+
+  function fadeStop(fadeSecs) {
+    if (!activeNodes) return;
+    var ctx  = initCtx();
+    var now  = ctx.currentTime;
+    var gain = activeNodes.gainNode;
+    gain.gain.cancelScheduledValues(now);
+    gain.gain.setValueAtTime(gain.gain.value, now);
+    gain.gain.linearRampToValueAtTime(0, now + fadeSecs);
+    var osc = activeNodes.osc;
+    var lfo = activeNodes.lfo;
+    setTimeout(function () {
+      try { osc.stop(); } catch (e) {}
+      try { lfo.stop(); } catch (e) {}
+    }, fadeSecs * 1000 + 100);
+    activeNodes = null;
+    activeHz    = null;
+  }
+
+  function stopAll(fadeSecs) {
+    fadeSecs = fadeSecs == null ? 1.5 : fadeSecs;
+    fadeStop(fadeSecs);
+    clearTimer();
+    updateUI(null);
+  }
+
+  function playHz(hz, name) {
+    var ctx = initCtx();
+    // Fade out whatever is playing
+    fadeStop(0.7);
+
+    setTimeout(function () {
+      var gainNode = ctx.createGain();
+      var osc      = ctx.createOscillator();
+      var lfo      = ctx.createOscillator();
+      var lfoGain  = ctx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.value = hz;
+
+      // Very gentle tremolo (bowl-like shimmer)
+      lfo.type = 'sine';
+      lfo.frequency.value = 0.28;
+      lfoGain.gain.value  = 0.05;
+      lfo.connect(lfoGain);
+      lfoGain.connect(gainNode.gain);
+
+      // Fade in
+      gainNode.gain.setValueAtTime(0, ctx.currentTime);
+      gainNode.gain.linearRampToValueAtTime(1, ctx.currentTime + 3.5);
+
+      osc.connect(gainNode);
+      gainNode.connect(masterGain);
+
+      osc.start();
+      lfo.start();
+
+      activeNodes = { osc: osc, lfo: lfo, gainNode: gainNode };
+      activeHz    = hz;
+
+      updateUI(hz, name);
+      startTimer();
+    }, 750);
+  }
+
+  function updateUI(hz, name) {
+    var rows = document.querySelectorAll('.sbp-row');
+    var btns = document.querySelectorAll('.sbp-play-btn');
+    rows.forEach(function (r) { r.classList.remove('sbp-playing'); });
+    btns.forEach(function (b) { b.innerHTML = '&#9654;'; b.setAttribute('aria-label', b.getAttribute('aria-label').replace('Stop','Play').replace('Pause','Play')); });
+
+    var np = document.getElementById('sbp-now-playing');
+    if (hz) {
+      var row = document.querySelector('.sbp-row[data-hz="' + hz + '"]');
+      if (row) {
+        row.classList.add('sbp-playing');
+        var btn = row.querySelector('.sbp-play-btn');
+        btn.innerHTML = '&#9646;&#9646;';
+      }
+      np.classList.add('sbp-visible');
+      document.getElementById('sbp-np-text').textContent = hz + ' Hz \u00b7 ' + name;
+    } else {
+      np.classList.remove('sbp-visible');
+    }
+  }
+
+  function clearTimer() {
+    if (timerHandle) { clearTimeout(timerHandle); timerHandle = null; }
+  }
+
+  function startTimer() {
+    clearTimer();
+    if (timerMins > 0) {
+      timerHandle = setTimeout(function () { stopAll(4); }, timerMins * 60 * 1000);
+    }
+  }
+
+  // Build rows
+  var list = document.getElementById('sbp-list');
+  FREQS.forEach(function (f) {
+    var row = document.createElement('div');
+    row.className    = 'sbp-row';
+    row.dataset.hz   = f.hz;
+    row.innerHTML    =
+      '<div class="sbp-info">' +
+        '<span class="sbp-hz">' + f.hz + ' Hz</span>' +
+        '<span class="sbp-name">' + f.name + '</span>' +
+        '<span class="sbp-desc">' + f.desc + '</span>' +
+      '</div>' +
+      '<button class="sbp-play-btn" aria-label="Play ' + f.hz + ' Hz ' + f.name + '">&#9654;</button>';
+
+    row.querySelector('.sbp-play-btn').addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (activeHz === f.hz) { stopAll(); }
+      else { playHz(f.hz, f.name); }
+    });
+    // Clicking the row itself also triggers play
+    row.addEventListener('click', function () {
+      if (activeHz === f.hz) { stopAll(); }
+      else { playHz(f.hz, f.name); }
+    });
+    list.appendChild(row);
+  });
+
+  // Toggle
+  var toggle = document.getElementById('sbp-toggle');
+  var panel  = document.getElementById('sbp-panel');
+  toggle.addEventListener('click', function () {
+    var open = panel.classList.contains('sbp-open');
+    panel.classList.toggle('sbp-open', !open);
+    toggle.classList.toggle('sbp-btn-active', !open);
+  });
+
+  document.getElementById('sbp-close-btn').addEventListener('click', function () {
+    panel.classList.remove('sbp-open');
+    toggle.classList.remove('sbp-btn-active');
+  });
+
+  document.getElementById('sbp-stop-btn').addEventListener('click', function () {
+    stopAll();
+  });
+
+  // Volume
+  document.getElementById('sbp-volume').addEventListener('input', function () {
+    if (masterGain) masterGain.gain.value = parseFloat(this.value) / 100;
+  });
+
+  // Timer
+  document.querySelectorAll('.sbp-timer-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.sbp-timer-btn').forEach(function (b) {
+        b.classList.remove('sbp-timer-active');
+      });
+      btn.classList.add('sbp-timer-active');
+      timerMins = parseInt(btn.dataset.mins, 10);
+      if (activeHz !== null) startTimer();
+    });
+  });
+
+  // Close panel when clicking outside
+  document.addEventListener('click', function (e) {
+    var wrap = document.getElementById('sbp-wrap');
+    if (!wrap.contains(e.target) && panel.classList.contains('sbp-open')) {
+      panel.classList.remove('sbp-open');
+      toggle.classList.remove('sbp-btn-active');
+    }
+  });
+
+}());
+</script>
