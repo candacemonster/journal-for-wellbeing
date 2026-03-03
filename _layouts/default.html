@@ -175,6 +175,8 @@
         <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
         &nbsp;|&nbsp;
         <a href="{{ '/terms/' | relative_url }}">Terms of Use</a>
+        &nbsp;|&nbsp;
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
       </div>
     </div>
   </div>
@@ -193,5 +195,36 @@
     {% include article-schema.html %}
   {% endif %}
   {% include sound-bath-player.html %}
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:#fff; border-top:1px solid #e8e0f0; box-shadow:0 -2px 12px rgba(107,79,160,0.1); padding:14px 24px; font-family:Georgia,'Times New Roman',serif; font-size:0.88rem; color:#3a2e2e;">
+    <div style="max-width:900px; margin:0 auto; display:flex; flex-wrap:wrap; align-items:center; gap:12px; justify-content:space-between;">
+      <p style="margin:0; line-height:1.5; flex:1; min-width:220px;">
+        This site uses cookies from Google to serve ads and analyse traffic. By continuing to use this site you accept its use of cookies.
+        <a href="/privacy-policy/" style="color:#6b4fa0; text-decoration:underline;">Learn more</a>.
+      </p>
+      <div style="display:flex; gap:10px; flex-shrink:0;">
+        <button onclick="acceptCookies()" style="background:#6b4fa0; color:#fff; border:none; border-radius:6px; padding:8px 20px; font-size:0.88rem; cursor:pointer; font-family:inherit;">Accept</button>
+        <button onclick="declineCookies()" style="background:transparent; color:#6b4fa0; border:1px solid #c9b8e8; border-radius:6px; padding:8px 16px; font-size:0.88rem; cursor:pointer; font-family:inherit;">Decline</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function() {
+      var consent = localStorage.getItem('cookie_consent');
+      if (!consent) {
+        document.getElementById('cookie-consent-banner').style.display = 'block';
+      }
+    })();
+    function acceptCookies() {
+      localStorage.setItem('cookie_consent', 'accepted');
+      document.getElementById('cookie-consent-banner').style.display = 'none';
+    }
+    function declineCookies() {
+      localStorage.setItem('cookie_consent', 'declined');
+      document.getElementById('cookie-consent-banner').style.display = 'none';
+    }
+  </script>
+
 </body>
 </html>
