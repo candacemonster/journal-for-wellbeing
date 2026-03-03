@@ -21,6 +21,10 @@
   {% if site.twitter_username %}
   <meta name="twitter:site" content="@{{ site.twitter_username }}">
   {% endif %}
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
   <!-- Styles -->
   <link 
     rel="stylesheet" 
@@ -47,17 +51,15 @@
 </head>
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
-  <!-- Defer font loading -->
+  <!-- Icons & deferred styles -->
   <noscript id="deferred-styles">
-    <link 
-      href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" 
-      rel="stylesheet">
     <link 
       rel="stylesheet" 
       href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
       integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" 
       crossorigin="anonymous">
   </noscript>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
   <div class="container pr-0">
@@ -89,7 +91,7 @@
   <div class="site-content">
     <div class="container">
       <div class="mainheading">
-        <div class="sitetitle">{{ site.name }}</div>
+        <h1 class="sitetitle">{{ site.name }}</h1>
       </div>
       <!-- AdSense (below header on all pages) -->
       {% if site.adsense == "enabled" %}
