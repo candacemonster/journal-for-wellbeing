@@ -4,7 +4,7 @@ title: "How to Keep a Therapy Journal Between Sessions (Without Overprocessing)"
 author: willow_pages
 categories: [journal, mental-health]
 tags: [therapy, journaling, mental-health, self-care, expressive-writing, CBT, healing]
-image: assets/images/therapy journal post image.jpg
+image: assets/images/19-therapy-journal-between-sessions.jpg
 description: "A therapy journal can bridge the gap between sessions, helping you notice patterns, track progress, and arrive more prepared — without turning it into a second session that drains you."
 excerpt: "A therapy journal can help you remember insights, track patterns, and arrive more prepared. The key is to use it as a support, not as a place to overprocess or do therapy alone."
 date: 2026-03-01
