@@ -9,8 +9,148 @@ title: Home
 ================================================== -->
 <section class="site-intro mb-4">
   <p class="lead text-center">
-    Welcome to <strong>Journal for Wellbeing</strong> — a quiet space for exploring mindfulness, emotional resilience, and the healing power of writing. You'll find reflective prompts, honest essays, and resources to support your inner life.
+    Welcome to <strong>Journal for Wellbeing</strong>. This is your quiet space for exploring mindfulness, emotional resilience, and the healing power of writing. You'll find reflective prompts, honest essays, and tools to support your inner life.
   </p>
+</section>
+
+<!-- Gentle Journaling Companion – Homepage Highlight
+================================================== -->
+<section class="gjc-homepage-banner mb-5">
+  <style>
+    .gjc-homepage-banner {
+      background: linear-gradient(135deg, #f5f0ff 0%, #eee6ff 60%, #e9ddff 100%);
+      border: 1px solid #ddd0f7;
+      border-radius: 20px;
+      padding: 36px 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .gjc-homepage-banner::before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      width: 160px;
+      height: 160px;
+      background: radial-gradient(circle, rgba(159,122,234,0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .gjc-homepage-banner .gjc-hp-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #9f7aea;
+      color: #fff;
+      border-radius: 999px;
+      padding: 4px 12px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .gjc-homepage-banner h2.gjc-hp-title {
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: #2d1f33;
+      margin: 0 0 10px;
+      line-height: 1.25;
+    }
+    .gjc-homepage-banner p.gjc-hp-desc {
+      color: #6b5b7a;
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 20px;
+      max-width: 660px;
+    }
+    .gjc-homepage-banner .gjc-hp-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+    }
+    .gjc-homepage-banner .gjc-hp-feature {
+      background: rgba(255,255,255,0.7);
+      border: 1px solid #ddd0f7;
+      border-radius: 999px;
+      padding: 4px 12px;
+      font-size: 0.78rem;
+      color: #6b5b7a;
+    }
+    .gjc-homepage-banner .gjc-hp-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #9f7aea;
+      color: #fff !important;
+      border-radius: 999px;
+      padding: 11px 24px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none !important;
+      transition: background 0.2s, transform 0.15s;
+      box-shadow: 0 4px 14px rgba(159,122,234,0.35);
+    }
+    .gjc-homepage-banner .gjc-hp-cta:hover {
+      background: #8b63d6;
+      transform: translateY(-1px);
+    }
+    .gjc-homepage-banner .gjc-hp-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #9f7aea !important;
+      font-size: 0.88rem;
+      text-decoration: none;
+      margin-left: 16px;
+    }
+    .gjc-homepage-banner .gjc-hp-secondary:hover {
+      text-decoration: underline;
+    }
+    .gjc-hp-deco {
+      font-size: 4.5rem;
+      line-height: 1;
+      opacity: 0.18;
+      position: absolute;
+      bottom: 16px;
+      right: 28px;
+      pointer-events: none;
+      user-select: none;
+      color: #9f7aea;
+    }
+    @media (max-width: 576px) {
+      .gjc-homepage-banner {
+        padding: 24px 20px;
+      }
+      .gjc-homepage-banner h2.gjc-hp-title {
+        font-size: 1.25rem;
+      }
+      .gjc-hp-deco { display: none; }
+    }
+  </style>
+
+  <div class="gjc-hp-pill">✨ New Interactive Tool</div>
+  <h2 class="gjc-hp-title">Gentle Journaling Companion</h2>
+  <p class="gjc-hp-desc">
+    The Gentle Journaling Companion is here for those moments when your mind is loud but you
+    still want to check in with yourself. Tell it how you're feeling and how much energy you
+    have, and it will give you one soft writing prompt, a tiny grounding ritual, and a gentle
+    reminder to go slowly. It works in as little as one or two lines.
+  </p>
+  <div class="gjc-hp-features">
+    <span class="gjc-hp-feature">✦ Soft writing prompts</span>
+    <span class="gjc-hp-feature">✦ Tiny grounding rituals</span>
+    <span class="gjc-hp-feature">✦ Gentle boundaries</span>
+    <span class="gjc-hp-feature">✦ Tailored to your energy</span>
+    <span class="gjc-hp-feature">✦ Works in 1–2 lines or 10 minutes</span>
+  </div>
+  <a href="{{ '/gentle-journaling-companion/' | relative_url }}" class="gjc-hp-cta">
+    Try the Companion &rarr;
+  </a>
+  <a href="{{ '/gentle-journaling-companion/' | relative_url }}" class="gjc-hp-secondary">
+    Free and private. No sign up needed.
+  </a>
+  <div class="gjc-hp-deco" aria-hidden="true">✦</div>
 </section>
 
 <!-- Featured

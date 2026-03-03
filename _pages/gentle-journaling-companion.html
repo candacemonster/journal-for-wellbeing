@@ -1,0 +1,602 @@
+---
+layout: default
+title: "Gentle Journaling Companion"
+description: "A soft prompt generator for loud minds. Get a gentle writing prompt, a tiny grounding ritual, and a gentle boundary tailored to how you're feeling and how much energy you have today."
+permalink: /gentle-journaling-companion/
+---
+
+<style>
+  /* ── Gentle Journaling Companion – scoped styles ─────────────────────── */
+  /* All rules are prefixed with #gjc-tool to avoid Bootstrap conflicts.    */
+
+  #gjc-tool {
+    --gjc-bg: #faf7f3;
+    --gjc-card-bg: #ffffff;
+    --gjc-accent: #9f7aea;
+    --gjc-accent-soft: #e9ddff;
+    --gjc-text: #2d1f33;
+    --gjc-muted: #6b5b7a;
+    --gjc-border: #e4d9f5;
+    --gjc-danger: #c53030;
+
+    background: var(--gjc-bg);
+    border-radius: 16px;
+    padding: 28px 20px 40px;
+    margin-bottom: 40px;
+    color: var(--gjc-text);
+    line-height: 1.6;
+  }
+
+  #gjc-tool .gjc-page {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  #gjc-tool h1,
+  #gjc-tool h2,
+  #gjc-tool h3 {
+    font-weight: 600;
+    color: var(--gjc-text);
+    margin-top: 0;
+  }
+
+  #gjc-tool header h1 {
+    font-size: 1.85rem;
+    margin-bottom: 8px;
+  }
+
+  #gjc-tool h2.gjc-section-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  #gjc-tool p.gjc-lead {
+    margin: 0 0 10px;
+    color: var(--gjc-muted);
+  }
+
+  /* Cards */
+  #gjc-tool .gjc-card {
+    background: var(--gjc-card-bg);
+    border-radius: 16px;
+    padding: 18px 18px 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--gjc-border);
+    margin-bottom: 20px;
+  }
+
+  #gjc-tool .gjc-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  /* Pill badge */
+  #gjc-tool .gjc-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--gjc-accent-soft);
+    color: var(--gjc-accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  /* Form */
+  #gjc-tool label.gjc-label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: var(--gjc-text);
+  }
+
+  #gjc-tool select.gjc-select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--gjc-border);
+    font-size: 0.9rem;
+    background: #fff;
+    color: var(--gjc-text);
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  #gjc-tool select.gjc-select:focus {
+    border-color: var(--gjc-accent);
+    box-shadow: 0 0 0 2px rgba(159, 122, 234, 0.25);
+  }
+
+  #gjc-tool .gjc-field-group {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  @media (max-width: 700px) {
+    #gjc-tool .gjc-field-group {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Buttons */
+  #gjc-tool .gjc-btn-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  #gjc-tool .gjc-btn {
+    border: none;
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: opacity 0.15s;
+  }
+
+  #gjc-tool .gjc-btn-primary {
+    background: var(--gjc-accent);
+    color: #fff;
+  }
+
+  #gjc-tool .gjc-btn-primary:hover {
+    opacity: 0.88;
+  }
+
+  #gjc-tool .gjc-btn-secondary {
+    background: #f3ecff;
+    color: var(--gjc-accent);
+  }
+
+  #gjc-tool .gjc-btn-secondary:hover {
+    opacity: 0.88;
+  }
+
+  #gjc-tool .gjc-btn-ghost {
+    background: transparent;
+    color: var(--gjc-muted);
+  }
+
+  #gjc-tool .gjc-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  /* Output */
+  #gjc-tool .gjc-output-section {
+    margin-top: 6px;
+  }
+
+  #gjc-tool .gjc-output-label {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gjc-muted);
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+
+  #gjc-tool .gjc-output-text {
+    font-size: 1rem;
+    color: var(--gjc-text);
+  }
+
+  #gjc-tool .gjc-output-sub {
+    font-size: 0.88rem;
+    color: var(--gjc-muted);
+    margin-top: 4px;
+  }
+
+  #gjc-tool .gjc-divider {
+    margin: 12px 0;
+    border: none;
+    border-top: 1px dashed #e1d3f6;
+  }
+
+  /* Chip row */
+  #gjc-tool .gjc-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+  }
+
+  #gjc-tool .gjc-chip {
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 1px solid var(--gjc-border);
+    font-size: 0.75rem;
+    color: var(--gjc-muted);
+    background: #f8f5ff;
+  }
+
+  /* Status */
+  #gjc-tool .gjc-status {
+    font-size: 0.82rem;
+    color: var(--gjc-muted);
+    margin-top: 6px;
+    min-height: 1.2em;
+  }
+
+  #gjc-tool .gjc-status.error {
+    color: var(--gjc-danger);
+  }
+
+  /* Recent list */
+  #gjc-tool .gjc-recent-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 6px 0 0;
+    font-size: 0.85rem;
+    color: var(--gjc-muted);
+  }
+
+  #gjc-tool .gjc-recent-list li {
+    margin-bottom: 5px;
+  }
+
+  #gjc-tool .gjc-recent-tag {
+    font-size: 0.73rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gjc-accent);
+    background: #f5f0ff;
+    padding: 2px 6px;
+    border-radius: 999px;
+    margin-right: 6px;
+  }
+
+  #gjc-tool .gjc-disclaimer {
+    font-size: 0.8rem;
+    color: var(--gjc-muted);
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  #gjc-tool a {
+    color: var(--gjc-accent);
+    text-decoration: none;
+  }
+
+  #gjc-tool a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<div id="gjc-tool">
+  <div class="gjc-page">
+
+    <header style="margin-bottom: 24px;">
+      <div class="gjc-pill">✦ Gentle Tool</div>
+      <h1>Gentle Journaling Companion</h1>
+      <p class="gjc-lead">
+        A small companion for the moments when your mind is loud but you still
+        want to check in with yourself. Choose how you're feeling, how much
+        energy you have, and what you'd like from this session. You'll receive
+        one gentle prompt, a tiny ritual, and a reminder to go slowly.
+      </p>
+    </header>
+
+    <!-- Step 1: Input -->
+    <section class="gjc-card" id="gjc-input-card">
+      <div class="gjc-card-header">
+        <h2 class="gjc-section-title">Step 1: Where are you today?</h2>
+      </div>
+      <p class="gjc-lead" style="margin-bottom: 10px;">
+        Answer these three questions as honestly and simply as you can.
+        There are no wrong combinations.
+      </p>
+      <div class="gjc-field-group">
+        <div>
+          <label class="gjc-label" for="gjc-mood">How are you feeling?</label>
+          <select class="gjc-select" id="gjc-mood">
+            <option value="anxious">Anxious or restless</option>
+            <option value="overwhelmed">Overwhelmed or burned out</option>
+            <option value="numb">Numb or checked out</option>
+            <option value="low">Low or heavy</option>
+            <option value="okay">Mostly okay, just tense</option>
+          </select>
+        </div>
+        <div>
+          <label class="gjc-label" for="gjc-energy">How much energy do you have to write?</label>
+          <select class="gjc-select" id="gjc-energy">
+            <option value="tiny">1–2 lines</option>
+            <option value="small">About 5 minutes</option>
+            <option value="deeper">10+ minutes</option>
+          </select>
+        </div>
+        <div>
+          <label class="gjc-label" for="gjc-goal">What do you want from this session?</label>
+          <select class="gjc-select" id="gjc-goal">
+            <option value="calm">Calm my body a little</option>
+            <option value="untangle">Untangle one loud worry</option>
+            <option value="kindness">Practice self-kindness</option>
+            <option value="notice">Just notice how I am</option>
+          </select>
+        </div>
+      </div>
+      <div class="gjc-btn-row">
+        <button class="gjc-btn gjc-btn-primary" id="gjc-generate-btn">
+          ✨ Give me a gentle prompt
+        </button>
+        <button class="gjc-btn gjc-btn-secondary" id="gjc-another-btn" disabled>
+          ↻ Another one with these settings
+        </button>
+      </div>
+      <p class="gjc-disclaimer">
+        This companion is for gentle reflection only and is not a crisis tool or
+        a replacement for professional support.
+      </p>
+    </section>
+
+    <!-- Step 2: Output -->
+    <section class="gjc-card" id="gjc-output-card" style="display:none;">
+      <div class="gjc-card-header">
+        <h2 class="gjc-section-title">Step 2: Your gentle prompt</h2>
+        <div class="gjc-chip" id="gjc-tags-chip"></div>
+      </div>
+
+      <div class="gjc-output-section">
+        <div class="gjc-output-label">Prompt</div>
+        <div class="gjc-output-text" id="gjc-prompt-text"></div>
+      </div>
+
+      <hr class="gjc-divider" />
+
+      <div class="gjc-output-section">
+        <div class="gjc-output-label">Your ritual</div>
+        <div class="gjc-output-text" id="gjc-ritual-text"></div>
+        <div class="gjc-output-sub" id="gjc-ritual-type"></div>
+      </div>
+
+      <hr class="gjc-divider" />
+
+      <div class="gjc-output-section">
+        <div class="gjc-output-label">Gentle boundary</div>
+        <div class="gjc-output-text" id="gjc-boundary-text"></div>
+      </div>
+
+      <div class="gjc-btn-row">
+        <button class="gjc-btn gjc-btn-secondary" id="gjc-copy-btn">
+          📋 Copy prompt + ritual
+        </button>
+        <button class="gjc-btn gjc-btn-ghost" id="gjc-reset-btn">
+          ◦ Start over
+        </button>
+      </div>
+      <div class="gjc-status" id="gjc-status-msg"></div>
+    </section>
+
+    <!-- Recent check-ins -->
+    <section class="gjc-card" id="gjc-recent-card" style="display:none;">
+      <div class="gjc-card-header">
+        <h2 class="gjc-section-title">Your recent check-ins</h2>
+      </div>
+      <p class="gjc-lead">
+        These are kept only in your browser, just for you. A quiet record of
+        the moods and intentions you've brought here lately.
+      </p>
+      <ul class="gjc-recent-list" id="gjc-recent-list"></ul>
+    </section>
+
+  </div><!-- /.gjc-page -->
+</div><!-- /#gjc-tool -->
+
+<script>
+(function () {
+  "use strict";
+
+  // ── Data library ─────────────────────────────────────────────────────────
+  var PROMPTS = [
+    // ANXIOUS
+    { id:"a1", text:"Right now, the loudest worry in my mind is…", tags:["anxious","untangle","tiny"], depth:"surface" },
+    { id:"a2", text:"If my anxiety could speak in one sentence today, it would say…", tags:["anxious","notice","kindness"], depth:"surface" },
+    { id:"a3", text:"In my body, anxiety feels like… and this sensation reminds me of…", tags:["anxious","calm"], depth:"medium" },
+    { id:"a4", text:"What am I afraid will happen, and what is one other possible outcome I usually don't consider?", tags:["anxious","untangle"], depth:"medium" },
+    { id:"a5", text:"If I spoke to myself like a friend who felt this way, I would say…", tags:["anxious","kindness"], depth:"surface" },
+    { id:"a6", text:"One worry I'm willing to gently postpone for 24 hours, just as an experiment, is…", tags:["anxious","calm"], depth:"surface" },
+    // OVERWHELM / BURNOUT
+    { id:"o1", text:"Today, '10% less pressure' would look like…", tags:["overwhelmed","kindness"], depth:"surface" },
+    { id:"o2", text:"Right now, my world feels too full of… and not full enough of…", tags:["overwhelmed","notice"], depth:"medium" },
+    { id:"o3", text:"Three small things I can lower my standards on, just for today, are…", tags:["overwhelmed","calm"], depth:"surface" },
+    { id:"o4", text:"If I didn't have to be 'on' for anyone for the next hour, I would…", tags:["overwhelmed","kindness"], depth:"medium" },
+    // NUMB / CHECKED OUT
+    { id:"n1", text:"If I gently check in under the numbness, I notice I might be feeling…", tags:["numb","notice"], depth:"surface" },
+    { id:"n2", text:"Right now, the easiest thing for me to notice with my senses is…", tags:["numb","calm"], depth:"surface" },
+    { id:"n3", text:"If my numbness could speak, it might say it's trying to protect me from…", tags:["numb","kindness"], depth:"medium" },
+    // LOW / HEAVY
+    { id:"l1", text:"When I look back, I can see that I've already survived…", tags:["low","kindness"], depth:"surface" },
+    { id:"l2", text:"If today didn't have to be a 'good' day, only an 'enough' day, it would look like…", tags:["low","calm"], depth:"surface" },
+    { id:"l3", text:"One tiny thing that feels even slightly steady in my life right now is…", tags:["low","notice"], depth:"surface" },
+    // OKAY / TENSE
+    { id:"ok1", text:"Right now, the part of my life that feels most tangled is…", tags:["okay","untangle"], depth:"medium" },
+    { id:"ok2", text:"If I zoom out and look at this week as a whole, I notice…", tags:["okay","notice"], depth:"medium" },
+    { id:"ok3", text:"If I gave myself permission not to fix everything today, I might…", tags:["okay","kindness"], depth:"surface" }
+  ];
+
+  var RITUALS = [
+    { id:"r1", type:"Before you write", text:"Place your feet flat on the floor if you can. Feel the weight of your body being held. Take three soft breaths, letting your exhale be a little longer than your inhale.", tags:["calm","anxious","overwhelmed"] },
+    { id:"r2", type:"Before you write", text:"Look around and silently name five things you can see, four things you can touch, and three sounds you can hear. There is no need to do this perfectly.", tags:["calm","numb","low"] },
+    { id:"r3", type:"After you write", text:"Close your notebook (or tab) slowly. Place a hand on your chest, if that feels okay, and say to yourself: "Thank you for checking in, even for a moment."", tags:["kindness"] },
+    { id:"r4", type:"After you write", text:"Choose one small comfort, like a sip of water, stretching your shoulders, or opening a window, and do it on purpose as a gentle way to close this check-in.", tags:["calm","overwhelmed"] },
+    { id:"r5", type:"Before you write", text:"Decide roughly how long you want to write (for example, 3 minutes or half a page). Remind yourself you're allowed to stop when you reach that limit.", tags:["anxious","overwhelmed","notice"] }
+  ];
+
+  var BOUNDARIES = [
+    { id:"b1", text:"You only need to write about today or this week. You do not have to revisit old memories unless you choose to, and it's okay to keep things brief.", tags:["anxious","overwhelmed"] },
+    { id:"b2", text:"If you notice yourself feeling more agitated or flooded as you write, you're allowed to pause or stop. Listening to your limits is part of this practice.", tags:["anxious","low","numb"] },
+    { id:"b3", text:"This is a space for gentle check-ins, not for solving everything at once. You're welcome to come back to the same question on another day.", tags:["overwhelmed","okay"] },
+    { id:"b4", text:"Journaling can support you, but it is not a replacement for therapy or crisis support. If you're in significant distress, please reach out to a trusted person or professional.", tags:["all"] }
+  ];
+
+  var RECENT_KEY = "jfw_gentle_companion_recent_v1";
+
+  // ── DOM refs ──────────────────────────────────────────────────────────────
+  var moodSelect   = document.getElementById("gjc-mood");
+  var energySelect = document.getElementById("gjc-energy");
+  var goalSelect   = document.getElementById("gjc-goal");
+  var generateBtn  = document.getElementById("gjc-generate-btn");
+  var anotherBtn   = document.getElementById("gjc-another-btn");
+  var outputCard   = document.getElementById("gjc-output-card");
+  var promptText   = document.getElementById("gjc-prompt-text");
+  var ritualText   = document.getElementById("gjc-ritual-text");
+  var ritualType   = document.getElementById("gjc-ritual-type");
+  var boundaryText = document.getElementById("gjc-boundary-text");
+  var tagsChip     = document.getElementById("gjc-tags-chip");
+  var copyBtn      = document.getElementById("gjc-copy-btn");
+  var resetBtn     = document.getElementById("gjc-reset-btn");
+  var statusMsg    = document.getElementById("gjc-status-msg");
+  var recentCard   = document.getElementById("gjc-recent-card");
+  var recentList   = document.getElementById("gjc-recent-list");
+
+  // ── Helpers ───────────────────────────────────────────────────────────────
+  function pick(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  function choosePrompt(mood, energy, goal, excludeId) {
+    var depthOk = energy === "tiny" ? ["surface"] : ["surface", "medium"];
+    var pool = PROMPTS.filter(function(p) {
+      if (excludeId && p.id === excludeId) return false;
+      return depthOk.indexOf(p.depth) > -1 &&
+             (p.tags.indexOf(mood) > -1 || p.tags.indexOf("okay") > -1) &&
+             p.tags.indexOf(goal) > -1;
+    });
+    if (!pool.length) pool = PROMPTS.filter(function(p) { return p.tags.indexOf(mood) > -1; });
+    if (!pool.length) pool = PROMPTS;
+    return pick(pool);
+  }
+
+  function chooseRitual(mood, goal) {
+    var pool = RITUALS.filter(function(r) {
+      return r.tags.indexOf(mood) > -1 || r.tags.indexOf(goal) > -1;
+    });
+    return pick(pool.length ? pool : RITUALS);
+  }
+
+  function chooseBoundary(mood) {
+    var pool = BOUNDARIES.filter(function(b) {
+      return b.tags.indexOf(mood) > -1 || b.tags.indexOf("all") > -1;
+    });
+    return pick(pool.length ? pool : BOUNDARIES);
+  }
+
+  function moodLabel(v) {
+    return { anxious:"Anxious", overwhelmed:"Overwhelmed", numb:"Numb", low:"Low", okay:"Mostly okay" }[v] || v;
+  }
+  function goalLabel(v) {
+    return { calm:"Calm my body", untangle:"Untangle a worry", kindness:"Self-kindness", notice:"Just notice" }[v] || v;
+  }
+  function energyLabel(v) {
+    return { tiny:"1–2 lines", small:"About 5 min", deeper:"10+ min" }[v] || v;
+  }
+
+  // ── Recent ────────────────────────────────────────────────────────────────
+  function loadRecent() {
+    try { return JSON.parse(localStorage.getItem(RECENT_KEY)) || []; } catch(e) { return []; }
+  }
+
+  function saveRecent(mood, energy, goal, promptId) {
+    var list = loadRecent();
+    list.unshift({ timestamp: Date.now(), mood: mood, energy: energy, goal: goal, promptId: promptId });
+    list = list.slice(0, 5);
+    try { localStorage.setItem(RECENT_KEY, JSON.stringify(list)); } catch(e) {}
+    renderRecent();
+  }
+
+  function renderRecent() {
+    var list = loadRecent();
+    if (!list.length) { recentCard.style.display = "none"; return; }
+    recentCard.style.display = "block";
+    recentList.innerHTML = "";
+    list.forEach(function(entry) {
+      var li = document.createElement("li");
+      var d  = new Date(entry.timestamp);
+      var ts = d.toLocaleString(undefined, { month:"short", day:"numeric", hour:"numeric", minute:"2-digit" });
+      li.innerHTML =
+        '<span class="gjc-recent-tag">' + moodLabel(entry.mood) + '</span>' +
+        '<strong>' + goalLabel(entry.goal) + '</strong>' +
+        ' &bull; ' + energyLabel(entry.energy) +
+        ' <span style="color:#b09bcf;">&bull; ' + ts + '</span>';
+      recentList.appendChild(li);
+    });
+  }
+
+  // ── Generate ──────────────────────────────────────────────────────────────
+  var lastPromptId = null;
+
+  function generatePrompt(avoidLast) {
+    var mood   = moodSelect.value;
+    var energy = energySelect.value;
+    var goal   = goalSelect.value;
+
+    var prompt   = choosePrompt(mood, energy, goal, avoidLast ? lastPromptId : null);
+    var ritual   = chooseRitual(mood, goal);
+    var boundary = chooseBoundary(mood);
+
+    lastPromptId = prompt.id;
+
+    promptText.textContent   = prompt.text;
+    ritualText.textContent   = ritual.text;
+    ritualType.textContent   = ritual.type;
+    boundaryText.textContent = boundary.text;
+    tagsChip.textContent     = moodLabel(mood) + " \u2022 " + goalLabel(goal) + " \u2022 " + energyLabel(energy);
+
+    outputCard.style.display = "block";
+    statusMsg.textContent    = "";
+    anotherBtn.disabled      = false;
+
+    saveRecent(mood, energy, goal, prompt.id);
+    outputCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  // ── Events ────────────────────────────────────────────────────────────────
+  generateBtn.addEventListener("click", function() { generatePrompt(false); });
+  anotherBtn.addEventListener("click",  function() { generatePrompt(true);  });
+
+  copyBtn.addEventListener("click", function() {
+    var text =
+      "Gentle journaling check-in\n\n" +
+      "Prompt:\n" + promptText.textContent + "\n\n" +
+      "Your ritual (" + ritualType.textContent + "):\n" + ritualText.textContent + "\n\n" +
+      "Gentle boundary:\n" + boundaryText.textContent + "\n";
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function() {
+        statusMsg.textContent = "Copied to your clipboard. You can paste it into your journal or notes app.";
+        statusMsg.classList.remove("error");
+      }).catch(function() {
+        statusMsg.textContent = "Could not access clipboard. You can select and copy the text manually.";
+        statusMsg.classList.add("error");
+      });
+    } else {
+      statusMsg.textContent = "Could not access clipboard. You can select and copy the text manually.";
+      statusMsg.classList.add("error");
+    }
+  });
+
+  resetBtn.addEventListener("click", function() {
+    outputCard.style.display = "none";
+    statusMsg.textContent    = "";
+    anotherBtn.disabled      = true;
+  });
+
+  // Init
+  renderRecent();
+}());
+</script>
