@@ -4,7 +4,7 @@ title: "25 Soft Journal Prompts for Anxiety (When You Haven't Written in Days)"
 author: willow_pages
 categories: [journal, prompts]
 tags: [anxiety, prompts, mental-health, self-care, mindfulness, getting-started]
-image: assets/images/a-book-1975830_1280.jpg
+image: assets/images/journaling 2.jpg
 description: "25 gentle journal prompts for anxious days when you haven't written in a while, each one answerable in just a few lines, no pressure to fix everything at once."
 excerpt: "When anxiety is loud and you haven't journaled in a while, starting again can feel strangely heavy. These 25 prompts are a gentle bridge back, answerable in just a few lines, without fixing everything at once."
 date: 2026-03-03

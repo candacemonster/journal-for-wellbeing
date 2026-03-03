@@ -4,7 +4,7 @@ title: "Journaling for Burnout and Overwhelm: Tiny Practices When You're Exhaust
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [burnout, overwhelm, mental-health, self-care, prompts, expressive-writing]
-image: assets/images/a-book-1975830_1280.jpg
+image: assets/images/journaling 3.jpg
 description: "When you're burned out, even well-meaning advice can feel like another item on your to-do list. This is a softer approach to journaling with tiny practices for the days when you're too tired to work on yourself, but still want a small place to land."
 excerpt: "When you're burned out, even good advice can feel like too much. Here are gentle, low-effort journaling formats and prompts designed for the days when you're running on empty."
 date: 2026-03-03
