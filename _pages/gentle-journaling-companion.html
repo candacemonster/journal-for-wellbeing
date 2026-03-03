@@ -6,9 +6,7 @@ permalink: /gentle-journaling-companion/
 ---
 
 <style>
-  /* ── Gentle Journaling Companion – scoped styles ─────────────────────── */
-  /* All rules are prefixed with #gjc-tool to avoid Bootstrap conflicts.    */
-
+  /* ── Gentle Journaling Companion – scoped styles ───────────────────────── */
   #gjc-tool {
     --gjc-bg: #faf7f3;
     --gjc-card-bg: #ffffff;
@@ -18,7 +16,7 @@ permalink: /gentle-journaling-companion/
     --gjc-muted: #6b5b7a;
     --gjc-border: #e4d9f5;
     --gjc-danger: #c53030;
-
+    --gjc-success: #276749;
     background: var(--gjc-bg);
     border-radius: 16px;
     padding: 28px 20px 40px;
@@ -26,281 +24,137 @@ permalink: /gentle-journaling-companion/
     color: var(--gjc-text);
     line-height: 1.6;
   }
+  #gjc-tool .gjc-page { max-width: 860px; margin: 0 auto; }
+  #gjc-tool h1, #gjc-tool h2, #gjc-tool h3 { font-weight: 600; color: var(--gjc-text); margin-top: 0; }
+  #gjc-tool header h1 { font-size: 1.85rem; margin-bottom: 8px; }
+  #gjc-tool h2.gjc-section-title { font-size: 1.1rem; margin: 0; }
+  #gjc-tool p.gjc-lead { margin: 0 0 10px; color: var(--gjc-muted); }
 
-  #gjc-tool .gjc-page {
-    max-width: 860px;
-    margin: 0 auto;
-  }
-
-  #gjc-tool h1,
-  #gjc-tool h2,
-  #gjc-tool h3 {
-    font-weight: 600;
-    color: var(--gjc-text);
-    margin-top: 0;
-  }
-
-  #gjc-tool header h1 {
-    font-size: 1.85rem;
-    margin-bottom: 8px;
-  }
-
-  #gjc-tool h2.gjc-section-title {
-    font-size: 1.2rem;
-    margin: 0;
-  }
-
-  #gjc-tool p.gjc-lead {
-    margin: 0 0 10px;
-    color: var(--gjc-muted);
-  }
+  /* Streak bar */
+  #gjc-streak-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; flex-wrap: wrap; }
+  .gjc-streak-label { font-size: 0.8rem; font-weight: 600; color: var(--gjc-muted); text-transform: uppercase; letter-spacing: 0.06em; white-space: nowrap; }
+  .gjc-streak-days { display: flex; gap: 5px; }
+  .gjc-day-dot { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .gjc-day-dot span:first-child { font-size: 0.68rem; color: #b09bcf; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  .gjc-day-circle { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--gjc-border); background: #f8f5ff; display: flex; align-items: center; justify-content: center; font-size: 10px; }
+  .gjc-day-circle.gjc-day-active { background: var(--gjc-accent); border-color: var(--gjc-accent); color: #fff; }
+  .gjc-day-circle.gjc-day-today { border-color: var(--gjc-accent); }
+  .gjc-streak-count { font-size: 0.82rem; color: var(--gjc-accent); font-weight: 600; margin-left: 4px; white-space: nowrap; }
 
   /* Cards */
-  #gjc-tool .gjc-card {
-    background: var(--gjc-card-bg);
-    border-radius: 16px;
-    padding: 18px 18px 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    border: 1px solid var(--gjc-border);
-    margin-bottom: 20px;
-  }
+  #gjc-tool .gjc-card { background: var(--gjc-card-bg); border-radius: 16px; padding: 20px 20px 18px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid var(--gjc-border); margin-bottom: 20px; }
+  #gjc-tool .gjc-card-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
 
-  #gjc-tool .gjc-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 10px;
-  }
-
-  /* Pill badge */
-  #gjc-tool .gjc-pill {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 4px 12px;
-    border-radius: 999px;
-    background: var(--gjc-accent-soft);
-    color: var(--gjc-accent);
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
+  /* Pill */
+  #gjc-tool .gjc-pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; background: var(--gjc-accent-soft); color: var(--gjc-accent); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 8px; }
 
   /* Form */
-  #gjc-tool label.gjc-label {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-bottom: 4px;
-    color: var(--gjc-text);
-  }
-
-  #gjc-tool select.gjc-select {
-    width: 100%;
-    padding: 8px 10px;
-    border-radius: 999px;
-    border: 1px solid var(--gjc-border);
-    font-size: 0.9rem;
-    background: #fff;
-    color: var(--gjc-text);
-    outline: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-
-  #gjc-tool select.gjc-select:focus {
-    border-color: var(--gjc-accent);
-    box-shadow: 0 0 0 2px rgba(159, 122, 234, 0.25);
-  }
-
-  #gjc-tool .gjc-field-group {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-    margin-top: 8px;
-  }
-
-  @media (max-width: 700px) {
-    #gjc-tool .gjc-field-group {
-      grid-template-columns: 1fr;
-    }
-  }
+  #gjc-tool label.gjc-label { display: block; font-size: 0.88rem; font-weight: 500; margin-bottom: 5px; color: var(--gjc-text); }
+  #gjc-tool select.gjc-select { width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--gjc-border); font-size: 0.9rem; background: #fff; color: var(--gjc-text); outline: none; -webkit-appearance: none; appearance: none; }
+  #gjc-tool select.gjc-select:focus { border-color: var(--gjc-accent); box-shadow: 0 0 0 2px rgba(159,122,234,0.22); }
+  #gjc-tool .gjc-field-group { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; margin-top: 8px; }
+  @media (max-width: 700px) { #gjc-tool .gjc-field-group { grid-template-columns: 1fr; } }
 
   /* Buttons */
-  #gjc-tool .gjc-btn-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 14px;
-  }
+  #gjc-tool .gjc-btn-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  #gjc-tool .gjc-btn { border: none; border-radius: 999px; padding: 8px 18px; font-size: 0.88rem; font-weight: 500; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: opacity 0.15s, background 0.15s; font-family: inherit; }
+  #gjc-tool .gjc-btn-primary { background: var(--gjc-accent); color: #fff; }
+  #gjc-tool .gjc-btn-primary:hover { opacity: 0.88; }
+  #gjc-tool .gjc-btn-secondary { background: #f3ecff; color: var(--gjc-accent); }
+  #gjc-tool .gjc-btn-secondary:hover { opacity: 0.88; }
+  #gjc-tool .gjc-btn-ghost { background: transparent; color: var(--gjc-muted); }
+  #gjc-tool .gjc-btn-ghost:hover { background: #f8f4ff; }
+  #gjc-tool .gjc-btn-save { background: #68d391; color: #1a4731; }
+  #gjc-tool .gjc-btn-save:hover { background: #48bb78; }
+  #gjc-tool .gjc-btn:disabled { opacity: 0.45; cursor: default; }
 
-  #gjc-tool .gjc-btn {
-    border: none;
-    border-radius: 999px;
-    padding: 8px 16px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    transition: opacity 0.15s;
-  }
-
-  #gjc-tool .gjc-btn-primary {
-    background: var(--gjc-accent);
-    color: #fff;
-  }
-
-  #gjc-tool .gjc-btn-primary:hover {
-    opacity: 0.88;
-  }
-
-  #gjc-tool .gjc-btn-secondary {
-    background: #f3ecff;
-    color: var(--gjc-accent);
-  }
-
-  #gjc-tool .gjc-btn-secondary:hover {
-    opacity: 0.88;
-  }
-
-  #gjc-tool .gjc-btn-ghost {
-    background: transparent;
-    color: var(--gjc-muted);
-  }
-
-  #gjc-tool .gjc-btn:disabled {
-    opacity: 0.5;
-    cursor: default;
-  }
+  /* Affirmation */
+  #gjc-affirmation { background: #faf5ff; border-left: 3px solid var(--gjc-accent); border-radius: 8px; padding: 10px 14px; font-size: 0.9rem; color: var(--gjc-muted); font-style: italic; margin-bottom: 14px; display: none; }
 
   /* Output */
-  #gjc-tool .gjc-output-section {
-    margin-top: 6px;
-  }
+  #gjc-tool .gjc-output-section { margin-top: 6px; }
+  #gjc-tool .gjc-output-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gjc-muted); margin-bottom: 3px; font-weight: 700; }
+  #gjc-tool .gjc-output-text { font-size: 1rem; color: var(--gjc-text); }
+  #gjc-tool .gjc-output-sub { font-size: 0.83rem; color: var(--gjc-muted); margin-top: 3px; }
+  #gjc-tool .gjc-divider { margin: 14px 0; border: none; border-top: 1px dashed #e1d3f6; }
 
-  #gjc-tool .gjc-output-label {
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--gjc-muted);
-    margin-bottom: 2px;
-    font-weight: 600;
-  }
+  /* Timer */
+  #gjc-timer-area { display: none; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 14px; background: #f8f4ff; border-radius: 10px; margin-bottom: 12px; }
+  #gjc-timer-area.gjc-visible { display: flex; }
+  .gjc-timer-label { font-size: 0.8rem; color: var(--gjc-muted); font-weight: 600; white-space: nowrap; }
+  .gjc-timer-btns { display: flex; gap: 5px; }
+  .gjc-timer-btn-sm { border: 1px solid var(--gjc-border); background: #fff; color: var(--gjc-muted); border-radius: 20px; padding: 2px 9px; font-size: 0.78rem; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+  .gjc-timer-btn-sm:hover, .gjc-timer-btn-sm.gjc-timer-active { background: var(--gjc-accent); border-color: var(--gjc-accent); color: #fff; }
+  #gjc-timer-display { font-size: 1.1rem; font-weight: 700; color: var(--gjc-accent); min-width: 42px; text-align: center; font-variant-numeric: tabular-nums; }
+  #gjc-timer-start-btn { border: none; background: var(--gjc-accent); color: #fff; border-radius: 20px; padding: 4px 12px; font-size: 0.8rem; cursor: pointer; font-family: inherit; white-space: nowrap; }
+  #gjc-timer-start-btn:hover { opacity: 0.85; }
+  #gjc-timer-start-btn.gjc-running { background: #fc8181; }
 
-  #gjc-tool .gjc-output-text {
-    font-size: 1rem;
-    color: var(--gjc-text);
-  }
+  /* Writing area */
+  #gjc-writing-area { display: none; margin-top: 10px; }
+  #gjc-writing-area.gjc-visible { display: block; }
+  #gjc-response-textarea { width: 100%; min-height: 130px; border: 1px solid var(--gjc-border); border-radius: 12px; padding: 12px 14px; font-size: 0.95rem; color: var(--gjc-text); background: #fdfbff; font-family: 'Lora', Georgia, serif; resize: vertical; outline: none; line-height: 1.65; box-sizing: border-box; transition: border-color 0.15s; }
+  #gjc-response-textarea:focus { border-color: var(--gjc-accent); box-shadow: 0 0 0 2px rgba(159,122,234,0.15); }
+  #gjc-response-textarea::placeholder { color: #c4b5fd; font-style: italic; }
+  #gjc-char-count { font-size: 0.75rem; color: #c4b5fd; text-align: right; margin-top: 4px; }
 
-  #gjc-tool .gjc-output-sub {
-    font-size: 0.88rem;
-    color: var(--gjc-muted);
-    margin-top: 4px;
-  }
-
-  #gjc-tool .gjc-divider {
-    margin: 12px 0;
-    border: none;
-    border-top: 1px dashed #e1d3f6;
-  }
-
-  /* Chip row */
-  #gjc-tool .gjc-chip-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 4px;
-  }
-
-  #gjc-tool .gjc-chip {
-    padding: 3px 10px;
-    border-radius: 999px;
-    border: 1px solid var(--gjc-border);
-    font-size: 0.75rem;
-    color: var(--gjc-muted);
-    background: #f8f5ff;
-  }
+  /* Chip */
+  #gjc-tool .gjc-chip { padding: 3px 10px; border-radius: 999px; border: 1px solid var(--gjc-border); font-size: 0.75rem; color: var(--gjc-muted); background: #f8f5ff; }
 
   /* Status */
-  #gjc-tool .gjc-status {
-    font-size: 0.82rem;
-    color: var(--gjc-muted);
-    margin-top: 6px;
-    min-height: 1.2em;
-  }
+  #gjc-tool .gjc-status { font-size: 0.82rem; color: var(--gjc-muted); margin-top: 8px; min-height: 1.2em; }
+  #gjc-tool .gjc-status.error { color: var(--gjc-danger); }
+  #gjc-tool .gjc-status.success { color: var(--gjc-success); }
 
-  #gjc-tool .gjc-status.error {
-    color: var(--gjc-danger);
-  }
+  /* Saved entries */
+  .gjc-saved-entry { border: 1px solid var(--gjc-border); border-radius: 12px; padding: 12px 14px; margin-bottom: 12px; background: #fdfbff; }
+  .gjc-saved-entry:last-child { margin-bottom: 0; }
+  .gjc-saved-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+  .gjc-saved-tag { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gjc-accent); background: #f0e6ff; padding: 2px 8px; border-radius: 999px; }
+  .gjc-saved-time { font-size: 0.75rem; color: #b09bcf; margin-left: auto; }
+  .gjc-saved-prompt-text { font-size: 0.82rem; color: var(--gjc-muted); font-style: italic; margin-bottom: 5px; }
+  .gjc-saved-response { font-size: 0.9rem; color: var(--gjc-text); line-height: 1.6; white-space: pre-wrap; word-break: break-word; }
+  #gjc-saved-empty { font-size: 0.88rem; color: #b09bcf; font-style: italic; }
 
-  /* Recent list */
-  #gjc-tool .gjc-recent-list {
-    list-style: none;
-    padding-left: 0;
-    margin: 6px 0 0;
-    font-size: 0.85rem;
-    color: var(--gjc-muted);
-  }
-
-  #gjc-tool .gjc-recent-list li {
-    margin-bottom: 5px;
-  }
-
-  #gjc-tool .gjc-recent-tag {
-    font-size: 0.73rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--gjc-accent);
-    background: #f5f0ff;
-    padding: 2px 6px;
-    border-radius: 999px;
-    margin-right: 6px;
-  }
-
-  #gjc-tool .gjc-disclaimer {
-    font-size: 0.8rem;
-    color: var(--gjc-muted);
-    margin-top: 8px;
-    margin-bottom: 0;
-  }
-
-  #gjc-tool a {
-    color: var(--gjc-accent);
-    text-decoration: none;
-  }
-
-  #gjc-tool a:hover {
-    text-decoration: underline;
-  }
+  /* Recent */
+  #gjc-tool .gjc-recent-list { list-style: none; padding-left: 0; margin: 6px 0 0; font-size: 0.85rem; color: var(--gjc-muted); }
+  #gjc-tool .gjc-recent-list li { margin-bottom: 6px; }
+  #gjc-tool .gjc-recent-tag { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gjc-accent); background: #f5f0ff; padding: 2px 6px; border-radius: 999px; margin-right: 5px; }
+  #gjc-tool .gjc-disclaimer { font-size: 0.79rem; color: #b09bcf; margin-top: 10px; margin-bottom: 0; }
+  #gjc-tool a { color: var(--gjc-accent); text-decoration: none; }
+  #gjc-tool a:hover { text-decoration: underline; }
+  .gjc-toggle-btn { background: none; border: none; color: var(--gjc-accent); font-size: 0.83rem; font-weight: 600; cursor: pointer; padding: 0; font-family: inherit; display: flex; align-items: center; gap: 4px; }
+  .gjc-toggle-btn:hover { text-decoration: underline; }
 </style>
 
 <div id="gjc-tool">
   <div class="gjc-page">
 
-    <header style="margin-bottom: 24px;">
-      <div class="gjc-pill">✦ Gentle Tool</div>
+    <header style="margin-bottom: 20px;">
+      <div class="gjc-pill">&#10022; Gentle Tool</div>
       <h1>Gentle Journaling Companion</h1>
       <p class="gjc-lead">
-        A small companion for the moments when your mind is loud but you still
-        want to check in with yourself. Choose how you're feeling, how much
-        energy you have, and what you'd like from this session. You'll receive
-        one gentle prompt, a tiny ritual, and a reminder to go slowly.
+        A small companion for the moments when your mind is loud but you still want to check in with yourself.
+        Choose how you are feeling, how much energy you have, and what you would like from this session.
+        You will receive a gentle prompt, a tiny ritual, and a reminder to go slowly.
+        You can write your response right here, and it stays privately in your browser.
       </p>
     </header>
 
-    <!-- Step 1: Input -->
+    <!-- Streak bar -->
+    <div id="gjc-streak-bar">
+      <span class="gjc-streak-label">This week</span>
+      <div class="gjc-streak-days" id="gjc-streak-days"></div>
+      <span class="gjc-streak-count" id="gjc-streak-count"></span>
+    </div>
+
+    <!-- Input -->
     <section class="gjc-card" id="gjc-input-card">
       <div class="gjc-card-header">
-        <h2 class="gjc-section-title">Step 1: Where are you today?</h2>
+        <h2 class="gjc-section-title">Where are you today?</h2>
       </div>
       <p class="gjc-lead" style="margin-bottom: 10px;">
-        Answer these three questions as honestly and simply as you can.
-        There are no wrong combinations.
+        Answer these three questions as honestly and simply as you can. There are no wrong combinations.
       </p>
       <div class="gjc-field-group">
         <div>
@@ -314,15 +168,15 @@ permalink: /gentle-journaling-companion/
           </select>
         </div>
         <div>
-          <label class="gjc-label" for="gjc-energy">How much energy do you have to write?</label>
+          <label class="gjc-label" for="gjc-energy">How much energy do you have?</label>
           <select class="gjc-select" id="gjc-energy">
-            <option value="tiny">1–2 lines</option>
+            <option value="tiny">Just a sentence or two</option>
             <option value="small">About 5 minutes</option>
-            <option value="deeper">10+ minutes</option>
+            <option value="deeper">10 or more minutes</option>
           </select>
         </div>
         <div>
-          <label class="gjc-label" for="gjc-goal">What do you want from this session?</label>
+          <label class="gjc-label" for="gjc-goal">What do you want from this?</label>
           <select class="gjc-select" id="gjc-goal">
             <option value="calm">Calm my body a little</option>
             <option value="untangle">Untangle one loud worry</option>
@@ -332,271 +186,525 @@ permalink: /gentle-journaling-companion/
         </div>
       </div>
       <div class="gjc-btn-row">
-        <button class="gjc-btn gjc-btn-primary" id="gjc-generate-btn">
-          ✨ Give me a gentle prompt
-        </button>
-        <button class="gjc-btn gjc-btn-secondary" id="gjc-another-btn" disabled>
-          ↻ Another one with these settings
-        </button>
+        <button class="gjc-btn gjc-btn-primary" id="gjc-generate-btn">&#10024; Give me a gentle prompt</button>
+        <button class="gjc-btn gjc-btn-secondary" id="gjc-another-btn" disabled>&#8635; Try another prompt</button>
       </div>
       <p class="gjc-disclaimer">
-        This companion is for gentle reflection only and is not a crisis tool or
-        a replacement for professional support.
+        This companion is for gentle reflection only. It is not a crisis tool or a replacement for professional support.
+        If you are in distress, please reach out to a trusted person or a mental health professional.
       </p>
     </section>
 
-    <!-- Step 2: Output -->
+    <!-- Output -->
     <section class="gjc-card" id="gjc-output-card" style="display:none;">
       <div class="gjc-card-header">
-        <h2 class="gjc-section-title">Step 2: Your gentle prompt</h2>
+        <h2 class="gjc-section-title">Your gentle prompt</h2>
         <div class="gjc-chip" id="gjc-tags-chip"></div>
       </div>
-
+      <div id="gjc-affirmation"></div>
       <div class="gjc-output-section">
         <div class="gjc-output-label">Prompt</div>
         <div class="gjc-output-text" id="gjc-prompt-text"></div>
       </div>
-
       <hr class="gjc-divider" />
-
       <div class="gjc-output-section">
         <div class="gjc-output-label">Your ritual</div>
         <div class="gjc-output-text" id="gjc-ritual-text"></div>
         <div class="gjc-output-sub" id="gjc-ritual-type"></div>
       </div>
-
       <hr class="gjc-divider" />
-
       <div class="gjc-output-section">
         <div class="gjc-output-label">Gentle boundary</div>
         <div class="gjc-output-text" id="gjc-boundary-text"></div>
       </div>
-
+      <hr class="gjc-divider" />
+      <!-- Timer -->
+      <div id="gjc-timer-area" class="gjc-visible">
+        <span class="gjc-timer-label">Timer</span>
+        <div class="gjc-timer-btns">
+          <button class="gjc-timer-btn-sm" data-mins="3">3 min</button>
+          <button class="gjc-timer-btn-sm gjc-timer-active" data-mins="5">5 min</button>
+          <button class="gjc-timer-btn-sm" data-mins="10">10 min</button>
+        </div>
+        <span id="gjc-timer-display">5:00</span>
+        <button id="gjc-timer-start-btn">Start</button>
+      </div>
+      <!-- Writing area -->
+      <div id="gjc-writing-area" class="gjc-visible">
+        <div class="gjc-output-label" style="margin-bottom:6px;">Write here (optional)</div>
+        <textarea id="gjc-response-textarea" placeholder="Begin when you are ready. There is no right way to do this. Even a few words are enough&#8230;" rows="6"></textarea>
+        <div id="gjc-char-count">0 words</div>
+      </div>
       <div class="gjc-btn-row">
-        <button class="gjc-btn gjc-btn-secondary" id="gjc-copy-btn">
-          📋 Copy prompt + ritual
-        </button>
-        <button class="gjc-btn gjc-btn-ghost" id="gjc-reset-btn">
-          ◦ Start over
-        </button>
+        <button class="gjc-btn gjc-btn-save" id="gjc-save-btn">&#10003; Save this entry</button>
+        <button class="gjc-btn gjc-btn-secondary" id="gjc-copy-btn">&#128203; Copy prompt</button>
+        <button class="gjc-btn gjc-btn-ghost" id="gjc-reset-btn">&#9702; Start over</button>
       </div>
       <div class="gjc-status" id="gjc-status-msg"></div>
     </section>
 
-    <!-- Recent check-ins -->
-    <section class="gjc-card" id="gjc-recent-card" style="display:none;">
+    <!-- Saved entries -->
+    <section class="gjc-card" id="gjc-saved-card">
       <div class="gjc-card-header">
-        <h2 class="gjc-section-title">Your recent check-ins</h2>
+        <h2 class="gjc-section-title">Your saved entries</h2>
+        <button class="gjc-toggle-btn" id="gjc-saved-toggle">Hide &#9650;</button>
       </div>
-      <p class="gjc-lead">
-        These are kept only in your browser, just for you. A quiet record of
-        the moods and intentions you've brought here lately.
+      <p class="gjc-lead" style="font-size:0.85rem;">
+        Kept only in your browser &mdash; private to you. A quiet record of what you have brought here and what you wrote.
       </p>
-      <ul class="gjc-recent-list" id="gjc-recent-list"></ul>
+      <div id="gjc-saved-list-wrap">
+        <div id="gjc-saved-empty">You have not saved any entries yet. Write something and tap &#8220;Save this entry.&#8221;</div>
+        <div id="gjc-saved-list"></div>
+        <div style="margin-top:10px;">
+          <button class="gjc-btn gjc-btn-ghost" id="gjc-clear-saved-btn" style="font-size:0.8rem;padding:5px 12px;display:none;">
+            &#128465; Clear all saved entries
+          </button>
+        </div>
+      </div>
     </section>
 
-  </div><!-- /.gjc-page -->
-</div><!-- /#gjc-tool -->
+    <!-- Recent moods -->
+    <section class="gjc-card" id="gjc-recent-card" style="display:none;">
+      <div class="gjc-card-header">
+        <h2 class="gjc-section-title">Recent check-ins</h2>
+        <button class="gjc-toggle-btn" id="gjc-recent-toggle">Hide &#9650;</button>
+      </div>
+      <p class="gjc-lead" style="font-size:0.85rem;">A short record of the moods and intentions you have brought here lately.</p>
+      <div id="gjc-recent-list-wrap">
+        <ul class="gjc-recent-list" id="gjc-recent-list"></ul>
+      </div>
+    </section>
+
+  </div>
+</div>
 
 <script>
 (function () {
   "use strict";
 
-  // ── Data library ─────────────────────────────────────────────────────────
   var PROMPTS = [
-    // ANXIOUS
-    { id:"a1", text:"Right now, the loudest worry in my mind is…", tags:["anxious","untangle","tiny"], depth:"surface" },
-    { id:"a2", text:"If my anxiety could speak in one sentence today, it would say…", tags:["anxious","notice","kindness"], depth:"surface" },
-    { id:"a3", text:"In my body, anxiety feels like… and this sensation reminds me of…", tags:["anxious","calm"], depth:"medium" },
-    { id:"a4", text:"What am I afraid will happen, and what is one other possible outcome I usually don't consider?", tags:["anxious","untangle"], depth:"medium" },
-    { id:"a5", text:"If I spoke to myself like a friend who felt this way, I would say…", tags:["anxious","kindness"], depth:"surface" },
-    { id:"a6", text:"One worry I'm willing to gently postpone for 24 hours, just as an experiment, is…", tags:["anxious","calm"], depth:"surface" },
-    // OVERWHELM / BURNOUT
-    { id:"o1", text:"Today, '10% less pressure' would look like…", tags:["overwhelmed","kindness"], depth:"surface" },
-    { id:"o2", text:"Right now, my world feels too full of… and not full enough of…", tags:["overwhelmed","notice"], depth:"medium" },
-    { id:"o3", text:"Three small things I can lower my standards on, just for today, are…", tags:["overwhelmed","calm"], depth:"surface" },
-    { id:"o4", text:"If I didn't have to be 'on' for anyone for the next hour, I would…", tags:["overwhelmed","kindness"], depth:"medium" },
-    // NUMB / CHECKED OUT
-    { id:"n1", text:"If I gently check in under the numbness, I notice I might be feeling…", tags:["numb","notice"], depth:"surface" },
-    { id:"n2", text:"Right now, the easiest thing for me to notice with my senses is…", tags:["numb","calm"], depth:"surface" },
-    { id:"n3", text:"If my numbness could speak, it might say it's trying to protect me from…", tags:["numb","kindness"], depth:"medium" },
-    // LOW / HEAVY
-    { id:"l1", text:"When I look back, I can see that I've already survived…", tags:["low","kindness"], depth:"surface" },
-    { id:"l2", text:"If today didn't have to be a 'good' day, only an 'enough' day, it would look like…", tags:["low","calm"], depth:"surface" },
-    { id:"l3", text:"One tiny thing that feels even slightly steady in my life right now is…", tags:["low","notice"], depth:"surface" },
-    // OKAY / TENSE
-    { id:"ok1", text:"Right now, the part of my life that feels most tangled is…", tags:["okay","untangle"], depth:"medium" },
-    { id:"ok2", text:"If I zoom out and look at this week as a whole, I notice…", tags:["okay","notice"], depth:"medium" },
-    { id:"ok3", text:"If I gave myself permission not to fix everything today, I might…", tags:["okay","kindness"], depth:"surface" }
+    // ANXIOUS + calm
+    { id:"a1",  text:"Right now, the loudest worry in my mind is\u2026 and one small thing that might help me feel even 5% steadier is\u2026", tags:["anxious","calm"], depth:"surface" },
+    { id:"a2",  text:"One worry I am willing to gently set aside for the next 24 hours, just as an experiment, is\u2026", tags:["anxious","calm"], depth:"surface" },
+    { id:"a3",  text:"In my body, anxiety feels like\u2026 and if I could speak to that sensation kindly, I would say\u2026", tags:["anxious","calm"], depth:"medium" },
+    { id:"a4",  text:"My nervous system is asking for\u2026 and one tiny thing I can offer it in the next 10 minutes is\u2026", tags:["anxious","calm"], depth:"surface" },
+    // ANXIOUS + untangle
+    { id:"a5",  text:"The worry that is taking up the most space right now is\u2026 and when I look at it honestly, what I am actually afraid of is\u2026", tags:["anxious","untangle"], depth:"medium" },
+    { id:"a6",  text:"What am I afraid will happen? And what is one other possible outcome I usually do not let myself consider?", tags:["anxious","untangle"], depth:"medium" },
+    { id:"a7",  text:"If I could separate the facts of this situation from the stories I am telling myself about it, the facts would be\u2026 and the stories would be\u2026", tags:["anxious","untangle"], depth:"deeper" },
+    { id:"a8",  text:"The anxiety I am feeling right now seems to be about\u2026 but underneath that, it might also be about\u2026", tags:["anxious","untangle"], depth:"medium" },
+    // ANXIOUS + kindness
+    { id:"a9",  text:"If a close friend came to me feeling exactly as I do right now, I would tell them\u2026", tags:["anxious","kindness"], depth:"surface" },
+    { id:"a10", text:"If my anxiety could speak in one sentence today, it would say\u2026 and the kindest response I could offer it is\u2026", tags:["anxious","kindness"], depth:"surface" },
+    { id:"a11", text:"Something I am giving myself a hard time for right now is\u2026 and what I would say to someone I love in the same situation is\u2026", tags:["anxious","kindness"], depth:"medium" },
+    // ANXIOUS + notice
+    { id:"a12", text:"Right now, without trying to fix anything, I notice my body feels\u2026 my thoughts are\u2026 and the one feeling underneath everything is\u2026", tags:["anxious","notice"], depth:"surface" },
+    { id:"a13", text:"When I sit with this anxiety quietly for a moment, what I notice is\u2026 and what it might need from me is\u2026", tags:["anxious","notice"], depth:"medium" },
+    // OVERWHELMED + calm
+    { id:"o1",  text:"Today, having 10% less pressure on myself would look like\u2026", tags:["overwhelmed","calm"], depth:"surface" },
+    { id:"o2",  text:"Three things I can lower my standards on, just for today, are\u2026", tags:["overwhelmed","calm"], depth:"surface" },
+    { id:"o3",  text:"If I did not have to be \u2018on\u2019 for anyone for the next hour, I would\u2026", tags:["overwhelmed","calm"], depth:"surface" },
+    { id:"o4",  text:"The one thing I most need to set down today, even briefly, is\u2026", tags:["overwhelmed","calm"], depth:"surface" },
+    // OVERWHELMED + untangle
+    { id:"o5",  text:"My world right now feels too full of\u2026 and not full enough of\u2026", tags:["overwhelmed","untangle"], depth:"medium" },
+    { id:"o6",  text:"If I had to identify the single biggest source of overwhelm right now, it would be\u2026 and one small part of that I actually have some control over is\u2026", tags:["overwhelmed","untangle"], depth:"medium" },
+    { id:"o7",  text:"What is truly mine to carry right now, and what might I be holding that belongs to someone or something else?", tags:["overwhelmed","untangle"], depth:"deeper" },
+    // OVERWHELMED + kindness
+    { id:"o8",  text:"I have been pushing myself hard lately, and if I spoke to myself with the gentleness I would offer a close friend, I would say\u2026", tags:["overwhelmed","kindness"], depth:"surface" },
+    { id:"o9",  text:"One way I have been coping that I want to quietly acknowledge, even if it felt imperfect, is\u2026", tags:["overwhelmed","kindness"], depth:"surface" },
+    // OVERWHELMED + notice
+    { id:"o10", text:"Without trying to fix anything, I want to notice that lately I have been feeling\u2026 and my body is telling me\u2026 and what I suspect I truly need is\u2026", tags:["overwhelmed","notice"], depth:"medium" },
+    { id:"o11", text:"If I zoom out and look at this week as a whole, what I notice is\u2026 and what that tells me about myself is\u2026", tags:["overwhelmed","notice"], depth:"medium" },
+    // NUMB + calm
+    { id:"n1",  text:"Right now, the easiest thing for me to notice with my senses is\u2026", tags:["numb","calm"], depth:"surface" },
+    { id:"n2",  text:"One very small, low-effort thing that has ever helped me feel slightly more present is\u2026 and I could try that today because\u2026", tags:["numb","calm"], depth:"surface" },
+    // NUMB + untangle
+    { id:"n3",  text:"If I gently check in under the numbness, I notice I might be feeling\u2026 about\u2026", tags:["numb","untangle"], depth:"surface" },
+    { id:"n4",  text:"The last time I felt genuinely present or alive in a small way was\u2026 and what was happening then was\u2026", tags:["numb","untangle"], depth:"medium" },
+    // NUMB + kindness
+    { id:"n5",  text:"If my numbness could speak, it might say it is trying to protect me from\u2026 and the kindest thing I can say back is\u2026", tags:["numb","kindness"], depth:"medium" },
+    { id:"n6",  text:"Going numb can be a form of self-protection. What might my mind and body have been shielding me from lately?", tags:["numb","kindness"], depth:"deeper" },
+    // NUMB + notice
+    { id:"n7",  text:"Without pressure to feel anything in particular, I want to gently notice: somewhere in my body right now there is\u2026 and that might be trying to tell me\u2026", tags:["numb","notice"], depth:"surface" },
+    { id:"n8",  text:"If I imagine what I might feel if the numbness lifted slightly, the first feeling underneath might be\u2026", tags:["numb","notice"], depth:"medium" },
+    // LOW + calm
+    { id:"l1",  text:"If today did not have to be a good day, only an \u2018enough\u2019 day, it would look like\u2026", tags:["low","calm"], depth:"surface" },
+    { id:"l2",  text:"One very small, gentle comfort that is available to me right now is\u2026", tags:["low","calm"], depth:"surface" },
+    { id:"l3",  text:"What would \u2018doing less and being kinder to myself today\u2019 actually look like in practice?", tags:["low","calm"], depth:"surface" },
+    // LOW + untangle
+    { id:"l4",  text:"The heaviness I am feeling today seems to be connected to\u2026 and if I follow that thread a little further, what I find is\u2026", tags:["low","untangle"], depth:"deeper" },
+    { id:"l5",  text:"Something that has been sitting with me lately that I have not yet allowed myself to fully feel is\u2026", tags:["low","untangle"], depth:"medium" },
+    // LOW + kindness
+    { id:"l6",  text:"When I look back, I can see that I have already survived\u2026", tags:["low","kindness"], depth:"surface" },
+    { id:"l7",  text:"If I could speak to myself the way I would speak to someone I truly love who was feeling this low, I would say\u2026", tags:["low","kindness"], depth:"surface" },
+    { id:"l8",  text:"Even on a day like today, one small thing that shows I am still trying is\u2026", tags:["low","kindness"], depth:"surface" },
+    // LOW + notice
+    { id:"l9",  text:"One thing that feels even slightly steady or unchanged in my life right now is\u2026", tags:["low","notice"], depth:"surface" },
+    { id:"l10", text:"Without trying to change how I feel, I want to describe today honestly: the color it feels like is\u2026 the weight of it is\u2026 and a single word that captures it is\u2026", tags:["low","notice"], depth:"surface" },
+    // OKAY + calm
+    { id:"ok1", text:"Something I can do in the next hour to be kind to my nervous system is\u2026", tags:["okay","calm"], depth:"surface" },
+    { id:"ok2", text:"One small way I could create a little more ease in my day today is\u2026", tags:["okay","calm"], depth:"surface" },
+    // OKAY + untangle
+    { id:"ok3", text:"The part of my life that feels most tangled right now is\u2026 and one small thread I could pull on is\u2026", tags:["okay","untangle"], depth:"medium" },
+    { id:"ok4", text:"Something I have been avoiding thinking about clearly is\u2026 and what I think I actually know, if I am honest, is\u2026", tags:["okay","untangle"], depth:"deeper" },
+    { id:"ok5", text:"A decision or situation I keep circling without resolving is\u2026 and the main thing holding me back is\u2026", tags:["okay","untangle"], depth:"medium" },
+    // OKAY + kindness
+    { id:"ok6", text:"If I gave myself permission not to fix or improve anything today, I might allow myself to\u2026", tags:["okay","kindness"], depth:"surface" },
+    { id:"ok7", text:"Something I have done recently that deserves quiet acknowledgment, even if it felt small, is\u2026", tags:["okay","kindness"], depth:"surface" },
+    // OKAY + notice
+    { id:"ok8", text:"If I zoom out and look at this week or month as a whole, what I notice is\u2026", tags:["okay","notice"], depth:"medium" },
+    { id:"ok9", text:"One pattern I keep noticing in how I feel or how I respond to things right now is\u2026 and I am curious whether it is serving me because\u2026", tags:["okay","notice"], depth:"deeper" },
+    { id:"ok10",text:"Right now, without agenda, what I honestly notice about where I am in life is\u2026", tags:["okay","notice"], depth:"surface" }
   ];
 
   var RITUALS = [
-    { id:"r1", type:"Before you write", text:"Place your feet flat on the floor if you can. Feel the weight of your body being held. Take three soft breaths, letting your exhale be a little longer than your inhale.", tags:["calm","anxious","overwhelmed"] },
-    { id:"r2", type:"Before you write", text:"Look around and silently name five things you can see, four things you can touch, and three sounds you can hear. There is no need to do this perfectly.", tags:["calm","numb","low"] },
-    { id:"r3", type:"After you write", text:"Close your notebook (or tab) slowly. Place a hand on your chest, if that feels okay, and say to yourself: "Thank you for checking in, even for a moment."", tags:["kindness"] },
-    { id:"r4", type:"After you write", text:"Choose one small comfort, like a sip of water, stretching your shoulders, or opening a window, and do it on purpose as a gentle way to close this check-in.", tags:["calm","overwhelmed"] },
-    { id:"r5", type:"Before you write", text:"Decide roughly how long you want to write (for example, 3 minutes or half a page). Remind yourself you're allowed to stop when you reach that limit.", tags:["anxious","overwhelmed","notice"] }
+    { id:"r1",  type:"Before you write", text:"Place your feet flat on the floor. Feel the weight of your body being held. Take three slow breaths and let your exhale be a little longer than your inhale." },
+    { id:"r2",  type:"Before you write", text:"Look around and quietly name five things you can see, four you can touch, and three sounds you can hear. There is no need to do this perfectly." },
+    { id:"r3",  type:"After you write",  text:"Close your notebook or tab gently. Place a hand on your chest and say quietly: \u2018Thank you for checking in, even for a moment.\u2019" },
+    { id:"r4",  type:"After you write",  text:"Choose one small comfort, a sip of water, a slow shoulder roll, or a breath of fresh air, and do it on purpose as a gentle way to close." },
+    { id:"r5",  type:"Before you write", text:"Decide roughly how long you want to write, for example 5 minutes or half a page, and remind yourself you are allowed to stop when you reach that limit." },
+    { id:"r6",  type:"Before you write", text:"Place one hand gently on your chest or belly. Notice the warmth and feel your breath move underneath it. Stay here for three slow breaths before you begin." },
+    { id:"r7",  type:"Before you write", text:"Take one slow breath in and, as you exhale, let your shoulders drop and your jaw soften. You do not have to hold anything right now." },
+    { id:"r8",  type:"After you write",  text:"Read back the last sentence you wrote, slowly, as if reading it to someone you care about. Notice how it sounds with a little distance." },
+    { id:"r9",  type:"After you write",  text:"Write one closing sentence to yourself before you stop, something kind or simply honest, like \u2018this is enough\u2019 or \u2018I was here today.\u2019" },
+    { id:"r10", type:"Before you write", text:"Scan your body from head to feet, just noticing, not fixing. Notice where there is tension, warmth, or numbness, and let that awareness be your anchor." },
+    { id:"r11", type:"Before you write", text:"Take a slow sip of something warm or cold. Really notice the temperature and taste. Use that small sensory moment to arrive before you start." },
+    { id:"r12", type:"After you write",  text:"Gently stretch your arms, roll your neck, or step to a window. Let your body complete the session, not just your mind." },
+    { id:"r13", type:"Before you write", text:"Breathe in for four counts, hold for four, and breathe out for six or eight counts. Do this twice. A longer exhale signals safety to your nervous system." },
+    { id:"r14", type:"After you write",  text:"Name one very small, concrete thing you will do after this to care for yourself, even something as tiny as making tea or stepping outside." },
+    { id:"r15", type:"Before you write", text:"Bring to mind one person, place, or moment that feels safe or steady. Hold it gently for a few breaths before you begin." }
   ];
 
   var BOUNDARIES = [
-    { id:"b1", text:"You only need to write about today or this week. You do not have to revisit old memories unless you choose to, and it's okay to keep things brief.", tags:["anxious","overwhelmed"] },
-    { id:"b2", text:"If you notice yourself feeling more agitated or flooded as you write, you're allowed to pause or stop. Listening to your limits is part of this practice.", tags:["anxious","low","numb"] },
-    { id:"b3", text:"This is a space for gentle check-ins, not for solving everything at once. You're welcome to come back to the same question on another day.", tags:["overwhelmed","okay"] },
-    { id:"b4", text:"Journaling can support you, but it is not a replacement for therapy or crisis support. If you're in significant distress, please reach out to a trusted person or professional.", tags:["all"] }
+    { id:"b1", text:"You only need to write about today or this week. You do not have to revisit old memories unless you choose to, and it is always okay to keep things brief." },
+    { id:"b2", text:"If you notice yourself feeling more activated, flooded, or spiralling as you write, you are allowed to pause or stop. Listening to your limits is part of this practice." },
+    { id:"b3", text:"This is a space for gentle check-ins, not for solving everything at once. You are welcome to come back to the same question on another day." },
+    { id:"b4", text:"Journaling can be a support, but it is not a replacement for therapy when things are difficult. If you are in significant distress, please reach out to someone who can help." },
+    { id:"b5", text:"You do not have to write in complete sentences or make this sound good. The truth matters more than the presentation, and even a few honest words are enough." },
+    { id:"b6", text:"If a prompt does not fit today, you are allowed to ignore it and simply write what is actually present for you. The prompt is an invitation, not a rule." },
+    { id:"b7", text:"Whatever you write here is for you. You do not have to share it, explain it, or justify it to anyone, including yourself." },
+    { id:"b8", text:"You are not required to reach a conclusion, find a lesson, or feel better by the end. Sometimes just naming what is true is enough for today." }
   ];
 
-  var RECENT_KEY = "jfw_gentle_companion_recent_v1";
+  var AFFIRMATIONS = {
+    anxious:     ["It is okay to feel anxious. You do not have to be calm to be okay.", "You are allowed to be unsettled right now. You do not have to fix it to begin.", "Something in you reached for reflection anyway. That is a quiet act of courage."],
+    overwhelmed: ["You do not have to carry all of this perfectly. You are doing more than enough.", "Pausing here is not weakness. It is wisdom your body is asking for.", "Even overwhelmed, you showed up. That matters."],
+    numb:        ["Numbness is not absence. Something underneath is still here with you.", "You do not have to feel everything to check in. Whatever is here is enough.", "You came even when nothing felt worth coming for. That is its own kind of steadiness."],
+    low:         ["Heavy days are part of being human. You are not failing them. You are in them.", "You do not have to feel better to deserve care. You deserve it now, as you are.", "Coming here on a hard day is an act of gentleness toward yourself."],
+    okay:        ["Even on an ordinary day, checking in with yourself is a quiet kindness.", "You do not have to be in crisis to tend to yourself. A calm day is the right time too.", "Noticing how you are, when things are simply okay, builds resilience for the harder days."]
+  };
 
-  // ── DOM refs ──────────────────────────────────────────────────────────────
-  var moodSelect   = document.getElementById("gjc-mood");
-  var energySelect = document.getElementById("gjc-energy");
-  var goalSelect   = document.getElementById("gjc-goal");
-  var generateBtn  = document.getElementById("gjc-generate-btn");
-  var anotherBtn   = document.getElementById("gjc-another-btn");
-  var outputCard   = document.getElementById("gjc-output-card");
-  var promptText   = document.getElementById("gjc-prompt-text");
-  var ritualText   = document.getElementById("gjc-ritual-text");
-  var ritualType   = document.getElementById("gjc-ritual-type");
-  var boundaryText = document.getElementById("gjc-boundary-text");
-  var tagsChip     = document.getElementById("gjc-tags-chip");
-  var copyBtn      = document.getElementById("gjc-copy-btn");
-  var resetBtn     = document.getElementById("gjc-reset-btn");
-  var statusMsg    = document.getElementById("gjc-status-msg");
-  var recentCard   = document.getElementById("gjc-recent-card");
-  var recentList   = document.getElementById("gjc-recent-list");
+  var RECENT_KEY = "jfw_gentle_companion_recent_v2";
+  var SAVED_KEY  = "jfw_gentle_companion_saved_v2";
 
-  // ── Helpers ───────────────────────────────────────────────────────────────
-  function pick(arr) {
-    return arr[Math.floor(Math.random() * arr.length)];
+  // DOM refs
+  var moodSelect       = document.getElementById("gjc-mood");
+  var energySelect     = document.getElementById("gjc-energy");
+  var goalSelect       = document.getElementById("gjc-goal");
+  var generateBtn      = document.getElementById("gjc-generate-btn");
+  var anotherBtn       = document.getElementById("gjc-another-btn");
+  var outputCard       = document.getElementById("gjc-output-card");
+  var promptText       = document.getElementById("gjc-prompt-text");
+  var ritualText       = document.getElementById("gjc-ritual-text");
+  var ritualType       = document.getElementById("gjc-ritual-type");
+  var boundaryText     = document.getElementById("gjc-boundary-text");
+  var tagsChip         = document.getElementById("gjc-tags-chip");
+  var affirmationEl    = document.getElementById("gjc-affirmation");
+  var copyBtn          = document.getElementById("gjc-copy-btn");
+  var saveBtn          = document.getElementById("gjc-save-btn");
+  var resetBtn         = document.getElementById("gjc-reset-btn");
+  var statusMsg        = document.getElementById("gjc-status-msg");
+  var recentCard       = document.getElementById("gjc-recent-card");
+  var recentList       = document.getElementById("gjc-recent-list");
+  var savedList        = document.getElementById("gjc-saved-list");
+  var savedEmpty       = document.getElementById("gjc-saved-empty");
+  var clearSavedBtn    = document.getElementById("gjc-clear-saved-btn");
+  var responseTextarea = document.getElementById("gjc-response-textarea");
+  var charCount        = document.getElementById("gjc-char-count");
+  var streakDaysEl     = document.getElementById("gjc-streak-days");
+  var streakCountEl    = document.getElementById("gjc-streak-count");
+
+  // Timer
+  var timerMins     = 5;
+  var timerSeconds  = 300;
+  var timerInterval = null;
+  var timerRunning  = false;
+  var timerDisplay  = document.getElementById("gjc-timer-display");
+  var timerStartBtn = document.getElementById("gjc-timer-start-btn");
+
+  function formatTime(s) { return Math.floor(s/60) + ":" + (s%60<10?"0":"") + (s%60); }
+
+  function resetTimer(mins) {
+    clearInterval(timerInterval);
+    timerRunning = false;
+    timerMins    = mins;
+    timerSeconds = mins * 60;
+    timerDisplay.textContent  = formatTime(timerSeconds);
+    timerDisplay.style.color  = "";
+    timerStartBtn.textContent = "Start";
+    timerStartBtn.classList.remove("gjc-running");
   }
 
-  function choosePrompt(mood, energy, goal, excludeId) {
-    var depthOk = energy === "tiny" ? ["surface"] : ["surface", "medium"];
-    var pool = PROMPTS.filter(function(p) {
-      if (excludeId && p.id === excludeId) return false;
-      return depthOk.indexOf(p.depth) > -1 &&
-             (p.tags.indexOf(mood) > -1 || p.tags.indexOf("okay") > -1) &&
-             p.tags.indexOf(goal) > -1;
+  document.querySelectorAll(".gjc-timer-btn-sm").forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      document.querySelectorAll(".gjc-timer-btn-sm").forEach(function(b){ b.classList.remove("gjc-timer-active"); });
+      btn.classList.add("gjc-timer-active");
+      resetTimer(parseInt(btn.dataset.mins, 10));
     });
-    if (!pool.length) pool = PROMPTS.filter(function(p) { return p.tags.indexOf(mood) > -1; });
+  });
+
+  timerStartBtn.addEventListener("click", function() {
+    if (timerRunning) {
+      clearInterval(timerInterval);
+      timerRunning              = false;
+      timerStartBtn.textContent = "Resume";
+      timerStartBtn.classList.remove("gjc-running");
+    } else {
+      if (timerSeconds <= 0) resetTimer(timerMins);
+      timerRunning              = true;
+      timerStartBtn.textContent = "Pause";
+      timerStartBtn.classList.add("gjc-running");
+      timerInterval = setInterval(function() {
+        timerSeconds--;
+        timerDisplay.textContent = formatTime(timerSeconds);
+        if (timerSeconds <= 0) {
+          clearInterval(timerInterval);
+          timerRunning              = false;
+          timerStartBtn.textContent = "Done \u2713";
+          timerStartBtn.classList.remove("gjc-running");
+          timerDisplay.style.color  = "#68d391";
+        }
+      }, 1000);
+    }
+  });
+
+  // Word count
+  responseTextarea.addEventListener("input", function() {
+    var w = responseTextarea.value.trim().split(/\s+/).filter(Boolean).length;
+    charCount.textContent = w + (w === 1 ? " word" : " words");
+  });
+
+  // Helpers
+  function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+  function choosePrompt(mood, energy, goal, excludeId) {
+    var depthOk = energy === "tiny" ? ["surface"] : (energy === "small" ? ["surface","medium"] : ["surface","medium","deeper"]);
+    var pool = PROMPTS.filter(function(p) {
+      return p.id !== excludeId && p.tags.indexOf(mood) > -1 && p.tags.indexOf(goal) > -1 && depthOk.indexOf(p.depth) > -1;
+    });
+    if (!pool.length) pool = PROMPTS.filter(function(p) { return p.id !== excludeId && p.tags.indexOf(mood) > -1 && p.tags.indexOf(goal) > -1; });
+    if (!pool.length) pool = PROMPTS.filter(function(p) { return p.id !== excludeId && p.tags.indexOf(mood) > -1; });
+    if (!pool.length) pool = PROMPTS.filter(function(p) { return p.id !== excludeId; });
     if (!pool.length) pool = PROMPTS;
     return pick(pool);
   }
 
-  function chooseRitual(mood, goal) {
-    var pool = RITUALS.filter(function(r) {
-      return r.tags.indexOf(mood) > -1 || r.tags.indexOf(goal) > -1;
-    });
-    return pick(pool.length ? pool : RITUALS);
-  }
+  function moodLabel(v)   { return {anxious:"Anxious",overwhelmed:"Overwhelmed",numb:"Numb",low:"Low",okay:"Mostly okay"}[v]||v; }
+  function goalLabel(v)   { return {calm:"Calm my body",untangle:"Untangle a worry",kindness:"Self-kindness",notice:"Just notice"}[v]||v; }
+  function energyLabel(v) { return {tiny:"A sentence or two",small:"About 5 min",deeper:"10+ min"}[v]||v; }
 
-  function chooseBoundary(mood) {
-    var pool = BOUNDARIES.filter(function(b) {
-      return b.tags.indexOf(mood) > -1 || b.tags.indexOf("all") > -1;
-    });
-    return pick(pool.length ? pool : BOUNDARIES);
-  }
+  // localStorage
+  function loadData(key)        { try { return JSON.parse(localStorage.getItem(key))||[]; } catch(e){ return []; } }
+  function saveData(key, data)  { try { localStorage.setItem(key, JSON.stringify(data)); } catch(e){} }
 
-  function moodLabel(v) {
-    return { anxious:"Anxious", overwhelmed:"Overwhelmed", numb:"Numb", low:"Low", okay:"Mostly okay" }[v] || v;
-  }
-  function goalLabel(v) {
-    return { calm:"Calm my body", untangle:"Untangle a worry", kindness:"Self-kindness", notice:"Just notice" }[v] || v;
-  }
-  function energyLabel(v) {
-    return { tiny:"1–2 lines", small:"About 5 min", deeper:"10+ min" }[v] || v;
-  }
-
-  // ── Recent ────────────────────────────────────────────────────────────────
-  function loadRecent() {
-    try { return JSON.parse(localStorage.getItem(RECENT_KEY)) || []; } catch(e) { return []; }
-  }
-
+  // Recent
   function saveRecent(mood, energy, goal, promptId) {
-    var list = loadRecent();
-    list.unshift({ timestamp: Date.now(), mood: mood, energy: energy, goal: goal, promptId: promptId });
-    list = list.slice(0, 5);
-    try { localStorage.setItem(RECENT_KEY, JSON.stringify(list)); } catch(e) {}
+    var list = loadData(RECENT_KEY);
+    list.unshift({ timestamp: Date.now(), mood:mood, energy:energy, goal:goal, promptId:promptId });
+    list = list.slice(0,10);
+    saveData(RECENT_KEY, list);
     renderRecent();
+    renderStreak();
   }
 
   function renderRecent() {
-    var list = loadRecent();
-    if (!list.length) { recentCard.style.display = "none"; return; }
-    recentCard.style.display = "block";
+    var list = loadData(RECENT_KEY);
+    if (!list.length) { document.getElementById("gjc-recent-card").style.display = "none"; return; }
+    document.getElementById("gjc-recent-card").style.display = "block";
     recentList.innerHTML = "";
-    list.forEach(function(entry) {
+    list.slice(0,7).forEach(function(entry) {
       var li = document.createElement("li");
       var d  = new Date(entry.timestamp);
-      var ts = d.toLocaleString(undefined, { month:"short", day:"numeric", hour:"numeric", minute:"2-digit" });
-      li.innerHTML =
-        '<span class="gjc-recent-tag">' + moodLabel(entry.mood) + '</span>' +
-        '<strong>' + goalLabel(entry.goal) + '</strong>' +
-        ' &bull; ' + energyLabel(entry.energy) +
-        ' <span style="color:#b09bcf;">&bull; ' + ts + '</span>';
+      var ts = d.toLocaleString(undefined, {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+      li.innerHTML = '<span class="gjc-recent-tag">'+moodLabel(entry.mood)+'</span><strong>'+goalLabel(entry.goal)+'</strong> &bull; '+energyLabel(entry.energy)+' <span style="color:#c4b5fd;">&bull; '+ts+'</span>';
       recentList.appendChild(li);
     });
   }
 
-  // ── Generate ──────────────────────────────────────────────────────────────
+  // Saved
+  function escHtml(s) { return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+  function renderSaved() {
+    var list = loadData(SAVED_KEY);
+    if (!list.length) {
+      savedEmpty.style.display    = "block";
+      savedList.innerHTML         = "";
+      clearSavedBtn.style.display = "none";
+      return;
+    }
+    savedEmpty.style.display    = "none";
+    clearSavedBtn.style.display = "inline-flex";
+    savedList.innerHTML = "";
+    list.forEach(function(entry) {
+      var d   = new Date(entry.timestamp);
+      var ts  = d.toLocaleString(undefined, {weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+      var div = document.createElement("div");
+      div.className = "gjc-saved-entry";
+      div.innerHTML =
+        '<div class="gjc-saved-meta">'+
+          '<span class="gjc-saved-tag">'+moodLabel(entry.mood)+'</span>'+
+          '<span class="gjc-saved-tag" style="background:#e6f4ea;color:#276749;">'+goalLabel(entry.goal)+'</span>'+
+          '<span class="gjc-saved-time">'+ts+'</span>'+
+        '</div>'+
+        '<div class="gjc-saved-prompt-text">\u201c'+escHtml(entry.promptText)+'\u201d</div>'+
+        (entry.responseText
+          ? '<div class="gjc-saved-response">'+escHtml(entry.responseText)+'</div>'
+          : '<div style="font-size:0.8rem;color:#c4b5fd;font-style:italic;">No written response saved.</div>');
+      savedList.appendChild(div);
+    });
+  }
+
+  saveBtn.addEventListener("click", function() {
+    var list  = loadData(SAVED_KEY);
+    list.unshift({ timestamp:Date.now(), mood:moodSelect.value, energy:energySelect.value, goal:goalSelect.value, promptText:promptText.textContent, responseText:responseTextarea.value.trim() });
+    list = list.slice(0,20);
+    saveData(SAVED_KEY,list);
+    renderSaved();
+    renderStreak();
+    statusMsg.textContent = "Entry saved. Find it in \u201cYour saved entries\u201d below.";
+    statusMsg.className   = "gjc-status success";
+    setTimeout(function(){ if(statusMsg.className==="gjc-status success") statusMsg.textContent=""; }, 4000);
+  });
+
+  clearSavedBtn.addEventListener("click", function() {
+    if (!confirm("This will permanently delete all saved entries. Are you sure?")) return;
+    saveData(SAVED_KEY,[]);
+    renderSaved();
+    renderStreak();
+  });
+
+  // Streak
+  function renderStreak() {
+    var today    = new Date();
+    var day      = today.getDay();
+    var monday   = new Date(today);
+    monday.setDate(today.getDate() - ((day+6)%7));
+    monday.setHours(0,0,0,0);
+    var active   = new Set();
+    var todayKey = today.getFullYear()+"-"+today.getMonth()+"-"+today.getDate();
+    loadData(RECENT_KEY).concat(loadData(SAVED_KEY)).forEach(function(e){
+      var d = new Date(e.timestamp);
+      active.add(d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate());
+    });
+    var dayNames = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+    var count = 0;
+    streakDaysEl.innerHTML = "";
+    for (var i=0; i<7; i++) {
+      var d      = new Date(monday);
+      d.setDate(monday.getDate()+i);
+      var key    = d.getFullYear()+"-"+d.getMonth()+"-"+d.getDate();
+      var isDone = active.has(key);
+      var isToday = key === todayKey;
+      if (isDone) count++;
+      var dot    = document.createElement("div");
+      dot.className = "gjc-day-dot";
+      var lbl    = document.createElement("span");
+      lbl.textContent = dayNames[i];
+      var circle = document.createElement("div");
+      circle.className = "gjc-day-circle"+(isDone?" gjc-day-active":(isToday?" gjc-day-today":""));
+      circle.textContent = isDone ? "\u2713" : "";
+      dot.appendChild(lbl);
+      dot.appendChild(circle);
+      streakDaysEl.appendChild(dot);
+    }
+    streakCountEl.textContent = count > 0 ? count+(count===1?" day this week":" days this week") : "";
+  }
+
+  // Copy
+  copyBtn.addEventListener("click", function() {
+    var resp = responseTextarea.value.trim();
+    var text = "Gentle journaling check-in\n\nPrompt:\n"+promptText.textContent+"\n\nYour ritual ("+ritualType.textContent+"):\n"+ritualText.textContent+"\n\nGentle boundary:\n"+boundaryText.textContent+(resp?"\n\nMy response:\n"+resp:"")+"\n";
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function(){ statusMsg.textContent="Copied to clipboard."; statusMsg.className="gjc-status success"; }).catch(function(){ fallbackCopy(text); });
+    } else { fallbackCopy(text); }
+  });
+
+  function fallbackCopy(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.style.cssText = "position:fixed;top:-9999px;opacity:0;";
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); statusMsg.textContent="Copied."; statusMsg.className="gjc-status success"; }
+    catch(e) { statusMsg.textContent="Could not copy automatically \u2014 please select and copy the text manually."; statusMsg.className="gjc-status error"; }
+    document.body.removeChild(ta);
+  }
+
+  // Reset
+  resetBtn.addEventListener("click", function() {
+    outputCard.style.display = "none";
+    statusMsg.textContent    = "";
+    statusMsg.className      = "gjc-status";
+    anotherBtn.disabled      = true;
+    responseTextarea.value   = "";
+    charCount.textContent    = "0 words";
+    resetTimer(timerMins);
+  });
+
+  // Toggles
+  document.getElementById("gjc-saved-toggle").addEventListener("click", function() {
+    var w = document.getElementById("gjc-saved-list-wrap");
+    var h = w.style.display === "none";
+    w.style.display  = h ? "block" : "none";
+    this.textContent = h ? "Hide \u25b2" : "Show \u25bc";
+  });
+  document.getElementById("gjc-recent-toggle").addEventListener("click", function() {
+    var w = document.getElementById("gjc-recent-list-wrap");
+    var h = w.style.display === "none";
+    w.style.display  = h ? "block" : "none";
+    this.textContent = h ? "Hide \u25b2" : "Show \u25bc";
+  });
+
+  // Generate
   var lastPromptId = null;
 
   function generatePrompt(avoidLast) {
     var mood   = moodSelect.value;
     var energy = energySelect.value;
     var goal   = goalSelect.value;
-
-    var prompt   = choosePrompt(mood, energy, goal, avoidLast ? lastPromptId : null);
-    var ritual   = chooseRitual(mood, goal);
-    var boundary = chooseBoundary(mood);
-
+    var prompt  = choosePrompt(mood, energy, goal, avoidLast ? lastPromptId : null);
+    var ritual  = pick(RITUALS);
+    var boundary= pick(BOUNDARIES);
+    var affirms = AFFIRMATIONS[mood] || AFFIRMATIONS["okay"];
+    var affirm  = pick(affirms);
     lastPromptId = prompt.id;
 
     promptText.textContent   = prompt.text;
     ritualText.textContent   = ritual.text;
     ritualType.textContent   = ritual.type;
     boundaryText.textContent = boundary.text;
-    tagsChip.textContent     = moodLabel(mood) + " \u2022 " + goalLabel(goal) + " \u2022 " + energyLabel(energy);
+    tagsChip.textContent     = moodLabel(mood) + " \u00b7 " + goalLabel(goal) + " \u00b7 " + energyLabel(energy);
+    affirmationEl.textContent= affirm;
+    affirmationEl.style.display = "block";
+
+    responseTextarea.value   = "";
+    charCount.textContent    = "0 words";
+    resetTimer(timerMins);
 
     outputCard.style.display = "block";
     statusMsg.textContent    = "";
+    statusMsg.className      = "gjc-status";
     anotherBtn.disabled      = false;
 
     saveRecent(mood, energy, goal, prompt.id);
-    outputCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    outputCard.scrollIntoView({ behavior:"smooth", block:"nearest" });
   }
 
-  // ── Events ────────────────────────────────────────────────────────────────
   generateBtn.addEventListener("click", function() { generatePrompt(false); });
-  anotherBtn.addEventListener("click",  function() { generatePrompt(true);  });
-
-  copyBtn.addEventListener("click", function() {
-    var text =
-      "Gentle journaling check-in\n\n" +
-      "Prompt:\n" + promptText.textContent + "\n\n" +
-      "Your ritual (" + ritualType.textContent + "):\n" + ritualText.textContent + "\n\n" +
-      "Gentle boundary:\n" + boundaryText.textContent + "\n";
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function() {
-        statusMsg.textContent = "Copied to your clipboard. You can paste it into your journal or notes app.";
-        statusMsg.classList.remove("error");
-      }).catch(function() {
-        statusMsg.textContent = "Could not access clipboard. You can select and copy the text manually.";
-        statusMsg.classList.add("error");
-      });
-    } else {
-      statusMsg.textContent = "Could not access clipboard. You can select and copy the text manually.";
-      statusMsg.classList.add("error");
-    }
-  });
-
-  resetBtn.addEventListener("click", function() {
-    outputCard.style.display = "none";
-    statusMsg.textContent    = "";
-    anotherBtn.disabled      = true;
-  });
+  anotherBtn.addEventListener( "click", function() { generatePrompt(true);  });
 
   // Init
   renderRecent();
+  renderSaved();
+  renderStreak();
+
 }());
 </script>
