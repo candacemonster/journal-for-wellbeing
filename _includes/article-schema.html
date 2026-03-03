@@ -15,6 +15,11 @@
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
   },
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.authors[page.author].display_name | default: 'Willow Pages' }}",
+    "url": "{{ site.url }}"
+  },
   "publisher": {
     "@type": "Organization",
     "name": "{{ site.title }}",

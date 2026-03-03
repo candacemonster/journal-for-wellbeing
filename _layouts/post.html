@@ -124,6 +124,35 @@ post_class: post-template
         </div>
       {% endif %}
 
+      <!-- Related Posts -->
+      {% assign related = "" | split: "" %}
+      {% for post in site.posts %}
+        {% if post.url != page.url %}
+          {% assign shared = post.tags | where_exp: "t", "page.tags contains t" %}
+          {% if shared.size > 0 %}
+            {% assign related = related | push: post %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% if related.size > 0 %}
+      <div class="related-posts mt-5 pt-4 border-top">
+        <h4 style="font-family:Lora,Georgia,serif;font-size:1.1rem;font-weight:700;margin-bottom:18px;color:var(--text);">You might also like</h4>
+        <div class="row">
+          {% for rpost in related limit:3 %}
+          <div class="col-md-4 mb-4">
+            <a href="{{ rpost.url | relative_url }}" class="link-dark" style="text-decoration:none;">
+              {% if rpost.image %}
+              <img src="{{ site.baseurl }}/{{ rpost.image }}" alt="{{ rpost.title }}" class="img-fluid mb-2" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover;width:100%;">
+              {% endif %}
+              <div style="font-size:0.88rem;font-weight:600;color:var(--text);line-height:1.4;">{{ rpost.title }}</div>
+              <div style="font-size:0.78rem;color:var(--text-muted);margin-top:4px;">{{ rpost.date | date: "%b %-d, %Y" }}</div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
       <!-- Navigation -->
 {% if page.previous or page.next %}
   <nav class="row PageNavigation d-flex justify-content-between font-weight-bold mt-4" aria-label="Post Navigation">
