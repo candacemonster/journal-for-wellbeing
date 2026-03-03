@@ -27,10 +27,15 @@
   <meta property="og:site_name" content="{{ site.title }}" />
 
   <!-- Twitter Card -->
+  {% if page.image %}
+    {% assign twitter_image = og_image %}
+  {% else %}
+    {% assign twitter_image = site.url | append: '/assets/images/twitter-card.jpg' %}
+  {% endif %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title | default: site.title }}">
   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-  <meta name="twitter:image" content="{{ og_image }}">
+  <meta name="twitter:image" content="{{ twitter_image }}">
   {% if site.twitter_username %}
   <meta name="twitter:site" content="@{{ site.twitter_username }}">
   {% endif %}
