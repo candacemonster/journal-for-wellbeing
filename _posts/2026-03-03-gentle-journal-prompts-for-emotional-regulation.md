@@ -5,8 +5,8 @@ author: willow_pages
 categories: [journal, prompts]
 tags: [emotional-regulation, mental-health, prompts, self-care, mindfulness, expressive-writing]
 image: assets/images/a-book-1975830_1280.jpg
-description: "Emotional regulation is not about forcing yourself to feel better. These 30 gentle journal prompts help you notice what is happening inside, give it language, and expand your options for how to respond — without skipping over what is hard."
-excerpt: "Emotional regulation is not about forcing yourself to feel better. These 30 gentle prompts help you name what is true, explore what you need, and widen your choices — without toxic positivity."
+description: "Emotional regulation is not about forcing yourself to feel better. These 30 gentle journal prompts help you notice what is happening inside, give it language, and expand your options for how to respond, without skipping over what is hard."
+excerpt: "Emotional regulation is not about forcing yourself to feel better. These 30 gentle prompts help you name what is true, explore what you need, and widen your choices, without toxic positivity."
 date: 2026-03-03
 featured: false
 hidden: false

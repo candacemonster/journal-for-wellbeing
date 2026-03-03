@@ -5,7 +5,7 @@ author: willow_pages
 categories: [prompts]
 tags: [healing, reflection, grounding, presence]
 image: https://media.giphy.com/media/1hMdWxlfKh13NOMRvP/giphy.gif
-description: "A grounding prompt: notice what has quietly remained—people, practices, inner parts—that still nourish you."
+description: "A grounding prompt: notice what has quietly remained, people, practices, inner parts, that still nourish you."
 excerpt: "Healing can be a quiet inventory of what’s remained. This prompt invites you to notice the steady, nourishing things still here."
 date: 2025-06-30
 featured: false
@@ -25,7 +25,7 @@ Rather than scanning for what’s missing, try pausing to notice what’s remain
 
 ### Why This Matters
 
-Studies in gratitude and post-traumatic growth (see Dr. Robert Emmons and Dr. Sonja Lyubomirsky) show that focusing on what endures and nourishes—instead of just what’s missing—grounds us and supports resilience.  
+Studies in gratitude and post-traumatic growth (see Dr. Robert Emmons and Dr. Sonja Lyubomirsky) show that focusing on what endures and nourishes, instead of just what’s missing, grounds us and supports resilience.  
 This kind of “continuity journaling” can help us feel less fragmented and more anchored, especially through transitions or losses.
 
 ---
@@ -39,7 +39,7 @@ Let the question expand gently:
 - Which parts of me faded but never disappeared?
 - What has anchored me through change?
 
-Write a list—no need to explain or organize. Include names, objects, sensations, routines. Let the simple act of making an inventory be enough.
+Write a list, no need to explain or organize. Include names, objects, sensations, routines. Let the simple act of making an inventory be enough.
 
 If judgment shows up (“this isn’t deep enough”), breathe. Add one more ordinary thing: a chipped mug, a patch of sun, the dog who always waits. *Healing often hides in the consistent.*
 
@@ -61,4 +61,4 @@ There’s usually more still here than the anxious mind reports.
 
 ---
 
-**What’s still here for you? If you’d like, add a line below—a small, steady thing that’s never quite left.**
+**What’s still here for you? If you’d like, add a line below, a small, steady thing that’s never quite left.**

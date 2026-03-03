@@ -5,8 +5,8 @@ author: willow_pages
 categories: [prompts]
 tags: [healing, reflection, inner-child, self-compassion]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
-description: "Write a letter to a past version of yourself—not to fix them, but to witness them with the tenderness they deserved."
-excerpt: "A raw, compassionate journaling prompt: write to a past self you still carry—offer presence instead of correction."
+description: "Write a letter to a past version of yourself, not to fix them, but to witness them with the tenderness they deserved."
+excerpt: "A raw, compassionate journaling prompt: write to a past self you still carry, and offer presence instead of correction."
 date: 2025-06-13
 featured: false
 hidden: false
@@ -17,7 +17,7 @@ Maybe she still sits in your chest on quiet afternoons.
 Maybe he only shows up when you’re tired.  
 Maybe they drift through old songs or long drives.
 
-**This prompt is an invitation—not to edit their story, but to witness it.**
+**This prompt is an invitation, not to edit their story, but to witness it.**
 
 ---
 
@@ -25,7 +25,7 @@ Maybe they drift through old songs or long drives.
 
 Research in self-compassion and narrative therapy (see Dr. Kristin Neff, Dr. Pennebaker) shows that simply *witnessing* and naming past pain can relieve shame, soften old wounds, and restore self-trust.  
 You’re not rewriting the past.  
-You’re integrating it—telling your earlier self: “You mattered then. You still matter.”
+You’re integrating it, telling your earlier self: “You mattered then. You still matter.”
 
 ---
 
@@ -82,4 +82,4 @@ _For soft landings or further writing, see:_
 
 ---
 
-**What would you say to a younger you—without judgment, just presence? If you like, share a line or keep it private as a gesture of self-kindness.**
+**What would you say to a younger you, without judgment, just presence? If you like, share a line or keep it private as a gesture of self-kindness.**

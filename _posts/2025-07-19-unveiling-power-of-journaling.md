@@ -7,7 +7,7 @@ permalink: /unveiling-power-of-journaling/
 categories: [journal, reflection]
 tags: [self-discovery, identity, journaling, growth, self-trust]
 image: assets/images/jon-tyson-SPBY7XiHNO0-unsplash.jpg
-description: "The power of journaling isn’t a single breakthrough—it’s quiet, repeated contact with yourself until trust returns."
+description: "The power of journaling isn't a single breakthrough. It is quiet, repeated contact with yourself until trust returns."
 excerpt: "Not a dramatic moment. Just small, honest lines that slowly stitch you back to yourself."
 featured: false
 hidden: false
@@ -16,7 +16,7 @@ hidden: false
 People keep asking for the *moment* journaling changes everything.  
 I don’t have one.
 
-What I have is a thin thread I kept touching—three uneven lines on tired days, a word when foggy, a longer spill when something cracked—until one day I realized I felt more *with* myself than estranged. That was it. Accumulation, not eruption.
+What I have is a thin thread I kept touching: three uneven lines on tired days, a word when foggy, a longer spill when something cracked, until one day I realized I felt more *with* myself than estranged. That was it. Accumulation, not eruption.
 
 ---
 
@@ -24,13 +24,13 @@ What I have is a thin thread I kept touching—three uneven lines on tired days,
 
 At first it was fragments: half a sentence, a guessed feeling, “jaw tight,” “don’t want to do today.”  
 Later, the fragments started pointing at patterns:  
-*Oh—energy always dips after that kind of call.*  
+*Oh. Energy always dips after that kind of call.*  
 *This tension shows up before I say yes when I mean no.*  
 Nothing mystical. Just honest noticing, written down often enough that it couldn’t pretend to be random anymore.
 
 ---
 
-What quietly builds—not needing headings or a syllabus:
+What quietly builds, without needing headings or a syllabus:
 
 - **Presence:** because you keep stopping to look.
 - **Language:** raw weather gaining edges.
@@ -68,7 +68,7 @@ That’s five lines. Sometimes four. Sometimes one word plus the date. It still 
 
 Research in expressive writing (Dr. James Pennebaker), neuroscience (Dr. Dan Siegel), and habit-building (Dr. BJ Fogg) all support this truth:  
 *Change is usually an accumulation, not a single “aha.”*  
-Small entries done often build new self-connection pathways in the brain—creating a gentle trust that deepens over time.
+Small entries done often build new self-connection pathways in the brain, creating a gentle trust that deepens over time.
 
 ---
 
@@ -85,7 +85,7 @@ Pick the one that meets *today’s* barrier, not the idealized you.
 
 ---
 
-If (when) you drift away, come back with the smallest entry you can manage—a single word, the weather behind your ribs, just the date. Thread restored.  
+If (when) you drift away, come back with the smallest entry you can manage: a single word, the weather behind your ribs, just the date. Thread restored.  
 **No penance required.**
 
 This isn’t about producing pages worthy of anyone.  

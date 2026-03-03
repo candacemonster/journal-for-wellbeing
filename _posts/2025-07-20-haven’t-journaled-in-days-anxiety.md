@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "When I Haven’t Journaled and My Mind Is Loud"
 author: willow_pages
@@ -7,7 +7,7 @@ permalink: /haven’t-journaled-in-days-anxiety/
 categories: [journal, reflection]
 tags: [anxiety, overwhelm, self-trust, return, nervous-system]
 image: assets/images/jeff-james-wgm_RD92nhE-unsplash.jpg
-description: "Missed a few days, anxiety spiking, mind racing? A gentle, practical way back—no guilt spiral, just small regulation steps."
+description: "Missed a few days, anxiety spiking, mind racing? A gentle, practical way back, no guilt spiral, just small regulation steps."
 excerpt: "You skipped days. Anxiety filled the space. Here’s a soft way to return without making it a performance."
 featured: false
 hidden: false
@@ -15,7 +15,7 @@ hidden: false
 
 I didn’t touch the notebook for a few days.
 
-Work things stacked. Life noise. That subtle dread crept in: *If I open it now, I’ll have to “catch up.”* So I didn’t. Meanwhile, anxiety started narrating everything—catastrophe radio on all channels. Not journaling didn’t cause the anxiety, but the absence of that small daily check-in removed one of my gentlest regulators.
+Work things stacked. Life noise. That subtle dread crept in: *If I open it now, I’ll have to “catch up.”* So I didn’t. Meanwhile, anxiety started narrating everything, catastrophe radio on all channels. Not journaling didn’t cause the anxiety, but the absence of that small daily check-in removed one of my gentlest regulators.
 
 Coming back after a gap can feel harder than starting the first time. The mind makes it into a test. Here’s what actually helps me (and what clinicians and researchers echo around anxiety regulation), stripped to basics:
 
@@ -26,7 +26,7 @@ Coming back after a gap can feel harder than starting the first time. The mind m
 **1. Drop the backlog fantasy.**  
 No recap needed. Your nervous system doesn’t want a forensic report; it needs an anchor in the present. (Exposure therapy basics: approach in *small, doable* ways reduces avoidance loops.)
 
-**2. Regulate first—write second (or not).**  
+**2. Regulate first, then write (or not).**  
 Stabilize with a predictable cue: elongated exhale (4 in / 6+ out), feel both feet on the floor, name one color in the room. (Polyvagal theory: safety cues help downshift the nervous system.) Repeat twice, then decide if writing feels possible.
 
 **3. One-square entry.**  

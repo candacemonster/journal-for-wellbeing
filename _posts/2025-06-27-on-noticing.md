@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, reflection]
 tags: [mindfulness, presence, awareness, beginners]
 image: https://media.giphy.com/media/2A0jTOgSpH4p0dZoHN/giphy.gif
-description: "Noticing—one sensation, one sound, one small feeling—is a quiet doorway into journaling, presence, and self-connection."
+description: "Noticing: one sensation, one sound, one small feeling, is a quiet doorway into journaling, presence, and self-connection."
 excerpt: "You can begin journaling by simply noticing: a sound, a feeling, the light shifting. Small observations become a gentle record of presence."
 date: 2025-06-27
 featured: false
@@ -26,9 +26,9 @@ All of it *yours.*
 ### Why Noticing Matters
 
 Mindfulness isn’t always an hours-long meditation or some mystical perfect calm.  
-Research (see Dr. Ellen Langer, Dr. Jon Kabat-Zinn) shows that small acts of awareness—even a fleeting moment of honest noticing—decrease reactivity and build resilience.  
+Research (see Dr. Ellen Langer, Dr. Jon Kabat-Zinn) shows that small acts of awareness, even a fleeting moment of honest noticing, decrease reactivity and build resilience.  
 A journaling practice doesn’t have to start with insight or paragraphs.  
-It can begin with a single observation—*written before you look away*.
+It can begin with a single observation, *written before you look away*.
 
 ---
 
@@ -38,13 +38,13 @@ Try a one-minute drift through the senses:
 
 - **Sound:** What’s the farthest sound you can hear?
 - **Body:** What are your feet touching? Is your jaw soft or tight?
-- **Inside:** What feels tender—or raw—right now?
+- **Inside:** What feels tender, or raw, right now?
 - **Environment:** What’s the light doing? Any movement in the air?
 - **Emotion word:** Name one (guess if you’re not sure).
 
 Open your notebook (or a notes app, or a voice memo) and simply list what surfaced.  
 No transitions. No need to explain *why*.  
-Just little lines—like placing feathers in a shallow bowl:
+Just little lines, like placing feathers in a shallow bowl:
 
 - “Window open. Crows in the distance.”
 - “Jaw: tense. Breath: shallow. Still, here.”
@@ -70,6 +70,6 @@ Enough.
 ---
 
 Close the notebook.  
-You noticed—that counts.
+You noticed. That counts.
 
-**What did you notice today? If you like, share a line below—or just keep it for yourself as proof of soft presence.**
+**What did you notice today? If you like, share a line below, or just keep it for yourself as proof of soft presence.**

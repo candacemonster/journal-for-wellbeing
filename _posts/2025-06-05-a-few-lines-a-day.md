@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, science]
 tags: [neuroscience, journaling, habits, self-trust]
 image: assets/images/sixteen-miles-out-0I75875sRVU-unsplash.jpg
-description: "Even a brief daily journal—just a few honest lines—can nudge your brain toward calmer regulation, clarity, and self-trust."
+description: "Even a brief daily journal, just a few honest lines, can nudge your brain toward calmer regulation, clarity, and self-trust."
 excerpt: "You don’t need pages. A handful of honest lines a day can gently retrain your brain toward calm, clarity, and self-trust."
 date: 2025-06-05
 featured: false
@@ -13,13 +13,13 @@ hidden: false
 ---
 
 You don’t have to write **pages** to help your brain.  
-A few sincere lines—scattered and unpolished—can begin the real work.
+A few sincere lines, scattered and unpolished, can begin the real work.
 
 **Why is this enough?**  
 When you translate a feeling into words, your brain’s thinking regions (prefrontal cortex) help modulate emotional surges (the “limbic” system).  
 The act of naming *softens the raw edge:*  
 > Writing “I feel tight and overwhelmed” puts chaos into language.  
-> Language is smaller than chaos—easier to meet, easier to hold.
+> Language is smaller than chaos, easier to meet, easier to hold.
 
 ---
 
@@ -47,7 +47,7 @@ That belief changes how future stress lands in your body and mind.
   *“I need…”* or *“I notice…”*
 - Stop. Close the notebook.
 
-That *counts*—and it’s enough.
+That *counts*, and it’s enough.
 
 ---
 
@@ -62,14 +62,14 @@ That *counts*—and it’s enough.
 ### Making It Stick
 
 Scattered? Heavy?  
-Start smaller than you think “counts”—three true lines and a dose of kindness.
+Start smaller than you think “counts”, three true lines and a dose of kindness.
 
-**Return tomorrow.** The quiet repetition—*not* the volume—lays the new neural pathways of calm and clarity. (See: Dr. James Pennebaker’s research on expressive writing for stress and emotional health.)
+**Return tomorrow.** The quiet repetition, *not* the volume, lays the new neural pathways of calm and clarity. (See: Dr. James Pennebaker’s research on expressive writing for stress and emotional health.)
 
 ---
 
 A few lines a day.  
-That’s enough to start changing your brain—and the tone of your inner life.
+That’s enough to start changing your brain, and the tone of your inner life.
 
 ---
 

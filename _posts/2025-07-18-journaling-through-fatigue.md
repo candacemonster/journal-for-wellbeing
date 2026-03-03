@@ -5,8 +5,8 @@ author: willow_pages
 categories: [journal, reflection]
 tags: [wellbeing, chronic illness, fatigue, self-care, mindfulness]
 image: assets/images/a-book-1975830_1280.jpg
-description: "A slow, permission-filled journaling approach for days shaped by chronic illness or fatigue—tiny, honest marks that keep you connected."
-excerpt: "In the fog of exhaustion, your voice still matters. Gentle ways to journal—one word, one line—when energy is scarce."
+description: "A slow, permission-filled journaling approach for days shaped by chronic illness or fatigue, with tiny honest marks that keep you connected."
+excerpt: "In the fog of exhaustion, your voice still matters. Gentle ways to journal, even just one word or one line, when energy is scarce."
 date: 2025-07-18
 featured: false
 hidden: false
@@ -27,7 +27,7 @@ Micro writing can:
 - Surface patterns (pain spikes, mood dips, post-exertion crash timing)
 - Reinforce continuity of self: *my story persists, even when slowed*
 
-Research supports small “acts of narrative”—even one word or line—can provide emotional regulation, validation, and a thread of meaning (see Dr. James Pennebaker, Dr. Judith Herman).
+Research supports small “acts of narrative” where even one word or line can provide emotional regulation, validation, and a thread of meaning (see Dr. James Pennebaker, Dr. Judith Herman).
 
 ---
 
@@ -35,7 +35,7 @@ Research supports small “acts of narrative”—even one word or line—can pr
 
 Pick *one*. Stop before it strains. Adapt as needed.
 
-- **One-line log:** “Heavy morning. Sat in sun 4 minutes—helped.”
+- **One-line log:** "Heavy morning. Sat in sun 4 minutes. It helped."
 - **Five word weather:** “Stiff, foggy, pulsing, flat, hopeful.”
 - **Symptom pair:** One hard thing + one thing you did anyway.
 - **Energy tag:** (E:) 20%, (Mind:) scattered, (Mood:) neutral.
@@ -100,6 +100,6 @@ That dot is *still* authorship.
 
 Your fatigue doesn’t dilute your insight.  
 Illness slows form; it doesn’t silence worth.  
-One word, one line, one compassionate notation belongs wholly to you—and that is enough.
+One word, one line, one compassionate notation belongs wholly to you, and that is enough.
 
 *There is absolutely no wrong way to do this, especially on low-capacity days.*

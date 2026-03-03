@@ -5,17 +5,17 @@ author: willow_pages
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness, self-compassion, renewal]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdmaGlpOXU1NGJ2MXp2OWhtM2xmNDQxcmdzaWh1ZXg1NzlzbWVnMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kit7OGuNpZQzDZRmrm/giphy.gif
-description: "You are not the sum of missed chances—you can begin from here and build forward with clarity and gentleness."
-excerpt: "Growth isn’t in rewind; it’s in what you choose next. A soft reminder you’re not behind—you’re arriving."
+description: "You are not the sum of missed chances. You can begin from here and build forward with clarity and gentleness."
+excerpt: "Growth isn't in rewind; it's in what you choose next. A soft reminder you're not behind, you're arriving."
 date: 2025-07-01
 featured: false
 hidden: false
 ---
 
-The past has a way of trying to stick—tugging at your attention, auditioning as identity.  
+The past has a way of trying to stick, tugging at your attention, auditioning as identity.  
 But those older versions of you? They’re chapters, not the title. You’re allowed to keep writing.
 
-You can spend hours replaying what you “should” have done. But growth rarely lives in the re-run. It lives in the next real thing—right now.
+You can spend hours replaying what you “should” have done. But growth rarely lives in the re-run. It lives in the next real thing, right now.
 
 Maybe you’re rebuilding after a stretch of survival. Maybe you’re starting over after something broke down. Maybe you just realized you crave a different kind of ease or honesty. Whatever the reason: you’re allowed to begin again from *here*.
 
@@ -23,14 +23,14 @@ Maybe you’re rebuilding after a stretch of survival. Maybe you’re starting o
 
 ### Why Facing Forward is Powerful
 
-Research in self-compassion and positive psychology (see Dr. Kristin Neff, Dr. Barbara Fredrickson) shows that gently orienting toward the future improves well-being and builds motivation—without shame about the past.  
+Research in self-compassion and positive psychology (see Dr. Kristin Neff, Dr. Barbara Fredrickson) shows that gently orienting toward the future improves well-being and builds motivation, without shame about the past.  
 Reflecting on what’s next (instead of what’s missing) helps the brain release ruminative cycles and opens up new pathways for growth.
 
 ---
 
 ### You’re Not Behind
 
-There’s no master timeline. No universal clock. You’re not late. Arrival is still arrival—even if it took a while.
+There’s no master timeline. No universal clock. You’re not late. Arrival is still arrival, even if it took a while.
 
 ---
 
@@ -41,14 +41,14 @@ Sometimes forward is:
 - A new boundary.
 - A quiet week where nothing “visible” happens, but your nervous system exhales.
 
-That counts as progress—even if no one else sees it.
+That counts as progress, even if no one else sees it.
 
 ---
 
 ### The Past Informs, Not Defines
 
 The past can clarify what didn’t work, or what matters now.  
-But it doesn’t get to author who shows up today—unless you hand it the pen.
+But it doesn't get to author who shows up today unless you hand it the pen.
 
 You are not the sum of regrets. You are the author of what’s still unwritten.
 
@@ -77,7 +77,7 @@ Just enact that one action. Let the next page turn on its own.
 
 ---
 
-The page—and your life—are still in draft.
+The page, and your life, are still in draft.
 
 You’re allowed to face forward.
 
