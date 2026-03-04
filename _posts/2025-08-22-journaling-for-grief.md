@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Journaling for Grief: Writing Through Loss When Words Feel Impossible"
 author: willow_pages
@@ -6,7 +6,7 @@ categories: [journal, wellbeing]
 tags: [grief, loss, mental-health, prompts, self-care, emotional-healing, expressive-writing]
 image: assets/images/journaling-for-grief.svg
 description: "Grief doesn't follow a schedule, and neither does a grief journal. This guide gently explains what research says about writing through loss, how to begin on even the heaviest days, and offers 18 prompts for different kinds of grief."
-excerpt: "Grief is not linear, and your journal doesn't have to be either. A gentle guide to writing through loss — including the grief that doesn't have a name — with 18 prompts for the days when words feel both impossible and necessary."
+excerpt: "Grief is not linear, and your journal doesn't have to be either. A gentle guide to writing through loss, including the grief that doesn't have a name, with 18 prompts for the days when words feel both impossible and necessary."
 date: 2025-08-22
 featured: false
 hidden: false
@@ -24,7 +24,7 @@ This guide is for anyone sitting with loss, whether recent or old, visible or in
 
 The body of research on expressive writing and grief is genuinely encouraging, though nuanced enough to be worth explaining honestly.
 
-Psychologist James Pennebaker's foundational research on expressive writing found that writing about deeply emotional events — including losses — was associated with improved long-term mood, better immune functioning, and reduced rumination. More recent research has examined grief specifically. Studies have found that structured expressive writing for bereaved individuals can reduce psychological distress, particularly intrusive thoughts and avoidance, and help people begin to make meaning of their loss over time.
+Psychologist James Pennebaker's foundational research on expressive writing found that writing about deeply emotional events, including losses, was associated with improved long-term mood, better immune functioning, and reduced rumination. More recent research has examined grief specifically. Studies have found that structured expressive writing for bereaved individuals can reduce psychological distress, particularly intrusive thoughts and avoidance, and help people begin to make meaning of their loss over time.
 
 Meaning-making is central here. Grief researchers like Robert Neimeyer emphasise that one of the core tasks of mourning is reconstructing a sense of meaning and identity after a loss. Journaling can support this by helping you:
 
@@ -33,7 +33,7 @@ Meaning-making is central here. Grief researchers like Robert Neimeyer emphasise
 - Hold contradictory emotions at once (relief and sadness, love and anger)
 - Begin to reconnect with who you are now, after the loss
 
-At the same time, journaling is not a framework for "getting through" grief on a schedule. There is no timeline, no correct amount of pages. And for acute or complicated grief, especially where there are thoughts of self-harm or an inability to function, professional support — grief counselling or therapy — is important, and the page alone is not enough.
+At the same time, journaling is not a framework for "getting through" grief on a schedule. There is no timeline, no correct amount of pages. And for acute or complicated grief, especially where there are thoughts of self-harm or an inability to function, professional support, grief counselling or therapy, is important, and the page alone is not enough.
 
 ---
 
@@ -111,7 +111,7 @@ These prompts are designed to offer entry points rather than endpoints. Answer a
 
 **For the present and forward**
 17. *"Something that has held me, even a little, during this grief is..."*
-18. *"A version of carrying this loss gently — without it crushing me — might look like..."*
+18. *"A version of carrying this loss gently, without it crushing me, might look like..."*
 
 ---
 
@@ -120,7 +120,7 @@ These prompts are designed to offer entry points rather than endpoints. Answer a
 On some days, grief makes the page feel impossible or cruel. On those days, you do not have to write. You can:
 
 - Read back through old entries, just to witness how far you have come or how long you have carried this
-- Write someone else's words — a poem, a lyric, a passage that says something you feel — and leave it on the page without adding anything
+- Write someone else's words, a poem, a lyric, a passage that says something you feel, and leave it on the page without adding anything
 - Draw a line, mark the date, and put the notebook down
 
 Coming back to the page another day is not failure. It is the nature of grief, which moves in tides, not in straight lines.

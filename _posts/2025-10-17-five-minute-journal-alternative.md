@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "The DIY Five-Minute Journal: Build Your Own Without Buying the Brand"
 author: willow_pages
@@ -33,7 +33,7 @@ The original Five Minute Journal (published by Intelligent Change) uses these pr
 - 3 amazing things that happened today...
 - How could I have made today even better?
 
-The format draws on research in positive psychology, particularly on gratitude, implementation intentions, and self-affirmation. It is designed to be brief and low-friction — something that becomes a consistent daily habit because it asks almost nothing of you.
+The format draws on research in positive psychology, particularly on gratitude, implementation intentions, and self-affirmation. It is designed to be brief and low-friction, something that becomes a consistent daily habit because it asks almost nothing of you.
 
 ---
 
@@ -45,13 +45,13 @@ Multiple well-designed studies have found that regularly writing down specific t
 Research by Martin Seligman and colleagues found that writing three good things that happened each day for one week produced measurable improvements in mood that lasted for months.
 
 **Implementation intentions ("what would make today great")**
-This prompt is grounded in the psychology of implementation intentions — if-then plans that link a situation to a specific action. Writing a concrete intention for the day ("I will take a ten-minute walk after lunch") has been shown to significantly increase follow-through compared to vague goal-setting.
+This prompt is grounded in the psychology of implementation intentions, if-then plans that link a situation to a specific action. Writing a concrete intention for the day ("I will take a ten-minute walk after lunch") has been shown to significantly increase follow-through compared to vague goal-setting.
 
 **Affirmations**
-The research on affirmations is more nuanced. Simple, positive affirmations ("I am confident and successful") have been shown in some studies to backfire for people with low self-esteem — increasing dissonance rather than confidence. What does work is values-based self-affirmation: reflecting on what you genuinely care about and a time when you acted in line with it. So the "I am..." prompt works best if it is specific, authentic, and values-connected rather than aspirational.
+The research on affirmations is more nuanced. Simple, positive affirmations ("I am confident and successful") have been shown in some studies to backfire for people with low self-esteem, increasing dissonance rather than confidence. What does work is values-based self-affirmation: reflecting on what you genuinely care about and a time when you acted in line with it. So the "I am..." prompt works best if it is specific, authentic, and values-connected rather than aspirational.
 
 **Evening reflection**
-Writing about "amazing things that happened" is most useful when you are specific and willing to include small wins (a good conversation, a meal that worked, five uninterrupted minutes of peace). The final prompt — "how could today have been better" — is the one I would suggest modifying for anyone prone to self-criticism (see below).
+Writing about "amazing things that happened" is most useful when you are specific and willing to include small wins (a good conversation, a meal that worked, five uninterrupted minutes of peace). The final prompt, "how could today have been better", is the one I would suggest modifying for anyone prone to self-criticism (see below).
 
 ---
 
@@ -94,7 +94,7 @@ That is it. That is the format. It fits on one side of an A5 page.
 ### Modifications for Specific Needs
 
 **If you have anxiety or depression**
-The "three good things" prompt can feel impossible on very low or very anxious days. A modification: change it to "three things that existed today" — completely neutral observations ("it rained," "I drank tea," "the lamp was on"). The act of noticing grounds you without requiring emotional performance.
+The "three good things" prompt can feel impossible on very low or very anxious days. A modification: change it to "three things that existed today", completely neutral observations ("it rained," "I drank tea," "the lamp was on"). The act of noticing grounds you without requiring emotional performance.
 
 **If you tend toward self-criticism**
 Replace "how could today have been better" with "one small way I was kind to myself today, or could be kind to myself tomorrow." The original prompt risks becoming a nightly criticism session for people whose inner critic is already well-activated.
@@ -106,7 +106,7 @@ Replace "I am..." with "A value I care about is... and a recent example of when 
 Do only the morning section. Do only the gratitude. Do only one item instead of three. The research on micro-habits suggests that a tiny, consistent practice outperforms an ideal practice done inconsistently. One genuine gratitude line is better than five forced ones followed by seven days of skipping.
 
 **If you want more depth**
-The five-minute format is an entry point, not a ceiling. Once it is a consistent habit, you can add one additional reflection prompt after the evening section — a question that rotates weekly. But do not expand until the base habit is stable.
+The five-minute format is an entry point, not a ceiling. Once it is a consistent habit, you can add one additional reflection prompt after the evening section, a question that rotates weekly. But do not expand until the base habit is stable.
 
 ---
 

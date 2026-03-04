@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Paper vs App: Is Digital Journaling as Effective as Handwriting for Wellbeing?"
 author: willow_pages
@@ -6,7 +6,7 @@ categories: [journal, mental-health]
 tags: [digital-journaling, paper-journaling, mental-health, self-care, journaling-tips, wellbeing, mindfulness]
 image: assets/images/paper vs app journaling.jpg
 description: "If you are trying to decide between a paper notebook and a journaling app, here is what research and experience actually say about which is better for mental health."
-excerpt: "Both paper and digital journaling can support mental health. The best choice is usually the one you will actually use — but here is what research says about the differences."
+excerpt: "Both paper and digital journaling can support mental health. The best choice is usually the one you will actually use, but here is what research says about the differences."
 date: 2026-03-03
 featured: false
 hidden: false
@@ -28,7 +28,7 @@ Paper journaling may be especially helpful if you:
 - Find that the slower pace of handwriting helps you process more deeply
 - Want a private object that is not tied to devices or apps
 
-Research notes that handwriting can support memory retention, deeper cognitive processing, and a sense of ritual — because of the physical act of opening a notebook and writing by hand.
+Research notes that handwriting can support memory retention, deeper cognitive processing, and a sense of ritual, because of the physical act of opening a notebook and writing by hand.
 
 Paper can also feel safer for some people, because it is not stored on a server or app. Lockable journals or notebooks kept in a specific spot can increase privacy and a sense of containment.
 
@@ -48,7 +48,7 @@ Digital journaling can also be more accessible for people with pain, mobility is
 
 You might ask yourself:
 
-- "Where do I naturally reach when I want to capture a thought — to my phone or to a notebook?"
+- "Where do I naturally reach when I want to capture a thought, to my phone or to a notebook?"
 - "Do I feel more grounded with a pen, or more free when I can type quickly?"
 - "Am I more likely to stick with a practice that lives in an app, or one that lives in a physical space?"
 - "How concerned am I about privacy, and what kind?"

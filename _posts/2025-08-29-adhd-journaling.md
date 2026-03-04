@@ -1,12 +1,12 @@
----
+﻿---
 layout: post
 title: "ADHD Journaling: How to Make It Actually Work for Your Brain"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [ADHD, mental-health, journaling, getting-started, emotional-regulation, self-care, focus]
 image: assets/images/adhd-journaling.svg
-description: "Traditional journaling advice is built for neurotypical brains. This guide offers ADHD-specific formats, prompts, and habit strategies that work with how ADHD brains actually function — scattered, fast, and in need of structure without rigidity."
-excerpt: "Most journaling advice fails ADHD brains. This guide offers formats, prompts, and gentle habit strategies built around how ADHD actually works — including the blank-page paralysis, time blindness, and emotional intensity that make traditional journaling feel impossible."
+description: "Traditional journaling advice is built for neurotypical brains. This guide offers ADHD-specific formats, prompts, and habit strategies that work with how ADHD brains actually function, scattered, fast, and in need of structure without rigidity."
+excerpt: "Most journaling advice fails ADHD brains. This guide offers formats, prompts, and gentle habit strategies built around how ADHD actually works, including the blank-page paralysis, time blindness, and emotional intensity that make traditional journaling feel impossible."
 date: 2025-08-29
 featured: false
 hidden: false
@@ -16,7 +16,7 @@ Most journaling advice is written for brains that can sit quietly with an open-e
 
 If you have ADHD, you know that brain is not yours.
 
-ADHD brains are often brilliant, creative, deeply empathic, and interested in everything — but the traditional journaling model fights against executive function challenges, time blindness, hyperfocus and avoidance cycles, and the particular kind of blank-page paralysis that comes when a task has no clear starting constraints.
+ADHD brains are often brilliant, creative, deeply empathic, and interested in everything, but the traditional journaling model fights against executive function challenges, time blindness, hyperfocus and avoidance cycles, and the particular kind of blank-page paralysis that comes when a task has no clear starting constraints.
 
 This guide is about building a journaling practice that works *with* your brain rather than against it.
 
@@ -26,9 +26,9 @@ This guide is about building a journaling practice that works *with* your brain 
 
 ADHD is associated with specific challenges that journaling, when adapted, can genuinely help with:
 
-**Working memory gaps.** ADHD brains often lose context quickly — a conversation, a feeling, a plan — before it has a chance to land anywhere permanent. A brief daily journal entry can act as an external working-memory system.
+**Working memory gaps.** ADHD brains often lose context quickly, a conversation, a feeling, a plan, before it has a chance to land anywhere permanent. A brief daily journal entry can act as an external working-memory system.
 
-**Emotional dysregulation.** Research consistently identifies emotional dysregulation as a core, if under-discussed, feature of ADHD. People with ADHD often experience emotions with greater intensity and have more difficulty managing them. Expressive writing — even short bursts — has been shown to help with emotion processing and reduce the time it takes to recover from emotional flooding.
+**Emotional dysregulation.** Research consistently identifies emotional dysregulation as a core, if under-discussed, feature of ADHD. People with ADHD often experience emotions with greater intensity and have more difficulty managing them. Expressive writing, even short bursts, has been shown to help with emotion processing and reduce the time it takes to recover from emotional flooding.
 
 **Impulsivity and pattern recognition.** Journaling over time creates a searchable record of decisions, reactions, and triggers that ADHD brains may not retain or connect through memory alone. This is particularly useful for understanding patterns in behaviour that feel like mysteries in the moment.
 
@@ -43,7 +43,7 @@ Before we talk about solutions, it helps to name the actual obstacles:
 - **Too open-ended.** "Write whatever you want" is one of the hardest instructions for an ADHD brain. Without constraints, the mind either floods with too many ideas or goes blank.
 - **No time container.** "Journal every morning" without a specific length or stopping point can feel endless and therefore avoidable.
 - **Perfectionism creep.** Many people with ADHD swing between abandoning things quickly and becoming obsessively perfectionistic. Journaling can become another area to "fail at" after missing a few days.
-- **Medium friction.** Finding the notebook, having a pen, sitting still — each micro-step is a point of failure that a brain with executive function challenges will find a way around.
+- **Medium friction.** Finding the notebook, having a pen, sitting still, each micro-step is a point of failure that a brain with executive function challenges will find a way around.
 
 The ADHD-friendly journaling strategies below address each of these directly.
 
@@ -64,19 +64,19 @@ Having the same questions every day removes the blank-page problem entirely. You
 A full bullet journal system can quickly become a hyperfocus trap and then an abandoned project. A "bullet journal lite" approach is just a dated page with short bullets: things that happened, things you noticed, things you need to remember. No legend, no migration, no colour-coding required.
 
 **Voice journaling (counts entirely)**
-Talk-to-text apps, voice memos, or simply speaking aloud while driving or walking can be journal entries. ADHD brains are often more articulate spoken than written. You can transcribe later (or never) — the processing still happens.
+Talk-to-text apps, voice memos, or simply speaking aloud while driving or walking can be journal entries. ADHD brains are often more articulate spoken than written. You can transcribe later (or never), the processing still happens.
 
 **Post-it pages**
 Some ADHD brains work better with small surfaces. A post-it note or index card with one thought per day, stuck into a notebook, is a completely valid form of journaling.
 
 **The capture-first method**
-Before a journaling session, spend sixty seconds writing every word or fragment that's in your head — just a raw dump. This clears the traffic and makes structured reflection easier.
+Before a journaling session, spend sixty seconds writing every word or fragment that's in your head, just a raw dump. This clears the traffic and makes structured reflection easier.
 
 ---
 
 ### Reducing Friction: Making It Happen
 
-The biggest predictor of ADHD journaling success is not motivation or intention — it is how few steps stand between you and the blank page.
+The biggest predictor of ADHD journaling success is not motivation or intention, it is how few steps stand between you and the blank page.
 
 **Visual placement.** Keep your journal visible and in a tempting spot. Out of sight is genuinely out of mind. A beautiful notebook on your desk or bedside table beats a digital app buried inside a folder.
 
@@ -86,13 +86,13 @@ The biggest predictor of ADHD journaling success is not motivation or intention 
 
 **Lower the bar to absurdity.** One sentence is a journal entry. One word is a journal entry. The goal is showing up at the page, not producing quality output. Quality emerges over time.
 
-**Ditch the daily streak expectation.** Streaks are motivating for some brains and devastating for others — especially when ADHD disrupts consistency. Give yourself a weekly goal instead ("I want to write something four times this week"), which is more forgiving of the uneven rhythms of ADHD.
+**Ditch the daily streak expectation.** Streaks are motivating for some brains and devastating for others, especially when ADHD disrupts consistency. Give yourself a weekly goal instead ("I want to write something four times this week"), which is more forgiving of the uneven rhythms of ADHD.
 
 ---
 
 ### 12 ADHD-Friendly Journal Prompts
 
-These prompts are short, specific, and bounded — designed so you know exactly when you are done.
+These prompts are short, specific, and bounded, designed so you know exactly when you are done.
 
 1. *Right now my brain feels like: [choose one: a highway / a snow globe / a radio scanning / a calm room]... and the main reason is...*
 2. *The thing I most avoided doing today was... and the honest reason was probably...*
@@ -111,6 +111,6 @@ These prompts are short, specific, and bounded — designed so you know exactly 
 
 ### A Note on Consistency (And Forgiving Yourself When It Breaks)
 
-ADHD brains are not inconsistent because they are lazy or undisciplined. They are inconsistent because the dopaminergic and executive systems that support sustained, routine behaviour work differently. A journaling practice that accommodates this — that is flexible, short, low-stakes, and self-compassionate about gaps — is not a lesser practice. It is a more honest and sustainable one.
+ADHD brains are not inconsistent because they are lazy or undisciplined. They are inconsistent because the dopaminergic and executive systems that support sustained, routine behaviour work differently. A journaling practice that accommodates this, that is flexible, short, low-stakes, and self-compassionate about gaps, is not a lesser practice. It is a more honest and sustainable one.
 
 When you miss days (and you will), the only habit worth building is the habit of returning without shame. Every entry, however brief, is evidence that you came back.

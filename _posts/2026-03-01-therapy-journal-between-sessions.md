@@ -1,11 +1,11 @@
----
+﻿---
 layout: post
 title: "How to Keep a Therapy Journal Between Sessions (Without Overprocessing)"
 author: willow_pages
 categories: [journal, mental-health]
 tags: [therapy, journaling, mental-health, self-care, expressive-writing, CBT, healing]
 image: assets/images/19-therapy-journal-between-sessions.jpg
-description: "A therapy journal can bridge the gap between sessions, helping you notice patterns, track progress, and arrive more prepared — without turning it into a second session that drains you."
+description: "A therapy journal can bridge the gap between sessions, helping you notice patterns, track progress, and arrive more prepared, without turning it into a second session that drains you."
 excerpt: "A therapy journal can help you remember insights, track patterns, and arrive more prepared. The key is to use it as a support, not as a place to overprocess or do therapy alone."
 date: 2026-03-01
 featured: false
@@ -23,7 +23,7 @@ Therapists and mental health organizations often recommend journaling between se
 - Track progress over time, especially on rough days
 - Gather questions or events you want to bring into therapy
 
-Studies and clinical guidance note that journaling between sessions can deepen insight and make your time in therapy more effective — as long as it feels manageable.
+Studies and clinical guidance note that journaling between sessions can deepen insight and make your time in therapy more effective, as long as it feels manageable.
 
 ## What a therapy journal is (and is not)
 
@@ -83,7 +83,7 @@ If you notice yourself getting flooded or spiralling while journaling, pause and
 
 To keep your therapy journal from becoming a second therapy session that drains you:
 
-- **Set time limits** — for example, 10 minutes after a session, 5 minutes on other days.
+- **Set time limits**, for example, 10 minutes after a session, 5 minutes on other days.
 - **Use prompts that include boundaries**, such as "What I want to remember, not everything that happened."
 - **Close each entry with a settling sentence** like, "I do not have to figure this out tonight. I can bring it to my therapist."
 
@@ -111,4 +111,4 @@ You can copy and reuse this for each session:
 
 ---
 
-Small, consistent notes like these can deepen the work in therapy without overwhelming you. You are not trying to do it all alone — you are just keeping a thread so you can find your way back.
+Small, consistent notes like these can deepen the work in therapy without overwhelming you. You are not trying to do it all alone, you are just keeping a thread so you can find your way back.

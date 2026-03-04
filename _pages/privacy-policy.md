@@ -12,7 +12,7 @@ Journal for Wellbeing values your privacy. This policy explains what information
 
 ### 1. Cookies
 
-This site uses cookies — small text files stored in your browser — to serve advertising and analyse traffic. A cookie consent notice is shown on your first visit. You may accept or decline non-essential cookies at any time.
+This site uses cookies, small text files stored in your browser, to serve advertising and analyse traffic. A cookie consent notice is shown on your first visit. You may accept or decline non-essential cookies at any time.
 
 **Types of cookies used on this site:**
 

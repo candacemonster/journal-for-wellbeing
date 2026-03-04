@@ -1,11 +1,11 @@
----
+﻿---
 layout: post
 title: "Bullet Journal for Mental Health: A Gentler Approach to Tracking Your Inner Life"
 author: willow_pages
 categories: [journal, mental-health, practice]
 tags: [bullet-journal, mental-health, mood-tracking, journaling, anxiety, self-awareness, habit-tracking, ADHD]
 image: assets/images/bullet-journal-mental-health.svg
-description: "You do not need a perfect bullet journal system to use bullet journaling for mental health. This gentle guide covers mood tracking, trigger logs, anxiety check-ins, and habit spreads — without the perfectionism."
+description: "You do not need a perfect bullet journal system to use bullet journaling for mental health. This gentle guide covers mood tracking, trigger logs, anxiety check-ins, and habit spreads, without the perfectionism."
 excerpt: "The full bullet journal system can feel overwhelming when you are already struggling. This guide strips it back to the mental-health essentials: mood tracking, trigger awareness, small habit records, and the single weekly spread that holds it all gently."
 date: 2025-10-31
 featured: false
@@ -16,7 +16,7 @@ If you have spent any time around bullet journaling online, you will have notice
 
 None of that is required for mental health journaling, and arguably most of it is counterproductive.
 
-The original bullet journal system — as developed by Ryder Carroll from his own experience managing ADHD — is far simpler than the Instagram version. Its core insight is that capturing what matters in a structured but flexible format reduces the cognitive overhead of daily life. When you are managing mental health, that reduction in overhead is genuinely valuable.
+The original bullet journal system, as developed by Ryder Carroll from his own experience managing ADHD, is far simpler than the Instagram version. Its core insight is that capturing what matters in a structured but flexible format reduces the cognitive overhead of daily life. When you are managing mental health, that reduction in overhead is genuinely valuable.
 
 This post is about taking only the pieces of bullet journaling that genuinely help with mental health, and leaving the rest.
 
@@ -34,21 +34,21 @@ If you want a reference, the method described here works with any blank notebook
 
 **1. The Mood Tracker**
 
-The most universally useful element for mental health is a simple daily mood record. Not a lengthy journal entry — just a number, a word, or a symbol that captures where you were on a given day.
+The most universally useful element for mental health is a simple daily mood record. Not a lengthy journal entry, just a number, a word, or a symbol that captures where you were on a given day.
 
 Why it helps: our brains are terrible at accurately remembering our mood history. We tend to weight recent experiences heavily (if today is hard, the whole week feels hard) and to miss patterns across weeks and months. A simple visual log gives you actual data.
 
 Simple formats that work:
-- **Numbers 1–5** (or 1–10) — quick, comparable, works well for graphs
-- **Single word** — "flat", "okay", "good", "anxious", "grounded" — captures quality rather than intensity
-- **Emotion wheel symbol** — a small dot placed in a circle divided into emotion sectors
-- **Colour shading** — shade a small box with a colour from a pre-defined key
+- **Numbers 1–5** (or 1–10), quick, comparable, works well for graphs
+- **Single word**, "flat", "okay", "good", "anxious", "grounded", captures quality rather than intensity
+- **Emotion wheel symbol**, a small dot placed in a circle divided into emotion sectors
+- **Colour shading**, shade a small box with a colour from a pre-defined key
 
 One line per day. You do not need more than that to build a useful picture.
 
 **2. The Trigger Log**
 
-This is a brief capture page for situations that shift your mood significantly — in either direction. When something affects you strongly and you do not immediately know why, noting it here takes thirty seconds and often becomes useful later.
+This is a brief capture page for situations that shift your mood significantly, in either direction. When something affects you strongly and you do not immediately know why, noting it here takes thirty seconds and often becomes useful later.
 
 Format:
 ```
@@ -59,7 +59,7 @@ It does not need to be long. Over time, patterns emerge: specific people, times 
 
 **3. The Anxiety/Energy Check-In**
 
-For people managing anxiety, depression, or chronic fatigue, a twice-daily check-in can be valuable — particularly for noticing how states change through the day rather than treating the morning mood as representative of the whole day.
+For people managing anxiety, depression, or chronic fatigue, a twice-daily check-in can be valuable, particularly for noticing how states change through the day rather than treating the morning mood as representative of the whole day.
 
 Simple format:
 ```
@@ -84,7 +84,7 @@ That is the whole system. No elaborate future logs, no complex habit trackers (u
 
 **5. Simple Habit Tracking (Optional)**
 
-If there are specific behaviours that support your mental health — exercise, medication, sleep before midnight, time outdoors, a relaxation practice — a simple grid tracker can help. Weeks across the top, habits down the left side, tick or colour each box when done.
+If there are specific behaviours that support your mental health, exercise, medication, sleep before midnight, time outdoors, a relaxation practice, a simple grid tracker can help. Weeks across the top, habits down the left side, tick or colour each box when done.
 
 The research on habit tracking shows that the visual record of streaks creates positive feedback, but it is important not to use it punitively. Missing days are information, not failure. A useful habit tracker for mental health uses neutral colours (not a red-for-failure system) and notes *why* you missed a day as well as whether you did.
 
@@ -116,7 +116,7 @@ The [ADHD journaling](/adhd-journaling/) post has more on friction reduction and
 
 Open to a blank page. Write today's date. Write a number from one to five. That is a complete mental health bullet journal entry.
 
-Everything else can be added gradually, one element at a time, as you find what is genuinely useful. If the mood tracker is the only thing you maintain, that is not a failed bullet journal — that is a working one.
+Everything else can be added gradually, one element at a time, as you find what is genuinely useful. If the mood tracker is the only thing you maintain, that is not a failed bullet journal, that is a working one.
 
 The goal is not to have an impressive notebook. The goal is to know yourself a little better than you did yesterday, and to have a record that helps you notice when something is shifting before it becomes a crisis.
 
@@ -126,4 +126,4 @@ A pen mark on a page does that work as well as any elaborate system.
 
 ### A Note on Privacy
 
-If you are tracking mood and mental health data you would not want others to access, keep the notebook somewhere private. Some people use a nondescript cover or a notebook that looks like a school exercise book. Others use a digital solution if the thought of someone finding the physical version creates anxiety that outweighs the benefit of writing on paper. There is no correct format — only the one that you will actually use.
+If you are tracking mood and mental health data you would not want others to access, keep the notebook somewhere private. Some people use a nondescript cover or a notebook that looks like a school exercise book. Others use a digital solution if the thought of someone finding the physical version creates anxiety that outweighs the benefit of writing on paper. There is no correct format, only the one that you will actually use.

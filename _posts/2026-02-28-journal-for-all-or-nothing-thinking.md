@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "How to Use Your Journal to Gently Shift Out of All or Nothing Thinking"
 author: willow_pages
@@ -78,7 +78,7 @@ Choose one strong statement like "I always ruin relationships" or "I never finis
 - **"Times that seem to support this:"** (maybe one or two examples)
 - **"Times that do not fit this story:"** (even one small exception counts)
 
-CBT-style questioning uses this kind of evidence check to soften rigid beliefs. You are not pretending the pain is not real — you are reminding your brain that the story is incomplete.
+CBT-style questioning uses this kind of evidence check to soften rigid beliefs. You are not pretending the pain is not real, you are reminding your brain that the story is incomplete.
 
 ## Step 5: Write how you would talk to a friend
 

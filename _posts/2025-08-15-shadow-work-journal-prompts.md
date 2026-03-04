@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Shadow Work Journal Prompts: A Gentle Introduction for Beginners"
 author: willow_pages
@@ -30,7 +30,7 @@ A few guidelines that make shadow work safer:
 
 - **Start with mild curiosity, not force.** You are not excavating yourself; you are gently noticing.
 - **Keep sessions short.** Twenty to thirty minutes is plenty. You can always return.
-- **Ground before and after.** Take a few breaths, feel your feet on the floor, and do something gentle after your session — a walk, a cup of tea, a conversation with someone you trust.
+- **Ground before and after.** Take a few breaths, feel your feet on the floor, and do something gentle after your session, a walk, a cup of tea, a conversation with someone you trust.
 - **Stop if you feel flooded.** If a prompt brings up more emotion than you can sit with, put the notebook down. You do not have to finish.
 - **Consider professional support.** If you are working through significant trauma, a therapist who is familiar with shadow work or depth psychology can provide a container for the deeper material.
 

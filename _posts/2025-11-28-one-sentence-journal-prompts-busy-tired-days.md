@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "10 One Sentence Journal Prompts for Busy, Tired Days"
 author: willow_pages
@@ -50,7 +50,7 @@ Recall a brief moment that made you stop, even slightly. It might be the way the
 
 ### 6. "Tomorrow, I want to feel…"
 
-Write one feeling you would like to invite tomorrow, such as "supported," "steady," or "a little lighter." You are not promising it will happen — you are setting a gentle intention.
+Write one feeling you would like to invite tomorrow, such as "supported," "steady," or "a little lighter." You are not promising it will happen, you are setting a gentle intention.
 
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Best Journaling App Features for Anxious or Sensitive Minds"
 author: willow_pages
@@ -18,7 +18,7 @@ If you live with anxiety or you are highly sensitive, the wrong app can feel noi
 
 ### 1. Strong Privacy and Clear Data Policies
 
-For anxious and sensitive writers, privacy is not a bonus — it is foundational. Look for:
+For anxious and sensitive writers, privacy is not a bonus, it is foundational. Look for:
 
 - End-to-end encryption or at least strong encryption in transit and at rest
 - Clear options for local-only storage or offline mode if you do not want cloud syncing
@@ -30,7 +30,7 @@ Reading the privacy policy and checking whether your data is used for anything b
 
 ### 2. A Calm, Uncluttered Interface
 
-Visually busy apps — or ones stuffed with badges, feeds, and social elements — can feel overstimulating. For many anxious or sensitive people, the best app is the one that feels like a quiet room.
+Visually busy apps, or ones stuffed with badges, feeds, and social elements, can feel overstimulating. For many anxious or sensitive people, the best app is the one that feels like a quiet room.
 
 Helpful design features include:
 
@@ -52,7 +52,7 @@ Look for:
 - Soft language and infrequent nudges rather than pushy streak warnings
 - The ability to choose days and times that realistically work for you
 
-Some apps offer push notifications that simply say things like "Take a moment for yourself" or "How are you feeling today" — which can feel more like invitations than obligations.
+Some apps offer push notifications that simply say things like "Take a moment for yourself" or "How are you feeling today", which can feel more like invitations than obligations.
 
 ---
 
@@ -99,7 +99,7 @@ Voice journaling is a powerful alternative for people who think out loud, and ha
 For safety and autonomy, it is reassuring to know that:
 
 - You can write without an internet connection
-- You can export your entries — for example to PDF or plain text — if you ever want to move or back them up yourself
+- You can export your entries, for example to PDF or plain text, if you ever want to move or back them up yourself
 
 Having control over your data makes people more willing to be honest in their entries. That sense of control is especially important for anxious or sensitive users.
 

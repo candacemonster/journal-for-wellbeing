@@ -1,18 +1,18 @@
----
+﻿---
 layout: post
 title: "Voice Journaling: How to Journal Without Writing a Single Word"
 author: willow_pages
 categories: [journal, practice, wellbeing]
 tags: [voice-journaling, audio-journaling, journaling, mental-health, ADHD, alternatives, accessibility, self-care]
 image: assets/images/voice-journaling.svg
-description: "Voice journaling — speaking into a voice recorder or phone instead of writing — offers all the psychological benefits of expressive writing with none of the blank-page friction. A guide to getting started, choosing tools, and making spoken reflection part of your practice."
-excerpt: "If writing feels like a barrier, speaking might be your way in. Voice journaling is a genuine, researched alternative to written journaling — ideal for ADHD, physical limitations, or anyone who finds words come more easily when spoken than when typed."
+description: "Voice journaling, speaking into a voice recorder or phone instead of writing, offers all the psychological benefits of expressive writing with none of the blank-page friction. A guide to getting started, choosing tools, and making spoken reflection part of your practice."
+excerpt: "If writing feels like a barrier, speaking might be your way in. Voice journaling is a genuine, researched alternative to written journaling, ideal for ADHD, physical limitations, or anyone who finds words come more easily when spoken than when typed."
 date: 2026-03-16
 featured: false
 hidden: false
 ---
 
-The research on expressive journaling is primarily research on writing. But the psychological mechanisms at work — putting difficult or unprocessed experience into coherent language, creating narrative distance, externalising internal states — do not require a pen to activate them.
+The research on expressive journaling is primarily research on writing. But the psychological mechanisms at work, putting difficult or unprocessed experience into coherent language, creating narrative distance, externalising internal states, do not require a pen to activate them.
 
 Speaking serves the same function. The act of forming chaotic internal experience into coherent spoken sentences does the same cognitive and emotional work as writing those sentences down. The medium is different; the underlying process is largely the same.
 
@@ -37,7 +37,7 @@ Voice journaling is not a compromise or a lesser version of the real thing. For 
 ### The Two Main Approaches
 
 **Unprocessed voice notes (stream-of-consciousness)**
-This is the simplest: you press record and speak whatever is present. No structure, no coherent argument, no editing. The equivalent of freewriting. You may speak for thirty seconds or thirty minutes. The goal is externalisation — getting the internal noise outside of your head — rather than coherence.
+This is the simplest: you press record and speak whatever is present. No structure, no coherent argument, no editing. The equivalent of freewriting. You may speak for thirty seconds or thirty minutes. The goal is externalisation, getting the internal noise outside of your head, rather than coherence.
 
 The drawback is that these recordings can be difficult to revisit. If you never listen back, the reflection element of journaling (what you notice when you re-encounter an earlier entry) is lost. For some people that is fine; they are using voice notes primarily for immediate processing rather than for a record.
 
@@ -50,7 +50,7 @@ This works more like traditional journaling: you choose a prompt or structure an
 
 **Built-in voice memos**: Every smartphone has a voice recording app. These work perfectly well, though the files can pile up without labelling.
 
-**Otter.ai**: Transcribes voice recordings to text in real time. This bridges voice and written journaling — you speak it and end up with a written record.
+**Otter.ai**: Transcribes voice recordings to text in real time. This bridges voice and written journaling, you speak it and end up with a written record.
 
 **Day One** (iOS/Mac): Allows voice entries alongside written ones, keeps everything in one place, and offers encryption/password protection.
 
@@ -66,7 +66,7 @@ If privacy is important to you, consider recorded files stored locally rather th
 
 The same prompts that work in written journaling work in voice. A few that translate particularly well to speech:
 
-1. *"What's on my mind right now — just talk through it, don't edit."*
+1. *"What's on my mind right now, just talk through it, don't edit."*
 2. *"Something that happened today and how I actually feel about it is..."*
 3. *"If I were talking to a good friend about this week, what would I actually say?"*
 4. *"What do I need right now that I haven't been asking for?"*
@@ -77,7 +77,7 @@ The same prompts that work in written journaling work in voice. A few that trans
 
 ### Combining Voice and Written Journaling
 
-Some people use voice notes as a first draft — speaking freely and then writing a more considered follow-up later. The voice recording externalises the raw material; the writing distils it. This two-stage approach works well if you process verbally in the moment but benefit from the slower consolidation that writing provides.
+Some people use voice notes as a first draft, speaking freely and then writing a more considered follow-up later. The voice recording externalises the raw material; the writing distils it. This two-stage approach works well if you process verbally in the moment but benefit from the slower consolidation that writing provides.
 
 You can also use voice journaling for immediate processing (in the car after a difficult meeting, on a walk after a hard conversation) and written journaling for deeper reflection on the same material later in the day. Neither is more legitimate than the other; they do different things.
 

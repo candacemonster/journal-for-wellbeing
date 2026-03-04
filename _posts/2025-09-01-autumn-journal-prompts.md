@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Autumn Journal Prompts: 20 Gentle Prompts for the Turning Season"
 author: willow_pages
@@ -6,7 +6,7 @@ categories: [prompts, seasonal]
 tags: [autumn, fall, journal-prompts, seasonal, reflection, mindfulness, self-care]
 image: assets/images/autumn-journal-prompts.svg
 description: "Autumn's shorter days and shifting light invite a natural shift inward. These 20 gentle autumn journal prompts help you mark the season honestly, let go of what summer carried, and settle into the slower rhythm that autumn asks for."
-excerpt: "Autumn is the season for turning inward. 20 gentle journal prompts for the cooler months — for letting go, noticing what the year has taught you, and settling into the slower pace that autumn quietly asks for."
+excerpt: "Autumn is the season for turning inward. 20 gentle journal prompts for the cooler months, for letting go, noticing what the year has taught you, and settling into the slower pace that autumn quietly asks for."
 date: 2025-09-01
 featured: false
 hidden: false
@@ -14,7 +14,7 @@ hidden: false
 
 There is something in autumn that asks us to slow down before we are ready. The light shifts. The temperature drops by increments. The pace that summer sustains starts to feel costly. And underneath all of it, a quieter question begins to surface: what from this year needs to be set down before the year ends?
 
-Autumn has always been a natural season for reflection — a harvest of experience, a preparation for winter, a gentle reckoning with what has grown and what has not. Journaling in autumn can follow that rhythm without forcing it.
+Autumn has always been a natural season for reflection, a harvest of experience, a preparation for winter, a gentle reckoning with what has grown and what has not. Journaling in autumn can follow that rhythm without forcing it.
 
 These prompts are for the slow, honest kind of reflection. Not productivity audits. Not year-in-review checklists. Just an invitation to sit with the season and ask some of the gentler questions.
 
@@ -22,7 +22,7 @@ These prompts are for the slow, honest kind of reflection. Not productivity audi
 
 ### On the Particular Quality of Autumn Writing
 
-Autumn invites a specific kind of introspection that differs from other seasons. Summer's outward energy — plans, movement, sunlight — recedes. The external world becomes quieter in a way that makes the internal world more audible.
+Autumn invites a specific kind of introspection that differs from other seasons. Summer's outward energy, plans, movement, sunlight, recedes. The external world becomes quieter in a way that makes the internal world more audible.
 
 Many people notice that their emotional landscape shifts in autumn: old feelings resurface, a general quietening sets in, and there is both melancholy and a kind of comfort in the shortening days. Rather than pushing past this or filling it with busyness, the journal can be a place to actually inhabit it.
 
@@ -51,7 +51,7 @@ These prompts honour that texture.
 12. *"A version of how things 'should have gone' that I am still arguing with is... and one sentence of making peace with how they actually went..."*
 
 **For slowing down**
-13. *"One way I could honestly slow down this autumn — not as a to-do, but as a genuine act of care — is..."*
+13. *"One way I could honestly slow down this autumn, not as a to-do, but as a genuine act of care, is..."*
 14. *"The things I have been wanting that feel autumnal, cosy, quieter, more internal, are..."*
 15. *"When I imagine a genuinely restful October or November, it includes..."*
 

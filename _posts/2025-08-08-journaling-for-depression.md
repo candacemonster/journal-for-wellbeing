@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Journaling for Depression: A Gentle, Low-Pressure Guide"
 author: willow_pages
@@ -6,7 +6,7 @@ categories: [journal, wellbeing]
 tags: [depression, mental-health, prompts, self-care, expressive-writing, emotional-regulation]
 image: assets/images/journaling-for-depression.svg
 description: "Journaling for depression is not about forcing positivity or filling pages. This gentle guide explains what the research actually shows, why writing feels impossible when you're low, and how to start with just a few honest words."
-excerpt: "When you're depressed, journaling can feel like the last thing you want to do. A gentle, realistic guide to writing through low moods — with formats that ask almost nothing of you, and 10 prompts for dark days."
+excerpt: "When you're depressed, journaling can feel like the last thing you want to do. A gentle, realistic guide to writing through low moods, with formats that ask almost nothing of you, and 10 prompts for dark days."
 date: 2025-08-08
 featured: false
 hidden: false
@@ -22,7 +22,7 @@ This guide is. It starts small, stays honest, and asks almost nothing of you.
 
 The short, honest answer: it can, in modest ways, when it is used thoughtfully.
 
-Research on expressive writing — particularly the work of psychologist James Pennebaker — has shown that writing about thoughts and feelings related to difficult experiences can reduce symptoms of depression and improve mood over time. A 2018 meta-analysis in *JMIR Mental Health* found that internet-based self-help interventions that included journaling and expressive writing were associated with significant reductions in depression symptoms compared to control groups.
+Research on expressive writing, particularly the work of psychologist James Pennebaker, has shown that writing about thoughts and feelings related to difficult experiences can reduce symptoms of depression and improve mood over time. A 2018 meta-analysis in *JMIR Mental Health* found that internet-based self-help interventions that included journaling and expressive writing were associated with significant reductions in depression symptoms compared to control groups.
 
 Journaling may help by:
 
@@ -74,7 +74,7 @@ If you have a few more minutes, this five-step structure can help you check in w
 Before writing, name one thing you can see, one thing you can hear, and one thing you can feel physically (the weight of the chair, the temperature of the air). You are just anchoring yourself in the present moment for a moment.
 
 **2. Name without judging (two sentences)**
-Start with: *"Right now I feel..."* and write one or two feeling words. Then: *"In my body this feels like..."* — a colour, a texture, a weight, whatever comes.
+Start with: *"Right now I feel..."* and write one or two feeling words. Then: *"In my body this feels like..."*, a colour, a texture, a weight, whatever comes.
 
 **3. Acknowledge what has been hard (three to five minutes)**
 Complete the sentence: *"The hardest thing about today/this week was..."* Write without editing. You are not looking for insight; you are just setting it down somewhere outside your head.
@@ -92,7 +92,7 @@ Write: *"I am closing this for now."* That sentence tells your nervous system th
 These prompts are designed to be answerable in just a few lines. You do not need to resolve anything.
 
 1. *"If my depression had a texture or colour today, it would be..."*
-2. *"The thought that keeps replaying is... and one response to it — even uncertain — might be..."*
+2. *"The thought that keeps replaying is... and one response to it, even uncertain, might be..."*
 3. *"Something small that helped me feel even 5% more like myself recently was..."*
 4. *"When I imagine a version of this day that cost me just a little less energy, it would include..."*
 5. *"The kindest thing someone has said to me recently was... and part of me struggled to receive it because..."*
@@ -108,13 +108,13 @@ If a prompt stirs something too large to sit with, you can write *"Not today"* a
 
 ### What to Do If Journaling Makes You Feel Worse
 
-For some people, depression journaling can deepen rumination — the sticky, repetitive cycling through painful thoughts that makes depression worse rather than better. Signs this is happening:
+For some people, depression journaling can deepen rumination, the sticky, repetitive cycling through painful thoughts that makes depression worse rather than better. Signs this is happening:
 
 - You fill pages with the same thoughts, arriving nowhere
 - You feel heavier after writing than before
 - Your journal is becoming a place to catalogue everything wrong
 
-If you notice this pattern, try shifting to a more structured format (like the steps above) that gives you a clear stopping point, or switch to the shorter formats so your writing has a container. You can also try writing about something outside yourself entirely — an observation of the world around you, a memory that is not painful — just to practice using the page without it becoming a spiral.
+If you notice this pattern, try shifting to a more structured format (like the steps above) that gives you a clear stopping point, or switch to the shorter formats so your writing has a container. You can also try writing about something outside yourself entirely, an observation of the world around you, a memory that is not painful, just to practice using the page without it becoming a spiral.
 
 It is also worth raising with a therapist, especially one who uses cognitive behavioural therapy or ACT, who can help you develop a journaling approach that supports rather than entrenches your thought patterns.
 

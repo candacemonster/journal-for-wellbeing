@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 title: "Writing to a Past Self: A Step by Step Gentle Practice"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [self-compassion, letter-writing, emotional-healing, mental-health, journaling, inner-child, self-care, prompts]
-image:
+image: assets/images/writing-to-a-past-self-gentle-practice.svg
 description: "Writing to a past version of yourself can soften shame, offer support you did not have then, and help you process old experiences with more understanding and care."
 excerpt: "Writing to a past version of yourself can be a powerful way to process old experiences with more understanding and care. Here is a gentle, step-by-step guide."
 date: 2025-12-12
@@ -72,7 +72,7 @@ Describe, in simple words, what you know that younger you experienced:
 - "You were trying to be perfect so no one would leave."
 - "You were confused and scared, and no one explained what was happening."
 
-You are validating their reality — which is something many people did not receive at the time.
+You are validating their reality, which is something many people did not receive at the time.
 
 ---
 
@@ -112,4 +112,4 @@ End with a sense of ongoing relationship, not closure:
 
 You can keep these letters private, share them with a therapist, or even symbolically "send" them by placing them somewhere special.
 
-Writing to a past self does not change what happened, but it can change how alone you feel with it now — and how harshly you judge the younger you who had fewer choices.
+Writing to a past self does not change what happened, but it can change how alone you feel with it now, and how harshly you judge the younger you who had fewer choices.

@@ -1,12 +1,12 @@
----
+﻿---
 layout: post
 title: "Journaling for Sleep: How Writing Before Bed Can Help You Rest Better"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [sleep, mental-health, journaling, self-care, anxiety, mindfulness, habits]
 image: assets/images/journaling-for-sleep.svg
-description: "A racing mind at bedtime is one of the most common sleep disruptors. This guide explains what research says about journaling before bed — including one specific method studied at sleep clinics — and offers a simple, low-effort night journaling ritual."
-excerpt: "Journaling before bed isn't just a wind-down ritual — one specific method has been studied in sleep labs and found to shorten the time it takes to fall asleep. A gentle guide to writing your way to better rest."
+description: "A racing mind at bedtime is one of the most common sleep disruptors. This guide explains what research says about journaling before bed, including one specific method studied at sleep clinics, and offers a simple, low-effort night journaling ritual."
+excerpt: "Journaling before bed isn't just a wind-down ritual, one specific method has been studied in sleep labs and found to shorten the time it takes to fall asleep. A gentle guide to writing your way to better rest."
 date: 2025-09-19
 featured: false
 hidden: false
@@ -24,9 +24,9 @@ In 2018, psychologists at Baylor University published a study in the *Journal of
 
 One group spent five minutes writing a to-do list: specific tasks they needed to complete in the coming days. The other group spent five minutes writing about tasks they had already completed.
 
-The to-do list writers fell asleep significantly faster — about nine minutes faster on average. The more specific and detailed the to-do list, the greater the effect.
+The to-do list writers fell asleep significantly faster, about nine minutes faster on average. The more specific and detailed the to-do list, the greater the effect.
 
-The researchers theorised that the to-do list works because it performs a kind of cognitive offloading. Your brain worries about unfinished tasks in part because it is afraid of forgetting them. Writing them down, in concrete terms, signals to the brain that they have been registered and stored — releasing the vigilance that keeps you awake.
+The researchers theorised that the to-do list works because it performs a kind of cognitive offloading. Your brain worries about unfinished tasks in part because it is afraid of forgetting them. Writing them down, in concrete terms, signals to the brain that they have been registered and stored, releasing the vigilance that keeps you awake.
 
 This is not the only way journaling can support sleep. But it is a remarkably practical, evidence-supported one.
 
@@ -36,13 +36,13 @@ This is not the only way journaling can support sleep. But it is a remarkably pr
 
 Beyond task offloading, journaling can help with sleep in several interconnected ways:
 
-**Processing emotional residue from the day.** Unexpressed or unprocessed emotions — particularly worry, interpersonal tension, or unresolved situations — activate the stress response, which is essentially incompatible with sleep onset. Writing briefly about what happened and how you felt can lower that arousal.
+**Processing emotional residue from the day.** Unexpressed or unprocessed emotions, particularly worry, interpersonal tension, or unresolved situations, activate the stress response, which is essentially incompatible with sleep onset. Writing briefly about what happened and how you felt can lower that arousal.
 
 **Reducing hyperarousal through slowing down.** The physical act of writing by hand is slower than thinking, and that pace difference can itself help gently decelerate a fast-running mind.
 
 **Creating a psychological transition ritual.** The brain responds well to cues that signal a shift in context. A consistent short journaling ritual at the same time each night becomes an anchor that tells your nervous system: we are moving from doing to resting.
 
-**Externalising worry.** Research on cognitive hyperarousal — the kind of racing thought that most strongly predicts poor sleep — suggests that writing worries down transfers them outside the mind, reducing the mental effort required to "hold" them overnight.
+**Externalising worry.** Research on cognitive hyperarousal, the kind of racing thought that most strongly predicts poor sleep, suggests that writing worries down transfers them outside the mind, reducing the mental effort required to "hold" them overnight.
 
 ---
 
@@ -59,7 +59,7 @@ Not all journaling is equally sleep-friendly. A few patterns to be cautious of i
 ### A Gentle Sleep Journaling Ritual (10–15 minutes)
 
 **Step 1: Transition cue (1 minute)**
-Dim your phone screen or set it face down. Make a warm drink if that is part of your wind-down. Sit somewhere other than your bed if possible — the association between your bed and wakefulness is worth guarding.
+Dim your phone screen or set it face down. Make a warm drink if that is part of your wind-down. Sit somewhere other than your bed if possible, the association between your bed and wakefulness is worth guarding.
 
 **Step 2: The brain dump (3–5 minutes)**
 Write a fast, messy list of everything that is on your mind without filtering for importance. Worries, half-finished thoughts, tomorrow's logistics, the thing someone said, the bill you haven't checked. Get it outside your head and onto the page.

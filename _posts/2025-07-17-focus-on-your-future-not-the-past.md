@@ -7,7 +7,7 @@ tags: [wellbeing, mindfulness, self-compassion, renewal]
 image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzdmaGlpOXU1NGJ2MXp2OWhtM2xmNDQxcmdzaWh1ZXg1NzlzbWVnMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kit7OGuNpZQzDZRmrm/giphy.gif
 description: "You are not the sum of missed chances. You can begin from here and build forward with clarity and gentleness."
 excerpt: "Growth isn't in rewind; it's in what you choose next. A soft reminder you're not behind, you're arriving."
-date: 2025-07-01
+date: 2025-07-17
 featured: false
 hidden: false
 ---

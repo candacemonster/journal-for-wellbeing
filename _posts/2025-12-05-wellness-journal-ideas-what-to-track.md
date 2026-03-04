@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Wellness Journal Ideas: What to Actually Track for Emotional Wellbeing"
 author: willow_pages
@@ -6,7 +6,7 @@ categories: [journal, wellbeing]
 tags: [wellness-journal, mood-tracking, mental-health, self-care, journaling-tips, emotional-wellbeing, habits]
 image: assets/images/18-wellness-journal-ideas.jpg
 description: "A wellness journal does not have to be a perfectly curated planner. Here are the things actually worth tracking for emotional wellbeing, explained simply and without pressure."
-excerpt: "A wellness journal does not have to be perfect. Here are the key things actually worth tracking for emotional wellbeing — and how to do it in a low-pressure, meaningful way."
+excerpt: "A wellness journal does not have to be perfect. Here are the key things actually worth tracking for emotional wellbeing, and how to do it in a low-pressure, meaningful way."
 date: 2025-12-05
 featured: false
 hidden: false
@@ -67,7 +67,7 @@ Glimmers are small moments that feel okay or pleasant, even in difficult seasons
 
 **"One small good thing:"**
 
-Examples: "sun on the kitchen table," "cat curled up next to me," "song I liked in the car." This is not forced positivity — it is nervous system support through noticing safety and warmth.
+Examples: "sun on the kitchen table," "cat curled up next to me," "song I liked in the car." This is not forced positivity, it is nervous system support through noticing safety and warmth.
 
 ---
 
@@ -115,6 +115,6 @@ For example, "showed up for a friend," "rested when I was tired," or "created so
 
 ### Keep It Light and Humane
 
-You do not need to track everything every day. The point is not to optimize your life into perfection — it is to see yourself more clearly so you can respond with a little more wisdom and care.
+You do not need to track everything every day. The point is not to optimize your life into perfection, it is to see yourself more clearly so you can respond with a little more wisdom and care.
 
 Skip what you do not need. Return to what helps. Let the journal work for you, not the other way around.

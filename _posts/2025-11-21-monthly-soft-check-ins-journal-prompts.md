@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Monthly Soft Check Ins: Journal Prompts for Each Month of the Year"
 author: willow_pages
@@ -6,7 +6,7 @@ categories: [prompts, journal]
 tags: [monthly-prompts, check-in, wellbeing, journal-prompts, self-care, mental-health, reflection]
 image: assets/images/16-monthly-soft-checkins.jpg
 description: "Monthly soft check-in prompts for each month of the year. Smaller and kinder than big life audits, these questions help you ask 'how am I, really?' and adjust gently."
-excerpt: "Big life audits can feel overwhelming. These monthly soft check-in prompts are smaller and kinder — a once-a-month chance to ask 'how am I, really?' and adjust gently."
+excerpt: "Big life audits can feel overwhelming. These monthly soft check-in prompts are smaller and kinder, a once-a-month chance to ask 'how am I, really?' and adjust gently."
 date: 2025-11-21
 featured: false
 hidden: false
@@ -71,7 +71,7 @@ These prompts help you see where your time and energy are leaking.
 ### June: Pleasure and Presence
 
 - "What has actually felt good in my body or life lately, even if it was small?"
-- "How did I make space — or not — for rest and enjoyment this spring?"
+- "How did I make space, or not, for rest and enjoyment this spring?"
 - "What is one tiny pleasure I want to weave into this month?"
 
 Focusing on small, embodied moments can support regulation and joy.
@@ -138,4 +138,4 @@ This is not about forced gratitude, but about honest noticing.
 
 Monthly soft check-ins like these help you adjust gradually, instead of swinging between ignoring your needs and trying to overhaul everything at once.
 
-You can adapt these prompts for different years and seasons. The goal is not to answer perfectly — it is to show up once a month and listen.
+You can adapt these prompts for different years and seasons. The goal is not to answer perfectly, it is to show up once a month and listen.
