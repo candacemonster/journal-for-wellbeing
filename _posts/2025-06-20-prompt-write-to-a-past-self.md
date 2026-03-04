@@ -7,7 +7,7 @@ tags: [healing, reflection, inner-child, self-compassion]
 image: assets/images/dominik-kempf-bF3didueQTk-unsplash.jpg
 description: "Write a letter to a past version of yourself, not to fix them, but to witness them with the tenderness they deserved."
 excerpt: "A raw, compassionate journaling prompt: write to a past self you still carry, and offer presence instead of correction."
-date: 2025-06-20
+date: 2025-06-20 07:43:47 +0000
 featured: false
 hidden: false
 ---

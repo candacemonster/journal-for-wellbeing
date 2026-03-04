@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "ADHD Journaling: How to Make It Actually Work for Your Brain"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [ADHD, mental-health, journaling, getting-started, emotional-regulation, s
 image: assets/images/adhd-journaling.svg
 description: "Traditional journaling advice is built for neurotypical brains. This guide offers ADHD-specific formats, prompts, and habit strategies that work with how ADHD brains actually function, scattered, fast, and in need of structure without rigidity."
 excerpt: "Most journaling advice fails ADHD brains. This guide offers formats, prompts, and gentle habit strategies built around how ADHD actually works, including the blank-page paralysis, time blindness, and emotional intensity that make traditional journaling feel impossible."
-date: 2025-08-29
+date: 2025-08-29 11:31:59 +0000
 featured: false
 hidden: false
 ---

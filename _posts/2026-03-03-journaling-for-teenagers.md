@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Journaling for Teenagers: A Guide for Teens (and the Adults Who Care About Them)"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [teenagers, teens, young-people, mental-health, journaling, anxiety, ident
 image: assets/images/journaling-for-teenagers.svg
 description: "Journaling can be genuinely useful for teenagers navigating identity, friendships, academic pressure, and the emotional intensity of adolescence. This guide is written for teens, and includes a note for parents and carers on how to support without invading privacy."
 excerpt: "The teenage years are emotionally enormous. Journaling can give young people a private space to process what they're feeling, figure out who they are, and practise articulating emotions they've never had words for before."
-date: 2026-03-13
+date: 2026-03-13 08:40:50 +0000
 featured: false
 hidden: false
 ---

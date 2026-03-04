@@ -7,7 +7,7 @@ tags: [journaling, mental-health, wellbeing, habits, expressive-writing, self-ca
 image: assets/images/journaling 5.jpg
 description: "You don't need long, dramatic journaling sessions to feel the benefits. Here's what research says about how long and how often to write."
 excerpt: "Good news: you don't need long dramatic sessions to feel the benefits. Here's what research suggests about how long and how often to journal for your emotional health."
-date: 2026-02-09
+date: 2026-02-09 10:44:06 +0000
 featured: false
 hidden: false
 ---

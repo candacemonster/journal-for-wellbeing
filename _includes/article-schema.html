@@ -6,6 +6,7 @@
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | strip_html | strip_newlines | escape }}",
   "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
   {% if page.image contains 'http' %}
   "image": "{{ page.image }}",
   {% else %}

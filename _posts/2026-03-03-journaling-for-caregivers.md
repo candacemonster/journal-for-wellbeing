@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Journaling for Caregivers: Writing for Yourself When You Give Everything to Others"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [caregivers, compassion-fatigue, burnout, mental-health, journaling, self-
 image: assets/images/journaling-for-caregivers.svg
 description: "Caregiving is one of the most emotionally depleting things a person can do, and one of the least supported. Journaling can give caregivers a rare private space to be honest about what they are carrying, process the feelings they cannot express to others, and tend to themselves for a few minutes each day."
 excerpt: "Caregivers often lose access to their own inner life in the process of attending to everyone else's needs. A journal can be one of the few spaces where you are allowed to feel what you feel without managing anyone else's response to it."
-date: 2026-03-31
+date: 2026-03-31 07:53:57 +0000
 featured: false
 hidden: false
 ---

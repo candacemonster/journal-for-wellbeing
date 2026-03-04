@@ -7,7 +7,7 @@ tags: [self-compassion, mental-health, journaling, prompts, emotional-regulation
 image: assets/images/journaling 15.jpg
 description: "Ten journaling prompts rooted in self-compassion research to help you build a kinder inner voice, treat yourself with the warmth you would offer a close friend, and soften the inner critic."
 excerpt: "Ten evidence-informed prompts to help you write to yourself with the same warmth and understanding you would offer someone you love."
-date: 2025-12-30
+date: 2025-12-30 09:42:28 +0000
 featured: false
 hidden: false
 ---

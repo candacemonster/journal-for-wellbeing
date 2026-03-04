@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Monthly Soft Check Ins: Journal Prompts for Each Month of the Year"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [monthly-prompts, check-in, wellbeing, journal-prompts, self-care, mental-
 image: assets/images/16-monthly-soft-checkins.jpg
 description: "Monthly soft check-in prompts for each month of the year. Smaller and kinder than big life audits, these questions help you ask 'how am I, really?' and adjust gently."
 excerpt: "Big life audits can feel overwhelming. These monthly soft check-in prompts are smaller and kinder, a once-a-month chance to ask 'how am I, really?' and adjust gently."
-date: 2025-11-21
+date: 2025-11-21 10:04:26 +0000
 featured: false
 hidden: false
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Spring Journal Prompts: 20 Prompts for the Season of Beginning Again"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [spring, journal-prompts, seasonal, reflection, mindfulness, self-care, re
 image: assets/images/spring-journal-prompts.svg
 description: "Spring's returning light and sense of possibility make it one of the most natural times to journal. These 20 spring journal prompts invite genuine renewal rather than pressure, for the things you want to begin, the things you are still carrying from winter, and the slow reopening that this season asks for."
 excerpt: "Spring is the season of tentative beginnings, of things returning before you are ready for them. 20 gentle journal prompts for the opening months, from what is ready to stir in you to what winter taught you and what you want to bring into the light."
-date: 2026-03-19
+date: 2026-03-19 08:15:55 +0000
 featured: false
 hidden: false
 ---

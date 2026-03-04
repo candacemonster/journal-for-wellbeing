@@ -7,7 +7,7 @@ tags: [wellbeing, chronic illness, fatigue, self-care, mindfulness]
 image: assets/images/a-book-1975830_1280.jpg
 description: "A slow, permission-filled journaling approach for days shaped by chronic illness or fatigue, with tiny honest marks that keep you connected."
 excerpt: "In the fog of exhaustion, your voice still matters. Gentle ways to journal, even just one word or one line, when energy is scarce."
-date: 2025-07-18
+date: 2025-07-18 07:18:52 +0000
 featured: false
 hidden: false
 ---

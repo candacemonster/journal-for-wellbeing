@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Best Journaling App Features for Anxious or Sensitive Minds"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [journaling-apps, digital-journaling, anxiety, sensitive, mental-health, p
 image: assets/images/15-calm-journaling-app.jpg
 description: "If you live with anxiety or are highly sensitive, the right journaling app features can make your practice feel safe and sustainable. Here is what to look for."
 excerpt: "The wrong app can feel noisy, exposing, or overwhelming. Here are the features that make a journaling app genuinely supportive for anxious or sensitive minds."
-date: 2025-11-14
+date: 2025-11-14 07:33:37 +0000
 featured: false
 hidden: false
 ---

@@ -7,7 +7,7 @@ tags: [anxiety, mental-health, self-care, emotional-regulation, mindfulness, gro
 image: assets/images/journaling 8.jpg
 description: "Journaling is often recommended for anxiety, but it can sometimes spike distress instead of easing it. Learn the signs and seven practical adjustments to make your practice work for you."
 excerpt: "Journaling can sometimes increase anxiety rather than ease it. Here is how to recognise the signs and seven adjustments that can help."
-date: 2025-12-18
+date: 2025-12-18 08:00:10 +0000
 featured: false
 hidden: false
 ---

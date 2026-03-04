@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Journaling for Chronic Pain: Writing When Your Body Is the Hard Part"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [chronic-pain, chronic-illness, mental-health, journaling, self-care, emot
 image: assets/images/journaling-for-chronic-pain.svg
 description: "Journaling with chronic pain is not about toxic positivity or silver linings. It can help you track patterns, process the emotional weight of illness, and stay connected to who you are beyond your symptoms."
 excerpt: "Chronic pain carries an emotional weight that goes beyond the physical. Journaling can help you track what affects your symptoms, process grief and frustration, and hold onto the parts of yourself that illness doesn't define."
-date: 2026-03-04
+date: 2026-03-04 11:51:19 +0000
 featured: false
 hidden: false
 ---

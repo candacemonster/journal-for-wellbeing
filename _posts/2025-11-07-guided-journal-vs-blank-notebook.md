@@ -7,7 +7,7 @@ tags: [guided-journal, blank-notebook, mental-health, journaling, self-care, jou
 image: assets/images/14-guided-vs-blank.jpg
 description: "Guided journals and blank notebooks both support mental health in different ways. Here is how to choose the right format for your nervous system and your needs right now."
 excerpt: "Guided journals and blank notebooks can both support your mental health, but they work in different ways. The right choice depends on what your nervous system can realistically handle right now."
-date: 2025-11-07
+date: 2025-11-07 11:21:49 +0000
 featured: false
 hidden: false
 ---

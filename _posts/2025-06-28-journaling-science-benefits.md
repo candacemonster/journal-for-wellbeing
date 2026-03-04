@@ -7,7 +7,7 @@ tags: [evidence, research, wellbeing, expressive-writing, neuroscience]
 image: https://media.giphy.com/media/fqIBaMWI7m7O8/giphy.gif
 description: "Expressive journaling shows modest, measurable benefits for mood, stress regulation, immune markers, and cognitive processing, without needing long pages."
 excerpt: "Decades of expressive writing research show gentle but real benefits for emotional regulation, stress, and even some physical health markers. Here’s what the studies actually found (and what they didn’t)."
-date: 2025-06-28
+date: 2025-06-28 10:24:46 +0000
 featured: false
 hidden: false
 ---

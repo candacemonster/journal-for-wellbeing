@@ -7,7 +7,7 @@ tags: [journal-prompts, mindfulness, summer, reflection]
 image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eWM2YThjZTBsOTJ3a29tYzRzMjJiemN2YWZxNjZudzZ3YWx5MjJ3aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7buiEVyi9GAXgzw4/giphy.gif
 description: "A soft set of seven summer journaling prompts to slow down, notice small healings, and meet yourself with gentleness."
 excerpt: "Let July (or whatever month you’re in) move slower. Seven gentle summer prompts for presence and quiet self-connection."
-date: 2025-07-14
+date: 2025-07-14 09:32:18 +0000
 featured: true
 hidden: false
 ---

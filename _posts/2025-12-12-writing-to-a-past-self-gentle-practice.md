@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Writing to a Past Self: A Step by Step Gentle Practice"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [self-compassion, letter-writing, emotional-healing, mental-health, journa
 image: assets/images/writing-to-a-past-self-gentle-practice.svg
 description: "Writing to a past version of yourself can soften shame, offer support you did not have then, and help you process old experiences with more understanding and care."
 excerpt: "Writing to a past version of yourself can be a powerful way to process old experiences with more understanding and care. Here is a gentle, step-by-step guide."
-date: 2025-12-12
+date: 2025-12-12 10:19:11 +0000
 featured: false
 hidden: false
 ---

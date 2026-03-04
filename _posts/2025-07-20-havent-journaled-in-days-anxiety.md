@@ -1,8 +1,8 @@
-﻿---
+---
 layout: post
 title: "When I Haven’t Journaled and My Mind Is Loud"
 author: willow_pages
-date: 2025-07-20
+date: 2025-07-20 07:18:52 +0000
 permalink: /havent-journaled-in-days-anxiety/
 categories: [journal, reflection]
 tags: [anxiety, overwhelm, self-trust, return, nervous-system]

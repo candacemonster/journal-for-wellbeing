@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Journaling for Intrusive Thoughts: Writing That Helps Rather Than Feeds"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [intrusive-thoughts, OCD, anxiety, rumination, mental-health, journaling, 
 image: assets/images/journaling-for-intrusive-thoughts.svg
 description: "Intrusive thoughts are distressing precisely because they feel significant. Journaling can help you defuse them, but only if you avoid the trap of using writing to seek reassurance. A careful guide to writing that supports rather than feeds intrusive thinking."
 excerpt: "The wrong kind of journaling can make intrusive thoughts worse by reinforcing the idea that they need to be resolved. The right approach creates distance rather than engagement, here is how to write about intrusive thoughts in a way that genuinely helps."
-date: 2026-03-25
+date: 2026-03-25 07:48:22 +0000
 featured: false
 hidden: false
 ---

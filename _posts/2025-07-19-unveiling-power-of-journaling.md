@@ -2,7 +2,7 @@
 layout: post
 title: "What Journaling Is Teaching Me"
 author: willow_pages
-date: 2025-07-19
+date: 2025-07-19 10:39:31 +0000
 permalink: /unveiling-power-of-journaling/
 categories: [journal, reflection]
 tags: [self-discovery, identity, journaling, growth, self-trust]

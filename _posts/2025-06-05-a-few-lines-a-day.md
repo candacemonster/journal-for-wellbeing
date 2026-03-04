@@ -7,7 +7,7 @@ tags: [neuroscience, journaling, habits, self-trust]
 image: assets/images/sixteen-miles-out-0I75875sRVU-unsplash.jpg
 description: "Even a brief daily journal, just a few honest lines, can nudge your brain toward calmer regulation, clarity, and self-trust."
 excerpt: "You don’t need pages. A handful of honest lines a day can gently retrain your brain toward calm, clarity, and self-trust."
-date: 2025-06-05
+date: 2025-06-05 09:07:23 +0000
 featured: false
 hidden: false
 ---

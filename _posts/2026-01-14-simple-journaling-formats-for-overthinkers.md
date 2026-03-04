@@ -7,7 +7,7 @@ tags: [overthinking, mental-health, journaling, self-care, prompts, getting-star
 image: assets/images/journaling 13.jpg
 description: "Ultra-simple journaling formats designed for overthinkers. Short, bounded structures that help you reflect without spiraling, analyzing, or feeding perfectionism."
 excerpt: "If you tend to overthink, these ultra-simple journaling formats help you check in without spiraling. One sentence, three words, or a headline can be enough."
-date: 2026-01-14
+date: 2026-01-14 10:14:36 +0000
 featured: false
 hidden: false
 ---

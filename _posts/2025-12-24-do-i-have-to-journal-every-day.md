@@ -7,7 +7,7 @@ tags: [journaling, mental-health, self-care, habits, consistency, getting-starte
 image: assets/images/journaling 9.jpg
 description: "The research does not require daily perfection, and neither does a sustainable journaling practice. Here is what studies actually say about how often you need to journal to benefit."
 excerpt: "Missing a day does not mean journaling will not help you. Here is what the research actually says about frequency, and the rhythm that works best."
-date: 2025-12-24
+date: 2025-12-24 08:35:15 +0000
 featured: false
 hidden: false
 ---

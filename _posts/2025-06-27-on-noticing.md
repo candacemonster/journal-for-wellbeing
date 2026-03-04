@@ -7,7 +7,7 @@ tags: [mindfulness, presence, awareness, beginners]
 image: https://media.giphy.com/media/2A0jTOgSpH4p0dZoHN/giphy.gif
 description: "Noticing: one sensation, one sound, one small feeling, is a quiet doorway into journaling, presence, and self-connection."
 excerpt: "You can begin journaling by simply noticing: a sound, a feeling, the light shifting. Small observations become a gentle record of presence."
-date: 2025-06-27
+date: 2025-06-27 10:29:21 +0000
 featured: false
 hidden: false
 ---

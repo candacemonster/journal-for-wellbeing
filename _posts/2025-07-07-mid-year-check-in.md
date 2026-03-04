@@ -7,7 +7,7 @@ tags: [reflection, prompts, mindfulness, midyear]
 image: assets/images/elin-melaas-wfz8p_EsNQU-unsplash.jpg
 description: "A soft mid-year journaling check-in to pause without pressure, notice what held meaning, what drained you, and what you need next."
 excerpt: "Halfway through the year is a doorway, not a deadline. A gentle pause to ask: How am I, really?"
-date: 2025-07-07
+date: 2025-07-07 11:46:44 +0000
 featured: false
 hidden: false
 ---

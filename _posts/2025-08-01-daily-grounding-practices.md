@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Daily Grounding Practices"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [grounding, mindfulness, presence, nervous-system]
 image: assets/images/janesca-CgwXHfrjips-unsplash.jpg
 description: "Simple, low-effort grounding practices you can use anytime: tiny sensory resets, breath cues, and micro journaling prompts."
 excerpt: "A gentle collection of tiny grounding practices. Pick one, pause a minute, and return to yourself."
-date: 2025-08-01
+date: 2025-08-01 11:16:14 +0000
 featured: true
 hidden: false
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Bullet Journal for Mental Health: A Gentler Approach to Tracking Your Inner Life"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [bullet-journal, mental-health, mood-tracking, journaling, anxiety, self-a
 image: assets/images/bullet-journal-mental-health.svg
 description: "You do not need a perfect bullet journal system to use bullet journaling for mental health. This gentle guide covers mood tracking, trigger logs, anxiety check-ins, and habit spreads, without the perfectionism."
 excerpt: "The full bullet journal system can feel overwhelming when you are already struggling. This guide strips it back to the mental-health essentials: mood tracking, trigger awareness, small habit records, and the single weekly spread that holds it all gently."
-date: 2025-10-31
+date: 2025-10-31 07:23:27 +0000
 featured: false
 hidden: false
 ---

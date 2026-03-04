@@ -7,7 +7,7 @@ tags: [healing, reflection, grounding, presence]
 image: https://media.giphy.com/media/1hMdWxlfKh13NOMRvP/giphy.gif
 description: "A grounding prompt: notice what has quietly remained, people, practices, inner parts, that still nourish you."
 excerpt: "Healing can be a quiet inventory of what’s remained. This prompt invites you to notice the steady, nourishing things still here."
-date: 2025-06-30
+date: 2025-06-30 11:16:14 +0000
 featured: false
 hidden: false
 ---

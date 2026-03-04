@@ -7,7 +7,7 @@ tags: [emotional-awareness, reflection, journaling, presence]
 image: https://media.giphy.com/media/RQ6ovU1SDm4Mg/giphy.gif
 description: "Pause for five unpolished minutes and ask: What needs a voice right now? A soft, presence-first journaling invitation."
 excerpt: "A gentle prompt: ask what you haven’t been letting yourself say, and offer it a few honest lines, without needing to fix anything."
-date: 2025-06-29
+date: 2025-06-29 11:46:44 +0000
 featured: false
 hidden: false
 ---

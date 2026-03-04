@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Start Where You Are"
 author: willow_pages
@@ -7,7 +7,7 @@ tags: [beginning, self-compassion, journaling]
 image: https://media.giphy.com/media/KDR4XGKyzJ6UwxqmJM/giphy.gif
 description: "You don't need perfect routines to begin a journaling practice; start with the unpolished truth of right now and let that be enough."
 excerpt: "Begin journaling from the imperfect, unfinished moment you're in. Nothing else required."
-date: 2025-05-26
+date: 2025-05-26 11:31:59 +0000
 featured: false
 hidden: false
 ---
