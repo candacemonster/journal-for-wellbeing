@@ -7,7 +7,7 @@ tags: [sleep, mental-health, journaling, self-care, anxiety, mindfulness, habits
 image: assets/images/journaling-for-sleep.svg
 description: "A racing mind at bedtime is one of the most common sleep disruptors. This guide explains what research says about journaling before bed — including one specific method studied at sleep clinics — and offers a simple, low-effort night journaling ritual."
 excerpt: "Journaling before bed isn't just a wind-down ritual — one specific method has been studied in sleep labs and found to shorten the time it takes to fall asleep. A gentle guide to writing your way to better rest."
-date: 2026-05-13
+date: 2025-09-19
 featured: false
 hidden: false
 ---

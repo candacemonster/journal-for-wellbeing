@@ -7,7 +7,7 @@ tags: [depression, mental-health, prompts, self-care, expressive-writing, emotio
 image: assets/images/journaling-for-depression.svg
 description: "Journaling for depression is not about forcing positivity or filling pages. This gentle guide explains what the research actually shows, why writing feels impossible when you're low, and how to start with just a few honest words."
 excerpt: "When you're depressed, journaling can feel like the last thing you want to do. A gentle, realistic guide to writing through low moods — with formats that ask almost nothing of you, and 10 prompts for dark days."
-date: 2026-04-01
+date: 2025-08-08
 featured: false
 hidden: false
 ---

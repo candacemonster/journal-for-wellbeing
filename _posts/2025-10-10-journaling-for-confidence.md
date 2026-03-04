@@ -7,7 +7,7 @@ tags: [confidence, self-esteem, mental-health, self-compassion, prompts, self-ca
 image: assets/images/journaling-for-confidence.svg
 description: "Low self-esteem often comes with a persistent internal narrator who focuses on failures and dismisses successes. Journaling can gently disrupt that story. This guide explains how and offers 20 prompts for building a more honest, kinder narrative about who you are."
 excerpt: "Low self-esteem runs on a skewed internal story. Journaling can gently interrupt that narrative — not through forced positivity, but through honest documentation of evidence your inner critic ignores. 20 prompts for building a kinder, truer story about yourself."
-date: 2026-06-03
+date: 2025-10-10
 featured: false
 hidden: false
 ---

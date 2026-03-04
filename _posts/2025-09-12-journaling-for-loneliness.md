@@ -7,7 +7,7 @@ tags: [loneliness, mental-health, self-care, prompts, emotional-regulation, expr
 image: assets/images/journaling-for-loneliness.svg
 description: "Loneliness is one of the most painful human experiences and one of the least talked about. This guide explores what research says about writing through social pain, why journaling can offer genuine companionship on hard days, and offers 14 prompts for when you feel most unseen."
 excerpt: "Loneliness is a pain signal, not a character flaw. A gentle guide to journaling when you feel unseen or disconnected — with formats for low-energy days and 14 prompts that can quietly help you feel less alone with yourself."
-date: 2026-05-06
+date: 2025-09-12
 featured: false
 hidden: false
 ---

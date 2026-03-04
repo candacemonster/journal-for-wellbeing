@@ -7,7 +7,7 @@ tags: [five-minute-journal, getting-started, journaling, habits, gratitude, self
 image: assets/images/five-minute-journal-alternative.svg
 description: "The Five Minute Journal is a popular prompted journaling product, but its format is easy to replicate yourself in any notebook with a few adjustments. This guide gives you the complete DIY version, explains what research actually supports, and lets you customise it to your needs."
 excerpt: "The Five Minute Journal format is simple, effective, and easy to replicate in any notebook you already own. Here's the complete DIY version with the research behind it, two format variations, and instructions for making it your own."
-date: 2026-06-10
+date: 2025-10-17
 featured: false
 hidden: false
 ---

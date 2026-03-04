@@ -7,7 +7,7 @@ tags: [winter, journal-prompts, seasonal, reflection, mindfulness, self-care, me
 image: assets/images/winter-journal-prompts.svg
 description: "Winter is the season for going inward. These 20 gentle winter journal prompts help you sit with the quiet, process the year just passed, tend to what needs rest, and prepare with care for what comes next."
 excerpt: "Winter asks us to slow down, rest, and go inward. 20 gentle journal prompts for the quiet months — for processing the year, tending to what needs rest, and finding what is steady underneath the cold."
-date: 2026-12-01
+date: 2025-12-07
 featured: false
 hidden: false
 ---

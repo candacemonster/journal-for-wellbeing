@@ -7,7 +7,7 @@ tags: [new-year, journal-prompts, seasonal, reflection, intentions, self-compass
 image: assets/images/new-year-journal-prompts.svg
 description: "These gentle new year journal prompts skip the resolution pressure and invite you instead to reflect honestly on the year behind you, acknowledge what changed, and step into the new year with intention rather than urgency."
 excerpt: "Not a resolution list. These gentle new year journal prompts invite you to close the year with honesty and open the next one with intention — carrying forward what served you and releasing what is ready to go."
-date: 2026-12-26
+date: 2025-12-28
 featured: false
 hidden: false
 ---

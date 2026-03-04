@@ -7,7 +7,7 @@ tags: [grief, loss, mental-health, prompts, self-care, emotional-healing, expres
 image: assets/images/journaling-for-grief.svg
 description: "Grief doesn't follow a schedule, and neither does a grief journal. This guide gently explains what research says about writing through loss, how to begin on even the heaviest days, and offers 18 prompts for different kinds of grief."
 excerpt: "Grief is not linear, and your journal doesn't have to be either. A gentle guide to writing through loss — including the grief that doesn't have a name — with 18 prompts for the days when words feel both impossible and necessary."
-date: 2026-04-15
+date: 2025-08-22
 featured: false
 hidden: false
 ---
