@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep warm charcoal -->
+  <rect width="1200" height="628" fill="#1e1a16"/>
+
+  <!-- Large half-circle moon motif (top-right) -->
+  <circle cx="1050" cy="120" r="160" fill="#2a231c"/>
+  <circle cx="1090" cy="120" r="160" fill="#1e1a16"/>
+
+  <!-- Subtle glow behind moon crescent -->
+  <circle cx="1050" cy="120" r="155" fill="none" stroke="#c9a76e" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Small stars / dots scattered -->
+  <circle cx="200" cy="80" r="1.5" fill="#c9a76e" opacity="0.6"/>
+  <circle cx="340" cy="55" r="1" fill="#c9a76e" opacity="0.4"/>
+  <circle cx="480" cy="95" r="1.5" fill="#c9a76e" opacity="0.5"/>
+  <circle cx="620" cy="60" r="1" fill="#c9a76e" opacity="0.4"/>
+  <circle cx="760" cy="85" r="1.5" fill="#c9a76e" opacity="0.6"/>
+  <circle cx="150" cy="520" r="1.5" fill="#c9a76e" opacity="0.3"/>
+  <circle cx="280" cy="550" r="1" fill="#c9a76e" opacity="0.3"/>
+  <circle cx="900" cy="540" r="1.5" fill="#c9a76e" opacity="0.3"/>
+
+  <!-- Thin horizontal dividers (shadow / light metaphor) -->
+  <line x1="120" y1="310" x2="600" y2="310" stroke="#2e2820" stroke-width="1"/>
+  <line x1="120" y1="350" x2="500" y2="350" stroke="#2e2820" stroke-width="1"/>
+  <line x1="120" y1="390" x2="480" y2="390" stroke="#2e2820" stroke-width="1"/>
+
+  <!-- Soft vertical accent line left -->
+  <line x1="118" y1="160" x2="118" y2="510" stroke="#c9a76e" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+
+  <!-- Light ellipse glow behind title -->
+  <ellipse cx="540" cy="285" rx="500" ry="115" fill="#261f18" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="540" y="215" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#c9a76e" text-anchor="middle" letter-spacing="5">PROMPTS · SELF-DISCOVERY</text>
+
+  <!-- Main title line 1 -->
+  <text x="540" y="275" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="normal" fill="#f5ede0" text-anchor="middle">Shadow Work</text>
+  <!-- Main title line 2 -->
+  <text x="540" y="335" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="normal" fill="#f5ede0" text-anchor="middle">Journal Prompts</text>
+
+  <!-- Subtitle -->
+  <text x="540" y="382" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#b89870" text-anchor="middle" font-style="italic">A Gentle Introduction for Beginners</text>
+
+  <!-- Ornamental divider -->
+  <line x1="390" y1="408" x2="520" y2="408" stroke="#c9a76e" stroke-width="0.8"/>
+  <circle cx="540" cy="408" r="3" fill="#c9a76e"/>
+  <line x1="560" y1="408" x2="690" y2="408" stroke="#c9a76e" stroke-width="0.8"/>
+
+  <!-- Brand footer -->
+  <text x="540" y="455" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#7a6248" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

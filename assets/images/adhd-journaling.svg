@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: warm parchment / off-white -->
+  <rect width="1200" height="628" fill="#f7f1e8"/>
+
+  <!-- Scattered dots becoming a line — ADHD metaphor -->
+  <!-- Scattered dots (left and upper area) -->
+  <circle cx="90" cy="90" r="4" fill="#c4714c" opacity="0.3"/>
+  <circle cx="130" cy="145" r="3" fill="#c4714c" opacity="0.25"/>
+  <circle cx="155" cy="75" r="5" fill="#c4714c" opacity="0.2"/>
+  <circle cx="80" cy="210" r="3" fill="#c4714c" opacity="0.2"/>
+  <circle cx="200" cy="62" r="4" fill="#c4714c" opacity="0.25"/>
+  <circle cx="230" cy="170" r="3" fill="#c4714c" opacity="0.3"/>
+  <circle cx="110" cy="310" r="4" fill="#c4714c" opacity="0.15"/>
+  <circle cx="170" cy="370" r="3" fill="#c4714c" opacity="0.2"/>
+  <circle cx="60" cy="420" r="5" fill="#c4714c" opacity="0.15"/>
+
+  <!-- Dots gradually converging toward a horizontal line (right side of graphic) -->
+  <circle cx="300" cy="440" r="4" fill="#c4714c" opacity="0.3"/>
+  <circle cx="380" cy="460" r="4" fill="#c4714c" opacity="0.35"/>
+  <circle cx="460" cy="470" r="4" fill="#c4714c" opacity="0.4"/>
+  <circle cx="560" cy="475" r="4" fill="#c4714c" opacity="0.5"/>
+  <circle cx="660" cy="474" r="4" fill="#c4714c" opacity="0.55"/>
+  <circle cx="760" cy="473" r="4" fill="#c4714c" opacity="0.65"/>
+  <circle cx="860" cy="472" r="4" fill="#c4714c" opacity="0.75"/>
+  <circle cx="960" cy="472" r="4" fill="#c4714c" opacity="0.85"/>
+  <!-- Forming a line at the end -->
+  <line x1="1000" y1="472" x2="1140" y2="472" stroke="#c4714c" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Subtle ruled lines in background for journal feel -->
+  <line x1="140" y1="200" x2="1060" y2="200" stroke="#e8e0d0" stroke-width="1"/>
+  <line x1="140" y1="240" x2="1060" y2="240" stroke="#e8e0d0" stroke-width="1"/>
+  <line x1="140" y1="280" x2="1060" y2="280" stroke="#e8e0d0" stroke-width="1"/>
+  <line x1="140" y1="320" x2="1060" y2="320" stroke="#e8e0d0" stroke-width="1"/>
+  <line x1="140" y1="360" x2="1060" y2="360" stroke="#e8e0d0" stroke-width="1"/>
+  <line x1="140" y1="400" x2="1060" y2="400" stroke="#e8e0d0" stroke-width="1"/>
+
+  <!-- Soft card / content box -->
+  <rect x="170" y="160" width="860" height="220" rx="4" fill="#faf6f0" opacity="0.85"/>
+
+  <!-- Category label -->
+  <text x="600" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#c4714c" text-anchor="middle" letter-spacing="5">WELLBEING · GETTING STARTED</text>
+
+  <!-- Main title line 1 -->
+  <text x="600" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="normal" fill="#2c2416" text-anchor="middle">ADHD Journaling</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#8a6040" text-anchor="middle" font-style="italic">How to Make It Actually Work for Your Brain</text>
+
+  <!-- Divider line -->
+  <line x1="460" y1="346" x2="740" y2="346" stroke="#c4714c" stroke-width="1" opacity="0.5"/>
+
+  <!-- Brand footer -->
+  <text x="600" y="375" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#b09070" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

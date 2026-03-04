@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep dusty burgundy -->
+  <rect width="1200" height="628" fill="#32181a"/>
+
+  <!-- Wavy lines — breathing / calm metaphor (tight on left, more spaced/gentle on right) -->
+  <!-- Left waves (compressed, jagged) -->
+  <path d="M80,200 C100,185 115,215 135,200 C155,185 170,215 190,200 C210,185 225,215 245,200" fill="none" stroke="#6b2d30" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M80,240 C100,222 120,258 140,240 C160,222 180,258 200,240 C220,222 240,258 260,240" fill="none" stroke="#6b2d30" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M80,280 C105,258 125,302 145,280 C165,258 190,302 210,280 C230,258 255,302 270,280" fill="none" stroke="#6b2d30" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Transition to gentler waves (middle) -->
+  <path d="M600,200 C640,188 680,212 720,200 C760,188 800,212 840,200" fill="none" stroke="#8a4048" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M600,245 C645,232 690,258 735,245 C775,232 820,258 865,245" fill="none" stroke="#8a4048" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M600,290 C645,278 692,302 735,290 C780,278 825,302 867,290" fill="none" stroke="#8a4048" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Smooth, gentle waves (right) -->
+  <path d="M860,200 C910,194 960,206 1010,200 C1060,194 1100,206 1140,200" fill="none" stroke="#c07878" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <path d="M860,245 C910,240 960,250 1010,245 C1060,240 1100,250 1140,245" fill="none" stroke="#c07878" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <path d="M860,290 C910,286 960,294 1010,290 C1060,286 1100,294 1140,290" fill="none" stroke="#c07878" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Soft ellipse glow behind title text -->
+  <ellipse cx="600" cy="380" rx="490" ry="115" fill="#26141680" opacity="0.75"/>
+
+  <!-- Category label -->
+  <text x="600" y="308" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#d4968e" text-anchor="middle" letter-spacing="5">WELLBEING · EMOTIONAL REGULATION</text>
+
+  <!-- Main title line 1 -->
+  <text x="600" y="370" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="normal" fill="#f5ede0" text-anchor="middle">Journaling for Anger</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="424" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#d4968e" text-anchor="middle" font-style="italic">Write Before You React</text>
+
+  <!-- Ornamental divider -->
+  <line x1="448" y1="452" x2="576" y2="452" stroke="#9a5050" stroke-width="0.8"/>
+  <circle cx="600" cy="452" r="3.5" fill="#d4968e"/>
+  <line x1="624" y1="452" x2="752" y2="452" stroke="#9a5050" stroke-width="0.8"/>
+
+  <!-- Brand footer -->
+  <text x="600" y="498" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#6a3a3c" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background -->
+  <rect width="1200" height="628" fill="#1b2535"/>
+
+  <!-- Subtle texture: horizontal ruled lines suggesting a journal page -->
+  <line x1="120" y1="180" x2="1080" y2="180" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="220" x2="1080" y2="220" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="260" x2="1080" y2="260" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="300" x2="1080" y2="300" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="340" x2="1080" y2="340" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="380" x2="1080" y2="380" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="420" x2="1080" y2="420" stroke="#2c3d54" stroke-width="1"/>
+  <line x1="120" y1="460" x2="1080" y2="460" stroke="#2c3d54" stroke-width="1"/>
+
+  <!-- Soft left-margin accent line -->
+  <line x1="160" y1="140" x2="160" y2="520" stroke="#4a7fa5" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Small pen nib icon (top-left accent) -->
+  <g transform="translate(90, 96)">
+    <path d="M0,40 L10,0 L20,40 Z" fill="none" stroke="#6aadd4" stroke-width="1.5" stroke-linejoin="round"/>
+    <line x1="10" y1="40" x2="10" y2="60" stroke="#6aadd4" stroke-width="1.5"/>
+  </g>
+
+  <!-- Soft oval glow behind title -->
+  <ellipse cx="600" cy="290" rx="460" ry="110" fill="#1e3045" opacity="0.7"/>
+
+  <!-- Category label -->
+  <text x="600" y="220" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#6aadd4" text-anchor="middle" letter-spacing="4">WELLBEING · MENTAL HEALTH</text>
+
+  <!-- Main title -->
+  <text x="600" y="275" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="normal" fill="#f0ece4" text-anchor="middle">Journaling for Depression</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#b8cce0" text-anchor="middle" font-style="italic">A Gentle, Low-Pressure Guide</text>
+
+  <!-- Divider -->
+  <line x1="470" y1="365" x2="730" y2="365" stroke="#4a7fa5" stroke-width="1"/>
+  <circle cx="600" cy="365" r="3" fill="#6aadd4"/>
+
+  <!-- Brand footer -->
+  <text x="600" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#5e7d9a" text-anchor="middle" letter-spacing="2">JOURNAL FOR WELLBEING</text>
+
+  <!-- Corner decorative dots -->
+  <circle cx="100" cy="100" r="3" fill="#2c3d54"/>
+  <circle cx="115" cy="100" r="3" fill="#2c3d54"/>
+  <circle cx="1085" cy="528" r="3" fill="#2c3d54"/>
+  <circle cx="1100" cy="528" r="3" fill="#2c3d54"/>
+</svg>

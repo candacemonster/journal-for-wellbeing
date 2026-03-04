@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep periwinkle / midnight blue -->
+  <rect width="1200" height="628" fill="#1e1f3a"/>
+
+  <!-- Distant small stars / dots -->
+  <circle cx="120" cy="70" r="1" fill="#b8b0d4" opacity="0.4"/>
+  <circle cx="280" cy="45" r="1.5" fill="#b8b0d4" opacity="0.3"/>
+  <circle cx="480" cy="80" r="1" fill="#b8b0d4" opacity="0.3"/>
+  <circle cx="700" cy="38" r="1" fill="#b8b0d4" opacity="0.25"/>
+  <circle cx="880" cy="72" r="1.5" fill="#b8b0d4" opacity="0.3"/>
+  <circle cx="1050" cy="50" r="1" fill="#b8b0d4" opacity="0.35"/>
+  <circle cx="150" cy="560" r="1" fill="#b8b0d4" opacity="0.2"/>
+  <circle cx="1100" cy="560" r="1" fill="#b8b0d4" opacity="0.2"/>
+  <circle cx="1140" cy="130" r="1.5" fill="#b8b0d4" opacity="0.3"/>
+
+  <!-- Single warm glowing circle (candle / light in darkness) — bottom right -->
+  <!-- Outer glow layers -->
+  <circle cx="1040" cy="480" r="120" fill="#c9a030" opacity="0.04"/>
+  <circle cx="1040" cy="480" r="80" fill="#c9a030" opacity="0.06"/>
+  <circle cx="1040" cy="480" r="50" fill="#d4ac44" opacity="0.10"/>
+  <circle cx="1040" cy="480" r="28" fill="#e8c464" opacity="0.18"/>
+  <circle cx="1040" cy="480" r="14" fill="#f5d97e" opacity="0.5"/>
+  <circle cx="1040" cy="480" r="6" fill="#fbeea0" opacity="0.9"/>
+
+  <!-- Thin vertical candle flame suggestion above dot -->
+  <path d="M1040,474 C1038,460 1043,448 1040,440 C1037,448 1042,460 1040,474 Z" fill="#fbeea0" opacity="0.6"/>
+
+  <!-- Horizontal journal rules — faint -->
+  <line x1="100" y1="300" x2="900" y2="300" stroke="#282948" stroke-width="1"/>
+  <line x1="100" y1="340" x2="860" y2="340" stroke="#282948" stroke-width="1"/>
+  <line x1="100" y1="380" x2="820" y2="380" stroke="#282948" stroke-width="1"/>
+  <line x1="100" y1="420" x2="860" y2="420" stroke="#282948" stroke-width="1"/>
+  <line x1="100" y1="460" x2="900" y2="460" stroke="#282948" stroke-width="1"/>
+
+  <!-- Left margin line -->
+  <line x1="148" y1="260" x2="148" y2="490" stroke="#b8b0d4" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Soft ellipse glow behind title area -->
+  <ellipse cx="520" cy="230" rx="440" ry="105" fill="#161828" opacity="0.7"/>
+
+  <!-- Category label -->
+  <text x="520" y="163" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#9090c0" text-anchor="middle" letter-spacing="5">WELLBEING · MENTAL HEALTH</text>
+
+  <!-- Main title line 1 -->
+  <text x="520" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="normal" fill="#ece8f8" text-anchor="middle">Journaling for Loneliness</text>
+
+  <!-- Subtitle -->
+  <text x="520" y="274" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#a0a0d0" text-anchor="middle" font-style="italic">Writing When You Feel Unseen</text>
+
+  <!-- Ornamental divider -->
+  <line x1="356" y1="302" x2="490" y2="302" stroke="#6060a0" stroke-width="0.8"/>
+  <circle cx="520" cy="302" r="3" fill="#b8b0d4"/>
+  <line x1="550" y1="302" x2="684" y2="302" stroke="#6060a0" stroke-width="0.8"/>
+
+  <!-- Brand footer -->
+  <text x="520" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#4a4a7a" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

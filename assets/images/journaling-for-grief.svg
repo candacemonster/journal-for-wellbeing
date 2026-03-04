@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep forest/sage green -->
+  <rect width="1200" height="628" fill="#202e24"/>
+
+  <!-- Subtle background texture: vertical organic lines -->
+  <line x1="200" y1="0" x2="180" y2="628" stroke="#263020" stroke-width="1.5"/>
+  <line x1="350" y1="0" x2="340" y2="628" stroke="#263020" stroke-width="1"/>
+  <line x1="500" y1="0" x2="490" y2="628" stroke="#263020" stroke-width="1.5"/>
+  <line x1="660" y1="0" x2="650" y2="628" stroke="#263020" stroke-width="1"/>
+  <line x1="820" y1="0" x2="810" y2="628" stroke="#263020" stroke-width="1.5"/>
+  <line x1="980" y1="0" x2="970" y2="628" stroke="#263020" stroke-width="1"/>
+
+  <!-- Simple botanical: single stem with two leaves (left side) -->
+  <g transform="translate(98, 160)">
+    <!-- Stem -->
+    <path d="M20,280 C20,200 20,120 20,0" fill="none" stroke="#5c8a60" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Left leaf -->
+    <path d="M20,200 C0,160 -20,130 10,110 C15,140 18,170 20,200 Z" fill="#3d6640" opacity="0.8"/>
+    <!-- Right leaf -->
+    <path d="M20,130 C40,90 60,70 38,55 C32,80 26,108 20,130 Z" fill="#3d6640" opacity="0.7"/>
+    <!-- Small leaf top -->
+    <path d="M20,50 C35,20 45,10 30,0 C26,18 23,35 20,50 Z" fill="#5c8a60" opacity="0.6"/>
+  </g>
+
+  <!-- Mirror botanical: right side faint -->
+  <g transform="translate(1060, 160) scale(-1,1)">
+    <path d="M20,280 C20,200 20,120 20,0" fill="none" stroke="#3d5e40" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+    <path d="M20,200 C0,160 -20,130 10,110 C15,140 18,170 20,200 Z" fill="#2e4a30" opacity="0.4"/>
+    <path d="M20,130 C40,90 60,70 38,55 C32,80 26,108 20,130 Z" fill="#2e4a30" opacity="0.3"/>
+  </g>
+
+  <!-- Soft ellipse glow behind title -->
+  <ellipse cx="600" cy="295" rx="490" ry="120" fill="#1a2a1c" opacity="0.7"/>
+
+  <!-- Category label -->
+  <text x="600" y="222" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#9dba92" text-anchor="middle" letter-spacing="5">WELLBEING · EMOTIONAL HEALING</text>
+
+  <!-- Main title line 1 -->
+  <text x="600" y="284" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="normal" fill="#eef3ea" text-anchor="middle">Journaling for Grief</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="338" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#9dba92" text-anchor="middle" font-style="italic">Writing Through Loss When Words Feel Impossible</text>
+
+  <!-- Ornamental divider: small leaves -->
+  <line x1="430" y1="372" x2="560" y2="372" stroke="#5c8a60" stroke-width="0.8"/>
+  <path d="M580,368 C586,362 594,360 592,367 C590,372 584,374 580,368 Z" fill="#9dba92"/>
+  <path d="M620,368 C614,362 606,360 608,367 C610,372 616,374 620,368 Z" fill="#9dba92"/>
+  <line x1="640" y1="372" x2="770" y2="372" stroke="#5c8a60" stroke-width="0.8"/>
+
+  <!-- Brand footer -->
+  <text x="600" y="418" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#4a6e4e" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>
