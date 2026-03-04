@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: "Still Water Zen Garden"
 description: "An interactive digital zen garden for Journal for Wellbeing. Rake the sand, place stones, breathe slowly, and find a few minutes of stillness."
@@ -6,7 +6,7 @@ permalink: /zen-garden/
 ---
 
 <style>
-/* ── Still Water Zen Garden – scoped styles ─────────────────────────── */
+/* â”€â”€ Still Water Zen Garden â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 #zg-tool {
   --zg-sand:      #c9a870;
   --zg-wood:      #7a5c2e;
@@ -26,10 +26,9 @@ permalink: /zen-garden/
   line-height: 1.6;
   font-family: Georgia, 'Times New Roman', serif;
 }
+#zg-tool .zg-page { max-width: 920px; margin: 0 auto; }
 
-#zg-tool .zg-page { max-width: 900px; margin: 0 auto; }
-
-/* Header */
+/* â”€â”€ Header â”€â”€ */
 #zg-tool .zg-pill {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 4px 13px; border-radius: 999px;
@@ -38,809 +37,691 @@ permalink: /zen-garden/
   text-transform: uppercase; margin-bottom: 10px;
   font-family: 'Lora', Georgia, serif;
 }
-#zg-tool h1 {
-  font-size: 1.8rem; font-weight: 700; color: var(--zg-text);
-  margin: 0 0 8px; line-height: 1.2;
-}
-#zg-tool .zg-lead {
-  color: var(--zg-muted); font-size: 0.95rem;
-  margin: 0 0 22px; max-width: 640px;
-  font-style: italic;
-}
+#zg-tool h1 { font-size: 1.8rem; font-weight: 700; color: var(--zg-text); margin: 0 0 8px; line-height: 1.2; }
+#zg-tool .zg-lead { color: var(--zg-muted); font-size: 0.95rem; margin: 0 0 18px; max-width: 640px; font-style: italic; }
 
-/* Tool bar */
+/* â”€â”€ Toolbar â”€â”€ */
 #zg-toolbar {
   display: flex; flex-wrap: wrap; align-items: center;
-  gap: 8px; margin-bottom: 14px;
+  gap: 6px; margin-bottom: 12px;
 }
-.zg-tool-group {
-  display: flex; gap: 6px; flex-wrap: wrap;
-}
+.zg-tool-group { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
 .zg-tool-divider {
-  width: 1px; height: 32px;
-  background: var(--zg-border); opacity: 0.5;
-  margin: 0 4px; align-self: center;
+  width: 1px; height: 28px; background: var(--zg-border);
+  opacity: 0.45; margin: 0 3px; align-self: center;
 }
 .zg-btn {
   border: 1.5px solid var(--zg-border);
   background: #fff8ee; color: var(--zg-muted);
-  border-radius: 8px; padding: 6px 14px;
-  font-size: 0.83rem; font-weight: 600; cursor: pointer;
+  border-radius: 8px; padding: 7px 13px;
+  font-size: 0.82rem; font-weight: 600; cursor: pointer;
   display: inline-flex; align-items: center; gap: 5px;
-  transition: all 0.15s; font-family: 'Lora', Georgia, serif;
-  white-space: nowrap;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+  font-family: 'Lora', Georgia, serif; white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
 }
-.zg-btn:hover { background: #f0e6cc; border-color: var(--zg-wood); }
-.zg-btn.active {
-  background: var(--zg-sage); color: #fff;
-  border-color: var(--zg-sage);
-}
-.zg-btn.zg-btn-ghost {
-  background: transparent; border-color: transparent;
-  color: var(--zg-muted);
-}
-.zg-btn.zg-btn-ghost:hover { background: #f0e6cc; border-color: var(--zg-border); }
+.zg-btn:hover, .zg-btn:focus-visible { background: #f0e6cc; border-color: var(--zg-wood); outline: none; }
+.zg-btn.active    { background: var(--zg-sage); color: #fff; border-color: var(--zg-sage); }
+.zg-btn.zg-ghost  { background: transparent; border-color: transparent; color: var(--zg-muted); }
+.zg-btn.zg-ghost:hover { background: #f0e6cc; border-color: var(--zg-border); }
 
-/* Canvas frame */
+/* â”€â”€ Canvas frame â”€â”€ */
+#zg-frame-outer { position: relative; }
 #zg-frame {
-  position: relative;
-  border-radius: 6px;
+  position: relative; border-radius: 6px;
   background:
-    repeating-linear-gradient(
-      90deg,
-      rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 1px,
-      transparent 1px, transparent 8px
-    ),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 1px, transparent 1px, transparent 8px),
     linear-gradient(160deg, #a07840 0%, #8B6420 40%, #6e4e18 100%);
   padding: 14px;
   box-shadow: 0 18px 50px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.15);
 }
-/* Inner wood lip */
 #zg-frame::before {
-  content: '';
-  position: absolute; inset: 7px;
+  content: ''; position: absolute; inset: 7px;
   border: 1.5px solid rgba(255,255,255,0.12);
   border-radius: 3px; pointer-events: none; z-index: 1;
 }
 #zg-canvas {
   display: block; width: 100%; height: auto;
   cursor: crosshair; border-radius: 2px;
-  touch-action: none; /* prevent scroll during drag */
-  position: relative; z-index: 0;
+  touch-action: none; position: relative; z-index: 0;
 }
-
-/* Mode cursor hints */
 #zg-frame.mode-stone #zg-canvas { cursor: cell; }
-#zg-frame.mode-erase #zg-canvas { cursor: not-allowed; }
+#zg-frame.mode-erase #zg-canvas { cursor: crosshair; }
 
-/* Breath guide — floats inside frame */
+/* â”€â”€ Breathing overlay â”€â”€ */
 #zg-breath-overlay {
-  display: none;
-  position: absolute;
-  bottom: 26px; right: 26px;
-  z-index: 10;
-  background: rgba(250, 245, 236, 0.92);
-  backdrop-filter: blur(4px);
-  border: 1.5px solid var(--zg-border);
-  border-radius: 14px;
-  padding: 16px 20px 14px;
-  text-align: center;
-  min-width: 160px;
+  display: none; position: absolute;
+  bottom: 26px; right: 26px; z-index: 10;
+  background: rgba(250,245,236,0.93); backdrop-filter: blur(4px);
+  border: 1.5px solid var(--zg-border); border-radius: 14px;
+  padding: 16px 20px 14px; text-align: center; min-width: 156px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.18);
   font-family: 'Lora', Georgia, serif;
 }
 #zg-breath-overlay.visible { display: block; }
-#zg-breath-ring-wrap {
-  width: 72px; height: 72px;
-  margin: 0 auto 8px;
-  position: relative;
-  display: flex; align-items: center; justify-content: center;
-}
-#zg-breath-ring {
-  width: 40px; height: 40px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #a8c898, #5a7a4e);
-  box-shadow: 0 0 0 0 rgba(90,122,78,0.35);
-  transition: none;
-}
-#zg-breath-ring.inhale {
-  animation: zg-inhale 4s ease-in-out forwards;
-}
-#zg-breath-ring.hold {
-  animation: zg-hold 2s ease forwards;
-}
-#zg-breath-ring.exhale {
-  animation: zg-exhale 6s ease-in-out forwards;
-}
-@keyframes zg-inhale {
-  0%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(90,122,78,0.3); }
-  100% { transform: scale(1.9);  box-shadow: 0 0 0 18px rgba(90,122,78,0); }
-}
-@keyframes zg-hold {
-  0%, 100% { transform: scale(1.9); }
-}
-@keyframes zg-exhale {
-  0%   { transform: scale(1.9); }
-  100% { transform: scale(1); }
-}
-#zg-breath-word {
-  font-size: 0.82rem; font-weight: 700;
-  letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--zg-sage); margin-bottom: 2px;
-}
-#zg-breath-count {
-  font-size: 1.4rem; font-weight: 700;
-  color: var(--zg-text); margin-bottom: 4px;
-  font-variant-numeric: tabular-nums;
-  min-height: 1.6em;
-}
-#zg-breath-close {
-  background: none; border: none;
-  font-size: 0.73rem; color: var(--zg-muted);
-  cursor: pointer; font-family: inherit;
-  text-decoration: underline; padding: 0;
-}
-#zg-breath-close:hover { color: var(--zg-text); }
+#zg-breath-ring-wrap { width: 72px; height: 72px; margin: 0 auto 8px; display: flex; align-items: center; justify-content: center; }
+#zg-breath-ring { width: 40px; height: 40px; border-radius: 50%; background: radial-gradient(circle, #a8c898, #5a7a4e); }
+#zg-breath-ring.inhale { animation: zg-inhale 4s ease-in-out forwards; }
+#zg-breath-ring.hold   { animation: zg-hold   2s ease forwards; }
+#zg-breath-ring.exhale { animation: zg-exhale 6s ease-in-out forwards; }
+@keyframes zg-inhale { 0% { transform:scale(1); box-shadow:0 0 0 0 rgba(90,122,78,0.3); } 100% { transform:scale(1.9); box-shadow:0 0 0 18px rgba(90,122,78,0); } }
+@keyframes zg-hold   { 0%,100% { transform:scale(1.9); } }
+@keyframes zg-exhale { 0% { transform:scale(1.9); } 100% { transform:scale(1); } }
+#zg-breath-word  { font-size:0.82rem; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--zg-sage); margin-bottom:2px; }
+#zg-breath-count { font-size:1.4rem; font-weight:700; color:var(--zg-text); margin-bottom:4px; font-variant-numeric:tabular-nums; min-height:1.6em; }
+#zg-breath-close { background:none; border:none; font-size:0.73rem; color:var(--zg-muted); cursor:pointer; font-family:inherit; text-decoration:underline; padding:0; }
+#zg-breath-close:hover { color:var(--zg-text); }
 
-/* Bottom panel */
-#zg-bottom {
-  display: flex; flex-wrap: wrap; gap: 14px;
-  margin-top: 18px; align-items: flex-start;
-}
-#zg-left-actions {
-  display: flex; flex-wrap: wrap; gap: 8px;
-  align-items: center;
-}
+/* â”€â”€ Bottom panel â”€â”€ */
+#zg-bottom { display:flex; flex-wrap:wrap; gap:12px; margin-top:16px; align-items:flex-start; }
+#zg-left-actions { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
 
-/* Reflection card */
+/* â”€â”€ Reflection card â”€â”€ */
 #zg-reflection-card {
-  background: var(--zg-card-bg);
-  border: 1.5px solid var(--zg-border);
-  border-radius: 14px;
-  padding: 18px 20px 16px;
-  flex: 1; min-width: 260px;
-  display: none;
+  background:var(--zg-card-bg); border:1.5px solid var(--zg-border);
+  border-radius:14px; padding:18px 20px 16px; flex:1; min-width:240px; display:none;
 }
-#zg-reflection-card.visible { display: block; }
-.zg-reflection-label {
-  font-size: 0.72rem; font-weight: 700;
-  letter-spacing: 0.1em; text-transform: uppercase;
-  color: var(--zg-sage); margin-bottom: 8px;
+#zg-reflection-card.visible { display:block; }
+.zg-reflection-label { font-size:0.72rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--zg-sage); margin-bottom:8px; }
+#zg-reflection-text  { font-size:1rem; color:var(--zg-text); font-style:italic; line-height:1.65; margin-bottom:12px; }
+.zg-reflection-hint  { font-size:0.8rem; color:var(--zg-muted); margin:0; }
+
+/* â”€â”€ Status bar â”€â”€ */
+#zg-status { font-size:0.78rem; color:var(--zg-muted); margin-top:14px; text-align:center; font-style:italic; min-height:1.4em; letter-spacing:0.02em; }
+
+/* â”€â”€ iOS save sheet â”€â”€ */
+#zg-save-sheet {
+  display:none; position:fixed; inset:0; z-index:9999;
+  background:rgba(0,0,0,0.55); align-items:flex-end; justify-content:center;
 }
-#zg-reflection-text {
-  font-size: 1rem; color: var(--zg-text);
-  font-style: italic; line-height: 1.65;
-  margin-bottom: 12px;
+#zg-save-sheet.visible { display:flex; }
+#zg-save-sheet-inner {
+  background:#fff; border-radius:20px 20px 0 0; padding:28px 24px 44px;
+  width:100%; max-width:480px; text-align:center;
+  font-family:'Lora',Georgia,serif;
 }
-.zg-reflection-hint {
-  font-size: 0.8rem; color: var(--zg-muted);
-  margin: 0;
+#zg-save-sheet img { max-width:100%; max-height:200px; border-radius:8px; margin-bottom:14px; border:1px solid #ddd; }
+#zg-save-sheet p { font-size:0.9rem; color:#555; margin:0 0 18px; line-height:1.5; }
+#zg-save-sheet-close {
+  background:none; border:1.5px solid #ddd; border-radius:8px;
+  padding:10px 24px; font-size:0.88rem; color:#666; cursor:pointer;
+  font-family:inherit; width:100%;
 }
 
-/* Status bar */
-#zg-status {
-  font-size: 0.78rem; color: var(--zg-muted);
-  margin-top: 14px; text-align: center;
-  font-style: italic; min-height: 1.2em;
-  letter-spacing: 0.02em;
-}
+/* â”€â”€ Fullscreen â”€â”€ */
+#zg-fs-wrap { display:contents; }
 
-/* Responsive */
-@media (max-width: 640px) {
-  #zg-tool { padding: 18px 12px 32px; }
-  #zg-tool h1 { font-size: 1.45rem; }
-  #zg-frame { padding: 10px; }
-  .zg-tool-divider { display: none; }
+#zg-fs-wrap:fullscreen,
+#zg-fs-wrap:-webkit-full-screen {
+  display:flex; flex-direction:column;
+  background:#faf5ec; overflow:hidden;
+}
+#zg-fs-wrap:fullscreen          #zg-normal-header,
+#zg-fs-wrap:fullscreen          #zg-toolbar,
+#zg-fs-wrap:fullscreen          #zg-bottom,
+#zg-fs-wrap:fullscreen          #zg-status,
+#zg-fs-wrap:-webkit-full-screen #zg-normal-header,
+#zg-fs-wrap:-webkit-full-screen #zg-toolbar,
+#zg-fs-wrap:-webkit-full-screen #zg-bottom,
+#zg-fs-wrap:-webkit-full-screen #zg-status { display:none !important; }
+#zg-fs-wrap:fullscreen          #zg-frame-outer,
+#zg-fs-wrap:-webkit-full-screen #zg-frame-outer { flex:1; display:flex; flex-direction:column; }
+#zg-fs-wrap:fullscreen          #zg-frame,
+#zg-fs-wrap:-webkit-full-screen #zg-frame {
+  flex:1; padding:0; border-radius:0; box-shadow:none;
+  display:flex; flex-direction:column;
+}
+#zg-fs-wrap:fullscreen          #zg-frame::before,
+#zg-fs-wrap:-webkit-full-screen #zg-frame::before { display:none; }
+#zg-fs-wrap:fullscreen          #zg-canvas,
+#zg-fs-wrap:-webkit-full-screen #zg-canvas { flex:1; width:100%; height:100%; }
+
+/* â”€â”€ Fullscreen HUD â”€â”€ */
+#zg-fs-hud { display:none; }
+#zg-fs-wrap:fullscreen          #zg-fs-hud,
+#zg-fs-wrap:-webkit-full-screen #zg-fs-hud {
+  display:flex; flex-direction:column;
+  position:absolute; inset:0; pointer-events:none; z-index:20;
+}
+.zg-hud-bar {
+  pointer-events:all; display:flex; flex-wrap:wrap;
+  align-items:center; gap:6px; padding:8px 12px;
+  background:rgba(250,245,236,0.92); backdrop-filter:blur(6px);
+}
+.zg-hud-bar.top    { border-bottom:1px solid rgba(196,160,96,0.3); }
+.zg-hud-bar.bottom { border-top:1px solid rgba(196,160,96,0.3); margin-top:auto; justify-content:space-between; }
+.zg-hud-spacer { flex:1; }
+.zg-hud-bar .zg-btn { padding:6px 11px; font-size:0.78rem; }
+#zg-fs-exit { background:#fff8ee; border-color:#c4a060; color:#4e3a1e; font-weight:700; }
+#zg-fs-exit:hover { background:#f0e6cc; }
+
+/* â”€â”€ Mobile â”€â”€ */
+@media (max-width:640px) {
+  #zg-tool { padding:16px 10px 28px; }
+  #zg-tool h1 { font-size:1.4rem; }
+  #zg-tool .zg-lead { font-size:0.88rem; margin-bottom:14px; }
+  #zg-frame { padding:8px; }
+  .zg-btn { padding:7px 10px; font-size:0.78rem; gap:4px; }
+  .zg-tool-divider { display:none; }
+  #zg-toolbar { row-gap:6px; }
+  #zg-breath-overlay { bottom:10px; right:10px; min-width:124px; padding:12px 14px 10px; }
+  #zg-breath-ring-wrap { width:56px; height:56px; }
+  #zg-breath-ring { width:32px; height:32px; }
+  #zg-breath-count { font-size:1.15rem; }
+  #zg-reflection-card { min-width:0; width:100%; }
+}
+@media (max-width:400px) {
+  .zg-btn { padding:6px 8px; font-size:0.75rem; }
 }
 </style>
 
 <div id="zg-tool">
   <div class="zg-page">
+    <div id="zg-fs-wrap">
 
-    <header style="margin-bottom: 20px;">
-      <div class="zg-pill">&#9675; Quiet Tool</div>
-      <h1>Still Water Zen Garden</h1>
-      <p class="zg-lead">
-        Rake the sand. Place a stone. Let your hands move slowly and your mind follow.
-        There is nothing to finish here &mdash; only a few minutes to be still.
-      </p>
-    </header>
-
-    <!-- Toolbar -->
-    <div id="zg-toolbar">
-      <div class="zg-tool-group">
-        <button class="zg-btn active" id="zg-mode-rake" title="Rake the sand (drag to draw)">
-          &#9135; Rake
-        </button>
-        <button class="zg-btn" id="zg-mode-stone" title="Place a stone (click anywhere)">
-          &#9679; Stone
-        </button>
-        <button class="zg-btn" id="zg-mode-erase" title="Smooth the sand (drag to erase)">
-          &#9663; Smooth
-        </button>
-      </div>
-      <div class="zg-tool-divider"></div>
-      <div class="zg-tool-group">
-        <button class="zg-btn zg-btn-ghost" id="zg-preset-ripples" title="Draw a ripple pattern">
-          &#8767; Ripples
-        </button>
-        <button class="zg-btn zg-btn-ghost" id="zg-preset-waves" title="Draw flowing wave marks">
-          &#9135; Waves
-        </button>
-        <button class="zg-btn zg-btn-ghost" id="zg-preset-spiral" title="Draw a spiral">
-          &#8635; Spiral
-        </button>
-      </div>
-      <div class="zg-tool-divider"></div>
-      <div class="zg-tool-group">
-        <button class="zg-btn zg-btn-ghost" id="zg-clear" title="Clear the garden and start fresh">
-          &#10005; New Garden
-        </button>
-        <button class="zg-btn zg-btn-ghost" id="zg-save-img" title="Save garden as image">
-          &#8681; Save
-        </button>
-      </div>
-    </div>
-
-    <!-- Canvas frame -->
-    <div id="zg-frame">
-      <canvas id="zg-canvas" width="860" height="490"></canvas>
-
-      <!-- Breathing guide overlay -->
-      <div id="zg-breath-overlay">
-        <div id="zg-breath-ring-wrap">
-          <div id="zg-breath-ring"></div>
-        </div>
-        <div id="zg-breath-word">Breathe</div>
-        <div id="zg-breath-count">&#8212;</div>
-        <button id="zg-breath-close">close guide</button>
-      </div>
-    </div>
-
-    <!-- Bottom actions + reflection -->
-    <div id="zg-bottom">
-      <div id="zg-left-actions">
-        <button class="zg-btn" id="zg-breath-toggle">
-          &#9675; Breathing Guide
-        </button>
-        <button class="zg-btn" id="zg-reflect-btn">
-          &#10022; A moment's reflection
-        </button>
-      </div>
-
-      <div id="zg-reflection-card">
-        <div class="zg-reflection-label">A moment&rsquo;s reflection</div>
-        <p id="zg-reflection-text"></p>
-        <p class="zg-reflection-hint">
-          Carry this question into your journal, or simply let it rest in the garden with you.
+      <!-- Normal header (hidden in fullscreen) -->
+      <header id="zg-normal-header" style="margin-bottom:18px;">
+        <div class="zg-pill">&#9675; Quiet Tool</div>
+        <h1>Still Water Zen Garden</h1>
+        <p class="zg-lead">
+          Rake the sand. Place a stone. Let your hands move slowly and your mind follow.
+          There is nothing to finish here &mdash; only a few minutes to be still.
         </p>
+      </header>
+
+      <!-- Main toolbar (hidden in fullscreen) -->
+      <div id="zg-toolbar">
+        <div class="zg-tool-group">
+          <button class="zg-btn active" id="zg-mode-rake">&#9135; Rake</button>
+          <button class="zg-btn" id="zg-mode-stone">&#9679; Stone</button>
+          <button class="zg-btn" id="zg-mode-erase">&#9663; Smooth</button>
+        </div>
+        <div class="zg-tool-divider"></div>
+        <div class="zg-tool-group">
+          <button class="zg-btn zg-ghost" id="zg-preset-ripples">&#8767; Ripples</button>
+          <button class="zg-btn zg-ghost" id="zg-preset-waves">&#9135; Waves</button>
+          <button class="zg-btn zg-ghost" id="zg-preset-spiral">&#8635; Spiral</button>
+        </div>
+        <div class="zg-tool-divider"></div>
+        <div class="zg-tool-group">
+          <button class="zg-btn zg-ghost" id="zg-clear">&#10005; New Garden</button>
+          <button class="zg-btn zg-ghost" id="zg-save-img">&#8681; Save to device</button>
+          <button class="zg-btn" id="zg-fullscreen-enter" style="border-color:#5a7a4e;color:#5a7a4e;">&#9974; Full Screen</button>
+        </div>
       </div>
-    </div>
 
-    <p id="zg-status"></p>
+      <!-- Canvas frame + fullscreen HUD wrapper -->
+      <div id="zg-frame-outer">
+        <div id="zg-frame">
+          <canvas id="zg-canvas" width="860" height="490"></canvas>
 
+          <!-- Breathing guide overlay (inside frame) -->
+          <div id="zg-breath-overlay">
+            <div id="zg-breath-ring-wrap"><div id="zg-breath-ring"></div></div>
+            <div id="zg-breath-word">Breathe</div>
+            <div id="zg-breath-count">&#8212;</div>
+            <button id="zg-breath-close">close guide</button>
+          </div>
+        </div>
+
+        <!-- Fullscreen HUD â€” visible only in fullscreen via CSS -->
+        <div id="zg-fs-hud">
+          <div class="zg-hud-bar top">
+            <button class="zg-btn active" id="zg-fs-mode-rake">&#9135; Rake</button>
+            <button class="zg-btn" id="zg-fs-mode-stone">&#9679; Stone</button>
+            <button class="zg-btn" id="zg-fs-mode-erase">&#9663; Smooth</button>
+            <div class="zg-hud-spacer"></div>
+            <button class="zg-btn zg-ghost" id="zg-fs-preset-ripples">&#8767; Ripples</button>
+            <button class="zg-btn zg-ghost" id="zg-fs-preset-waves">&#9135; Waves</button>
+            <button class="zg-btn zg-ghost" id="zg-fs-preset-spiral">&#8635; Spiral</button>
+          </div>
+          <div class="zg-hud-bar bottom">
+            <button class="zg-btn zg-ghost" id="zg-fs-breath-toggle">&#9675; Breathe</button>
+            <button class="zg-btn zg-ghost" id="zg-fs-reflect-btn">&#10022; Reflect</button>
+            <button class="zg-btn zg-ghost" id="zg-fs-clear">&#10005; New</button>
+            <button class="zg-btn zg-ghost" id="zg-fs-save">&#8681; Save</button>
+            <div class="zg-hud-spacer"></div>
+            <button class="zg-btn" id="zg-fs-exit">&#8592; Back to site</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom actions + reflection (hidden in fullscreen) -->
+      <div id="zg-bottom">
+        <div id="zg-left-actions">
+          <button class="zg-btn" id="zg-breath-toggle">&#9675; Breathing Guide</button>
+          <button class="zg-btn" id="zg-reflect-btn">&#10022; A moment&rsquo;s reflection</button>
+        </div>
+        <div id="zg-reflection-card">
+          <div class="zg-reflection-label">A moment&rsquo;s reflection</div>
+          <p id="zg-reflection-text"></p>
+          <p class="zg-reflection-hint">Carry this question into your journal, or simply let it rest in the garden with you.</p>
+        </div>
+      </div>
+
+      <p id="zg-status"></p>
+
+    </div><!-- /#zg-fs-wrap -->
   </div><!-- /.zg-page -->
 </div><!-- /#zg-tool -->
+
+<!-- iOS / no-download-support save sheet -->
+<div id="zg-save-sheet" role="dialog" aria-modal="true">
+  <div id="zg-save-sheet-inner">
+    <img id="zg-save-sheet-img" src="" alt="Your zen garden">
+    <p>Hold the image and tap <strong>Add to Photos</strong> (or use the share icon) to save it to your device.</p>
+    <button id="zg-save-sheet-close">Done</button>
+  </div>
+</div>
 
 <script>
 (function () {
   'use strict';
 
-  /* ── Canvas & context ──────────────────────────────────────── */
+  /* â”€â”€ Canvas & context â”€â”€ */
   const canvas = document.getElementById('zg-canvas');
   const ctx    = canvas.getContext('2d');
   const frame  = document.getElementById('zg-frame');
+  const fsWrap = document.getElementById('zg-fs-wrap');
 
-  const W = 860, H = 490; // logical size
+  const W = 860, H = 490;
   const DPR = Math.min(window.devicePixelRatio || 1, 2);
   canvas.width  = W * DPR;
   canvas.height = H * DPR;
   ctx.scale(DPR, DPR);
 
-  /* ── State ───────────────────────────────────────────────────── */
-  let mode       = 'rake'; // rake | stone | erase
-  let drawing    = false;
+  /* â”€â”€ State â”€â”€ */
+  let mode    = 'rake';
+  let drawing = false;
   let lastX = 0, lastY = 0;
-  let stones     = [];  // { x, y, rx, ry, angle, hue }
+  let stones  = [];
 
-  // Offscreen buffer stores the persistent garden state
   const offCanvas = document.createElement('canvas');
   offCanvas.width  = W * DPR;
   offCanvas.height = H * DPR;
   const offCtx = offCanvas.getContext('2d');
   offCtx.scale(DPR, DPR);
 
-  /* ── Colours ─────────────────────────────────────────────────── */
-  const SAND_LIGHT   = '#d9bc90';
-  const SAND_BASE    = '#c9a870';
-  const SAND_DEEP    = '#b8956a';
-  const RAKE_COLOR   = 'rgba(100, 72, 28, 0.42)';
-  const SMOOTH_COLOR = SAND_BASE;
-  const NUM_TINES    = 7;
-  const TINE_SPACING = 9;
-  const TINE_HALF    = 14;
+  /* â”€â”€ Colours â”€â”€ */
+  const SAND_LIGHT = '#d9bc90';
+  const SAND_BASE  = '#c9a870';
+  const RAKE_COLOR = 'rgba(100, 72, 28, 0.42)';
+  const NUM_TINES  = 7;
+  const TINE_SPACE = 9;
 
-  /* ── Draw sand background ─────────────────────────────────────── */
+  /* â”€â”€ Draw background â”€â”€ */
   function drawBackground(c) {
     const grad = c.createLinearGradient(0, 0, W, H);
     grad.addColorStop(0,   '#dcc898');
     grad.addColorStop(0.4, SAND_BASE);
     grad.addColorStop(1,   '#b08450');
-    c.fillStyle = grad;
-    c.fillRect(0, 0, W, H);
-
-    // Subtle sand grain — tiny random colour variations
+    c.fillStyle = grad; c.fillRect(0, 0, W, H);
     c.save();
     for (let i = 0; i < 2200; i++) {
-      const gx = Math.random() * W;
-      const gy = Math.random() * H;
-      const gs = Math.random() * 2 + 0.5;
-      const light = Math.random() > 0.5;
-      c.fillStyle = light
-        ? 'rgba(255,230,160,0.13)'
-        : 'rgba(100,60,0,0.10)';
+      const gx = Math.random()*W, gy = Math.random()*H, gs = Math.random()*2+0.5;
+      c.fillStyle = Math.random()>0.5 ? 'rgba(255,230,160,0.13)' : 'rgba(100,60,0,0.10)';
       c.fillRect(gx, gy, gs, gs);
     }
     c.restore();
   }
 
-  /* ── Draw a single stone ─────────────────────────────────────── */
+  /* â”€â”€ Draw stone â”€â”€ */
   function drawStone(c, stone) {
     const { x, y, rx, ry, angle } = stone;
+    c.save(); c.translate(x, y); c.rotate(angle);
     c.save();
-    c.translate(x, y);
-    c.rotate(angle);
-
-    // Shadow
-    c.save();
-    c.shadowColor = 'rgba(0,0,0,0.45)';
-    c.shadowBlur  = 10;
-    c.shadowOffsetX = 3;
-    c.shadowOffsetY = 4;
-    const sg = c.createRadialGradient(-rx * 0.25, -ry * 0.3, rx * 0.05, 0, 0, rx * 1.1);
-    sg.addColorStop(0, '#7a7470');
-    sg.addColorStop(0.6, '#4a4440');
-    sg.addColorStop(1, '#2a2220');
-    c.fillStyle = sg;
-    c.beginPath(); c.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2); c.fill();
+    c.shadowColor='rgba(0,0,0,0.45)'; c.shadowBlur=10; c.shadowOffsetX=3; c.shadowOffsetY=4;
+    const sg = c.createRadialGradient(-rx*0.25,-ry*0.3,rx*0.05,0,0,rx*1.1);
+    sg.addColorStop(0,'#7a7470'); sg.addColorStop(0.6,'#4a4440'); sg.addColorStop(1,'#2a2220');
+    c.fillStyle=sg; c.beginPath(); c.ellipse(0,0,rx,ry,0,0,Math.PI*2); c.fill();
     c.restore();
-
-    // Stone surface
-    const sg2 = c.createRadialGradient(-rx * 0.3, -ry * 0.35, rx * 0.05, 0, 0, rx);
-    sg2.addColorStop(0, '#9a9490');
-    sg2.addColorStop(0.45, '#5a5450');
-    sg2.addColorStop(1, '#2e2a28');
-    c.fillStyle = sg2;
-    c.beginPath(); c.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2); c.fill();
-
-    // Specular highlight
-    c.fillStyle = 'rgba(255,255,255,0.18)';
-    c.beginPath(); c.ellipse(-rx * 0.28, -ry * 0.3, rx * 0.28, ry * 0.18, -0.4, 0, Math.PI * 2); c.fill();
-
+    const sg2 = c.createRadialGradient(-rx*0.3,-ry*0.35,rx*0.05,0,0,rx);
+    sg2.addColorStop(0,'#9a9490'); sg2.addColorStop(0.45,'#5a5450'); sg2.addColorStop(1,'#2e2a28');
+    c.fillStyle=sg2; c.beginPath(); c.ellipse(0,0,rx,ry,0,0,Math.PI*2); c.fill();
+    c.fillStyle='rgba(255,255,255,0.18)';
+    c.beginPath(); c.ellipse(-rx*0.28,-ry*0.3,rx*0.28,ry*0.18,-0.4,0,Math.PI*2); c.fill();
     c.restore();
   }
 
-  /* ── Draw all stones from array ───────────────────────────────── */
-  function redrawStones(c) {
-    stones.forEach(s => drawStone(c, s));
-  }
+  function redrawStones(c) { stones.forEach(s => drawStone(c, s)); }
 
-  /* ── Initialise garden ───────────────────────────────────────── */
+  /* â”€â”€ Init garden â”€â”€ */
   function initGarden() {
     stones = [];
     drawBackground(offCtx);
-    // Draw initial calm horizontal rake marks
     drawInitialRake(offCtx);
-    // Place a few default stones
-    const defaults = [
-      { x: 180, y: 140, rx: 24, ry: 16, angle: 0.3 },
-      { x: 620, y: 320, rx: 18, ry: 13, angle: -0.5 },
-      { x: 720, y: 130, rx: 12, ry:  9, angle: 0.8 },
-      { x: 300, y: 380, rx: 10, ry:  7, angle: -0.2 },
-    ];
-    defaults.forEach(d => {
-      const s = { ...d };
-      stones.push(s);
-      drawStone(offCtx, s);
-    });
+    [
+      { x:180, y:140, rx:24, ry:16, angle:0.3 },
+      { x:620, y:320, rx:18, ry:13, angle:-0.5 },
+      { x:720, y:130, rx:12, ry:9,  angle:0.8 },
+      { x:300, y:380, rx:10, ry:7,  angle:-0.2 },
+    ].forEach(d => { stones.push({...d}); drawStone(offCtx, d); });
     renderFrame();
   }
 
-  /* ── Pre-drawn calm horizontal raking ───────────────────────── */
   function drawInitialRake(c) {
-    c.save();
-    c.strokeStyle = RAKE_COLOR;
-    c.lineWidth   = 1.2;
-    c.lineCap     = 'round';
-    const spacing = 22;
-    const tineGap = 9;
-    const tines   = 5;
-    for (let row = 1; row * spacing < H; row++) {
-      const y = row * spacing + 4;
-      for (let t = 0; t < tines; t++) {
-        const offset = (t - (tines - 1) / 2) * tineGap;
-        c.globalAlpha = 0.55;
-        c.beginPath();
-        c.moveTo(20, y + offset);
-        c.lineTo(W - 20, y + offset);
-        c.stroke();
+    c.save(); c.strokeStyle=RAKE_COLOR; c.lineWidth=1.2; c.lineCap='round';
+    const spacing=22, tineGap=9, tines=5;
+    for (let row=1; row*spacing<H; row++) {
+      const y=row*spacing+4;
+      for (let t=0; t<tines; t++) {
+        c.globalAlpha=0.55;
+        c.beginPath(); c.moveTo(20, y+(t-(tines-1)/2)*tineGap); c.lineTo(W-20, y+(t-(tines-1)/2)*tineGap); c.stroke();
       }
     }
-    c.globalAlpha = 1;
-    c.restore();
+    c.globalAlpha=1; c.restore();
   }
 
-  /* ── Render offscreen to visible canvas ─────────────────────── */
-  function renderFrame() {
-    ctx.drawImage(offCanvas, 0, 0, W, H);
-  }
+  function renderFrame() { ctx.drawImage(offCanvas, 0, 0, W, H); }
 
-  /* ── Rake drawing ─────────────────────────────────────────────── */
+  /* â”€â”€ Rake â”€â”€ */
   function rake(x1, y1, x2, y2) {
-    const dx = x2 - x1;
-    const dy = y2 - y1;
-    const len = Math.sqrt(dx * dx + dy * dy);
-    if (len < 1) return;
-
-    // Perpendicular direction (for tine offset)
-    const px = -dy / len;
-    const py =  dx / len;
-    // Along-movement direction (for tine arm)
-    const ax = -py;
-    const ay =  px;
-
-    offCtx.save();
-    offCtx.strokeStyle = RAKE_COLOR;
-    offCtx.lineWidth   = 1.5;
-    offCtx.lineCap     = 'round';
-    offCtx.lineJoin    = 'round';
-
-    for (let i = 0; i < NUM_TINES; i++) {
-      const t  = (i - (NUM_TINES - 1) / 2) * TINE_SPACING;
-      const ox = px * t;
-      const oy = py * t;
-      offCtx.beginPath();
-      offCtx.moveTo(x1 + ox, y1 + oy);
-      offCtx.lineTo(x2 + ox, y2 + oy);
-      offCtx.stroke();
+    const dx=x2-x1, dy=y2-y1, len=Math.sqrt(dx*dx+dy*dy);
+    if (len<1) return;
+    const px=-dy/len, py=dx/len;
+    offCtx.save(); offCtx.strokeStyle=RAKE_COLOR; offCtx.lineWidth=1.5; offCtx.lineCap='round'; offCtx.lineJoin='round';
+    for (let i=0; i<NUM_TINES; i++) {
+      const t=(i-(NUM_TINES-1)/2)*TINE_SPACE, ox=px*t, oy=py*t;
+      offCtx.beginPath(); offCtx.moveTo(x1+ox,y1+oy); offCtx.lineTo(x2+ox,y2+oy); offCtx.stroke();
     }
-    offCtx.restore();
-    renderFrame();
+    offCtx.restore(); renderFrame();
   }
 
-  /* ── Smooth (erase rake marks) ─────────────────────────────────── */
+  /* â”€â”€ Smooth â”€â”€ */
   function smooth(x, y) {
     offCtx.save();
-    const grad = offCtx.createRadialGradient(x, y, 0, x, y, 28);
-    grad.addColorStop(0, SAND_BASE);
-    grad.addColorStop(0.5, SAND_LIGHT);
-    grad.addColorStop(1, 'rgba(201,168,112,0)');
-    offCtx.fillStyle = grad;
-    offCtx.beginPath(); offCtx.arc(x, y, 28, 0, Math.PI * 2); offCtx.fill();
-    // Redraw stones on top (since we painted over them potentially)
-    redrawStones(offCtx);
-    offCtx.restore();
-    renderFrame();
+    const grad=offCtx.createRadialGradient(x,y,0,x,y,28);
+    grad.addColorStop(0,SAND_BASE); grad.addColorStop(0.5,SAND_LIGHT); grad.addColorStop(1,'rgba(201,168,112,0)');
+    offCtx.fillStyle=grad; offCtx.beginPath(); offCtx.arc(x,y,28,0,Math.PI*2); offCtx.fill();
+    redrawStones(offCtx); offCtx.restore(); renderFrame();
   }
 
-  /* ── Ripple helper (drawn radially around a point) ────────────── */
-  function drawRipples(cx, cy, count, radius, tines, tineSpacing) {
-    offCtx.save();
-    offCtx.strokeStyle = RAKE_COLOR;
-    offCtx.lineWidth = 1.4;
-    offCtx.lineCap = 'round';
-    const rings = count;
-    const angleStep = (Math.PI * 2) / 180;
-    for (let r = 1; r <= rings; r++) {
-      const rr = (radius / rings) * r;
-      for (let t = 0; t < tines; t++) {
-        const tOff = (t - (tines - 1) / 2) * tineSpacing;
-        offCtx.beginPath();
-        // Draw concentric circle offset by tine spacing (radial offset)
-        const innerR = Math.max(1, rr + tOff);
-        offCtx.arc(cx, cy, innerR, 0, Math.PI * 2);
-        offCtx.stroke();
+  /* â”€â”€ Ripple preset â”€â”€ */
+  function drawRipples(cx, cy, count, radius, tines, ts) {
+    offCtx.save(); offCtx.strokeStyle=RAKE_COLOR; offCtx.lineWidth=1.4; offCtx.lineCap='round';
+    for (let r=1; r<=count; r++) {
+      const rr=(radius/count)*r;
+      for (let t=0; t<tines; t++) {
+        const innerR=Math.max(1,rr+(t-(tines-1)/2)*ts);
+        offCtx.beginPath(); offCtx.arc(cx,cy,innerR,0,Math.PI*2); offCtx.stroke();
       }
     }
     offCtx.restore();
   }
 
-  /* ── Preset: Ripples ─────────────────────────────────────────── */
   function presetRipples() {
-    // Ripples around the largest stone
-    const cx = stones.length ? stones[0].x : W / 2;
-    const cy = stones.length ? stones[0].y : H / 2;
-    drawRipples(cx, cy, 6, 120, 5, 9);
-    // Second smaller ripple around second stone
-    if (stones.length >= 2) {
-      drawRipples(stones[1].x, stones[1].y, 4, 80, 4, 8);
-    }
-    redrawStones(offCtx);
-    renderFrame();
-    setStatus('Ripples radiating outward…');
+    const cx=stones.length?stones[0].x:W/2, cy=stones.length?stones[0].y:H/2;
+    drawRipples(cx,cy,6,120,5,9);
+    if (stones.length>=2) drawRipples(stones[1].x,stones[1].y,4,80,4,8);
+    redrawStones(offCtx); renderFrame(); setStatus('Ripples radiating outwardâ€¦');
   }
 
-  /* ── Preset: Waves ────────────────────────────────────────────── */
   function presetWaves() {
-    offCtx.save();
-    offCtx.strokeStyle = RAKE_COLOR;
-    offCtx.lineWidth = 1.4;
-    offCtx.lineCap = 'round';
-    const numTines = 5;
-    const tineGap  = 9;
-    const waveSpacing = 28;
-    const amplitude   = 30;
-    const freq        = 2.8;
-
-    for (let row = 0; row < Math.floor(H / waveSpacing); row++) {
-      const baseY = 16 + row * waveSpacing;
-      for (let t = 0; t < numTines; t++) {
-        const tOff = (t - (numTines - 1) / 2) * tineGap;
+    offCtx.save(); offCtx.strokeStyle=RAKE_COLOR; offCtx.lineWidth=1.4; offCtx.lineCap='round';
+    const numTines=5, tineGap=9, waveSpacing=28, amplitude=30, freq=2.8;
+    for (let row=0; row<Math.floor(H/waveSpacing); row++) {
+      const baseY=16+row*waveSpacing;
+      for (let t=0; t<numTines; t++) {
+        const tOff=(t-(numTines-1)/2)*tineGap;
         offCtx.beginPath();
-        for (let px2 = 0; px2 <= W; px2 += 2) {
-          const y2 = baseY + tOff + Math.sin((px2 / W) * Math.PI * freq + row * 0.6) * amplitude;
-          if (px2 === 0) offCtx.moveTo(px2, y2);
-          else offCtx.lineTo(px2, y2);
+        for (let px2=0; px2<=W; px2+=2) {
+          const y2=baseY+tOff+Math.sin((px2/W)*Math.PI*freq+row*0.6)*amplitude;
+          if (px2===0) offCtx.moveTo(px2,y2); else offCtx.lineTo(px2,y2);
         }
         offCtx.stroke();
       }
     }
-    offCtx.restore();
-    redrawStones(offCtx);
-    renderFrame();
-    setStatus('Waves flowing through the garden…');
+    offCtx.restore(); redrawStones(offCtx); renderFrame(); setStatus('Waves flowing through the gardenâ€¦');
   }
 
-  /* ── Preset: Spiral ───────────────────────────────────────────── */
   function presetSpiral() {
-    const cx = W / 2, cy = H / 2;
-    const numTines = 5;
-    const tineGap  = 8;
-    const turns    = 4;
-    const maxR     = Math.min(W, H) * 0.44;
-
-    offCtx.save();
-    offCtx.strokeStyle = RAKE_COLOR;
-    offCtx.lineWidth = 1.4;
-    offCtx.lineCap = 'round';
-
-    for (let t = 0; t < numTines; t++) {
-      const tOff = (t - (numTines - 1) / 2) * tineGap;
-      const steps = 500;
+    const cx=W/2, cy=H/2, numTines=5, tineGap=8, turns=4, maxR=Math.min(W,H)*0.44;
+    offCtx.save(); offCtx.strokeStyle=RAKE_COLOR; offCtx.lineWidth=1.4; offCtx.lineCap='round';
+    for (let t=0; t<numTines; t++) {
+      const tOff=(t-(numTines-1)/2)*tineGap; const steps=500;
       offCtx.beginPath();
-      for (let i = 0; i <= steps; i++) {
-        const angle = (i / steps) * Math.PI * 2 * turns;
-        const r = (i / steps) * maxR + tOff;
-        if (r < 0) continue;
-        const sx = cx + Math.cos(angle) * r;
-        const sy = cy + Math.sin(angle) * r;
-        if (i === 0) offCtx.moveTo(sx, sy);
-        else offCtx.lineTo(sx, sy);
+      for (let i=0; i<=steps; i++) {
+        const angle=(i/steps)*Math.PI*2*turns, r=(i/steps)*maxR+tOff;
+        if (r<0) continue;
+        const sx=cx+Math.cos(angle)*r, sy=cy+Math.sin(angle)*r;
+        if (i===0) offCtx.moveTo(sx,sy); else offCtx.lineTo(sx,sy);
       }
       offCtx.stroke();
     }
-    offCtx.restore();
-    redrawStones(offCtx);
-    renderFrame();
-    setStatus('A spiral unfolds from the centre…');
+    offCtx.restore(); redrawStones(offCtx); renderFrame(); setStatus('A spiral unfolds from the centreâ€¦');
   }
 
-  /* ── Status bar ──────────────────────────────────────────────── */
+  /* â”€â”€ Status â”€â”€ */
   const statusEl = document.getElementById('zg-status');
   let statusTimer;
   function setStatus(msg, duration) {
     clearTimeout(statusTimer);
     statusEl.textContent = msg;
-    if (duration !== 0) {
-      statusTimer = setTimeout(() => { statusEl.textContent = ''; }, duration || 3500);
-    }
+    if (duration !== 0) statusTimer = setTimeout(() => { statusEl.textContent=''; }, duration||3500);
   }
 
-  /* ── Pointer helpers (mouse & touch) ────────────────────────── */
+  /* â”€â”€ Pointer helpers â”€â”€ */
   function getPos(e) {
-    const rect = canvas.getBoundingClientRect();
-    const scaleX = W / rect.width;
-    const scaleY = H / rect.height;
-    const src = e.changedTouches ? e.changedTouches[0] : e;
-    return {
-      x: (src.clientX - rect.left) * scaleX,
-      y: (src.clientY - rect.top)  * scaleY,
-    };
+    const rect=canvas.getBoundingClientRect();
+    const scaleX=W/rect.width, scaleY=H/rect.height;
+    const src=e.changedTouches ? e.changedTouches[0] : e;
+    return { x:(src.clientX-rect.left)*scaleX, y:(src.clientY-rect.top)*scaleY };
   }
 
-  /* ── Canvas events ───────────────────────────────────────────── */
   function onStart(e) {
-    e.preventDefault();
-    drawing = true;
-    const { x, y } = getPos(e);
-    lastX = x; lastY = y;
-
-    if (mode === 'stone') {
-      placeStone(x, y);
-      drawing = false;
-    }
+    e.preventDefault(); drawing=true;
+    const {x,y}=getPos(e); lastX=x; lastY=y;
+    if (mode==='stone') { placeStone(x,y); drawing=false; }
   }
-
   function onMove(e) {
-    e.preventDefault();
-    if (!drawing) return;
-    const { x, y } = getPos(e);
-    if (mode === 'rake') {
-      rake(lastX, lastY, x, y);
-    } else if (mode === 'erase') {
-      smooth(x, y);
-    }
-    lastX = x; lastY = y;
+    e.preventDefault(); if (!drawing) return;
+    const {x,y}=getPos(e);
+    if (mode==='rake') rake(lastX,lastY,x,y);
+    else if (mode==='erase') smooth(x,y);
+    lastX=x; lastY=y;
   }
+  function onEnd(e) { e.preventDefault(); drawing=false; }
 
-  function onEnd(e) {
-    e.preventDefault();
-    drawing = false;
-  }
+  canvas.addEventListener('mousedown',  onStart, {passive:false});
+  canvas.addEventListener('mousemove',  onMove,  {passive:false});
+  canvas.addEventListener('mouseup',    onEnd,   {passive:false});
+  canvas.addEventListener('mouseleave', onEnd,   {passive:false});
+  canvas.addEventListener('touchstart', onStart, {passive:false});
+  canvas.addEventListener('touchmove',  onMove,  {passive:false});
+  canvas.addEventListener('touchend',   onEnd,   {passive:false});
 
-  canvas.addEventListener('mousedown',  onStart, { passive: false });
-  canvas.addEventListener('mousemove',  onMove,  { passive: false });
-  canvas.addEventListener('mouseup',    onEnd,   { passive: false });
-  canvas.addEventListener('mouseleave', onEnd,   { passive: false });
-  canvas.addEventListener('touchstart', onStart, { passive: false });
-  canvas.addEventListener('touchmove',  onMove,  { passive: false });
-  canvas.addEventListener('touchend',   onEnd,   { passive: false });
-
-  /* ── Place stone ───────────────────────────────────────────────── */
+  /* â”€â”€ Place stone â”€â”€ */
   function placeStone(x, y) {
-    // Avoid placing too close to an existing stone
     for (let s of stones) {
-      const dx = s.x - x, dy = s.y - y;
-      if (Math.sqrt(dx * dx + dy * dy) < 30) {
-        setStatus('A stone is already resting here.');
-        return;
-      }
+      if (Math.hypot(s.x-x,s.y-y)<30) { setStatus('A stone is already resting here.'); return; }
     }
-    const rx = 12 + Math.random() * 14;
-    const ry = rx * (0.55 + Math.random() * 0.3);
-    const angle = (Math.random() - 0.5) * Math.PI;
-    const stone = { x, y, rx, ry, angle };
-    stones.push(stone);
-    drawStone(offCtx, stone);
-    renderFrame();
-
-    // Ripple effect around new stone
-    animateStoneRipple(x, y, rx * 4);
-    setStatus('A stone settles into the sand.');
+    const rx=12+Math.random()*14, ry=rx*(0.55+Math.random()*0.3), angle=(Math.random()-0.5)*Math.PI;
+    const stone={x,y,rx,ry,angle};
+    stones.push(stone); drawStone(offCtx,stone); renderFrame();
+    animateStoneRipple(x,y,rx*4); setStatus('A stone settles into the sand.');
   }
 
-  /* ── Animate new stone ripple ─────────────────────────────────── */
   function animateStoneRipple(cx, cy, maxR) {
-    let r = 0;
-    const step = () => {
-      if (r >= maxR) return;
-      r += 3;
-      renderFrame(); // restore clean frame
-      ctx.save();
-      ctx.strokeStyle = 'rgba(100, 72, 28, 0.3)';
-      ctx.lineWidth = 1.2;
-      ctx.beginPath();
-      ctx.arc(cx, cy, r, 0, Math.PI * 2);
-      ctx.stroke();
-      ctx.globalAlpha = Math.max(0, 1 - r / maxR);
-      ctx.restore();
+    let r=0;
+    const step=()=>{
+      if (r>=maxR) return; r+=3; renderFrame();
+      ctx.save(); ctx.strokeStyle='rgba(100,72,28,0.3)'; ctx.lineWidth=1.2;
+      ctx.beginPath(); ctx.arc(cx,cy,r,0,Math.PI*2); ctx.stroke();
+      ctx.globalAlpha=Math.max(0,1-r/maxR); ctx.restore();
       requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
   }
 
-  /* ── Mode buttons ─────────────────────────────────────────────── */
+  /* â”€â”€ Mode â”€â”€ */
   function setMode(m) {
     mode = m;
-    ['rake', 'stone', 'erase'].forEach(id => {
-      document.getElementById('zg-mode-' + id).classList.toggle('active', id === m);
+    ['rake','stone','erase'].forEach(id => {
+      const n = document.getElementById('zg-mode-'+id);
+      const f = document.getElementById('zg-fs-mode-'+id);
+      if (n) n.classList.toggle('active', id===m);
+      if (f) f.classList.toggle('active', id===m);
     });
-    frame.className = frame.className.replace(/\bmode-\S+/g, '').trim();
-    if (m !== 'rake') frame.classList.add('mode-' + m);
-    const hints = {
-      rake:  'Drag to rake the sand.',
-      stone: 'Tap anywhere to place a stone.',
-      erase: 'Drag to smooth and erase marks.',
-    };
+    frame.className = frame.className.replace(/\bmode-\S+/g,'').trim();
+    if (m!=='rake') frame.classList.add('mode-'+m);
+    const hints = {rake:'Drag to rake the sand.',stone:'Tap anywhere to place a stone.',erase:'Drag to smooth and erase marks.'};
     setStatus(hints[m], 0);
   }
 
-  document.getElementById('zg-mode-rake').addEventListener('click',  () => setMode('rake'));
-  document.getElementById('zg-mode-stone').addEventListener('click', () => setMode('stone'));
-  document.getElementById('zg-mode-erase').addEventListener('click', () => setMode('erase'));
-
-  /* ── Presets ──────────────────────────────────────────────────── */
-  document.getElementById('zg-preset-ripples').addEventListener('click', presetRipples);
-  document.getElementById('zg-preset-waves').addEventListener('click',   presetWaves);
-  document.getElementById('zg-preset-spiral').addEventListener('click',  presetSpiral);
-
-  /* ── Clear ─────────────────────────────────────────────────────── */
-  document.getElementById('zg-clear').addEventListener('click', () => {
-    initGarden();
-    setStatus('The garden is still again.');
+  ['rake','stone','erase'].forEach(id => {
+    document.getElementById('zg-mode-'+id).addEventListener('click', ()=>setMode(id));
+    const f = document.getElementById('zg-fs-mode-'+id);
+    if (f) f.addEventListener('click', ()=>setMode(id));
   });
 
-  /* ── Save image ───────────────────────────────────────────────── */
-  document.getElementById('zg-save-img').addEventListener('click', () => {
+  /* â”€â”€ Presets â”€â”€ */
+  const presetMap = {ripples:presetRipples, waves:presetWaves, spiral:presetSpiral};
+  Object.keys(presetMap).forEach(k => {
+    document.getElementById('zg-preset-'+k).addEventListener('click', presetMap[k]);
+    const f = document.getElementById('zg-fs-preset-'+k);
+    if (f) f.addEventListener('click', presetMap[k]);
+  });
+
+  /* â”€â”€ Clear â”€â”€ */
+  function clearGarden() { initGarden(); setStatus('The garden is still again.'); }
+  document.getElementById('zg-clear').addEventListener('click', clearGarden);
+  const fsClear = document.getElementById('zg-fs-clear');
+  if (fsClear) fsClear.addEventListener('click', clearGarden);
+
+  /* â”€â”€ Save to device â”€â”€
+     Priority order:
+     1. Web Share API with files (iOS 15+, Android) â†’ goes to native share sheet â†’ user picks Save Image / Photos
+     2. iOS without Share API â†’ show image in sheet, user long-presses to save
+     3. Desktop â†’ anchor download (saves to Downloads folder)
+  â”€â”€ */
+  async function saveGarden() {
     renderFrame();
-    const link = document.createElement('a');
-    link.download = 'my-zen-garden.png';
-    link.href = canvas.toDataURL('image/png');
-    link.click();
-    setStatus('Garden saved as an image.');
-  });
+    canvas.toBlob(async (blob) => {
+      if (!blob) { setStatus('Could not capture the garden.'); return; }
 
-  /* ── Breathing guide ──────────────────────────────────────────── */
+      const file = new File([blob], 'my-zen-garden.png', { type: 'image/png' });
+
+      // 1. Web Share API (iOS 15+, Android Chrome/Samsung)
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], title: 'My Zen Garden', text: 'From Journal for Wellbeing' });
+          setStatus('Use the share sheet to save to your Photos.');
+          return;
+        } catch (err) {
+          if (err.name === 'AbortError') return; // user cancelled â€” do nothing
+          // otherwise fall through
+        }
+      }
+
+      // 2. iOS without Share API â€” show image sheet for long-press save
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (isIOS) {
+        const url = URL.createObjectURL(blob);
+        const imgEl = document.getElementById('zg-save-sheet-img');
+        imgEl.onload = () => URL.revokeObjectURL(url); // free memory after load
+        imgEl.src = url;
+        document.getElementById('zg-save-sheet').classList.add('visible');
+        return;
+      }
+
+      // 3. Desktop â€” trigger file download
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.download = 'my-zen-garden.png';
+      a.href = url;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      setTimeout(() => URL.revokeObjectURL(url), 4000);
+      setStatus('Garden saved â€” check your Downloads folder.');
+    }, 'image/png');
+  }
+
+  document.getElementById('zg-save-img').addEventListener('click', saveGarden);
+  const fsSave = document.getElementById('zg-fs-save');
+  if (fsSave) fsSave.addEventListener('click', saveGarden);
+
+  // Close iOS save sheet
+  const saveSheet = document.getElementById('zg-save-sheet');
+  document.getElementById('zg-save-sheet-close').addEventListener('click', () => saveSheet.classList.remove('visible'));
+  saveSheet.addEventListener('click', e => { if (e.target===saveSheet) saveSheet.classList.remove('visible'); });
+
+  /* â”€â”€ Fullscreen â”€â”€ */
+  function enterFullscreen() {
+    if (fsWrap.requestFullscreen)       fsWrap.requestFullscreen();
+    else if (fsWrap.webkitRequestFullscreen) fsWrap.webkitRequestFullscreen();
+  }
+  function exitFullscreen() {
+    if (document.exitFullscreen)             document.exitFullscreen();
+    else if (document.webkitExitFullscreen)  document.webkitExitFullscreen();
+  }
+
+  document.getElementById('zg-fullscreen-enter').addEventListener('click', enterFullscreen);
+  const fsExit = document.getElementById('zg-fs-exit');
+  if (fsExit) fsExit.addEventListener('click', exitFullscreen);
+
+  function onFsChange() {
+    const active = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    const btn = document.getElementById('zg-fullscreen-enter');
+    if (btn) btn.innerHTML = active ? '&#9974; Exit Full Screen' : '&#9974; Full Screen';
+    // Re-render after the transition so the canvas fills the new size
+    setTimeout(renderFrame, 80);
+  }
+  document.addEventListener('fullscreenchange',       onFsChange);
+  document.addEventListener('webkitfullscreenchange', onFsChange);
+
+  /* â”€â”€ Breathing guide â”€â”€ */
   const breathOverlay = document.getElementById('zg-breath-overlay');
   const breathRing    = document.getElementById('zg-breath-ring');
   const breathWord    = document.getElementById('zg-breath-word');
   const breathCount   = document.getElementById('zg-breath-count');
-  let breathActive = false;
-  let breathPhase  = 'inhale';
-  let breathInterval;
-  let breathSecond = 0;
-  const breathCycle = [
-    { phase: 'inhale', word: 'Breathe in', seconds: 4, cls: 'inhale' },
-    { phase: 'hold',   word: 'Hold',        seconds: 2, cls: 'hold'   },
-    { phase: 'exhale', word: 'Breathe out', seconds: 6, cls: 'exhale' },
+  let breathActive=false, breathStep=0, breathInterval;
+  const breathCycle=[
+    {word:'Breathe in', seconds:4, cls:'inhale'},
+    {word:'Hold',       seconds:2, cls:'hold'},
+    {word:'Breathe out',seconds:6, cls:'exhale'},
   ];
-  let breathStep = 0;
-
-  function startBreath() {
-    breathStep = 0;
-    runBreathStep();
-  }
 
   function runBreathStep() {
-    const step = breathCycle[breathStep % breathCycle.length];
-    breathWord.textContent = step.word;
-    breathRing.className = '';
-    void breathRing.offsetWidth; // reflow to restart animation
-    breathRing.classList.add(step.cls);
-
-    let remaining = step.seconds;
-    breathCount.textContent = remaining;
-
+    const step=breathCycle[breathStep%breathCycle.length];
+    breathWord.textContent=step.word;
+    breathRing.className=''; void breathRing.offsetWidth; breathRing.classList.add(step.cls);
+    let remaining=step.seconds; breathCount.textContent=remaining;
     clearInterval(breathInterval);
-    breathInterval = setInterval(() => {
-      remaining--;
-      breathCount.textContent = Math.max(0, remaining);
-      if (remaining <= 0) {
-        clearInterval(breathInterval);
-        breathStep = (breathStep + 1) % breathCycle.length;
-        if (breathActive) runBreathStep();
-      }
-    }, 1000);
+    breathInterval=setInterval(()=>{
+      remaining--; breathCount.textContent=Math.max(0,remaining);
+      if (remaining<=0) { clearInterval(breathInterval); breathStep=(breathStep+1)%breathCycle.length; if(breathActive) runBreathStep(); }
+    },1000);
   }
 
-  document.getElementById('zg-breath-toggle').addEventListener('click', () => {
-    breathActive = !breathActive;
+  function toggleBreath() {
+    breathActive=!breathActive;
+    const mainBtn=document.getElementById('zg-breath-toggle');
+    const fsBtn=document.getElementById('zg-fs-breath-toggle');
     if (breathActive) {
-      breathOverlay.classList.add('visible');
-      document.getElementById('zg-breath-toggle').textContent = '◉ Stop breathing guide';
-      startBreath();
+      breathOverlay.classList.add('visible'); breathStep=0; runBreathStep();
+      if (mainBtn) mainBtn.textContent='â—‰ Stop breathing guide';
+      if (fsBtn)   fsBtn.textContent='â—‰ Stop';
     } else {
-      breathOverlay.classList.remove('visible');
-      document.getElementById('zg-breath-toggle').innerHTML = '&#9675; Breathing Guide';
-      clearInterval(breathInterval);
+      breathOverlay.classList.remove('visible'); clearInterval(breathInterval);
+      if (mainBtn) mainBtn.innerHTML='&#9675; Breathing Guide';
+      if (fsBtn)   fsBtn.innerHTML='&#9675; Breathe';
     }
-  });
+  }
 
-  document.getElementById('zg-breath-close').addEventListener('click', () => {
-    breathActive = false;
-    breathOverlay.classList.remove('visible');
-    document.getElementById('zg-breath-toggle').innerHTML = '&#9675; Breathing Guide';
-    clearInterval(breathInterval);
-  });
+  document.getElementById('zg-breath-toggle').addEventListener('click', toggleBreath);
+  document.getElementById('zg-breath-close').addEventListener('click',  () => { breathActive=true; toggleBreath(); });
+  const fsBreath=document.getElementById('zg-fs-breath-toggle');
+  if (fsBreath) fsBreath.addEventListener('click', toggleBreath);
 
-  /* ── Reflection prompts ───────────────────────────────────────── */
-  const prompts = [
+  /* â”€â”€ Reflection prompts â”€â”€ */
+  const prompts=[
     'What in your life is asking to be raked smooth right now?',
     'Where have you been placing your heaviest stones lately?',
     'What does stillness feel like in your body today, even for a moment?',
     'If the surface of your mind were a garden, what pattern would you see?',
     'What is one small thing you could let go of by the end of today?',
-    'What needs to simply sit in place — unhurried, unfinished — for now?',
+    'What needs to simply sit in place â€” unhurried, unfinished â€” for now?',
     'Where in your life are you trying to perfect the pattern instead of resting in it?',
     'What feeling wants to be traced slowly, without rushing to the end?',
     'If you could draw one shape that describes how you are feeling today, what would it be?',
@@ -848,19 +729,26 @@ permalink: /zen-garden/
     'Where could you bring more deliberate slowness this week?',
     'What simple, repeated action brings you back to yourself?',
   ];
-  let lastPromptIdx = -1;
+  let lastPromptIdx=-1;
 
-  document.getElementById('zg-reflect-btn').addEventListener('click', () => {
+  function showReflection() {
     let idx;
-    do { idx = Math.floor(Math.random() * prompts.length); } while (idx === lastPromptIdx);
-    lastPromptIdx = idx;
-    document.getElementById('zg-reflection-text').textContent = prompts[idx];
-    const card = document.getElementById('zg-reflection-card');
+    do { idx=Math.floor(Math.random()*prompts.length); } while (idx===lastPromptIdx && prompts.length>1);
+    lastPromptIdx=idx;
+    document.getElementById('zg-reflection-text').textContent=prompts[idx];
+    const card=document.getElementById('zg-reflection-card');
     card.classList.add('visible');
-    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  });
+    // In fullscreen, show in status bar instead
+    const active=!!(document.fullscreenElement||document.webkitFullscreenElement);
+    if (active) setStatus(prompts[idx], 8000);
+    else card.scrollIntoView({behavior:'smooth',block:'nearest'});
+  }
 
-  /* ── Init ─────────────────────────────────────────────────────── */
+  document.getElementById('zg-reflect-btn').addEventListener('click', showReflection);
+  const fsReflect=document.getElementById('zg-fs-reflect-btn');
+  if (fsReflect) fsReflect.addEventListener('click', showReflection);
+
+  /* â”€â”€ Init â”€â”€ */
   initGarden();
   setMode('rake');
 
