@@ -76,7 +76,7 @@ exclude:
   - docker-compose.yml
   - site/
 # Misc
-future: true
+future: false
 show_author_box: false
 sass:
   style: compressed
