@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep warm terracotta-brown -->
+  <rect width="1200" height="628" fill="#221510"/>
+
+  <!-- Subtle radial warm glow -->
+  <radialGradient id="painWarmth" cx="50%" cy="55%" r="50%">
+    <stop offset="0%" stop-color="#2e1a10" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#221510" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="1200" height="628" fill="url(#painWarmth)"/>
+
+  <!-- Wave line: jagged/compressed on left, gradually softening toward right -->
+  <!-- Jagged/tense section (left) -->
+  <polyline points="60,314 90,260 115,355 140,268 165,348 188,275 208,340 225,285 240,332 255,290" fill="none" stroke="#8a4a30" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <!-- Transitioning section (mid-left) -->
+  <polyline points="255,290 280,320 310,278 340,308 372,285 405,305 438,288 470,302" fill="none" stroke="#a06040" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <!-- Softening section (mid-right) -->
+  <polyline points="470,302 510,310 558,296 608,308 658,300 710,308 760,302 810,308" fill="none" stroke="#b87850" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  <!-- Calm section (right) -->
+  <path d="M810,308 Q860,312 910,306 Q960,302 1010,308 Q1060,312 1110,308 Q1140,306 1160,308" fill="none" stroke="#c89060" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Botanical stem — right edge -->
+  <g opacity="0.14" transform="translate(1080,80)">
+    <path d="M25,500 Q22,380 28,260 Q34,140 30,30" stroke="#c89a70" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M29,200 Q65,182 74,155 Q48,170 29,190" fill="#c89a70" stroke="none" opacity="0.4"/>
+    <path d="M30,320 Q-4,302 -10,276 Q14,292 29,308" fill="#c89a70" stroke="none" opacity="0.35"/>
+    <path d="M28,420 Q62,404 70,378 Q46,394 28,410" fill="#c89a70" stroke="none" opacity="0.3"/>
+  </g>
+
+  <!-- Text backdrop -->
+  <rect x="0" y="210" width="1200" height="220" fill="#221510" opacity="0.55"/>
+
+  <!-- Category -->
+  <text x="600" y="247" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#b07850" text-anchor="middle" letter-spacing="5">WELLBEING · MENTAL HEALTH</text>
+
+  <!-- Title -->
+  <text x="600" y="314" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="normal" fill="#f0e8e0" text-anchor="middle">Journaling for Chronic Pain</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="364" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#b07850" text-anchor="middle" font-style="italic">Writing When Your Body Is the Hard Part</text>
+
+  <!-- Divider -->
+  <line x1="450" y1="392" x2="576" y2="392" stroke="#3e2018" stroke-width="0.8"/>
+  <circle cx="600" cy="392" r="3.5" fill="#b07850"/>
+  <line x1="624" y1="392" x2="750" y2="392" stroke="#3e2018" stroke-width="0.8"/>
+
+  <!-- Brand -->
+  <text x="600" y="436" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#2a1408" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

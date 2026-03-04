@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep neutral dark stone -->
+  <rect width="1200" height="628" fill="#141414"/>
+
+  <!-- Subtle warm-grey radial -->
+  <radialGradient id="menGlow" cx="50%" cy="52%" r="48%">
+    <stop offset="0%" stop-color="#1c1c1e" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#141414" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="1200" height="628" fill="url(#menGlow)"/>
+
+  <!-- Minimal notebook — open journal, clean ruled lines, no decorative flourishes -->
+  <g transform="translate(338, 148)" opacity="0.2">
+    <!-- notebook spread -->
+    <rect x="0" y="0" width="240" height="310" rx="2" fill="#e8e4dc" stroke="#b0a898" stroke-width="1"/>
+    <rect x="245" y="0" width="240" height="310" rx="2" fill="#eceae4" stroke="#b0a898" stroke-width="1"/>
+    <rect x="234" y="0" width="11" height="310" fill="#706050" opacity="0.35"/>
+    <!-- Lines left -->
+    <line x1="18" y1="48" x2="226" y2="48" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="70" x2="226" y2="70" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="92" x2="226" y2="92" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="114" x2="226" y2="114" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="136" x2="226" y2="136" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="158" x2="200" y2="158" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="180" x2="226" y2="180" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="18" y1="202" x2="180" y2="202" stroke="#c0b8a8" stroke-width="0.8"/>
+    <!-- Lines right -->
+    <line x1="263" y1="48" x2="466" y2="48" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="263" y1="70" x2="466" y2="70" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="263" y1="92" x2="466" y2="92" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="263" y1="114" x2="440" y2="114" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="263" y1="136" x2="466" y2="136" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="263" y1="158" x2="420" y2="158" stroke="#c0b8a8" stroke-width="0.8"/>
+    <line x1="263" y1="180" x2="466" y2="180" stroke="#c0b8a8" stroke-width="0.8"/>
+  </g>
+
+  <!-- Text backdrop -->
+  <rect x="0" y="218" width="1200" height="208" fill="#141414" opacity="0.6"/>
+
+  <!-- Category -->
+  <text x="600" y="255" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#808888" text-anchor="middle" letter-spacing="5">WELLBEING · MENTAL HEALTH</text>
+
+  <!-- Title -->
+  <text x="600" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="normal" fill="#e8e4e0" text-anchor="middle">Journaling for Men</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="369" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#808888" text-anchor="middle" font-style="italic">Why It Works the Same, and Why the Entry Point Matters</text>
+
+  <!-- Divider -->
+  <line x1="450" y1="397" x2="576" y2="397" stroke="#282828" stroke-width="0.8"/>
+  <circle cx="600" cy="397" r="3.5" fill="#808888"/>
+  <line x1="624" y1="397" x2="750" y2="397" stroke="#282828" stroke-width="0.8"/>
+
+  <!-- Brand -->
+  <text x="600" y="441" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#181818" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

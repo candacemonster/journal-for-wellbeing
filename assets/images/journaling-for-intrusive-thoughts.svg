@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep slate-charcoal -->
+  <rect width="1200" height="628" fill="#141820"/>
+
+  <!-- Radial glow — calm at centre -->
+  <radialGradient id="itGlow" cx="50%" cy="52%" r="45%">
+    <stop offset="0%" stop-color="#1c2230" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#141820" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="1200" height="628" fill="url(#itGlow)"/>
+
+  <!-- Intrusive thought dots: cluster of sharp small dots on left, drifting/fading to right -->
+  <!-- Intense cluster (left) — closer together, slightly irregular -->
+  <g fill="#8890b8" opacity="0.55">
+    <circle cx="120" cy="280" r="4"/>
+    <circle cx="138" cy="263" r="3.5"/>
+    <circle cx="155" cy="298" r="4.5"/>
+    <circle cx="142" cy="315" r="3"/>
+    <circle cx="168" cy="270" r="4"/>
+    <circle cx="178" cy="308" r="3.5"/>
+    <circle cx="195" cy="280" r="4"/>
+    <circle cx="160" cy="290" r="5"/>
+    <circle cx="205" cy="308" r="3"/>
+    <circle cx="125" cy="310" r="3"/>
+    <circle cx="185" cy="262" r="3.5"/>
+    <circle cx="212" cy="272" r="4"/>
+  </g>
+
+  <!-- Dispersing middle section — dots less dense, slightly larger opacity gradient -->
+  <g fill="#8890b8">
+    <circle cx="260" cy="295" r="3.5" opacity="0.4"/>
+    <circle cx="295" cy="280" r="3" opacity="0.35"/>
+    <circle cx="328" cy="305" r="3.5" opacity="0.3"/>
+    <circle cx="365" cy="285" r="3" opacity="0.28"/>
+    <circle cx="400" cy="308" r="3.5" opacity="0.24"/>
+    <circle cx="438" cy="290" r="3" opacity="0.2"/>
+    <circle cx="478" cy="304" r="3" opacity="0.17"/>
+    <circle cx="518" cy="292" r="2.5" opacity="0.14"/>
+    <circle cx="560" cy="305" r="2.5" opacity="0.11"/>
+    <circle cx="605" cy="294" r="2" opacity="0.09"/>
+    <circle cx="650" cy="306" r="2" opacity="0.07"/>
+    <circle cx="700" cy="298" r="2" opacity="0.05"/>
+    <circle cx="760" cy="302" r="1.5" opacity="0.04"/>
+    <circle cx="820" cy="298" r="1.5" opacity="0.03"/>
+  </g>
+
+  <!-- Observer dot — separate, slightly above the cloud — represents the watching self -->
+  <circle cx="600" cy="230" r="6" fill="#e8e8f8" opacity="0.5"/>
+  <text x="600" y="214" font-family="Georgia, serif" font-size="11" fill="#8890b8" text-anchor="middle" opacity="0.4" font-style="italic">observing</text>
+  <line x1="600" y1="236" x2="600" y2="285" stroke="#8890b8" stroke-width="0.8" stroke-dasharray="4,4" opacity="0.25"/>
+
+  <!-- Text backdrop -->
+  <rect x="0" y="215" width="1200" height="215" fill="#141820" opacity="0.62"/>
+
+  <!-- Category -->
+  <text x="600" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#6878a8" text-anchor="middle" letter-spacing="5">MENTAL HEALTH · PRACTICE</text>
+
+  <!-- Title -->
+  <text x="600" y="315" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="normal" fill="#e0e4f8" text-anchor="middle">Journaling for Intrusive Thoughts</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="365" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#6878a8" text-anchor="middle" font-style="italic">Writing That Helps Rather Than Feeds</text>
+
+  <!-- Divider -->
+  <line x1="450" y1="393" x2="576" y2="393" stroke="#202838" stroke-width="0.8"/>
+  <circle cx="600" cy="393" r="3.5" fill="#6878a8"/>
+  <line x1="624" y1="393" x2="750" y2="393" stroke="#202838" stroke-width="0.8"/>
+
+  <!-- Brand -->
+  <text x="600" y="437" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#141c28" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>
