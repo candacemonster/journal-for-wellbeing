@@ -1,0 +1,868 @@
+---
+layout: default
+title: "Still Water Zen Garden"
+description: "An interactive digital zen garden for Journal for Wellbeing. Rake the sand, place stones, breathe slowly, and find a few minutes of stillness."
+permalink: /zen-garden/
+---
+
+<style>
+/* ── Still Water Zen Garden – scoped styles ─────────────────────────── */
+#zg-tool {
+  --zg-sand:      #c9a870;
+  --zg-wood:      #7a5c2e;
+  --zg-wood-dark: #4e3a1e;
+  --zg-sage:      #5a7a4e;
+  --zg-sage-soft: #d9e6d2;
+  --zg-text:      #2e2416;
+  --zg-muted:     #6b5530;
+  --zg-border:    #c4a060;
+  --zg-card-bg:   #faf5ec;
+  --zg-accent:    #5a7a4e;
+  background: #faf5ec;
+  border-radius: 16px;
+  padding: 28px 20px 44px;
+  margin-bottom: 40px;
+  color: var(--zg-text);
+  line-height: 1.6;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+#zg-tool .zg-page { max-width: 900px; margin: 0 auto; }
+
+/* Header */
+#zg-tool .zg-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 13px; border-radius: 999px;
+  background: var(--zg-sage-soft); color: var(--zg-sage);
+  font-size: 0.74rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; margin-bottom: 10px;
+  font-family: 'Lora', Georgia, serif;
+}
+#zg-tool h1 {
+  font-size: 1.8rem; font-weight: 700; color: var(--zg-text);
+  margin: 0 0 8px; line-height: 1.2;
+}
+#zg-tool .zg-lead {
+  color: var(--zg-muted); font-size: 0.95rem;
+  margin: 0 0 22px; max-width: 640px;
+  font-style: italic;
+}
+
+/* Tool bar */
+#zg-toolbar {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: 8px; margin-bottom: 14px;
+}
+.zg-tool-group {
+  display: flex; gap: 6px; flex-wrap: wrap;
+}
+.zg-tool-divider {
+  width: 1px; height: 32px;
+  background: var(--zg-border); opacity: 0.5;
+  margin: 0 4px; align-self: center;
+}
+.zg-btn {
+  border: 1.5px solid var(--zg-border);
+  background: #fff8ee; color: var(--zg-muted);
+  border-radius: 8px; padding: 6px 14px;
+  font-size: 0.83rem; font-weight: 600; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 5px;
+  transition: all 0.15s; font-family: 'Lora', Georgia, serif;
+  white-space: nowrap;
+}
+.zg-btn:hover { background: #f0e6cc; border-color: var(--zg-wood); }
+.zg-btn.active {
+  background: var(--zg-sage); color: #fff;
+  border-color: var(--zg-sage);
+}
+.zg-btn.zg-btn-ghost {
+  background: transparent; border-color: transparent;
+  color: var(--zg-muted);
+}
+.zg-btn.zg-btn-ghost:hover { background: #f0e6cc; border-color: var(--zg-border); }
+
+/* Canvas frame */
+#zg-frame {
+  position: relative;
+  border-radius: 6px;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(0,0,0,0.04) 0px, rgba(0,0,0,0.04) 1px,
+      transparent 1px, transparent 8px
+    ),
+    linear-gradient(160deg, #a07840 0%, #8B6420 40%, #6e4e18 100%);
+  padding: 14px;
+  box-shadow: 0 18px 50px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.15);
+}
+/* Inner wood lip */
+#zg-frame::before {
+  content: '';
+  position: absolute; inset: 7px;
+  border: 1.5px solid rgba(255,255,255,0.12);
+  border-radius: 3px; pointer-events: none; z-index: 1;
+}
+#zg-canvas {
+  display: block; width: 100%; height: auto;
+  cursor: crosshair; border-radius: 2px;
+  touch-action: none; /* prevent scroll during drag */
+  position: relative; z-index: 0;
+}
+
+/* Mode cursor hints */
+#zg-frame.mode-stone #zg-canvas { cursor: cell; }
+#zg-frame.mode-erase #zg-canvas { cursor: not-allowed; }
+
+/* Breath guide — floats inside frame */
+#zg-breath-overlay {
+  display: none;
+  position: absolute;
+  bottom: 26px; right: 26px;
+  z-index: 10;
+  background: rgba(250, 245, 236, 0.92);
+  backdrop-filter: blur(4px);
+  border: 1.5px solid var(--zg-border);
+  border-radius: 14px;
+  padding: 16px 20px 14px;
+  text-align: center;
+  min-width: 160px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  font-family: 'Lora', Georgia, serif;
+}
+#zg-breath-overlay.visible { display: block; }
+#zg-breath-ring-wrap {
+  width: 72px; height: 72px;
+  margin: 0 auto 8px;
+  position: relative;
+  display: flex; align-items: center; justify-content: center;
+}
+#zg-breath-ring {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #a8c898, #5a7a4e);
+  box-shadow: 0 0 0 0 rgba(90,122,78,0.35);
+  transition: none;
+}
+#zg-breath-ring.inhale {
+  animation: zg-inhale 4s ease-in-out forwards;
+}
+#zg-breath-ring.hold {
+  animation: zg-hold 2s ease forwards;
+}
+#zg-breath-ring.exhale {
+  animation: zg-exhale 6s ease-in-out forwards;
+}
+@keyframes zg-inhale {
+  0%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(90,122,78,0.3); }
+  100% { transform: scale(1.9);  box-shadow: 0 0 0 18px rgba(90,122,78,0); }
+}
+@keyframes zg-hold {
+  0%, 100% { transform: scale(1.9); }
+}
+@keyframes zg-exhale {
+  0%   { transform: scale(1.9); }
+  100% { transform: scale(1); }
+}
+#zg-breath-word {
+  font-size: 0.82rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--zg-sage); margin-bottom: 2px;
+}
+#zg-breath-count {
+  font-size: 1.4rem; font-weight: 700;
+  color: var(--zg-text); margin-bottom: 4px;
+  font-variant-numeric: tabular-nums;
+  min-height: 1.6em;
+}
+#zg-breath-close {
+  background: none; border: none;
+  font-size: 0.73rem; color: var(--zg-muted);
+  cursor: pointer; font-family: inherit;
+  text-decoration: underline; padding: 0;
+}
+#zg-breath-close:hover { color: var(--zg-text); }
+
+/* Bottom panel */
+#zg-bottom {
+  display: flex; flex-wrap: wrap; gap: 14px;
+  margin-top: 18px; align-items: flex-start;
+}
+#zg-left-actions {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  align-items: center;
+}
+
+/* Reflection card */
+#zg-reflection-card {
+  background: var(--zg-card-bg);
+  border: 1.5px solid var(--zg-border);
+  border-radius: 14px;
+  padding: 18px 20px 16px;
+  flex: 1; min-width: 260px;
+  display: none;
+}
+#zg-reflection-card.visible { display: block; }
+.zg-reflection-label {
+  font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--zg-sage); margin-bottom: 8px;
+}
+#zg-reflection-text {
+  font-size: 1rem; color: var(--zg-text);
+  font-style: italic; line-height: 1.65;
+  margin-bottom: 12px;
+}
+.zg-reflection-hint {
+  font-size: 0.8rem; color: var(--zg-muted);
+  margin: 0;
+}
+
+/* Status bar */
+#zg-status {
+  font-size: 0.78rem; color: var(--zg-muted);
+  margin-top: 14px; text-align: center;
+  font-style: italic; min-height: 1.2em;
+  letter-spacing: 0.02em;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  #zg-tool { padding: 18px 12px 32px; }
+  #zg-tool h1 { font-size: 1.45rem; }
+  #zg-frame { padding: 10px; }
+  .zg-tool-divider { display: none; }
+}
+</style>
+
+<div id="zg-tool">
+  <div class="zg-page">
+
+    <header style="margin-bottom: 20px;">
+      <div class="zg-pill">&#9675; Quiet Tool</div>
+      <h1>Still Water Zen Garden</h1>
+      <p class="zg-lead">
+        Rake the sand. Place a stone. Let your hands move slowly and your mind follow.
+        There is nothing to finish here &mdash; only a few minutes to be still.
+      </p>
+    </header>
+
+    <!-- Toolbar -->
+    <div id="zg-toolbar">
+      <div class="zg-tool-group">
+        <button class="zg-btn active" id="zg-mode-rake" title="Rake the sand (drag to draw)">
+          &#9135; Rake
+        </button>
+        <button class="zg-btn" id="zg-mode-stone" title="Place a stone (click anywhere)">
+          &#9679; Stone
+        </button>
+        <button class="zg-btn" id="zg-mode-erase" title="Smooth the sand (drag to erase)">
+          &#9663; Smooth
+        </button>
+      </div>
+      <div class="zg-tool-divider"></div>
+      <div class="zg-tool-group">
+        <button class="zg-btn zg-btn-ghost" id="zg-preset-ripples" title="Draw a ripple pattern">
+          &#8767; Ripples
+        </button>
+        <button class="zg-btn zg-btn-ghost" id="zg-preset-waves" title="Draw flowing wave marks">
+          &#9135; Waves
+        </button>
+        <button class="zg-btn zg-btn-ghost" id="zg-preset-spiral" title="Draw a spiral">
+          &#8635; Spiral
+        </button>
+      </div>
+      <div class="zg-tool-divider"></div>
+      <div class="zg-tool-group">
+        <button class="zg-btn zg-btn-ghost" id="zg-clear" title="Clear the garden and start fresh">
+          &#10005; New Garden
+        </button>
+        <button class="zg-btn zg-btn-ghost" id="zg-save-img" title="Save garden as image">
+          &#8681; Save
+        </button>
+      </div>
+    </div>
+
+    <!-- Canvas frame -->
+    <div id="zg-frame">
+      <canvas id="zg-canvas" width="860" height="490"></canvas>
+
+      <!-- Breathing guide overlay -->
+      <div id="zg-breath-overlay">
+        <div id="zg-breath-ring-wrap">
+          <div id="zg-breath-ring"></div>
+        </div>
+        <div id="zg-breath-word">Breathe</div>
+        <div id="zg-breath-count">&#8212;</div>
+        <button id="zg-breath-close">close guide</button>
+      </div>
+    </div>
+
+    <!-- Bottom actions + reflection -->
+    <div id="zg-bottom">
+      <div id="zg-left-actions">
+        <button class="zg-btn" id="zg-breath-toggle">
+          &#9675; Breathing Guide
+        </button>
+        <button class="zg-btn" id="zg-reflect-btn">
+          &#10022; A moment's reflection
+        </button>
+      </div>
+
+      <div id="zg-reflection-card">
+        <div class="zg-reflection-label">A moment&rsquo;s reflection</div>
+        <p id="zg-reflection-text"></p>
+        <p class="zg-reflection-hint">
+          Carry this question into your journal, or simply let it rest in the garden with you.
+        </p>
+      </div>
+    </div>
+
+    <p id="zg-status"></p>
+
+  </div><!-- /.zg-page -->
+</div><!-- /#zg-tool -->
+
+<script>
+(function () {
+  'use strict';
+
+  /* ── Canvas & context ──────────────────────────────────────── */
+  const canvas = document.getElementById('zg-canvas');
+  const ctx    = canvas.getContext('2d');
+  const frame  = document.getElementById('zg-frame');
+
+  const W = 860, H = 490; // logical size
+  const DPR = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width  = W * DPR;
+  canvas.height = H * DPR;
+  ctx.scale(DPR, DPR);
+
+  /* ── State ───────────────────────────────────────────────────── */
+  let mode       = 'rake'; // rake | stone | erase
+  let drawing    = false;
+  let lastX = 0, lastY = 0;
+  let stones     = [];  // { x, y, rx, ry, angle, hue }
+
+  // Offscreen buffer stores the persistent garden state
+  const offCanvas = document.createElement('canvas');
+  offCanvas.width  = W * DPR;
+  offCanvas.height = H * DPR;
+  const offCtx = offCanvas.getContext('2d');
+  offCtx.scale(DPR, DPR);
+
+  /* ── Colours ─────────────────────────────────────────────────── */
+  const SAND_LIGHT   = '#d9bc90';
+  const SAND_BASE    = '#c9a870';
+  const SAND_DEEP    = '#b8956a';
+  const RAKE_COLOR   = 'rgba(100, 72, 28, 0.42)';
+  const SMOOTH_COLOR = SAND_BASE;
+  const NUM_TINES    = 7;
+  const TINE_SPACING = 9;
+  const TINE_HALF    = 14;
+
+  /* ── Draw sand background ─────────────────────────────────────── */
+  function drawBackground(c) {
+    const grad = c.createLinearGradient(0, 0, W, H);
+    grad.addColorStop(0,   '#dcc898');
+    grad.addColorStop(0.4, SAND_BASE);
+    grad.addColorStop(1,   '#b08450');
+    c.fillStyle = grad;
+    c.fillRect(0, 0, W, H);
+
+    // Subtle sand grain — tiny random colour variations
+    c.save();
+    for (let i = 0; i < 2200; i++) {
+      const gx = Math.random() * W;
+      const gy = Math.random() * H;
+      const gs = Math.random() * 2 + 0.5;
+      const light = Math.random() > 0.5;
+      c.fillStyle = light
+        ? 'rgba(255,230,160,0.13)'
+        : 'rgba(100,60,0,0.10)';
+      c.fillRect(gx, gy, gs, gs);
+    }
+    c.restore();
+  }
+
+  /* ── Draw a single stone ─────────────────────────────────────── */
+  function drawStone(c, stone) {
+    const { x, y, rx, ry, angle } = stone;
+    c.save();
+    c.translate(x, y);
+    c.rotate(angle);
+
+    // Shadow
+    c.save();
+    c.shadowColor = 'rgba(0,0,0,0.45)';
+    c.shadowBlur  = 10;
+    c.shadowOffsetX = 3;
+    c.shadowOffsetY = 4;
+    const sg = c.createRadialGradient(-rx * 0.25, -ry * 0.3, rx * 0.05, 0, 0, rx * 1.1);
+    sg.addColorStop(0, '#7a7470');
+    sg.addColorStop(0.6, '#4a4440');
+    sg.addColorStop(1, '#2a2220');
+    c.fillStyle = sg;
+    c.beginPath(); c.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2); c.fill();
+    c.restore();
+
+    // Stone surface
+    const sg2 = c.createRadialGradient(-rx * 0.3, -ry * 0.35, rx * 0.05, 0, 0, rx);
+    sg2.addColorStop(0, '#9a9490');
+    sg2.addColorStop(0.45, '#5a5450');
+    sg2.addColorStop(1, '#2e2a28');
+    c.fillStyle = sg2;
+    c.beginPath(); c.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2); c.fill();
+
+    // Specular highlight
+    c.fillStyle = 'rgba(255,255,255,0.18)';
+    c.beginPath(); c.ellipse(-rx * 0.28, -ry * 0.3, rx * 0.28, ry * 0.18, -0.4, 0, Math.PI * 2); c.fill();
+
+    c.restore();
+  }
+
+  /* ── Draw all stones from array ───────────────────────────────── */
+  function redrawStones(c) {
+    stones.forEach(s => drawStone(c, s));
+  }
+
+  /* ── Initialise garden ───────────────────────────────────────── */
+  function initGarden() {
+    stones = [];
+    drawBackground(offCtx);
+    // Draw initial calm horizontal rake marks
+    drawInitialRake(offCtx);
+    // Place a few default stones
+    const defaults = [
+      { x: 180, y: 140, rx: 24, ry: 16, angle: 0.3 },
+      { x: 620, y: 320, rx: 18, ry: 13, angle: -0.5 },
+      { x: 720, y: 130, rx: 12, ry:  9, angle: 0.8 },
+      { x: 300, y: 380, rx: 10, ry:  7, angle: -0.2 },
+    ];
+    defaults.forEach(d => {
+      const s = { ...d };
+      stones.push(s);
+      drawStone(offCtx, s);
+    });
+    renderFrame();
+  }
+
+  /* ── Pre-drawn calm horizontal raking ───────────────────────── */
+  function drawInitialRake(c) {
+    c.save();
+    c.strokeStyle = RAKE_COLOR;
+    c.lineWidth   = 1.2;
+    c.lineCap     = 'round';
+    const spacing = 22;
+    const tineGap = 9;
+    const tines   = 5;
+    for (let row = 1; row * spacing < H; row++) {
+      const y = row * spacing + 4;
+      for (let t = 0; t < tines; t++) {
+        const offset = (t - (tines - 1) / 2) * tineGap;
+        c.globalAlpha = 0.55;
+        c.beginPath();
+        c.moveTo(20, y + offset);
+        c.lineTo(W - 20, y + offset);
+        c.stroke();
+      }
+    }
+    c.globalAlpha = 1;
+    c.restore();
+  }
+
+  /* ── Render offscreen to visible canvas ─────────────────────── */
+  function renderFrame() {
+    ctx.drawImage(offCanvas, 0, 0, W, H);
+  }
+
+  /* ── Rake drawing ─────────────────────────────────────────────── */
+  function rake(x1, y1, x2, y2) {
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    const len = Math.sqrt(dx * dx + dy * dy);
+    if (len < 1) return;
+
+    // Perpendicular direction (for tine offset)
+    const px = -dy / len;
+    const py =  dx / len;
+    // Along-movement direction (for tine arm)
+    const ax = -py;
+    const ay =  px;
+
+    offCtx.save();
+    offCtx.strokeStyle = RAKE_COLOR;
+    offCtx.lineWidth   = 1.5;
+    offCtx.lineCap     = 'round';
+    offCtx.lineJoin    = 'round';
+
+    for (let i = 0; i < NUM_TINES; i++) {
+      const t  = (i - (NUM_TINES - 1) / 2) * TINE_SPACING;
+      const ox = px * t;
+      const oy = py * t;
+      offCtx.beginPath();
+      offCtx.moveTo(x1 + ox, y1 + oy);
+      offCtx.lineTo(x2 + ox, y2 + oy);
+      offCtx.stroke();
+    }
+    offCtx.restore();
+    renderFrame();
+  }
+
+  /* ── Smooth (erase rake marks) ─────────────────────────────────── */
+  function smooth(x, y) {
+    offCtx.save();
+    const grad = offCtx.createRadialGradient(x, y, 0, x, y, 28);
+    grad.addColorStop(0, SAND_BASE);
+    grad.addColorStop(0.5, SAND_LIGHT);
+    grad.addColorStop(1, 'rgba(201,168,112,0)');
+    offCtx.fillStyle = grad;
+    offCtx.beginPath(); offCtx.arc(x, y, 28, 0, Math.PI * 2); offCtx.fill();
+    // Redraw stones on top (since we painted over them potentially)
+    redrawStones(offCtx);
+    offCtx.restore();
+    renderFrame();
+  }
+
+  /* ── Ripple helper (drawn radially around a point) ────────────── */
+  function drawRipples(cx, cy, count, radius, tines, tineSpacing) {
+    offCtx.save();
+    offCtx.strokeStyle = RAKE_COLOR;
+    offCtx.lineWidth = 1.4;
+    offCtx.lineCap = 'round';
+    const rings = count;
+    const angleStep = (Math.PI * 2) / 180;
+    for (let r = 1; r <= rings; r++) {
+      const rr = (radius / rings) * r;
+      for (let t = 0; t < tines; t++) {
+        const tOff = (t - (tines - 1) / 2) * tineSpacing;
+        offCtx.beginPath();
+        // Draw concentric circle offset by tine spacing (radial offset)
+        const innerR = Math.max(1, rr + tOff);
+        offCtx.arc(cx, cy, innerR, 0, Math.PI * 2);
+        offCtx.stroke();
+      }
+    }
+    offCtx.restore();
+  }
+
+  /* ── Preset: Ripples ─────────────────────────────────────────── */
+  function presetRipples() {
+    // Ripples around the largest stone
+    const cx = stones.length ? stones[0].x : W / 2;
+    const cy = stones.length ? stones[0].y : H / 2;
+    drawRipples(cx, cy, 6, 120, 5, 9);
+    // Second smaller ripple around second stone
+    if (stones.length >= 2) {
+      drawRipples(stones[1].x, stones[1].y, 4, 80, 4, 8);
+    }
+    redrawStones(offCtx);
+    renderFrame();
+    setStatus('Ripples radiating outward…');
+  }
+
+  /* ── Preset: Waves ────────────────────────────────────────────── */
+  function presetWaves() {
+    offCtx.save();
+    offCtx.strokeStyle = RAKE_COLOR;
+    offCtx.lineWidth = 1.4;
+    offCtx.lineCap = 'round';
+    const numTines = 5;
+    const tineGap  = 9;
+    const waveSpacing = 28;
+    const amplitude   = 30;
+    const freq        = 2.8;
+
+    for (let row = 0; row < Math.floor(H / waveSpacing); row++) {
+      const baseY = 16 + row * waveSpacing;
+      for (let t = 0; t < numTines; t++) {
+        const tOff = (t - (numTines - 1) / 2) * tineGap;
+        offCtx.beginPath();
+        for (let px2 = 0; px2 <= W; px2 += 2) {
+          const y2 = baseY + tOff + Math.sin((px2 / W) * Math.PI * freq + row * 0.6) * amplitude;
+          if (px2 === 0) offCtx.moveTo(px2, y2);
+          else offCtx.lineTo(px2, y2);
+        }
+        offCtx.stroke();
+      }
+    }
+    offCtx.restore();
+    redrawStones(offCtx);
+    renderFrame();
+    setStatus('Waves flowing through the garden…');
+  }
+
+  /* ── Preset: Spiral ───────────────────────────────────────────── */
+  function presetSpiral() {
+    const cx = W / 2, cy = H / 2;
+    const numTines = 5;
+    const tineGap  = 8;
+    const turns    = 4;
+    const maxR     = Math.min(W, H) * 0.44;
+
+    offCtx.save();
+    offCtx.strokeStyle = RAKE_COLOR;
+    offCtx.lineWidth = 1.4;
+    offCtx.lineCap = 'round';
+
+    for (let t = 0; t < numTines; t++) {
+      const tOff = (t - (numTines - 1) / 2) * tineGap;
+      const steps = 500;
+      offCtx.beginPath();
+      for (let i = 0; i <= steps; i++) {
+        const angle = (i / steps) * Math.PI * 2 * turns;
+        const r = (i / steps) * maxR + tOff;
+        if (r < 0) continue;
+        const sx = cx + Math.cos(angle) * r;
+        const sy = cy + Math.sin(angle) * r;
+        if (i === 0) offCtx.moveTo(sx, sy);
+        else offCtx.lineTo(sx, sy);
+      }
+      offCtx.stroke();
+    }
+    offCtx.restore();
+    redrawStones(offCtx);
+    renderFrame();
+    setStatus('A spiral unfolds from the centre…');
+  }
+
+  /* ── Status bar ──────────────────────────────────────────────── */
+  const statusEl = document.getElementById('zg-status');
+  let statusTimer;
+  function setStatus(msg, duration) {
+    clearTimeout(statusTimer);
+    statusEl.textContent = msg;
+    if (duration !== 0) {
+      statusTimer = setTimeout(() => { statusEl.textContent = ''; }, duration || 3500);
+    }
+  }
+
+  /* ── Pointer helpers (mouse & touch) ────────────────────────── */
+  function getPos(e) {
+    const rect = canvas.getBoundingClientRect();
+    const scaleX = W / rect.width;
+    const scaleY = H / rect.height;
+    const src = e.changedTouches ? e.changedTouches[0] : e;
+    return {
+      x: (src.clientX - rect.left) * scaleX,
+      y: (src.clientY - rect.top)  * scaleY,
+    };
+  }
+
+  /* ── Canvas events ───────────────────────────────────────────── */
+  function onStart(e) {
+    e.preventDefault();
+    drawing = true;
+    const { x, y } = getPos(e);
+    lastX = x; lastY = y;
+
+    if (mode === 'stone') {
+      placeStone(x, y);
+      drawing = false;
+    }
+  }
+
+  function onMove(e) {
+    e.preventDefault();
+    if (!drawing) return;
+    const { x, y } = getPos(e);
+    if (mode === 'rake') {
+      rake(lastX, lastY, x, y);
+    } else if (mode === 'erase') {
+      smooth(x, y);
+    }
+    lastX = x; lastY = y;
+  }
+
+  function onEnd(e) {
+    e.preventDefault();
+    drawing = false;
+  }
+
+  canvas.addEventListener('mousedown',  onStart, { passive: false });
+  canvas.addEventListener('mousemove',  onMove,  { passive: false });
+  canvas.addEventListener('mouseup',    onEnd,   { passive: false });
+  canvas.addEventListener('mouseleave', onEnd,   { passive: false });
+  canvas.addEventListener('touchstart', onStart, { passive: false });
+  canvas.addEventListener('touchmove',  onMove,  { passive: false });
+  canvas.addEventListener('touchend',   onEnd,   { passive: false });
+
+  /* ── Place stone ───────────────────────────────────────────────── */
+  function placeStone(x, y) {
+    // Avoid placing too close to an existing stone
+    for (let s of stones) {
+      const dx = s.x - x, dy = s.y - y;
+      if (Math.sqrt(dx * dx + dy * dy) < 30) {
+        setStatus('A stone is already resting here.');
+        return;
+      }
+    }
+    const rx = 12 + Math.random() * 14;
+    const ry = rx * (0.55 + Math.random() * 0.3);
+    const angle = (Math.random() - 0.5) * Math.PI;
+    const stone = { x, y, rx, ry, angle };
+    stones.push(stone);
+    drawStone(offCtx, stone);
+    renderFrame();
+
+    // Ripple effect around new stone
+    animateStoneRipple(x, y, rx * 4);
+    setStatus('A stone settles into the sand.');
+  }
+
+  /* ── Animate new stone ripple ─────────────────────────────────── */
+  function animateStoneRipple(cx, cy, maxR) {
+    let r = 0;
+    const step = () => {
+      if (r >= maxR) return;
+      r += 3;
+      renderFrame(); // restore clean frame
+      ctx.save();
+      ctx.strokeStyle = 'rgba(100, 72, 28, 0.3)';
+      ctx.lineWidth = 1.2;
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.globalAlpha = Math.max(0, 1 - r / maxR);
+      ctx.restore();
+      requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }
+
+  /* ── Mode buttons ─────────────────────────────────────────────── */
+  function setMode(m) {
+    mode = m;
+    ['rake', 'stone', 'erase'].forEach(id => {
+      document.getElementById('zg-mode-' + id).classList.toggle('active', id === m);
+    });
+    frame.className = frame.className.replace(/\bmode-\S+/g, '').trim();
+    if (m !== 'rake') frame.classList.add('mode-' + m);
+    const hints = {
+      rake:  'Drag to rake the sand.',
+      stone: 'Tap anywhere to place a stone.',
+      erase: 'Drag to smooth and erase marks.',
+    };
+    setStatus(hints[m], 0);
+  }
+
+  document.getElementById('zg-mode-rake').addEventListener('click',  () => setMode('rake'));
+  document.getElementById('zg-mode-stone').addEventListener('click', () => setMode('stone'));
+  document.getElementById('zg-mode-erase').addEventListener('click', () => setMode('erase'));
+
+  /* ── Presets ──────────────────────────────────────────────────── */
+  document.getElementById('zg-preset-ripples').addEventListener('click', presetRipples);
+  document.getElementById('zg-preset-waves').addEventListener('click',   presetWaves);
+  document.getElementById('zg-preset-spiral').addEventListener('click',  presetSpiral);
+
+  /* ── Clear ─────────────────────────────────────────────────────── */
+  document.getElementById('zg-clear').addEventListener('click', () => {
+    initGarden();
+    setStatus('The garden is still again.');
+  });
+
+  /* ── Save image ───────────────────────────────────────────────── */
+  document.getElementById('zg-save-img').addEventListener('click', () => {
+    renderFrame();
+    const link = document.createElement('a');
+    link.download = 'my-zen-garden.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+    setStatus('Garden saved as an image.');
+  });
+
+  /* ── Breathing guide ──────────────────────────────────────────── */
+  const breathOverlay = document.getElementById('zg-breath-overlay');
+  const breathRing    = document.getElementById('zg-breath-ring');
+  const breathWord    = document.getElementById('zg-breath-word');
+  const breathCount   = document.getElementById('zg-breath-count');
+  let breathActive = false;
+  let breathPhase  = 'inhale';
+  let breathInterval;
+  let breathSecond = 0;
+  const breathCycle = [
+    { phase: 'inhale', word: 'Breathe in', seconds: 4, cls: 'inhale' },
+    { phase: 'hold',   word: 'Hold',        seconds: 2, cls: 'hold'   },
+    { phase: 'exhale', word: 'Breathe out', seconds: 6, cls: 'exhale' },
+  ];
+  let breathStep = 0;
+
+  function startBreath() {
+    breathStep = 0;
+    runBreathStep();
+  }
+
+  function runBreathStep() {
+    const step = breathCycle[breathStep % breathCycle.length];
+    breathWord.textContent = step.word;
+    breathRing.className = '';
+    void breathRing.offsetWidth; // reflow to restart animation
+    breathRing.classList.add(step.cls);
+
+    let remaining = step.seconds;
+    breathCount.textContent = remaining;
+
+    clearInterval(breathInterval);
+    breathInterval = setInterval(() => {
+      remaining--;
+      breathCount.textContent = Math.max(0, remaining);
+      if (remaining <= 0) {
+        clearInterval(breathInterval);
+        breathStep = (breathStep + 1) % breathCycle.length;
+        if (breathActive) runBreathStep();
+      }
+    }, 1000);
+  }
+
+  document.getElementById('zg-breath-toggle').addEventListener('click', () => {
+    breathActive = !breathActive;
+    if (breathActive) {
+      breathOverlay.classList.add('visible');
+      document.getElementById('zg-breath-toggle').textContent = '◉ Stop breathing guide';
+      startBreath();
+    } else {
+      breathOverlay.classList.remove('visible');
+      document.getElementById('zg-breath-toggle').innerHTML = '&#9675; Breathing Guide';
+      clearInterval(breathInterval);
+    }
+  });
+
+  document.getElementById('zg-breath-close').addEventListener('click', () => {
+    breathActive = false;
+    breathOverlay.classList.remove('visible');
+    document.getElementById('zg-breath-toggle').innerHTML = '&#9675; Breathing Guide';
+    clearInterval(breathInterval);
+  });
+
+  /* ── Reflection prompts ───────────────────────────────────────── */
+  const prompts = [
+    'What in your life is asking to be raked smooth right now?',
+    'Where have you been placing your heaviest stones lately?',
+    'What does stillness feel like in your body today, even for a moment?',
+    'If the surface of your mind were a garden, what pattern would you see?',
+    'What is one small thing you could let go of by the end of today?',
+    'What needs to simply sit in place — unhurried, unfinished — for now?',
+    'Where in your life are you trying to perfect the pattern instead of resting in it?',
+    'What feeling wants to be traced slowly, without rushing to the end?',
+    'If you could draw one shape that describes how you are feeling today, what would it be?',
+    'What has been circling in your mind like ripples around a stone?',
+    'Where could you bring more deliberate slowness this week?',
+    'What simple, repeated action brings you back to yourself?',
+  ];
+  let lastPromptIdx = -1;
+
+  document.getElementById('zg-reflect-btn').addEventListener('click', () => {
+    let idx;
+    do { idx = Math.floor(Math.random() * prompts.length); } while (idx === lastPromptIdx);
+    lastPromptIdx = idx;
+    document.getElementById('zg-reflection-text').textContent = prompts[idx];
+    const card = document.getElementById('zg-reflection-card');
+    card.classList.add('visible');
+    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+
+  /* ── Init ─────────────────────────────────────────────────────── */
+  initGarden();
+  setMode('rake');
+
+})();
+</script>
