@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: clean off-white -->
+  <rect width="1200" height="628" fill="#f8f5f0"/>
+
+  <!-- Large minimal clock face (top-right corner) -->
+  <circle cx="1050" cy="120" r="95" fill="none" stroke="#d8cfc0" stroke-width="2"/>
+  <circle cx="1050" cy="120" r="4" fill="#b0a090"/>
+  <!-- Clock tick marks (5-minute intervals) -->
+  <line x1="1050" y1="30" x2="1050" y2="48" stroke="#c8bfb0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1138" y1="83" x2="1124" y2="95" stroke="#c8bfb0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1138" y1="157" x2="1124" y2="145" stroke="#c8bfb0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1050" y1="210" x2="1050" y2="192" stroke="#c8bfb0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="962" y1="157" x2="976" y2="145" stroke="#c8bfb0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="962" y1="83" x2="976" y2="95" stroke="#c8bfb0" stroke-width="2" stroke-linecap="round"/>
+  <!-- Clock hands: pointing to ~5 minutes (a 5-minute interval) -->
+  <line x1="1050" y1="120" x2="1050" y2="50" stroke="#8a7a6a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="1050" y1="120" x2="1100" y2="132" stroke="#8a7a6a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Minimal journal page lines (center-left area) -->
+  <line x1="140" y1="290" x2="840" y2="290" stroke="#e0d8cc" stroke-width="1.2"/>
+  <line x1="140" y1="330" x2="840" y2="330" stroke="#e0d8cc" stroke-width="1.2"/>
+  <line x1="140" y1="370" x2="840" y2="370" stroke="#e0d8cc" stroke-width="1.2"/>
+  <line x1="140" y1="410" x2="840" y2="410" stroke="#e0d8cc" stroke-width="1.2"/>
+  <line x1="140" y1="450" x2="840" y2="450" stroke="#e0d8cc" stroke-width="1.2"/>
+  <line x1="140" y1="490" x2="840" y2="490" stroke="#e0d8cc" stroke-width="1.2"/>
+  <!-- Margin line -->
+  <line x1="180" y1="265" x2="180" y2="510" stroke="#c8a880" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Small bullet points / written lines suggestion -->
+  <circle cx="200" cy="312" r="3.5" fill="#c8a880" opacity="0.5"/>
+  <line x1="216" y1="312" x2="560" y2="312" stroke="#d8cfc0" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="200" cy="352" r="3.5" fill="#c8a880" opacity="0.5"/>
+  <line x1="216" y1="352" x2="440" y2="352" stroke="#d8cfc0" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="200" cy="392" r="3.5" fill="#c8a880" opacity="0.5"/>
+  <line x1="216" y1="392" x2="500" y2="392" stroke="#d8cfc0" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Soft card behind title text -->
+  <rect x="100" y="130" width="900" height="140" rx="3" fill="#fff9f4" opacity="0.85"/>
+
+  <!-- Category -->
+  <text x="540" y="166" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#c8a050" text-anchor="middle" letter-spacing="5">PRACTICE · GETTING STARTED</text>
+
+  <!-- Title -->
+  <text x="540" y="218" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="normal" fill="#2c2010" text-anchor="middle">The DIY Five-Minute Journal</text>
+
+  <!-- Subtitle -->
+  <text x="540" y="256" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#9a7820" text-anchor="middle" font-style="italic">Build Your Own Without Buying the Brand</text>
+
+  <!-- Divider -->
+  <line x1="390" y1="278" x2="520" y2="278" stroke="#c8a050" stroke-width="0.8"/>
+  <circle cx="540" cy="278" r="3" fill="#c8a050"/>
+  <line x1="560" y1="278" x2="690" y2="278" stroke="#c8a050" stroke-width="0.8"/>
+
+  <!-- Brand -->
+  <text x="540" y="535" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#b09040" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep indigo night -->
+  <rect width="1200" height="628" fill="#161428"/>
+
+  <!-- Gradient moon glow (top right) -->
+  <radialGradient id="moonGlow" cx="78%" cy="22%" r="30%">
+    <stop offset="0%" stop-color="#f5e8b0" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#161428" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="628" fill="url(#moonGlow)"/>
+
+  <!-- Moon crescent -->
+  <circle cx="970" cy="138" r="72" fill="#f5e8b0" opacity="0.12"/>
+  <circle cx="1000" cy="128" r="72" fill="#161428"/>
+  <!-- Thin crescent ring -->
+  <circle cx="970" cy="138" r="70" fill="none" stroke="#f5e8b0" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Stars -->
+  <circle cx="160" cy="60" r="1.5" fill="#f5e8b0" opacity="0.5"/>
+  <circle cx="300" cy="40" r="1" fill="#f5e8b0" opacity="0.4"/>
+  <circle cx="450" cy="75" r="1.5" fill="#f5e8b0" opacity="0.45"/>
+  <circle cx="580" cy="48" r="1" fill="#f5e8b0" opacity="0.35"/>
+  <circle cx="700" cy="78" r="1.5" fill="#f5e8b0" opacity="0.5"/>
+  <circle cx="820" cy="52" r="1" fill="#f5e8b0" opacity="0.4"/>
+  <circle cx="115" cy="520" r="1" fill="#f5e8b0" opacity="0.25"/>
+  <circle cx="1100" cy="540" r="1.5" fill="#f5e8b0" opacity="0.25"/>
+  <circle cx="240" cy="560" r="1" fill="#f5e8b0" opacity="0.2"/>
+
+  <!-- Soft horizontal lines — open journal pages -->
+  <line x1="160" y1="310" x2="1040" y2="310" stroke="#23204a" stroke-width="1"/>
+  <line x1="160" y1="350" x2="1040" y2="350" stroke="#23204a" stroke-width="1"/>
+  <line x1="160" y1="390" x2="1040" y2="390" stroke="#23204a" stroke-width="1"/>
+  <line x1="160" y1="430" x2="1040" y2="430" stroke="#23204a" stroke-width="1"/>
+  <line x1="160" y1="470" x2="1040" y2="470" stroke="#23204a" stroke-width="1"/>
+
+  <!-- Left margin rule -->
+  <line x1="200" y1="280" x2="200" y2="490" stroke="#8080c0" stroke-width="1" opacity="0.2"/>
+
+  <!-- Glow ellipse behind title -->
+  <ellipse cx="600" cy="222" rx="470" ry="108" fill="#11102050" opacity="0.8"/>
+
+  <!-- Category label -->
+  <text x="600" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#a0a0d8" text-anchor="middle" letter-spacing="5">WELLBEING · HABITS</text>
+
+  <!-- Main title -->
+  <text x="600" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="normal" fill="#ece8f8" text-anchor="middle">Journaling for Sleep</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#b0aee0" text-anchor="middle" font-style="italic">How Writing Before Bed Can Help You Rest Better</text>
+
+  <!-- Divider -->
+  <line x1="440" y1="294" x2="566" y2="294" stroke="#6060a8" stroke-width="0.8"/>
+  <circle cx="600" cy="294" r="3" fill="#b0aee0"/>
+  <line x1="634" y1="294" x2="760" y2="294" stroke="#6060a8" stroke-width="0.8"/>
+
+  <!-- Brand -->
+  <text x="600" y="336" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#42407a" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

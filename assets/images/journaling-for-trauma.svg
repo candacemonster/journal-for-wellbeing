@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep warm slate -->
+  <rect width="1200" height="628" fill="#1e2030"/>
+
+  <!-- Concentric soft rings — ripple/integration metaphor -->
+  <circle cx="600" cy="314" r="280" fill="none" stroke="#3a3e58" stroke-width="1.5"/>
+  <circle cx="600" cy="314" r="220" fill="none" stroke="#3a3e58" stroke-width="1"/>
+  <circle cx="600" cy="314" r="160" fill="none" stroke="#44485e" stroke-width="1"/>
+  <circle cx="600" cy="314" r="100" fill="none" stroke="#505468" stroke-width="1"/>
+  <circle cx="600" cy="314" r="48" fill="#282c42"/>
+
+  <!-- Gentle light at centre -->
+  <circle cx="600" cy="314" r="44" fill="#e8dfc8" opacity="0.08"/>
+  <circle cx="600" cy="314" r="28" fill="#e8dfc8" opacity="0.1"/>
+  <circle cx="600" cy="314" r="14" fill="#f0e8d0" opacity="0.18"/>
+  <circle cx="600" cy="314" r="6" fill="#f8f0de" opacity="0.5"/>
+
+  <!-- Soft ellipse text backdrop -->
+  <ellipse cx="600" cy="195" rx="480" ry="105" fill="#14162610" opacity="0.9"/>
+
+  <!-- Category -->
+  <text x="600" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#9898c8" text-anchor="middle" letter-spacing="5">MENTAL HEALTH · EMOTIONAL HEALING</text>
+
+  <!-- Title line 1 -->
+  <text x="600" y="190" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="normal" fill="#ece8f8" text-anchor="middle">Journaling for</text>
+  <!-- Title line 2 -->
+  <text x="600" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="normal" fill="#ece8f8" text-anchor="middle">Healing Trauma</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="296" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#a8a8d8" text-anchor="middle" font-style="italic">A Slow, Safe Approach</text>
+
+  <!-- Thin divider -->
+  <line x1="450" y1="322" x2="574" y2="322" stroke="#6868a8" stroke-width="0.8"/>
+  <circle cx="600" cy="322" r="3" fill="#9898c8"/>
+  <line x1="626" y1="322" x2="750" y2="322" stroke="#6868a8" stroke-width="0.8"/>
+
+  <!-- Brand -->
+  <text x="600" y="366" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#44446a" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>

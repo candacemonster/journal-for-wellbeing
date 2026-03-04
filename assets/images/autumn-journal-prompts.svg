@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628">
+  <!-- Background: deep warm amber-brown -->
+  <rect width="1200" height="628" fill="#2a1e10"/>
+
+  <!-- Falling leaves — abstract shapes scattered -->
+  <!-- Large leaf shapes (faint, background) -->
+  <ellipse cx="180" cy="120" rx="28" ry="14" fill="#b05020" opacity="0.3" transform="rotate(-40 180 120)"/>
+  <ellipse cx="920" cy="80" rx="22" ry="11" fill="#c04020" opacity="0.25" transform="rotate(25 920 80)"/>
+  <ellipse cx="1080" cy="200" rx="18" ry="9" fill="#d06030" opacity="0.2" transform="rotate(-15 1080 200)"/>
+  <ellipse cx="80" cy="350" rx="20" ry="10" fill="#a04818" opacity="0.25" transform="rotate(30 80 350)"/>
+  <ellipse cx="1100" cy="480" rx="24" ry="12" fill="#b05820" opacity="0.2" transform="rotate(-30 1100 480)"/>
+  <ellipse cx="300" cy="550" rx="16" ry="8" fill="#c04020" opacity="0.2" transform="rotate(45 300 550)"/>
+  <!-- Medium falling leaves -->
+  <ellipse cx="420" cy="95" rx="14" ry="7" fill="#d87840" opacity="0.4" transform="rotate(-55 420 95)"/>
+  <ellipse cx="760" cy="130" rx="12" ry="6" fill="#e08040" opacity="0.35" transform="rotate(20 760 130)"/>
+  <ellipse cx="1020" cy="380" rx="13" ry="6.5" fill="#d06830" opacity="0.3" transform="rotate(-35 1020 380)"/>
+  <ellipse cx="160" cy="480" rx="15" ry="7.5" fill="#e07038" opacity="0.3" transform="rotate(60 160 480)"/>
+  <!-- Small accent leaves (more orange/gold) -->
+  <ellipse cx="580" cy="70" rx="8" ry="4" fill="#e8a040" opacity="0.5" transform="rotate(-20 580 70)"/>
+  <ellipse cx="860" cy="540" rx="9" ry="4.5" fill="#d08030" opacity="0.4" transform="rotate(35 860 540)"/>
+  <ellipse cx="320" cy="180" rx="7" ry="3.5" fill="#f0b050" opacity="0.45" transform="rotate(-70 320 180)"/>
+
+  <!-- Soft warm glow behind title -->
+  <ellipse cx="600" cy="310" rx="500" ry="125" fill="#1e1408" opacity="0.7"/>
+
+  <!-- Category label -->
+  <text x="600" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#e8a040" text-anchor="middle" letter-spacing="5">PROMPTS · SEASONAL</text>
+
+  <!-- Main title line 1 -->
+  <text x="600" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="normal" fill="#f5ede0" text-anchor="middle">Autumn Journal Prompts</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="352" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#d89858" text-anchor="middle" font-style="italic">20 Gentle Prompts for the Turning Season</text>
+
+  <!-- Ornamental divider with small leaf -->
+  <line x1="428" y1="382" x2="562" y2="382" stroke="#b06820" stroke-width="0.8"/>
+  <ellipse cx="600" cy="382" rx="10" ry="5" fill="#e8a040" opacity="0.8" transform="rotate(-20 600 382)"/>
+  <line x1="638" y1="382" x2="772" y2="382" stroke="#b06820" stroke-width="0.8"/>
+
+  <!-- Brand footer -->
+  <text x="600" y="426" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#7a4818" text-anchor="middle" letter-spacing="3">JOURNAL FOR WELLBEING</text>
+</svg>
