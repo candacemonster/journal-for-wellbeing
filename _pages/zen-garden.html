@@ -152,9 +152,14 @@ permalink: /zen-garden/
 #zg-fs-wrap { display:contents; }
 
 #zg-fs-wrap:fullscreen,
-#zg-fs-wrap:-webkit-full-screen {
+#zg-fs-wrap:-webkit-full-screen,
+#zg-fs-wrap.zg-simulated-fullscreen {
   display:flex; flex-direction:column;
   background:#faf5ec; overflow:hidden;
+}
+/* iOS Safari simulated fullscreen covers the full viewport */
+#zg-fs-wrap.zg-simulated-fullscreen {
+  position:fixed; inset:0; z-index:9999;
 }
 #zg-fs-wrap:fullscreen          #zg-normal-header,
 #zg-fs-wrap:fullscreen          #zg-toolbar,
@@ -163,23 +168,32 @@ permalink: /zen-garden/
 #zg-fs-wrap:-webkit-full-screen #zg-normal-header,
 #zg-fs-wrap:-webkit-full-screen #zg-toolbar,
 #zg-fs-wrap:-webkit-full-screen #zg-bottom,
-#zg-fs-wrap:-webkit-full-screen #zg-status { display:none !important; }
+#zg-fs-wrap:-webkit-full-screen #zg-status,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-normal-header,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-toolbar,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-bottom,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-status { display:none !important; }
 #zg-fs-wrap:fullscreen          #zg-frame-outer,
-#zg-fs-wrap:-webkit-full-screen #zg-frame-outer { flex:1; display:flex; flex-direction:column; }
+#zg-fs-wrap:-webkit-full-screen #zg-frame-outer,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-frame-outer { flex:1; display:flex; flex-direction:column; }
 #zg-fs-wrap:fullscreen          #zg-frame,
-#zg-fs-wrap:-webkit-full-screen #zg-frame {
+#zg-fs-wrap:-webkit-full-screen #zg-frame,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-frame {
   flex:1; padding:0; border-radius:0; box-shadow:none;
   display:flex; flex-direction:column;
 }
 #zg-fs-wrap:fullscreen          #zg-frame::before,
-#zg-fs-wrap:-webkit-full-screen #zg-frame::before { display:none; }
+#zg-fs-wrap:-webkit-full-screen #zg-frame::before,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-frame::before { display:none; }
 #zg-fs-wrap:fullscreen          #zg-canvas,
-#zg-fs-wrap:-webkit-full-screen #zg-canvas { flex:1; width:100%; height:100%; }
+#zg-fs-wrap:-webkit-full-screen #zg-canvas,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-canvas { flex:1; width:100%; height:100%; }
 
 /* â”€â”€ Fullscreen HUD â”€â”€ */
 #zg-fs-hud { display:none; }
 #zg-fs-wrap:fullscreen          #zg-fs-hud,
-#zg-fs-wrap:-webkit-full-screen #zg-fs-hud {
+#zg-fs-wrap:-webkit-full-screen #zg-fs-hud,
+#zg-fs-wrap.zg-simulated-fullscreen #zg-fs-hud {
   display:flex; flex-direction:column;
   position:absolute; inset:0; pointer-events:none; z-index:20;
 }
@@ -648,11 +662,21 @@ permalink: /zen-garden/
 
   /* â”€â”€ Fullscreen â”€â”€ */
   function enterFullscreen() {
-    if (fsWrap.requestFullscreen)       fsWrap.requestFullscreen();
+    if (fsWrap.requestFullscreen)            fsWrap.requestFullscreen();
     else if (fsWrap.webkitRequestFullscreen) fsWrap.webkitRequestFullscreen();
+    else {
+      // iOS Safari: no Fullscreen API — simulate with a fixed overlay
+      fsWrap.classList.add('zg-simulated-fullscreen');
+      document.body.style.overflow = 'hidden';
+      onFsChange();
+    }
   }
   function exitFullscreen() {
-    if (document.exitFullscreen)             document.exitFullscreen();
+    if (fsWrap.classList.contains('zg-simulated-fullscreen')) {
+      fsWrap.classList.remove('zg-simulated-fullscreen');
+      document.body.style.overflow = '';
+      onFsChange();
+    } else if (document.exitFullscreen)            document.exitFullscreen();
     else if (document.webkitExitFullscreen)  document.webkitExitFullscreen();
   }
 
@@ -661,7 +685,8 @@ permalink: /zen-garden/
   if (fsExit) fsExit.addEventListener('click', exitFullscreen);
 
   function onFsChange() {
-    const active = !!(document.fullscreenElement || document.webkitFullscreenElement);
+    const active = !!(document.fullscreenElement || document.webkitFullscreenElement
+                      || fsWrap.classList.contains('zg-simulated-fullscreen'));
     const btn = document.getElementById('zg-fullscreen-enter');
     if (btn) btn.innerHTML = active ? '&#9974; Exit Full Screen' : '&#9974; Full Screen';
     // Re-render after the transition so the canvas fills the new size
