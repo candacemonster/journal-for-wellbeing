@@ -28,7 +28,7 @@ Creating a ritual, however small, signals: "This is a safe pause. It's worth ret
 ### How to Create Your Own Gentle Ritual
 
 **1. Anchor it to an existing moment:**  
-Pick a pocket of time that naturally recurs: five minutes after waking, the quiet after dinner, settling into bed.
+Pick a pocket of time that naturally recurs: five minutes after waking, the quiet after dinner, settling into bed. If you’re unsure which works best for you, [morning versus night journaling]({{ site.baseurl }}/morning-vs-night-journaling/) is worth a read.
 
 **2. Layer a sensory cue:**  
 - Light a candle or lamp.  
@@ -38,7 +38,7 @@ These cues become a bridge for your nervous system: “We drop inside now.”
 
 **3. Make it as simple as possible:**  
 Keep your tools frictionless:  
-A pen that moves. A notebook you’re not “saving for better.” Or a plain text file. This isn’t about aesthetics; it’s about removing excuses.
+A pen that moves. If blank pages feel intimidating, there’s a [gentle guide to starting when the page feels like too much]({{ site.baseurl }}/gentle-journaling-ritual-for-blank-pages/). A notebook you’re not “saving for better.” Or a plain text file. This isn’t about aesthetics; it’s about removing excuses.
 
 ---
 

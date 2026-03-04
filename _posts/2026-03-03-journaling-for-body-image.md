@@ -86,4 +86,6 @@ Bodies and Their Stories by Judith Matz & Ellen Frankel, and Health At Every Siz
 
 Much body image pain is relational, it happens in comparison, real or imagined. Writing specifically about what you observe in your own body, independent of comparison, is a useful practice precisely because the journal enforces that boundary. There is no one else's body on the page. Only yours, and your experience of it.
 
+[Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is a foundational companion practice for body image work. If anxiety is entangled with body image, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) addresses the overlap. For working with deeper, older material, [shadow work journal prompts]({{ site.baseurl }}/shadow-work-journal-prompts/) can help surface what sits beneath the surface critic.
+
 That narrow frame, maintained consistently over time, is one of the quietest ways back to something more neutral.

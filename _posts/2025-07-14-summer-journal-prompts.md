@@ -67,11 +67,6 @@ If beginning feels stiff, the reminder to start messy lives [here](/start-where-
 
 Which prompt called to you today? If you’d like, share your reflections in the comments, or simply carry them quietly into your week. The softest journaling is still real journaling.
 
-(If you post or share, tag #journalforwellbeing, or keep them entirely your own.)
+(If you post or share, tag #journalforwellbeing, or keep them entirely your own.) For more seasonal writing, the [autumn journal prompts]({{ site.baseurl }}/autumn-journal-prompts/) carry the same gentle energy. And if you’d like some grounding to go alongside these, [tiny daily grounding practices]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/) pair well with slow summer mornings. For more seasonal writing, the [autumn journal prompts]({{ site.baseurl }}/autumn-journal-prompts/) carry the same gentle energy. And if you’d like some grounding to go alongside these, [tiny daily grounding practices]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/) pair well with slow summer mornings.
 
----
 
-**Internal links to consider adding:**  
-- [Daily Grounding Practices](/daily-grounding-practices/)  
-- [A Quiet Mid-Year Check-In](/a-quiet-mid-year-check-in/)  
-- [The Science of Journaling: What Research Really Says](/journaling-science-benefits/)

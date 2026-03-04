@@ -104,4 +104,6 @@ This entire ritual takes about 7 to 10 minutes, and it creates a clear, kind con
 
 You can tweak any part of this structure to fit your life and preferences. The key is consistency and gentleness, not perfection. If something stops working, change it. If you forget a step, that is okay. The ritual is meant to support you, not to become another area where you feel like you are failing.
 
+If shame or avoidance is part of what makes blank pages difficult, [returning to journaling without shame]({{ site.baseurl }}/return-to-journal-without-shame/) and [can journaling make anxiety worse]({{ site.baseurl }}/can-journaling-make-anxiety-worse/) are both worth reading first. For low-pressure formats that complement a gentle ritual, [simple journaling formats for overthinkers]({{ site.baseurl }}/simple-journaling-formats-for-overthinkers/) offers a range of options.
+
 Over time, the ritual itself can become a source of comfort and continuity, a small way of returning to yourself that feels familiar and safe.

@@ -128,4 +128,6 @@ The format is the thing. Not the product.
 
 Print or handwrite the template on the inside front cover of your current notebook. Set a consistent time for the morning section (right after coffee, at the same time each workday). Set a consistent evening time (immediately before your sleep routine). Keep the notebook visible, not in a drawer.
 
-The goal for the first two weeks is not insight or transformation. It is just showing up at the page five minutes a day, two times a day. The compounding happens later.
+The goal for the first two weeks is not insight or transformation. It is just showing up at the page five minutes a day, two times a day. For days when even five minutes feels like too much, [one-sentence journal prompts]({{ site.baseurl }}/one-sentence-journal-prompts-busy-tired-days/) require almost nothing. [Journaling through fatigue]({{ site.baseurl }}/journaling-through-fatigue/) covers low-energy writing in more depth. For a longer reflection practice, the post on [a few lines a day]({{ site.baseurl }}/a-few-lines-a-day/) is a natural companion.
+
+The compounding happens later.

@@ -126,4 +126,6 @@ A pen mark on a page does that work as well as any elaborate system.
 
 ### A Note on Privacy
 
-If you are tracking mood and mental health data you would not want others to access, keep the notebook somewhere private. Some people use a nondescript cover or a notebook that looks like a school exercise book. Others use a digital solution if the thought of someone finding the physical version creates anxiety that outweighs the benefit of writing on paper. There is no correct format, only the one that you will actually use.
+If you are tracking mood and mental health data you would not want others to access, keep the notebook somewhere private. Some people use a nondescript cover or a notebook that looks like a school exercise book. Others use a digital solution if the thought of someone finding the physical version creates anxiety that outweighs the benefit of writing on paper. For a comparison of structured versus open journaling, [guided journal vs blank notebook]({{ site.baseurl }}/guided-journal-vs-blank-notebook/) is worth reading. If you’re undecided on medium, [paper vs app journaling]({{ site.baseurl }}/paper-vs-app-journaling/) covers the tradeoffs. And [wellness journal ideas]({{ site.baseurl }}/wellness-journal-ideas-what-to-track/) can give you a sense of what to actually track once you have the format sorted.
+
+There is no correct format, only the one that you will actually use.

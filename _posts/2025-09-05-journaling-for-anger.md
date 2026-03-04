@@ -122,4 +122,6 @@ You do not have to manage anger alone. The page can hear you while you figure ou
 
 Anger is often the least compassion-invited emotion, the one that gets labelled "difficult" or "unreasonable" before anyone asks what it is actually trying to say. What would it mean to hear your own anger with the same patience you would offer a friend in distress?
 
+If anger is arising in relationships, [journaling for relationships]({{ site.baseurl }}/journaling-for-relationships/) looks at that specific terrain. Underneath anger there is often anxiety: [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) can both help with what sits below the surface.
+
 You are allowed to be angry. You are allowed to write it down. The question is just: what does it need you to understand?

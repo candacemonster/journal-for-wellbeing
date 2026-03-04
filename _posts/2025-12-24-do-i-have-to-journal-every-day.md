@@ -64,4 +64,4 @@ If you want to build a regular practice without the pressure of daily perfection
 - Setting a very low bar for what counts, such as 3 sentences or 5 minutes, so that even on tired days you can still meet the commitment.
 - Noticing when you skip and gently returning without shame or story. Missing a session does not erase the benefit of the sessions you have done.
 
-The goal is not to impress yourself or earn gold stars. The goal is to keep coming back to yourself with curiosity and care, in whatever rhythm feels sustainable right now.
+The goal is not to impress yourself or earn gold stars. The goal is to keep coming back to yourself with curiosity and care, in whatever rhythm feels sustainable right now. If you’ve had a gap, [returning to journaling without shame]({{ site.baseurl }}/return-to-journal-without-shame/) speaks directly to how to start again. For low-effort formats on difficult days, [a five-minute journaling alternative]({{ site.baseurl }}/five-minute-journal-alternative/) and [one-sentence journal prompts]({{ site.baseurl }}/one-sentence-journal-prompts-busy-tired-days/) make the bar very manageable.

@@ -138,4 +138,6 @@ This is not about forced gratitude, but about honest noticing.
 
 Monthly soft check-ins like these help you adjust gradually, instead of swinging between ignoring your needs and trying to overhaul everything at once.
 
-You can adapt these prompts for different years and seasons. The goal is not to answer perfectly, it is to show up once a month and listen.
+You can adapt these prompts for different years and seasons. For a mid-year version of this kind of reflection, the [mid-year check-in]({{ site.baseurl }}/mid-year-check-in/) post offers similar prompts with a seasonal focus. [Wellness journal ideas]({{ site.baseurl }}/wellness-journal-ideas-what-to-track/) can complement a monthly check-in with ongoing tracking. And [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) helps when the check-in surfaces something difficult.
+
+The goal is not to answer perfectly, it is to show up once a month and listen.

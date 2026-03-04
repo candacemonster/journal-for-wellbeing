@@ -109,4 +109,6 @@ Choose or write a sentence you want to remember, a phrase that feels grounding, 
 
 ### A Gentle Reminder as You Return to the Page
 
-If you've gone days or weeks without journaling, you have not ruined anything. It is normal for practices to come and go, especially when you're living with anxiety. Each time you return, even for just a few lines, you are practicing meeting yourself with a little more honesty and care.
+If you've gone days or weeks without journaling, you have not ruined anything. It is normal for practices to come and go, especially when you're living with anxiety. For a broader look at the practice, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) covers techniques and approaches in depth. [Gentle journal prompts for emotional regulation]({{ site.baseurl }}/gentle-journal-prompts-for-emotional-regulation/) are a natural companion set. And [returning to journaling without shame]({{ site.baseurl }}/return-to-journal-without-shame/) can help on the days when getting back to the page feels hard.
+
+Each time you return, even for just a few lines, you are practicing meeting yourself with a little more honesty and care.

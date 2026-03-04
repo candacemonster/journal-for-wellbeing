@@ -102,4 +102,6 @@ You do not have to share what you write. The act of turning the feeling into wor
 
 Confidence is not the absence of self-doubt. It is the ability to act alongside self-doubt, without waiting for the doubt to disappear first. The journal builds that capacity slowly, through repetition, through seeing yourself honestly and continuing to show up anyway.
 
+If self-doubt has an anxious quality, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) addresses it directly. [Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) builds the inner support that confidence rests on, and if you’ve been away from the page a while, [returning to journaling without shame]({{ site.baseurl }}/return-to-journal-without-shame/) can help you come back gently.
+
 You are already practising it.

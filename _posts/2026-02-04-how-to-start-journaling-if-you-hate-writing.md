@@ -12,7 +12,7 @@ featured: false
 hidden: false
 ---
 
-If journaling advice makes you feel pressured or tired, you are not alone. Many people find traditional writing tedious, slow, or simply not how they process best. The good news is that "journaling" can be much broader than pen and paper, and there are gentler ways to check in with yourself that still support mental health.
+If journaling advice makes you feel pressured or tired, you are not alone. The first thing to know is that [you can start from wherever you are right now]({{ site.baseurl }}/start-where-you-are/) — no special conditions required. Many people find traditional writing tedious, slow, or simply not how they process best. The good news is that "journaling" can be much broader than pen and paper, and there are gentler ways to check in with yourself that still support mental health.
 
 ---
 
@@ -26,13 +26,13 @@ Research suggests that expressive practices, whether written, spoken, or visual,
 
 Instead of writing, you can open your phone's voice memo app and simply talk. Speak as if you are telling a trusted friend about your day, your worries, or what you need. Voice journaling captures tone, pauses, and emotion in ways that typing or handwriting sometimes miss, and it can feel faster and more natural for people who think out loud.
 
-You might record for 2 to 5 minutes at the end of the day, or whenever something feels big. You do not have to listen back unless you want to. The act of speaking your thoughts aloud is enough to slow them down and give them shape.
+You might record for 2 to 5 minutes at the end of the day, or whenever something feels big. There is a [full guide to voice journaling]({{ site.baseurl }}/voice-journaling/) if this approach appeals to you. You do not have to listen back unless you want to. The act of speaking your thoughts aloud is enough to slow them down and give them shape.
 
 ---
 
 ### Micro Journaling (One Line or One Word Per Day)
 
-Micro journaling involves writing just one sentence, one word, or one short phrase per day in a tiny notebook or calendar. For example, "Today was heavy," or "Anxious but okay," or simply "Tired." This format takes 10 seconds and still gives you a record of your inner weather over time.
+Micro journaling involves writing just one sentence, one word, or one short phrase per day — and [one-sentence prompts for tired days]({{ site.baseurl }}/one-sentence-journal-prompts-busy-tired-days/) can take even that pressure off. in a tiny notebook or calendar. For example, "Today was heavy," or "Anxious but okay," or simply "Tired." This format takes 10 seconds and still gives you a record of your inner weather over time.
 
 You can use a small pocket calendar, a notes app, or a Q&A journal that provides a one-line prompt each day. The pressure is off, and you can still notice patterns when you look back.
 
@@ -48,13 +48,13 @@ Art journaling, where you paint, sketch, glue, or doodle in a blank book, can al
 
 ### Mood or Habit Tracking (Data Instead of Prose)
 
-Some people find relief in tracking rather than narrating. You can use a simple chart, app, or printable to mark your mood each day with a color, number, or emoji. You might also track sleep, energy, stressors, or coping tools you used. Over a few weeks, patterns emerge that help you see what supports you and what depletes you, all without writing paragraphs.
+Some people find relief in tracking rather than narrating. A [bullet journal approach for mental health]({{ site.baseurl }}/bullet-journal-mental-health/) is one structured way to do this without writing prose. You can use a simple chart, app, or printable to mark your mood each day with a color, number, or emoji. You might also track sleep, energy, stressors, or coping tools you used. Over a few weeks, patterns emerge that help you see what supports you and what depletes you, all without writing paragraphs.
 
 ---
 
 ### Structured Prompts or Fill-in-the-Blank Formats
 
-If blank pages paralyze you, using pre-written prompts or fill-in-the-blank templates can make journaling feel less like creative work. You simply answer short questions like "Today I felt…," "One thing that helped was…," or "What I need tomorrow is…" These formats give you a container so you do not have to generate the structure yourself.
+If blank pages paralyze you, using pre-written prompts or fill-in-the-blank templates can make journaling feel less like creative work. The [simple formats for overthinkers]({{ site.baseurl }}/simple-journaling-formats-for-overthinkers/) post covers exactly this. You simply answer short questions like "Today I felt…," "One thing that helped was…," or "What I need tomorrow is…" These formats give you a container so you do not have to generate the structure yourself.
 
 ---
 

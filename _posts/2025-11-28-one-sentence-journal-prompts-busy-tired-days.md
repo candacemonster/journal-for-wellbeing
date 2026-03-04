@@ -78,4 +78,6 @@ Name a very small hope, such as "that I sleep a bit better," "that tomorrow is s
 
 ---
 
-One sentence journaling is not "less than." It is a realistic, compassionate form of reflection for seasons when you are busy, tired, or overwhelmed. Over time, these single lines can become a surprisingly rich record of how you lived through hard days.
+One sentence journaling is not "less than." It is a realistic, compassionate form of reflection for seasons when you are busy, tired, or overwhelmed. If you want a slightly longer practice when energy allows, [a five-minute journaling alternative]({{ site.baseurl }}/five-minute-journal-alternative/) and the post on [a few lines a day]({{ site.baseurl }}/a-few-lines-a-day/) scale up gently. For the fatigue that makes even a sentence feel like effort, [journaling through fatigue]({{ site.baseurl }}/journaling-through-fatigue/) speaks directly to that experience.
+
+Over time, these single lines can become a surprisingly rich record of how you lived through hard days.

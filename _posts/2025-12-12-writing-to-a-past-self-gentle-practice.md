@@ -112,4 +112,4 @@ End with a sense of ongoing relationship, not closure:
 
 You can keep these letters private, share them with a therapist, or even symbolically "send" them by placing them somewhere special.
 
-Writing to a past self does not change what happened, but it can change how alone you feel with it now, and how harshly you judge the younger you who had fewer choices.
+Writing to a past self does not change what happened, but it can change how alone you feel with it now, and how harshly you judge the younger you who had fewer choices. If the past carries trauma, [journaling for healing trauma]({{ site.baseurl }}/journaling-for-healing-trauma/) approaches that territory with care. [Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is a close companion to this practice, and if you work with a therapist, [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can extend this kind of work.

@@ -144,4 +144,6 @@ This practise blends self-compassion with concrete reflection on what you need.
 
 Writing with self-compassion interrupts the automatic patterns of self-criticism and shame. It gives you a chance to practise a kinder inner voice, and over time, that voice can become more accessible even when you are not writing. You are training your brain to respond to struggle with care instead of judgment, and that shift can change how you move through hard seasons.
 
+If you are working through past pain, [journaling for healing trauma]({{ site.baseurl }}/journaling-for-healing-trauma/) is a natural companion to this practice. For the anxious mind, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) pairs well with self-compassion work. And if shame about gaps in your practice is part of what brings you here, [returning to journaling without shame]({{ site.baseurl }}/return-to-journal-without-shame/) addresses exactly that.
+
 Self-compassion is not about being perfect at kindness. It is about noticing when you are being harsh and gently choosing something softer, again and again.

@@ -70,4 +70,6 @@ The [winter journal prompts](/winter-journal-prompts/) post has prompts specific
 
 Spring is the fourth seasonal post on this site, completing the cycle alongside [summer](/summer-journal-prompts/), [autumn](/autumn-journal-prompts/), and [winter](/winter-journal-prompts/). If you enjoy returning to the journal at seasonal transitions, each post has its own distinct tone: summer for vitality and the questions that long days make room for, autumn for letting go and the harvest of the year, winter for interiority and rest.
 
-There is something grounding about checking in with yourself at each turning. You do not need to be a person who journals every day to find value in stopping four times a year to ask: *where am I, what has changed, and what do I want to bring forward?*
+There is something grounding about checking in with yourself at each turning. [Grounding practices to pair with journaling]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/) work well alongside seasonal reflection. And if spring brings a sense of new beginning, [new year journal prompts]({{ site.baseurl }}/new-year-journal-prompts/) offer a similar forward-looking tone that reads well in any season of change.
+
+You do not need to be a person who journals every day to find value in stopping four times a year to ask: *where am I, what has changed, and what do I want to bring forward?*

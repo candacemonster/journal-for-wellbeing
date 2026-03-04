@@ -34,7 +34,7 @@ It can begin with a single observation, *written before you look away*.
 
 ### Tiny Practices for Noticing
 
-Try a one-minute drift through the senses:
+Try a one-minute drift through the senses (these pair beautifully with [tiny daily grounding practices]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/)):
 
 - **Sound:** What’s the farthest sound you can hear?
 - **Body:** What are your feet touching? Is your jaw soft or tight?

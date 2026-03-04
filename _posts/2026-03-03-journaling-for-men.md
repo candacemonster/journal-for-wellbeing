@@ -75,6 +75,10 @@ These prompts use language that is less associated with the therapeutic or self-
 
 ---
 
+If working through self-criticism is part of what brings you here, [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) offers a framework that is not about being softer, but about being more honest. For anger specifically, [journaling for anger]({{ site.baseurl }}/journaling-for-anger/) addresses how to use the page with difficult emotions rather than around them.
+
+---
+
 ### A Final Note
 
 Men die by suicide at significantly higher rates than women across most Western countries. Many of those deaths are preceded by a period of emotional withdrawal and not asking for support. Journaling is not a substitute for professional support when it is needed, but it is one of many tools that can help men build the emotional literacy and self-awareness that makes seeking help less foreign when they need it.

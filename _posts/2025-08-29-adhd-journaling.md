@@ -64,7 +64,7 @@ Having the same questions every day removes the blank-page problem entirely. You
 A full bullet journal system can quickly become a hyperfocus trap and then an abandoned project. A "bullet journal lite" approach is just a dated page with short bullets: things that happened, things you noticed, things you need to remember. No legend, no migration, no colour-coding required.
 
 **Voice journaling (counts entirely)**
-Talk-to-text apps, voice memos, or simply speaking aloud while driving or walking can be journal entries. ADHD brains are often more articulate spoken than written. You can transcribe later (or never), the processing still happens.
+Talk-to-text apps, voice memos, or simply speaking aloud while driving or walking can be journal entries. There is a [full guide to voice journaling]({{ site.baseurl }}/voice-journaling/) if this format resonates. ADHD brains are often more articulate spoken than written. You can transcribe later (or never), the processing still happens.
 
 **Post-it pages**
 Some ADHD brains work better with small surfaces. A post-it note or index card with one thought per day, stuck into a notebook, is a completely valid form of journaling.
@@ -113,4 +113,4 @@ These prompts are short, specific, and bounded, designed so you know exactly whe
 
 ADHD brains are not inconsistent because they are lazy or undisciplined. They are inconsistent because the dopaminergic and executive systems that support sustained, routine behaviour work differently. A journaling practice that accommodates this, that is flexible, short, low-stakes, and self-compassionate about gaps, is not a lesser practice. It is a more honest and sustainable one.
 
-When you miss days (and you will), the only habit worth building is the habit of returning without shame. Every entry, however brief, is evidence that you came back.
+When you miss days (and you will), the only habit worth building is the habit of returning without shame. Every entry, however brief, is evidence that you came back. The [guide to returning without shame]({{ site.baseurl }}/return-to-journal-without-shame/) was written for exactly this moment. And [simple journaling formats for overthinkers]({{ site.baseurl }}/simple-journaling-formats-for-overthinkers/) pairs well with an ADHD brain.

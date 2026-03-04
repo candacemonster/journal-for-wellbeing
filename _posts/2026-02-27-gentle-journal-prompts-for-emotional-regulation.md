@@ -140,4 +140,6 @@ Write a phrase that feels honest and soft, like *"It makes sense that I feel thi
 
 ---
 
+[Soft journal prompts for anxiety]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) is a companion set with a similar tone. For the underlying practices, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) provide deeper context for the emotional work these prompts support.
+
 You do not have to work through all thirty prompts at once. Even one honest answer is a small act of care for yourself. Come back whenever you need a way in.

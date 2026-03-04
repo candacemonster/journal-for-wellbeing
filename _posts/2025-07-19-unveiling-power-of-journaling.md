@@ -60,7 +60,7 @@ allow smaller list
 water – pause – breathe
 
 That’s five lines. Sometimes four. Sometimes one word plus the date. It still counts.  
-**Frequency beats flourish.**
+**Frequency beats flourish.** If you’re wondering how often you actually need to show up, [do you have to journal every day]({{ site.baseurl }}/do-i-have-to-journal-every-day/) answers that honestly. And if you’ve drifted away for a while, [returning without shame]({{ site.baseurl }}/return-to-journal-without-shame/) is the gentlest re-entry.
 
 ---
 

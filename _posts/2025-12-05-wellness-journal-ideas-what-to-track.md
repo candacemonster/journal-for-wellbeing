@@ -117,4 +117,6 @@ For example, "showed up for a friend," "rested when I was tired," or "created so
 
 You do not need to track everything every day. The point is not to optimize your life into perfection, it is to see yourself more clearly so you can respond with a little more wisdom and care.
 
-Skip what you do not need. Return to what helps. Let the journal work for you, not the other way around.
+Skip what you do not need. Return to what helps. For a more structured tracking system, [bullet journaling for mental health]({{ site.baseurl }}/bullet-journal-mental-health/) is a natural extension. [Monthly soft check-ins]({{ site.baseurl }}/monthly-soft-check-ins-journal-prompts/) pair well with wellness tracking as a regular review rhythm. And if anxiety is one of the things you’re tracking, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) goes deeper into that specific territory.
+
+Let the journal work for you, not the other way around.

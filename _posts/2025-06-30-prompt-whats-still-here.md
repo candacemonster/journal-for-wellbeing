@@ -57,7 +57,7 @@ This is a practice in locating continuity. What remains might be what matters mo
 
 Close the notebook when you feel a little more *with* yourself.  
 Return to this prompt anytime you feel unmoored.  
-There’s usually more still here than the anxious mind reports.
+There’s usually more still here than the anxious mind reports. For more support with a restless mind, [soft journal prompts for anxiety]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) are worth exploring. For more support with a restless mind, [soft journal prompts for anxiety]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) are worth exploring.
 
 ---
 

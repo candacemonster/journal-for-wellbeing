@@ -114,4 +114,4 @@ But for most people doing mental health journaling, handwriting has a specific s
 
 Buy one notebook that looks appealing, feels comfortable to hold, and falls within a price range where you will not mind filling it with imperfect, honest writing. Use it until it is finished. Then buy the next one.
 
-The goal is not a beautiful collection. The goal is a pile of finished notebooks that proves you stayed with yourself through the years.
+The goal is not a beautiful collection. The goal is a pile of finished notebooks that proves you stayed with yourself through the years. If you’re weighing paper against apps, [paper vs app journaling]({{ site.baseurl }}/paper-vs-app-journaling/) covers that decision well. For a structured approach, [bullet journaling for mental health]({{ site.baseurl }}/bullet-journal-mental-health/) and [guided journal vs blank notebook]({{ site.baseurl }}/guided-journal-vs-blank-notebook/) complete the picture.

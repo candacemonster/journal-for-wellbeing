@@ -72,4 +72,6 @@ If there is any risk that someone else might read your journal, either now or in
 
 Pay attention to how you feel after you write. If you regularly finish a session feeling worse, more hopeless, more activated, or more disconnected, that is useful information. It does not mean journaling is bad for you, it means the way you are currently journaling might need adjustment. You can shorten entries, use prompts that include grounding or compassion, work with a therapist to shape your practice, or take a break and return with clearer boundaries.
 
-Journaling is meant to support you, not to become another place where you feel trapped or unsafe. You are allowed to shape this practice in ways that actually help.
+Journaling is meant to support you, not to become another place where you feel trapped or unsafe. If you’ve noticed journaling sometimes makes anxiety worse rather than better, [can journaling make anxiety worse]({{ site.baseurl }}/can-journaling-make-anxiety-worse/) explores why that happens and what to do about it. [Keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can help you navigate your practice with professional guidance. And [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) offers a framework for approaching the page without self-judgment.
+
+You are allowed to shape this practice in ways that actually help.

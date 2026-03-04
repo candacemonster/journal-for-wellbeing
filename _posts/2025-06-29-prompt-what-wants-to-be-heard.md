@@ -52,7 +52,7 @@ Keep the pen (or cursor) moving. Even that is a form of presence.
 
 No fixing. No conclusions. Just honesty.  
 If you need permission to start in the mess, [this note](/start-where-you-are/) helps.  
-Prefer brevity? [A Few Lines That Change Everything](/a-few-lines-a-day/) might be right for you.
+Prefer brevity? [A Few Lines That Change Everything](/a-few-lines-a-day/) might be right for you. For days when something heavy is present, the [journaling for loneliness]({{ site.baseurl }}/journaling-for-loneliness/) and [journaling for grief]({{ site.baseurl }}/journaling-for-grief/) guides may offer useful companion prompts. For days when something heavy is present, the [journaling for loneliness]({{ site.baseurl }}/journaling-for-loneliness/) and [journaling for grief]({{ site.baseurl }}/journaling-for-grief/) guides may offer useful companion prompts.
 
 ---
 

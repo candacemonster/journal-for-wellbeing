@@ -57,7 +57,7 @@ Practice naming what's hard and what's still holding you, together:
 > *“Right now I feel __________ and __________. Both are valid.”*  
 > _Example: “I feel exhausted and a little grateful. Both are true.”_
 
-This gently rewires the binary “good or bad” reflex. Both/and builds emotional capacity.
+This gently rewires the binary “good or bad” reflex. Both/and builds emotional capacity. For a deeper look at gratitude practice beyond the basics, [gratitude journal ideas]({{ site.baseurl }}/gratitude-journal-ideas/) explores formats that work even on hard days. And if depression is part of the picture, [journaling for depression]({{ site.baseurl }}/journaling-for-depression/) takes a careful, low-pressure approach.
 
 ---
 

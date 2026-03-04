@@ -21,7 +21,7 @@ hidden: false
 #### 1. Emotional Processing & Mood
 Early studies (Pennebaker & Beall, 1986) asked participants to write 15–20 minutes for 3–5 days about emotionally significant experiences.  
 **Result:** Most reported improved mood and lower stress within weeks.  
-*How it works:* Writing helps organize and process experiences, moving them from raw emotion into manageable language.
+*How it works:* Writing helps organize and process experiences, moving them from raw emotion into manageable language. This is especially helpful for [journaling through anxiety]({{ site.baseurl }}/journaling-for-anxiety/) or [depression]({{ site.baseurl }}/journaling-for-depression/), where feelings often resist easy naming.
 
 #### 2. Immune Function & Physical Health
 Follow-up research (Pennebaker, Kiecolt-Glaser & Glaser, 1997) found small but measurable benefits: fewer health visits and slightly better immune response, especially after writing about trauma or challenge.  
@@ -89,7 +89,7 @@ _You can also explore expressive writing online (search for Pennebaker’s proto
 
 ---
 
-**You’re not aiming for perfect insight, only a quiet, consistent bridge between self and page. The brain can work with what’s written, it struggles with what stays shapeless.**
+**You’re not aiming for perfect insight, only a quiet, consistent bridge between self and page. The brain can work with what’s written, it struggles with what stays shapeless.** If you’d like to put this into practice, [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is a good first step.
 
 ---
 

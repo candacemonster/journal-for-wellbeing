@@ -121,4 +121,4 @@ If you are only going to journal once a day and sleep is your goal, a brief (fiv
 
 If your sleep difficulties are connected to chronic anxiety, hypervigilance, or intrusive thoughts, journaling can be one helpful tool in a larger toolkit, alongside sleep hygiene practices, limiting late-night screens, keeping consistent sleep and wake times, and, if things are significantly impacting your life, speaking to a doctor or therapist. CBT for insomnia (CBT-I) is considered the gold-standard non-medication treatment for chronic insomnia and is more effective long-term than most sleep aids.
 
-The journal is a quiet, accessible first step. It does not need to carry the whole problem.
+The journal is a quiet, accessible first step. It does not need to carry the whole problem. If anxiety is a significant part of your sleep difficulty, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [daily grounding practices]({{ site.baseurl }}/daily-grounding-practices/) both address the nervous system directly. For exhaustion that goes beyond sleep, [journaling for burnout]({{ site.baseurl }}/journaling-for-burnout-and-overwhelm/) is a close companion.

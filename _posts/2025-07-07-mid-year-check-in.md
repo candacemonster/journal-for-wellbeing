@@ -61,7 +61,7 @@ Just presence with what *was* and what *is*.
 ---
 
 Close the notebook when you feel a little more in step with yourself.  
-Mid-year isn't a verdict. It's a doorway, one you can walk through at your own pace.
+Mid-year isn't a verdict. It's a doorway, one you can walk through at your own pace. If exhaustion is part of what you’re carrying, the [journaling for burnout guide]({{ site.baseurl }}/journaling-for-burnout-and-overwhelm/) is a gentle companion. And for those looking to hold the positive alongside the hard, [gratitude even on hard days]({{ site.baseurl }}/gratitude-journaling-during-highs-and-lows/) speaks to both.
 
 ---
 

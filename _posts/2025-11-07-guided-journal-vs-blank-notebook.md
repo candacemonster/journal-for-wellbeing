@@ -101,4 +101,6 @@ Ask yourself:
 
 Your answers may change over time. Today you might need the gentle scaffolding of a guided format. In a different season you might crave the wildness of blank pages.
 
-Both guided and blank journals can support mental health by giving you a place to see your inner world more clearly. The best choice is the one that feels kind and usable for who you are, and how you are, today.
+Both guided and blank journals can support mental health by giving you a place to see your inner world more clearly. For a structured take on using journals for mental wellbeing, [bullet journaling for mental health]({{ site.baseurl }}/bullet-journal-mental-health/) is worth exploring. If time is the constraint, [a five-minute journaling alternative]({{ site.baseurl }}/five-minute-journal-alternative/) and the post on [a few lines a day]({{ site.baseurl }}/a-few-lines-a-day/) show how little is actually needed.
+
+The best choice is the one that feels kind and usable for who you are, and how you are, today.

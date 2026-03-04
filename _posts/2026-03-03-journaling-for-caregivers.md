@@ -84,4 +84,4 @@ In the US:
 - **Caregiver Action Network** (caregiveraction.org)
 - **AARP Caregiver Help Desk**: 1-877-333-5885
 
-Asking for support is not an indication that you are failing at this. It is an indication that you understand what sustained caregiving requires, and that you are trying to do it in a way that does not destroy you in the process.
+Asking for support is not an indication that you are failing at this. It is an indication that you understand what sustained caregiving requires, and that you are trying to do it in a way that does not destroy you in the process. For the burnout that caregiving frequently produces, [journaling for burnout and overwhelm]({{ site.baseurl }}/journaling-for-burnout-and-overwhelm/) speaks directly to that experience. [Journaling for grief]({{ site.baseurl }}/journaling-for-grief/) is relevant if loss is part of the caregiving context, and [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is perhaps the most important companion practice of all.

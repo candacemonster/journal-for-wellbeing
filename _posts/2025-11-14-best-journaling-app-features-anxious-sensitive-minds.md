@@ -123,4 +123,4 @@ The most mental health-friendly journaling apps are the ones that feel like a pr
 
 When you try a new app, notice how your body feels as you explore it. Do your shoulders tense, or do you feel a small exhale of relief? Does the app feel like a quiet notebook, or like another dashboard of things to manage?
 
-The best journaling app for anxious or sensitive minds is the one that protects your privacy, respects your bandwidth, and makes it feel a little easier to turn toward yourself with honesty and care.
+The best journaling app for anxious or sensitive minds is the one that protects your privacy, respects your bandwidth, and makes it feel a little easier to turn toward yourself with honesty and care. If you’re still deciding between paper and screen, [paper vs app journaling]({{ site.baseurl }}/paper-vs-app-journaling/) covers the tradeoffs in detail. For the anxious or sensitive mind specifically, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [soft journal prompts for anxiety]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) are natural companions to whatever format you choose.

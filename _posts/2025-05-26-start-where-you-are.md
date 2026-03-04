@@ -32,7 +32,7 @@ Write the first *present* thing you notice, no matter how mundane or “unworthy
 
 *Example entry: “Tired. Mild headache. Don’t want to start. Still here.” That counts.*
 
-Most people wait to feel organized, inspired, or “unburdened” before starting. But writing from the mess is how you build a habit; even three honest lines make space for your real self.
+Most people wait to feel organized, inspired, or “unburdened” before starting. But writing from the mess is how you build a habit; even three honest lines make space for your real self. If you’ve been away from the page for a while, [returning without self-judgment]({{ site.baseurl }}/return-to-journal-without-shame/) is easier than you think. And if you wonder whether you need to show up every day, [you probably don’t]({{ site.baseurl }}/do-i-have-to-journal-every-day/).
 
 ---
 

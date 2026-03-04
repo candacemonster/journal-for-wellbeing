@@ -81,4 +81,4 @@ Both can be true at once. The journal is big enough to hold them.
 
 One counterintuitive research finding: three times a week tends to produce stronger effects than daily journaling. Researcher Sonja Lyubomirsky suggests that daily practice can become too habitual, while a few times per week maintains enough novelty to keep genuine attention engaged.
 
-If you have been journaling daily and finding it hollow, try reducing frequency and increasing specificity. Less, but more present.
+If you have been journaling daily and finding it hollow, try reducing frequency and increasing specificity. Less, but more present. For a deeper look at sustaining gratitude through difficult seasons, [gratitude journaling during highs and lows]({{ site.baseurl }}/gratitude-journaling-during-highs-and-lows/) covers that territory. Gratitude pairs naturally with [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/), and [monthly soft check-ins]({{ site.baseurl }}/monthly-soft-check-ins-journal-prompts/) are a useful rhythm for keeping gratitude practice alive across the year.

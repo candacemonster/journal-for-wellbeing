@@ -106,4 +106,6 @@ Journaling can walk alongside those supports by helping you track your energy, n
 
 ### A closing note for tired minds
 
-If all you can manage tonight is one sentence that says *"I am tired,"* that is still a real journal entry. You are allowed to keep your self-reflection as small and soft as you need while you heal from burnout. Over time, these tiny check-ins can become proof that even in exhaustion, you kept choosing to return to yourself in a gentle way.
+If all you can manage tonight is one sentence that says *"I am tired,"* that is still a real journal entry. You are allowed to keep your self-reflection as small and soft as you need while you heal from burnout. If burnout overlaps with ADHD, [ADHD journaling]({{ site.baseurl }}/adhd-journaling/) addresses that specific combination. For the fatigue dimension of burnout, [journaling through fatigue]({{ site.baseurl }}/journaling-through-fatigue/) is a close companion. And [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) can help soften the inner critic that often drives burnout in the first place.
+
+Over time, these tiny check-ins can become proof that even in exhaustion, you kept choosing to return to yourself in a gentle way.

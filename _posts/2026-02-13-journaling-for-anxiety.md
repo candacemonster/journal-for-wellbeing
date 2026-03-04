@@ -134,4 +134,6 @@ Some research suggests that journaling about stressful experiences can, for some
 
 ### A Gentle Closing Thought
 
-You do not have to "journal correctly" to deserve relief. A few honest lines, written regularly and with kindness, can be enough to begin shifting how you relate to your anxious mind. You can start where you are, write less than you think you "should," and still let this practice support you over time.
+You do not have to "journal correctly" to deserve relief. A few honest lines, written regularly and with kindness, can be enough to begin shifting how you relate to your anxious mind. For gentler prompts designed for anxious or sensitive minds, [soft journal prompts for anxiety]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) and [gentle journal prompts for emotional regulation]({{ site.baseurl }}/gentle-journal-prompts-for-emotional-regulation/) are both helpful next steps. If anxiety overlaps with burnout, [journaling for burnout and overwhelm]({{ site.baseurl }}/journaling-for-burnout-and-overwhelm/) addresses that combination specifically.
+
+You can start where you are, write less than you think you "should," and still let this practice support you over time.

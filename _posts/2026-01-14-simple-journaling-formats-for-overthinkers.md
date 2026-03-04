@@ -138,4 +138,6 @@ This format keeps reflection brief and action-focused, which can help overthinke
 
 All of these structures share a few key features: they are short, they have clear boundaries, they do not require creativity or insight, and they guide you toward noticing rather than analyzing. When you know you only need to write one sentence or three words, the pressure lifts and journaling becomes less intimidating.
 
-You can rotate through these formats based on what feels most manageable each day, or choose one and use it consistently for a few weeks to see how it feels. The goal is not to journal "right," it is to give yourself a small, kind way to check in without feeding the overthinking.
+You can rotate through these formats based on what feels most manageable each day, or choose one and use it consistently for a few weeks to see how it feels. If the overthinking has an anxious quality, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [the post on all-or-nothing thinking]({{ site.baseurl }}/journal-for-all-or-nothing-thinking/) address that directly. For a structured format approach, [bullet journaling for mental health]({{ site.baseurl }}/bullet-journal-mental-health/) offers a flexible system worth exploring.
+
+The goal is not to journal "right," it is to give yourself a small, kind way to check in without feeding the overthinking.

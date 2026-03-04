@@ -120,4 +120,6 @@ Journaling can be a meaningful companion to that work, a place to track shifts, 
 
 If you are carrying the weight of something difficult from your past, the journal can be a quiet place where you are, perhaps for the first time, the one who is present for yourself. That matters. That witnessing is real.
 
+If you feel ready to go deeper, [shadow work journal prompts]({{ site.baseurl }}/shadow-work-journal-prompts/) offer a structured way to approach the past. [Keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can support the work you do with a professional. And [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is a gentle companion throughout.
+
 Go slowly. Be kind to yourself on the page and off it.

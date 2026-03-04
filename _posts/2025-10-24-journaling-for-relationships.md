@@ -88,4 +88,6 @@ Used within those limits, relationship journaling is one of the most practically
 
 The people we are in relationship with are also doing their best within their own constraints, histories, and nervous systems. The journal is a place to extend yourself some compassion for the difficulty of being in relationship, and, if you can get there, a little of that same compassion toward the people you are navigating it with.
 
-That does not mean accepting behaviour that is harmful. It means that most of us, including the people who have hurt us, are working with limited tools. The journal helps you pick better ones.
+That does not mean accepting behaviour that is harmful. It means that most of us, including the people who have hurt us, are working with limited tools. If anger comes up often in relationships, [journaling for anger]({{ site.baseurl }}/journaling-for-anger/) looks at that directly. [Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) softens the tendency to either over-blame yourself or others. And if you work with a therapist, [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can make that work go further.
+
+The journal helps you pick better ones.

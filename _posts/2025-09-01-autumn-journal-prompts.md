@@ -80,4 +80,6 @@ For some people, autumn brings Seasonal Affective Disorder (SAD), a recurrence o
 
 The [journaling for depression](/journaling-for-depression/) post and the [journaling through fatigue](/journaling-through-fatigue/) post both have low-effort formats for very low-energy days.
 
+For the quieter, inward energy that follows, [winter journal prompts]({{ site.baseurl }}/winter-journal-prompts/) carry the same gentle spirit. And [daily grounding practices]({{ site.baseurl }}/daily-grounding-practices/) pair well with seasonal reflection.
+
 The season will pass. The journal can be company while it does.

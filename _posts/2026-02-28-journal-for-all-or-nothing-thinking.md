@@ -112,4 +112,6 @@ You do not have to believe the new description fully. You are simply giving your
 
 ---
 
+For simpler journaling formats that keep the overthinking manageable, [simple journaling formats for overthinkers]({{ site.baseurl }}/simple-journaling-formats-for-overthinkers/) is a useful companion. If anxiety drives the all-or-nothing patterns, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) addresses the root. And [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can help you track these thought patterns alongside professional support.
+
 All or nothing thinking will not disappear overnight, but every time you use your journal to widen the lens, you are building the skill of kinder, more realistic thinking.

@@ -106,6 +106,8 @@ If a prompt stirs something too large to sit with, you can write *"Not today"* a
 
 ---
 
+If grief is part of your depression, [journaling for grief]({{ site.baseurl }}/journaling-for-grief/) takes the same slow, low-pressure approach.
+
 ### What to Do If Journaling Makes You Feel Worse
 
 For some people, depression journaling can deepen rumination, the sticky, repetitive cycling through painful thoughts that makes depression worse rather than better. Signs this is happening:
@@ -123,5 +125,7 @@ It is also worth raising with a therapist, especially one who uses cognitive beh
 ### One Last Thing
 
 Depression often includes a voice that says nothing will help, that this is all pointless, that you are beyond the reach of small, gentle things. That voice is a symptom of depression, not a fact. You don't have to argument with it or disprove it. You just have to write one word, or one sentence, alongside it, and let that be enough for today.
+
+If the darkness feels clinical rather than situational, a [therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can help bridge the gap to professional support. For gentler entry points on hard days, [soft prompts for anxiety and low moods]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) and the [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) guide are quiet companions.
 
 You came back to the page. That counts.

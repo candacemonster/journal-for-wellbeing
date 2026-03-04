@@ -131,4 +131,6 @@ Coming back to the page another day is not failure. It is the nature of grief, w
 
 If your grief is accompanied by persistent inability to function, thoughts of harming yourself, or a sense of being stuck in the same intense place after many months, please reach out to a grief counsellor, therapist, or your doctor. Complicated grief is a real clinical phenomenon with effective treatments, and getting help is not a sign that you are grieving wrong. It is a sign that this loss was significant, and that you deserve more than you can offer yourself alone.
 
+If grief is accompanied by depression, [journaling for depression]({{ site.baseurl }}/journaling-for-depression/) addresses the place where these two things overlap. [Journaling for loneliness]({{ site.baseurl }}/journaling-for-loneliness/) can also speak to the particular isolation that grief brings. And if professional support is part of your journey, [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can help.
+
 You are allowed to need more than a page. The page can still be part of it.

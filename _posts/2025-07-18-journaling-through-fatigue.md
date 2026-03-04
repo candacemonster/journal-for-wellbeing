@@ -49,7 +49,7 @@ Pick *one*. Stop before it strains. Adapt as needed.
 
 - You’re not lazy; you’re load-managing a system under strain.
 - Rest is *active care*, not absence of will.
-- A single authentic line holds more value than a forced page.
+- A single authentic line holds more value than a forced page. If chronic illness or pain is part of your picture, [journaling for chronic pain]({{ site.baseurl }}/journaling-for-chronic-pain/) addresses the specific challenges of writing through a body that is the hard part. For exhaustion rooted in overextension, [journaling for burnout]({{ site.baseurl }}/journaling-for-burnout-and-overwhelm/) is a close companion.
 
 ---
 

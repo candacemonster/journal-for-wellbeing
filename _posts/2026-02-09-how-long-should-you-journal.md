@@ -79,4 +79,6 @@ You can always return to very short daily check-ins or a few lines per week when
 
 ---
 
+For days when time is genuinely short, [a five-minute journaling alternative]({{ site.baseurl }}/five-minute-journal-alternative/) and [one-sentence journal prompts]({{ site.baseurl }}/one-sentence-journal-prompts-busy-tired-days/) each give a realistic minimum. And the post on [how often you need to journal]({{ site.baseurl }}/do-i-have-to-journal-every-day/) addresses the frequency question alongside the duration one.
+
 *Looking for a place to start? [Start Where You Are](/start-where-you-are/) is a gentle on-ramp for imperfect beginnings. For very short entries, [A Few Lines a Day](/a-few-lines-a-day/) is worth a read.*

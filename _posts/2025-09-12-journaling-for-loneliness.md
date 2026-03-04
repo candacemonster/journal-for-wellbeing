@@ -112,6 +112,6 @@ The journal can be where you come before and after. It can help you process reje
 
 ### A Small Note
 
-You are not too much. You are not too little. You have not somehow slipped out of range of being known. The loneliness you are carrying is a signal that connection matters to you, and that is not a flaw. It is one of the most human things about you.
+You are not too much. You are not too little. You have not somehow slipped out of range of being known. The loneliness you are carrying is a signal that connection matters to you, and that is not a flaw. It is one of the most human things about you. If loneliness has a depressive quality, [journaling for depression]({{ site.baseurl }}/journaling-for-depression/) addresses that overlap carefully. [Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) and, if professional support is available, [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) are both worth exploring.
 
 Write it down. Then see what the page says back.

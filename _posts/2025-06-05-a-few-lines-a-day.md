@@ -26,7 +26,7 @@ The act of naming *softens the raw edge:*
 ### Science in Brief
 
 - **Ease Rumination:** Jotting down looping thoughts gives them a place to land, quieting mental noise.
-- **Lower Stress:** Research (see Dr. Matthew Lieberman’s “affect labeling”) shows naming emotions reduces stress arousal.
+- **Lower Stress:** Research (see Dr. Matthew Lieberman’s “affect labeling”) shows naming emotions reduces stress arousal. The [science behind journaling]({{ site.baseurl }}/journaling-science-benefits/) goes deeper than most people expect.
 - **Better Sleep:** Mind dumps before bed can lessen late-night cognitive churn.
 - **Memory & Learning:** Revisiting daily life in writing strengthens memory and helps you notice patterns.
 
@@ -47,7 +47,7 @@ That belief changes how future stress lands in your body and mind.
   *“I need…”* or *“I notice…”*
 - Stop. Close the notebook.
 
-That *counts*, and it’s enough.
+That *counts*, and it’s enough. If you want even more gentle formats, [simple journaling styles for overthinkers]({{ site.baseurl }}/simple-journaling-formats-for-overthinkers/) are worth exploring.
 
 ---
 

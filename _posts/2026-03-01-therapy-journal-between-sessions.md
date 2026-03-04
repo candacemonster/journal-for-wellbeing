@@ -111,4 +111,6 @@ You can copy and reuse this for each session:
 
 ---
 
-Small, consistent notes like these can deepen the work in therapy without overwhelming you. You are not trying to do it all alone, you are just keeping a thread so you can find your way back.
+Small, consistent notes like these can deepen the work in therapy without overwhelming you. If trauma is part of what you are processing, [journaling for healing trauma]({{ site.baseurl }}/journaling-for-healing-trauma/) offers additional guidance. [Journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) is useful if that is a focus in therapy. And [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) offers a framework for how to relate to yourself in the space between sessions.
+
+You are not trying to do it all alone, you are just keeping a thread so you can find your way back.

@@ -82,4 +82,6 @@ Researcher Brené Brown's work draws a clear distinction between guilt (I did so
 
 Journaling can help surface where shame is running the show rather than genuine standards. When you notice the inner critic moving from "that wasn't good enough" into "you are not good enough," the page is a place to pause and ask who taught you that equation, and whether it is actually true.
 
+If perfectionism overlaps with anxiety, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) addresses that connection directly. [Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) builds the internal scaffolding that perfectionism tends to knock down. And if you work with a therapist, [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can help hold what surfaces in this kind of work.
+
 Most of the time, it is not.

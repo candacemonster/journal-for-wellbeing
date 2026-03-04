@@ -115,4 +115,6 @@ If you are feeling:
 - **Sad or tender:** Try hand on heart, slow breathing, or savoring
 - **Overwhelmed:** Try feet on floor, orienting to the room, or 4-7-8 breathing
 
-You can also rotate through a few favorites and notice over time which ones feel most regulating for you. The goal is not to do grounding perfectly, it is to give your nervous system a small, kind signal that you are safe and present.
+You can also rotate through a few favorites and notice over time which ones feel most regulating for you. For grounding practices specifically around sleep, [journaling for sleep]({{ site.baseurl }}/journaling-for-sleep/) is a natural companion. [Daily grounding practices]({{ site.baseurl }}/daily-grounding-practices/) covers the broader landscape, and [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) looks at how grounded writing can soften anxious thinking.
+
+The goal is not to do grounding perfectly, it is to give your nervous system a small, kind signal that you are safe and present.

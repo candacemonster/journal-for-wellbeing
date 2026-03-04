@@ -115,4 +115,6 @@ Writing these sentences can feel awkward at first, but they help interrupt the s
 
 You are not starting from scratch. You still have all the self-awareness and reflection you built before. You are simply picking up the practice again from where you are today, and that is enough.
 
-Each time you return, you are practising the skill of coming back to yourself with gentleness instead of judgment. That skill matters more than an unbroken streak.
+Each time you return, you are practising the skill of coming back to yourself with gentleness instead of judgment. If the question of how often you should journal still lingers, [do I have to journal every day]({{ site.baseurl }}/do-i-have-to-journal-every-day/) answers it directly. On low-energy return days, [one-sentence journal prompts]({{ site.baseurl }}/one-sentence-journal-prompts-busy-tired-days/) keep the bar very low. And [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is a gentle framework to bring to any re-entry.
+
+That skill matters more than an unbroken streak.

@@ -50,7 +50,7 @@ That counts as progress, even if no one else sees it.
 The past can clarify what didn’t work, or what matters now.  
 But it doesn't get to author who shows up today unless you hand it the pen.
 
-You are not the sum of regrets. You are the author of what’s still unwritten.
+You are not the sum of regrets. You are the author of what’s still unwritten. The practice of [writing to a past self]({{ site.baseurl }}/prompt-write-to-a-past-self/) can help you close those old chapters with care, and [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) supports the forward-facing work that follows.
 
 ---
 

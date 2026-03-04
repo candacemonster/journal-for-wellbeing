@@ -87,4 +87,6 @@ If you have genuine safety concerns, you believe your young person is in danger 
 
 If your teenager tells you they journal, the supportive response is something like: *"That's great. It's completely yours."* Not: *"Oh great, can I read it?"*
 
+For teens dealing with anxiety, the post on [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) is written accessibly for any age. [Journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is particularly relevant during the years when self-criticism tends to peak. And if a teenager is seeing a therapist, [keeping a therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) offers a practical structure for that kind of support.
+
 Supporting your teenager's inner life means respecting that it is theirs.

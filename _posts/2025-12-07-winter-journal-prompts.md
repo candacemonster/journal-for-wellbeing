@@ -80,4 +80,6 @@ Winter naturally leads into the new year, and that transition brings its own pre
 
 But it is equally valid to give yourself the whole of December and January to just go slowly, rest, and not demand clarity from yourself before the season has done its work.
 
+For the season just passed, [autumn journal prompts]({{ site.baseurl }}/autumn-journal-prompts/) carry a similar inward spirit. And as the new year approaches, [new year journal prompts]({{ site.baseurl }}/new-year-journal-prompts/) offer a gentle forward-looking counterpart. [Daily grounding practices]({{ site.baseurl }}/daily-grounding-practices/) also pair well with the slower pace winter invites.
+
 Spring will come. You do not have to rush toward it.

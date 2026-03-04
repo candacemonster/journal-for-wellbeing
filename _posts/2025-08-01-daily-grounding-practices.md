@@ -117,6 +117,8 @@ Curious about evidence:
 
 ---
 
+Grounding pairs especially well with [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [journaling for better sleep]({{ site.baseurl }}/journaling-for-sleep/).
+
 **Which practice helped you today?**  
 Feel free to leave a gentle note below, or simply carry the experience with you.
 

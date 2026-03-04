@@ -82,4 +82,6 @@ Let your answers guide you, even if they surprise you.
 
 ---
 
-There is no universally "better" option. Both paper and digital journaling can support emotional wellbeing, ease anxiety, and deepen self-awareness. The best medium is the one that meets you where you are and helps you come back to yourself with a practice you can actually keep.
+There is no universally "better" option. Both paper and digital journaling can support emotional wellbeing, ease anxiety, and deepen self-awareness. For a deeper look at notebook options, [best journaling notebooks]({{ site.baseurl }}/best-journaling-notebooks/) and [guided journal vs blank notebook]({{ site.baseurl }}/guided-journal-vs-blank-notebook/) are both worth reading. For app-specific considerations, [best journaling app features for anxious and sensitive minds]({{ site.baseurl }}/best-journaling-app-features-anxious-sensitive-minds/) covers what to look for.
+
+The best medium is the one that meets you where you are and helps you come back to yourself with a practice you can actually keep.

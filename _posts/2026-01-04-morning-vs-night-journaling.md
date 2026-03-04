@@ -64,4 +64,6 @@ You can also adjust based on what you are writing about. If you want to set inte
 
 You do not have to pick one time and stick with it forever. You might journal in the morning on days when you wake up anxious or need to plan, and in the evening on days when you want to reflect or decompress. You might write briefly in the morning and more deeply in the evening, or vice versa.
 
+For short formats that work at any time of day, [a five-minute journaling alternative]({{ site.baseurl }}/five-minute-journal-alternative/) and the post on [a few lines a day]({{ site.baseurl }}/a-few-lines-a-day/) are useful companions. If sleep is a concern specifically, [journaling for sleep]({{ site.baseurl }}/journaling-for-sleep/) looks at how an evening practice can help.
+
 The time that helps you return to yourself with honesty, without adding pressure or disrupting your rest, is the right time for you.

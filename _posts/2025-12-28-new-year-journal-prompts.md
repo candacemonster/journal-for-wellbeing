@@ -84,4 +84,4 @@ It is also entirely valid to come to the new year feeling scattered, unresolved,
 
 If that is where you are: one sentence is enough. One honest line about where you are right now, before you close the notebook and make a cup of tea, is a legitimate new year's journal entry. It will still be true in February if the clarity does not come before January 1st.
 
-The year begins before you are ready. That has always been true, and you have always found your way through.
+The year begins before you are ready. That has always been true, and you have always found your way through. For an ongoing rhythm throughout the year, [monthly soft check-ins]({{ site.baseurl }}/monthly-soft-check-ins-journal-prompts/) extend this kind of reflection across all twelve months. [Winter journal prompts]({{ site.baseurl }}/winter-journal-prompts/) suit the quiet reflective mood of January, and [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/) is a good companion if the new year feels heavy rather than hopeful.

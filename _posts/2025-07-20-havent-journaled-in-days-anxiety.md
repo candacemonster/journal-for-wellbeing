@@ -56,6 +56,8 @@ Bridge tools are valid, not cheating.
 
 ---
 
+If the anxiety feels bigger than a few lines can hold, [journaling for anxiety]({{ site.baseurl }}/journaling-for-anxiety/) and [soft prompts for anxious days]({{ site.baseurl }}/soft-journal-prompts-for-anxiety/) offer more structured support.
+
 ### Micro Prompts (Pick One, Ignore the Rest)
 
 - “Right now my body feels…”

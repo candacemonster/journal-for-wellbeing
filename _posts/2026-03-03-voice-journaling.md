@@ -87,4 +87,4 @@ You can also use voice journaling for immediate processing (in the car after a d
 
 The equivalent of re-reading journal entries for voice journals is listening back. This is worth doing periodically, not to critique the recording but to notice patterns and hear yourself with a little distance. You may be surprised by what you said, by how clearly something came through in your voice, or by how differently you feel about the same issue a week later.
 
-You may also be perfectly happy never to listen back. Processing in the moment has value independent of whether you create an archive. Trust what works for you.
+You may also be perfectly happy never to listen back. Processing in the moment has value independent of whether you create an archive. Trust what works for you. If you’re comparing formats more broadly, [paper vs app journaling]({{ site.baseurl }}/paper-vs-app-journaling/) covers the wider landscape. For the days when even speaking feels like too much, [five-minute journaling]({{ site.baseurl }}/five-minute-journal-alternative/) and [journaling through fatigue]({{ site.baseurl }}/journaling-through-fatigue/) both describe minimal-effort alternatives.

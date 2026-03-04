@@ -123,6 +123,8 @@ Shadow work can stir things up that don't resolve in a single journal session. T
 - Go gently for a few hours. Try not to schedule anything demanding directly after a shadow work session.
 - Notice what stays with you. Sometimes the most useful insight surfaces an hour later, on a walk, not at the desk.
 - Return to a prompt over multiple sessions. The same question can reveal different layers depending on the day.
-- Bring themes to therapy if you have access to a therapist. Shadow prompts often open doors that are worth exploring with support.
+- Bring themes to therapy if you have access to a therapist — a [therapy journal between sessions]({{ site.baseurl }}/therapy-journal-between-sessions/) can help you arrive more prepared. Shadow work also intersects with [journaling for self-compassion]({{ site.baseurl }}/journaling-for-self-compassion/), which is worth reading alongside it. Shadow prompts often open doors that are worth exploring with support.
+
+If heavier emotions surface, [journaling for depression]({{ site.baseurl }}/journaling-for-depression/) and [journaling for grief]({{ site.baseurl }}/journaling-for-grief/) both offer steady, gentle support.
 
 You are not trying to finish your shadow work. You are slowly becoming more comfortable sitting in the same room as all of yourself.
