@@ -453,7 +453,7 @@ permalink: /zen-garden/
     const cx=stones.length?stones[0].x:W/2, cy=stones.length?stones[0].y:H/2;
     drawRipples(cx,cy,6,120,5,9);
     if (stones.length>=2) drawRipples(stones[1].x,stones[1].y,4,80,4,8);
-    redrawStones(offCtx); renderFrame(); setStatus('Ripples radiating outwardâ€¦');
+    redrawStones(offCtx); renderFrame(); setStatus('Ripples radiating outward\u2026');
   }
 
   function presetWaves() {
@@ -471,7 +471,7 @@ permalink: /zen-garden/
         offCtx.stroke();
       }
     }
-    offCtx.restore(); redrawStones(offCtx); renderFrame(); setStatus('Waves flowing through the gardenâ€¦');
+    offCtx.restore(); redrawStones(offCtx); renderFrame(); setStatus('Waves flowing through the garden\u2026');
   }
 
   function presetSpiral() {
@@ -488,7 +488,7 @@ permalink: /zen-garden/
       }
       offCtx.stroke();
     }
-    offCtx.restore(); redrawStones(offCtx); renderFrame(); setStatus('A spiral unfolds from the centreâ€¦');
+    offCtx.restore(); redrawStones(offCtx); renderFrame(); setStatus('A spiral unfolds from the centre\u2026');
   }
 
   /* â”€â”€ Status â”€â”€ */
@@ -633,7 +633,7 @@ permalink: /zen-garden/
       a.click();
       document.body.removeChild(a);
       setTimeout(() => URL.revokeObjectURL(url), 4000);
-      setStatus('Garden saved â€” check your Downloads folder.');
+      setStatus('Garden saved \u2014 check your Downloads folder.');
     }, 'image/png');
   }
 
@@ -700,8 +700,8 @@ permalink: /zen-garden/
     const fsBtn=document.getElementById('zg-fs-breath-toggle');
     if (breathActive) {
       breathOverlay.classList.add('visible'); breathStep=0; runBreathStep();
-      if (mainBtn) mainBtn.textContent='â—‰ Stop breathing guide';
-      if (fsBtn)   fsBtn.textContent='â—‰ Stop';
+      if (mainBtn) mainBtn.innerHTML='&#x25C9; Stop breathing guide';
+      if (fsBtn)   fsBtn.innerHTML='&#x25C9; Stop';
     } else {
       breathOverlay.classList.remove('visible'); clearInterval(breathInterval);
       if (mainBtn) mainBtn.innerHTML='&#9675; Breathing Guide';
@@ -721,7 +721,7 @@ permalink: /zen-garden/
     'What does stillness feel like in your body today, even for a moment?',
     'If the surface of your mind were a garden, what pattern would you see?',
     'What is one small thing you could let go of by the end of today?',
-    'What needs to simply sit in place â€” unhurried, unfinished â€” for now?',
+    'What needs to simply sit in place \u2014 unhurried, unfinished \u2014 for now?',
     'Where in your life are you trying to perfect the pattern instead of resting in it?',
     'What feeling wants to be traced slowly, without rushing to the end?',
     'If you could draw one shape that describes how you are feeling today, what would it be?',
