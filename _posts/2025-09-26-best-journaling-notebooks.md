@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Best Journaling Notebooks for Mental Health (What to Look For and Why It Matters)"
+title: "Best Journaling Notebooks for Mental Health"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [journaling-notebooks, mental-health, getting-started, self-care, paper-journaling, journaling-tips]
 image: assets/images/best-journaling-notebooks.svg
-description: "The notebook you write in genuinely affects how often and how freely you write. This guide breaks down what to look for in a journaling notebook for mental health, from paper quality to size to ruling style, with honest recommendations for different needs."
+description: "The notebook you write in affects how freely you write. A guide to choosing a journaling notebook for mental health, with honest recommendations."
 excerpt: "The right notebook won't write for you, but the wrong one will stop you. What to look for in a journaling notebook for mental health, and honest suggestions across different needs, budgets, and writing styles."
 date: 2025-09-26 08:25:05 +0000
 featured: false

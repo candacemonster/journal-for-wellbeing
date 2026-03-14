@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Autumn Journal Prompts: 20 Gentle Prompts for the Turning Season"
+title: "Autumn Journal Prompts: 20 Gentle Seasonal Prompts"
 author: willow_pages
 categories: [prompts, seasonal]
 tags: [autumn, fall, journal-prompts, seasonal, reflection, mindfulness, self-care]
 image: assets/images/autumn-journal-prompts.svg
-description: "Autumn's shorter days and shifting light invite a natural shift inward. These 20 gentle autumn journal prompts help you mark the season honestly, let go of what summer carried, and settle into the slower rhythm that autumn asks for."
+description: "Autumn's shorter days invite a shift inward. These 20 gentle autumn journal prompts help you mark the season, release summer's weight, and slow down."
 excerpt: "Autumn is the season for turning inward. 20 gentle journal prompts for the cooler months, for letting go, noticing what the year has taught you, and settling into the slower pace that autumn quietly asks for."
 date: 2025-09-01 08:45:25 +0000
 featured: false

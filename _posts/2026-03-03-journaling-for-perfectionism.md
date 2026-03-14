@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, wellbeing, mental-health]
 tags: [perfectionism, inner-critic, anxiety, self-compassion, mental-health, journaling, self-esteem]
 image: assets/images/journaling-for-perfectionism.svg
-description: "Perfectionism is anxiety wearing a productivity costume. Journaling can help you hear the inner critic more clearly, understand what fear drives it, and gradually loosen its grip, without forcing toxic positivity or fake acceptance."
+description: "Perfectionism is anxiety in a productivity costume. Journaling can help you hear the inner critic, understand what fear drives it, and gradually loosen its grip."
 excerpt: "Perfectionism shows up as high standards but runs on fear. Journaling can help you identify what your inner critic is really protecting you from, separate worth from performance, and write in a way that's good enough, because it is."
 date: 2026-03-07 10:34:56 +0000
 featured: false

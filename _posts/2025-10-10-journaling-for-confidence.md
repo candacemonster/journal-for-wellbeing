@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Journaling for Confidence and Self-Esteem: Writing a Kinder Story About Yourself"
+title: "Journaling for Confidence and Self-Esteem"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [confidence, self-esteem, mental-health, self-compassion, prompts, self-care, journaling]
 image: assets/images/journaling-for-confidence.svg
-description: "Low self-esteem often comes with a persistent internal narrator who focuses on failures and dismisses successes. Journaling can gently disrupt that story. This guide explains how and offers 20 prompts for building a more honest, kinder narrative about who you are."
+description: "Low self-esteem comes with a voice that focuses on failures. Journaling can disrupt that story, with 20 prompts for building a kinder, more honest narrative."
 excerpt: "Low self-esteem runs on a skewed internal story. Journaling can gently interrupt that narrative, not through forced positivity, but through honest documentation of evidence your inner critic ignores. 20 prompts for building a kinder, truer story about yourself."
 date: 2025-10-10 08:55:35 +0000
 featured: false

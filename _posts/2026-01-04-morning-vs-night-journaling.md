@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is It Better to Journal in the Morning or at Night for Mental Health?"
+title: "Morning vs Night Journaling: Which Is Better?"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [journaling, mental-health, morning-pages, sleep, self-care, habits, mindfulness]

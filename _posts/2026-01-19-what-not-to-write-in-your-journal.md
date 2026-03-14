@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, wellbeing]
 tags: [mental-health, self-care, rumination, emotional-regulation, journaling, boundaries]
 image: assets/images/journaling 7.jpg
-description: "Not all journaling patterns support your wellbeing. Learn what kinds of writing can leave you more stuck, flooded, or self-critical, and how to adjust your practice."
+description: "Not all journaling patterns support your wellbeing. Learn what kinds of writing leave you more stuck or self-critical, and how to adjust your practice."
 excerpt: "Journaling is powerful, but some patterns can leave you more stuck than when you started. Here is what to watch for and how to adjust."
 date: 2026-01-19 08:55:35 +0000
 featured: false

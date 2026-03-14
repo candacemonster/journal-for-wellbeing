@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tiny Daily Grounding Practices You Can Pair with Your Journal"
+title: "Tiny Daily Grounding Practices to Pair with Journaling"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [grounding, mental-health, self-care, anxiety, mindfulness, nervous-system, journaling]

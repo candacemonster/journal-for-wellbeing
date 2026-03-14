@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Return to Your Journal After Weeks Away (Without Shaming Yourself)"
+title: "How to Return to Your Journal After a Break"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [journaling, self-compassion, mental-health, self-care, getting-started, shame, consistency]

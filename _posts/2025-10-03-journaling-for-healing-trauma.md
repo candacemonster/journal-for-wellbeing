@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, mental-health]
 tags: [trauma, healing, mental-health, self-care, expressive-writing, emotional-regulation, self-compassion]
 image: assets/images/journaling-for-trauma.svg
-description: "Journaling can be a powerful part of trauma healing, but how you write about trauma matters enormously. This guide explains the difference between processing and re-traumatising, and offers a careful, titrated approach with 12 gentle prompts."
+description: "Journaling can powerfully support trauma healing, but how you write matters. A slow, safe approach with 12 prompts for writing about trauma carefully."
 excerpt: "Journaling about trauma can heal or harm depending on how you approach it. A careful, slow guide to writing about difficult past experiences, with safety practices, the key difference between processing and re-traumatising, and 12 gentle prompts."
 date: 2025-10-03 10:24:46 +0000
 featured: false

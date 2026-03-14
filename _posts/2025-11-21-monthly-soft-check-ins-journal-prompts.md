@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Monthly Soft Check Ins: Journal Prompts for Each Month of the Year"
+title: "Monthly Soft Check-Ins: Journal Prompts for Every Month"
 author: willow_pages
 categories: [prompts, journal]
 tags: [monthly-prompts, check-in, wellbeing, journal-prompts, self-care, mental-health, reflection]

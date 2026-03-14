@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Shadow Work Journal Prompts: A Gentle Introduction for Beginners"
+title: "Shadow Work Journal Prompts: A Beginner's Introduction"
 author: willow_pages
 categories: [journal, prompts]
 tags: [shadow-work, self-compassion, inner-child, journaling, self-discovery, emotional-healing, mental-health]
 image: assets/images/shadow-work-journal-prompts.svg
-description: "Shadow work journaling uses prompts to explore the unconscious patterns, suppressed feelings, and disowned parts of yourself. This beginner's guide explains what shadow work actually is and offers 30 gentle prompts to begin safely."
+description: "Shadow work journaling explores unconscious patterns and disowned parts of yourself. A beginner's guide with 30 gentle prompts to start safely."
 excerpt: "Shadow work prompts invite you to meet the parts of yourself you've hidden, minimised, or rejected. A grounded beginner's guide with 30 gentle prompts and the safety practices that matter before you start."
 date: 2025-08-15 08:25:05 +0000
 featured: false

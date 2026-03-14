@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Journaling for Body Image: Writing Towards Neutrality, Not Positivity"
+title: "Journaling for Body Image: Writing Towards Neutrality"
 author: willow_pages
 categories: [journal, wellbeing, mental-health]
 tags: [body-image, body-neutrality, self-compassion, mental-health, journaling, self-esteem, food, prompts]
 image: assets/images/journaling-for-body-image.svg
-description: "Body positivity is not always accessible. Body neutrality is a gentler, more evidence-based goal, and journaling can help you get there by untangling what you were taught to think about your body from what you actually experience."
+description: "Body positivity isn't always accessible. Body neutrality is a gentler, evidence-based goal, and journaling can help you get there by untangling inherited beliefs about your body."
 excerpt: "You don't have to love your body to make peace with it. Journaling for body image works best when it aims for neutrality rather than forced positivity, gently separating the story you inherited about your body from your actual lived experience."
 date: 2026-03-22 10:44:06 +0000
 featured: false

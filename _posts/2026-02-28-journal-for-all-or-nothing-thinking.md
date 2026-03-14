@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How to Use Your Journal to Gently Shift Out of All or Nothing Thinking"
+title: "Journal Prompts for All-or-Nothing Thinking"
 author: willow_pages
 categories: [journal, mental-health]
 tags: [all-or-nothing-thinking, CBT, journaling, perfectionism, self-compassion, mental-health, cognitive-distortions]
 image: assets/images/20-all-or-nothing-thinking.jpg
-description: "All or nothing thinking makes your inner world feel very small and harsh. Your journal can be a quiet place to practice more flexible, both–and thinking instead."
+description: "All-or-nothing thinking makes your inner world feel small and harsh. Your journal can be a place to practise more flexible, both-and thinking instead."
 excerpt: "All or nothing thinking says you are either doing great or failing completely. Your journal can gently widen the lens and make space for the messy, mixed truth of real life."
 date: 2026-02-28 10:34:56 +0000
 featured: false

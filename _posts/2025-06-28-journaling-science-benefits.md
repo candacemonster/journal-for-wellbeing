@@ -4,7 +4,7 @@ title: "The Science of Journaling: What Research Really Says"
 author: willow_pages
 categories: [science, journal]
 tags: [evidence, research, wellbeing, expressive-writing, neuroscience]
-image: https://media.giphy.com/media/fqIBaMWI7m7O8/giphy.gif
+image: assets/images/journaling 4.jpg
 description: "Expressive journaling shows modest, measurable benefits for mood, stress regulation, immune markers, and cognitive processing, without needing long pages."
 excerpt: "Decades of expressive writing research show gentle but real benefits for emotional regulation, stress, and even some physical health markers. Here’s what the studies actually found (and what they didn’t)."
 date: 2025-06-28 10:24:46 +0000
@@ -13,7 +13,7 @@ hidden: false
 ---
 
 **Journaling isn’t a miracle cure. But it’s one of the most accessible, low-cost practices supported by decades of research, especially in the “expressive writing” tradition (brief, honest writing over a few days).**
-
+*Want to put the research into practice? [A few lines a day](/a-few-lines-a-day/) and [The Journaling Ritual](/journaling-ritual/) offer a gentle, low-pressure starting point.*
 ---
 
 ### What the Science Really Shows

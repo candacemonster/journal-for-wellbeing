@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Guided Journal vs Blank Notebook: Which Is Better for Your Mental Health?"
+title: "Guided Journal vs Blank Notebook: How to Choose"
 author: willow_pages
 categories: [journal, mental-health]
 tags: [guided-journal, blank-notebook, mental-health, journaling, self-care, journaling-tips, getting-started]
 image: assets/images/14-guided-vs-blank.jpg
-description: "Guided journals and blank notebooks both support mental health in different ways. Here is how to choose the right format for your nervous system and your needs right now."
+description: "Guided journals and blank notebooks both support mental health in different ways. Here is how to choose the right format for your needs right now."
 excerpt: "Guided journals and blank notebooks can both support your mental health, but they work in different ways. The right choice depends on what your nervous system can realistically handle right now."
 date: 2025-11-07 11:21:49 +0000
 featured: false

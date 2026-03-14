@@ -4,7 +4,7 @@ title: "On Noticing: A Gentle Start to Journaling"
 author: willow_pages
 categories: [journal, reflection]
 tags: [mindfulness, presence, awareness, beginners]
-image: https://media.giphy.com/media/2A0jTOgSpH4p0dZoHN/giphy.gif
+image: assets/images/journaling 3.jpg
 description: "Noticing: one sensation, one sound, one small feeling, is a quiet doorway into journaling, presence, and self-connection."
 excerpt: "You can begin journaling by simply noticing: a sound, a feeling, the light shifting. Small observations become a gentle record of presence."
 date: 2025-06-27 10:29:21 +0000

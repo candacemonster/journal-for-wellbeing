@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Journaling for Relationships: Writing Through Connection, Conflict, and Love"
+title: "Journaling for Relationships: Connection, Conflict, Love"
 author: willow_pages
 categories: [journal, wellbeing, practice]
 tags: [journaling, relationships, conflict, communication, self-awareness, NVC, mental-health, healing]
 image: assets/images/journaling-for-relationships.svg
-description: "Journaling can help you understand your own patterns in relationships before you speak, process the feelings that are hardest to say out loud, and tend to your connections with more care. Practical prompts and approaches for every kind of relationship."
+description: "Journaling helps you understand your patterns in relationships, process feelings that are hard to say out loud, and tend to your connections with more care."
 excerpt: "Before the difficult conversation, after the argument, when you are not sure how to say what you feel, the journal is a private space to think through your relationships more honestly. Prompts and practices for connection, conflict, heartbreak, and love."
 date: 2025-10-24 08:25:05 +0000
 featured: false

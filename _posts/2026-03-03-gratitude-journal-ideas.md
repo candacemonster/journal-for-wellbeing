@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, wellbeing, practice]
 tags: [gratitude, gratitude-journal, journaling, mental-health, mindfulness, self-care, wellbeing, prompts]
 image: assets/images/gratitude-journal-ideas.svg
-description: "The three-things gratitude list stops working when it becomes a habit you do without thinking. These gratitude journal ideas go deeper, exploring specific formats, science-backed variations, and prompt ideas that bring the practice back to life."
+description: "The three-things gratitude list stops working when it becomes mindless. These ideas go deeper with science-backed formats and prompts to revive the practice."
 excerpt: "When 'write three things you're grateful for' stops meaning anything, it's time for a new approach. Science-backed gratitude journal ideas that go deeper than the daily list, including appreciation letters, obstacle gratitude, and the tiny-specific practice that makes the biggest difference."
 date: 2026-03-10 07:28:02 +0000
 featured: false

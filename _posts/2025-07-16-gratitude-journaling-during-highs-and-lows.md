@@ -4,7 +4,7 @@ title: "Gratitude, Even on the Hard Days"
 author: willow_pages
 categories: [journal, reflection]
 tags: [wellbeing, mindfulness, journaling, gratitude, emotional-regulation]
-image: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXAxNDNjN3A3Mm1rbmd2emZobDEydHJhZmY1aThhcTNub281OHl0MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/09dtD1tY2tNAviMmM3/giphy.gif
+image: assets/images/journaling 8.jpg
 description: "Use gratitude journaling to stay grounded through emotional highs and lows, without bypassing what you actually feel."
 excerpt: "A gentle guide to letting gratitude hold space with the hard stuff, so you stay honest, regulated, and present."
 date: 2025-07-16 09:02:48 +0000

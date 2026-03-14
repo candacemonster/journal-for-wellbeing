@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Wellness Journal Ideas: What to Actually Track for Emotional Wellbeing"
+title: "Wellness Journal Ideas: What to Track for Wellbeing"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [wellness-journal, mood-tracking, mental-health, self-care, journaling-tips, emotional-wellbeing, habits]
 image: assets/images/18-wellness-journal-ideas.jpg
-description: "A wellness journal does not have to be a perfectly curated planner. Here are the things actually worth tracking for emotional wellbeing, explained simply and without pressure."
+description: "A wellness journal does not have to be a perfectly curated planner. Here are the things worth tracking for emotional wellbeing, without the pressure."
 excerpt: "A wellness journal does not have to be perfect. Here are the key things actually worth tracking for emotional wellbeing, and how to do it in a low-pressure, meaningful way."
 date: 2025-12-05 07:08:42 +0000
 featured: false

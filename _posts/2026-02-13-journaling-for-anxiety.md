@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, wellbeing]
 tags: [anxiety, mental-health, prompts, self-care, mindfulness, expressive-writing]
 image: assets/images/journaling 1.jpg
-description: "When anxiety makes your mind loud and fast, journaling can feel impossible. This gentle guide offers a step-by-step practice and 10 prompts to help you slow down instead of fight back."
+description: "When anxiety makes your mind loud and fast, journaling can feel impossible. A gentle step-by-step practice and 10 calming prompts to help you slow down."
 excerpt: "When anxiety is loud, journaling can feel impossible. A gentle, realistic guide with a step-by-step practice and 10 prompts for writing when your mind won't quiet down."
 date: 2026-02-13 10:14:36 +0000
 featured: true

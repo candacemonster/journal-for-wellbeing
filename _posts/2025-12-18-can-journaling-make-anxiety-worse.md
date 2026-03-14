@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Can Journaling Make Anxiety Worse, and How Do I Adjust If It Does?"
+title: "Can Journaling Make Anxiety Worse? How to Adjust"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [anxiety, mental-health, self-care, emotional-regulation, mindfulness, grounding]
 image: assets/images/journaling 8.jpg
-description: "Journaling is often recommended for anxiety, but it can sometimes spike distress instead of easing it. Learn the signs and seven practical adjustments to make your practice work for you."
+description: "Journaling is often recommended for anxiety, but it can sometimes spike distress. Learn the warning signs and seven adjustments to make your practice safer."
 excerpt: "Journaling can sometimes increase anxiety rather than ease it. Here is how to recognise the signs and seven adjustments that can help."
 date: 2025-12-18 08:00:10 +0000
 featured: false

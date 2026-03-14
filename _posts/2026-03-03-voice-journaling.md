@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, practice, wellbeing]
 tags: [voice-journaling, audio-journaling, journaling, mental-health, ADHD, alternatives, accessibility, self-care]
 image: assets/images/voice-journaling.svg
-description: "Voice journaling, speaking into a voice recorder or phone instead of writing, offers all the psychological benefits of expressive writing with none of the blank-page friction. A guide to getting started, choosing tools, and making spoken reflection part of your practice."
+description: "Voice journaling offers all the benefits of expressive writing with none of the blank-page friction. A guide to getting started, choosing tools, and building the habit."
 excerpt: "If writing feels like a barrier, speaking might be your way in. Voice journaling is a genuine, researched alternative to written journaling, ideal for ADHD, physical limitations, or anyone who finds words come more easily when spoken than when typed."
 date: 2026-03-16 07:58:32 +0000
 featured: false

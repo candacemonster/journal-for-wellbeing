@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "The DIY Five-Minute Journal: Build Your Own Without Buying the Brand"
+title: "The DIY Five-Minute Journal: Build Your Own Version"
 author: willow_pages
 categories: [journal, practice]
 tags: [five-minute-journal, getting-started, journaling, habits, gratitude, self-care, mental-health]
 image: assets/images/five-minute-journal-alternative.svg
-description: "The Five Minute Journal is a popular prompted journaling product, but its format is easy to replicate yourself in any notebook with a few adjustments. This guide gives you the complete DIY version, explains what research actually supports, and lets you customise it to your needs."
+description: "The Five Minute Journal format is easy to replicate in any notebook. The complete free DIY version with the research behind what actually works."
 excerpt: "The Five Minute Journal format is simple, effective, and easy to replicate in any notebook you already own. Here's the complete DIY version with the research behind it, two format variations, and instructions for making it your own."
 date: 2025-10-17 09:07:23 +0000
 featured: false

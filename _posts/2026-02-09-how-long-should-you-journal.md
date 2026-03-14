@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Long and How Often Should You Journal for Emotional Benefits?"
+title: "How Long Should You Journal? What Research Says"
 author: willow_pages
 categories: [journal, science]
 tags: [journaling, mental-health, wellbeing, habits, expressive-writing, self-care]

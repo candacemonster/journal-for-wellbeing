@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Journaling for Sleep: How Writing Before Bed Can Help You Rest Better"
+title: "Journaling for Sleep: How Writing Before Bed Can Help"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [sleep, mental-health, journaling, self-care, anxiety, mindfulness, habits]
 image: assets/images/journaling-for-sleep.svg
-description: "A racing mind at bedtime is one of the most common sleep disruptors. This guide explains what research says about journaling before bed, including one specific method studied at sleep clinics, and offers a simple, low-effort night journaling ritual."
+description: "A racing mind at bedtime is a common sleep disruptor. Research on pre-bed journaling, including a method studied at sleep clinics and a simple night ritual."
 excerpt: "Journaling before bed isn't just a wind-down ritual, one specific method has been studied in sleep labs and found to shorten the time it takes to fall asleep. A gentle guide to writing your way to better rest."
 date: 2025-09-19 09:17:33 +0000
 featured: false

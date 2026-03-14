@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Start a Gentle Journaling Ritual When Blank Pages Feel Intimidating"
+title: "A Gentle Journaling Ritual for When Blank Pages Intimidate"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [journaling, getting-started, self-care, rituals, mindfulness, anxiety, grounding]

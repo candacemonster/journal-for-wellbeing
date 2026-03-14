@@ -4,7 +4,7 @@ title: "Gentle Prompts for a Soft Summer"
 author: willow_pages
 categories: [prompts, seasonal]
 tags: [journal-prompts, mindfulness, summer, reflection]
-image: https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3eWM2YThjZTBsOTJ3a29tYzRzMjJiemN2YWZxNjZudzZ3YWx5MjJ3aiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7buiEVyi9GAXgzw4/giphy.gif
+image: assets/images/journaling 7.jpg
 description: "A soft set of seven summer journaling prompts to slow down, notice small healings, and meet yourself with gentleness."
 excerpt: "Let July (or whatever month you’re in) move slower. Seven gentle summer prompts for presence and quiet self-connection."
 date: 2025-07-14 09:32:18 +0000
@@ -67,6 +67,6 @@ If beginning feels stiff, the reminder to start messy lives [here](/start-where-
 
 Which prompt called to you today? If you’d like, share your reflections in the comments, or simply carry them quietly into your week. The softest journaling is still real journaling.
 
-(If you post or share, tag #journalforwellbeing, or keep them entirely your own.) For more seasonal writing, the [autumn journal prompts]({{ site.baseurl }}/autumn-journal-prompts/) carry the same gentle energy. And if you’d like some grounding to go alongside these, [tiny daily grounding practices]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/) pair well with slow summer mornings. For more seasonal writing, the [autumn journal prompts]({{ site.baseurl }}/autumn-journal-prompts/) carry the same gentle energy. And if you’d like some grounding to go alongside these, [tiny daily grounding practices]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/) pair well with slow summer mornings.
+(If you post or share, tag #journalforwellbeing, or keep them entirely your own.) For more seasonal writing, the [autumn journal prompts]({{ site.baseurl }}/autumn-journal-prompts/) carry the same gentle energy. And if you'd like some grounding to go alongside these, [tiny daily grounding practices]({{ site.baseurl }}/grounding-practices-to-pair-with-journaling/) pair well with slow summer mornings.
 
 

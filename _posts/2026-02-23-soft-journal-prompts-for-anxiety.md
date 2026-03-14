@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "25 Soft Journal Prompts for Anxiety (When You Haven't Written in Days)"
+title: "25 Soft Journal Prompts for Anxious Days"
 author: willow_pages
 categories: [journal, prompts]
 tags: [anxiety, prompts, mental-health, self-care, mindfulness, getting-started]

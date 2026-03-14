@@ -21,7 +21,7 @@ redirects = [
   "have-a-cozy-night-in",
   "how-to-use-witch-hazel-for-your-skin",
   "journaling-for-physical-health",
-  "journaling-through-fatigue-a-gentle-approach-for-chronic-illness-warriors"
+  "journaling-through-fatigue-a-gentle-approach-for-chronic-illness-warriors",
   "self-care-ideas-for-busy-people",
   "self-care-ideas-for-stress-relief",
   "self-care-ideas-for-workaholics",
@@ -51,7 +51,7 @@ redirects.each do |path|
   File.write(full_path, <<~EOF)
     ---
     layout: redirect
-    redirect_to: /blog/
+    redirect_to: /
     ---
   EOF
 

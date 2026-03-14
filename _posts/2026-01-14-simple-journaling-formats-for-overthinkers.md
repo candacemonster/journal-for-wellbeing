@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "A Few Lines a Day: Simple Journaling Formats for People Who Overthink"
+title: "Simple Journaling Formats for People Who Overthink"
 author: willow_pages
 categories: [journal, prompts]
 tags: [overthinking, mental-health, journaling, self-care, prompts, getting-started, anxiety]
 image: assets/images/journaling 13.jpg
-description: "Ultra-simple journaling formats designed for overthinkers. Short, bounded structures that help you reflect without spiraling, analyzing, or feeding perfectionism."
+description: "Ultra-simple journaling formats for overthinkers. Short, bounded structures that help you reflect without spiralling, over-analysing, or feeding perfectionism."
 excerpt: "If you tend to overthink, these ultra-simple journaling formats help you check in without spiraling. One sentence, three words, or a headline can be enough."
 date: 2026-01-14 10:14:36 +0000
 featured: false

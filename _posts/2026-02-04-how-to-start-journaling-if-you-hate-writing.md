@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "How Do I Start Journaling for My Mental Health if I Hate Writing?"
+title: "How to Start Journaling When You Hate Writing"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [mental-health, getting-started, self-care, voice-journaling, mindfulness, expressive-writing]
 image: assets/images/journaling 6.jpg
-description: "If traditional journaling feels tedious or pressured, there are gentler ways to check in with yourself that still support mental health. Voice notes, micro journaling, and more."
+description: "If traditional journaling feels tedious or pressured, there are gentler alternatives that still support mental health: voice notes, micro journaling, and more."
 excerpt: "Journaling can be much broader than pen and paper. If writing feels like a chore, these gentler formats still support mental health without the pressure."
 date: 2026-02-04 08:55:35 +0000
 featured: false

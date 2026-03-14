@@ -125,15 +125,22 @@ post_class: post-template
       {% endif %}
 
       <!-- Related Posts -->
-      {% assign related = "" | split: "" %}
+      {% assign related_by_tag = "" | split: "" %}
+      {% assign related_by_cat = "" | split: "" %}
       {% for post in site.posts %}
         {% if post.url != page.url %}
-          {% assign shared = post.tags | where_exp: "t", "page.tags contains t" %}
-          {% if shared.size > 0 %}
-            {% assign related = related | push: post %}
+          {% assign shared_tags = post.tags | where_exp: "t", "page.tags contains t" %}
+          {% if shared_tags.size > 0 %}
+            {% assign related_by_tag = related_by_tag | push: post %}
+          {% else %}
+            {% assign shared_cats = post.categories | where_exp: "c", "page.categories contains c" %}
+            {% if shared_cats.size > 0 %}
+              {% assign related_by_cat = related_by_cat | push: post %}
+            {% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
+      {% assign related = related_by_tag | concat: related_by_cat %}
       {% if related.size > 0 %}
       <div class="related-posts mt-5 pt-4 border-top">
         <h4 style="font-family:Lora,Georgia,serif;font-size:1.1rem;font-weight:700;margin-bottom:18px;color:var(--text);">You might also like</h4>

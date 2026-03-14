@@ -5,7 +5,7 @@ author: willow_pages
 categories: [journal, wellbeing]
 tags: [anger, emotional-regulation, mental-health, prompts, self-care, expressive-writing, mindfulness]
 image: assets/images/journaling-for-anger.svg
-description: "Venting anger without direction can make it worse, but writing about anger in the right way can genuinely help you process it. This guide covers what research says and offers a 5-step practice plus 15 prompts for when you're furious, frustrated, or quietly seething."
+description: "Venting anger without direction can make it worse, but writing about it thoughtfully can help. Research-backed guide with a 5-step practice and 15 prompts."
 excerpt: "Not all journaling about anger helps, venting can escalate the feeling. This gentle guide explains the difference between amplifying and processing anger on the page, with a step-by-step practice and 15 prompts for when things feel very loud."
 date: 2025-09-05 07:58:32 +0000
 featured: false

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Paper vs App: Is Digital Journaling as Effective as Handwriting for Wellbeing?"
+title: "Paper vs App: Is Digital Journaling as Effective?"
 author: willow_pages
 categories: [journal, mental-health]
 tags: [digital-journaling, paper-journaling, mental-health, self-care, journaling-tips, wellbeing, mindfulness]
 image: assets/images/paper vs app journaling.jpg
-description: "If you are trying to decide between a paper notebook and a journaling app, here is what research and experience actually say about which is better for mental health."
+description: "Paper notebook or journaling app? Here is what research and experience actually say about which works better for mental health and how to choose."
 excerpt: "Both paper and digital journaling can support mental health. The best choice is usually the one you will actually use, but here is what research says about the differences."
 date: 2026-03-03 08:00:10 +0000
 featured: false
 hidden: false
 ---
 
-If you are trying to decide between a paper notebook and a journaling app, you are not alone. The short answer: both can support mental health, and the best choice is usually the one you will actually use.
+If you are trying to decide between a paper notebook and a journaling app, you are not alone. The short answer: both can support mental health, and the best choice is usually the one you will actually use. Once you've settled on a format, [starting a simple journaling ritual](/journaling-ritual/) or even [just a few lines a day](/a-few-lines-a-day/) can make the habit stick.
 
 ## What research and experts say about medium
 

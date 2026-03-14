@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Journaling for Men: Why It Works the Same and Why the Entry Point Matters"
+title: "Journaling for Men: Why It Works and Where to Start"
 author: willow_pages
 categories: [journal, wellbeing, mental-health]
 tags: [men, mental-health, journaling, emotional-literacy, self-care, masculinity, getting-started]
 image: assets/images/journaling-for-men.svg
-description: "The psychological benefits of journaling are not gendered, but the barriers often are. This guide addresses the specific friction points that men commonly encounter with journaling and offers a lower-barrier entry point for anyone who finds the traditional journal format off-putting."
+description: "The benefits of journaling aren't gendered, but the barriers often are. A guide to the friction points men face and a lower-barrier entry point for starting."
 excerpt: "The research on journaling works for everyone. But the entry point matters, and for many men, the traditional journaling format is laden with barriers that have nothing to do with whether the practice would actually help them."
 date: 2026-03-28 10:44:06 +0000
 featured: false

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Journaling for Burnout and Overwhelm: Tiny Practices When You're Exhausted"
+title: "Journaling for Burnout and Overwhelm: Tiny Practices"
 author: willow_pages
 categories: [journal, wellbeing]
 tags: [burnout, overwhelm, mental-health, self-care, prompts, expressive-writing]

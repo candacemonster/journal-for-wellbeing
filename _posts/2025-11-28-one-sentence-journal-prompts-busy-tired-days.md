@@ -5,7 +5,7 @@ author: willow_pages
 categories: [prompts, journal]
 tags: [prompts, quick-journaling, busy, tired, mental-health, self-care, journaling, one-sentence]
 image: assets/images/17-one-sentence-prompts.jpg
-description: "On some days, even five minutes of journaling feels like too much. These 10 one-sentence prompts are designed to be answered in 60 seconds while still giving you a small moment of care and honesty."
+description: "On some days, even five minutes feels like too much. These 10 one-sentence journal prompts take 60 seconds and still give you a small moment of care."
 excerpt: "On days when even five minutes feels like too much, one sentence can still be meaningful. These 10 prompts are designed to be answered in 60 seconds."
 date: 2025-11-28 09:12:58 +0000
 featured: false

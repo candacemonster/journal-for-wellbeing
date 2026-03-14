@@ -4,7 +4,7 @@ title: "How I Begin My Journaling Ritual"
 author: willow_pages
 categories: [journal, practice]
 tags: [ritual, routine, mindfulness]
-image: https://media.giphy.com/media/IneGbyWjjEcnK/giphy.gif
+image: assets/images/journaling 2.jpg
 description: "A simple, repeatable journaling ritual teaches your body this is a safe pause, so you actually return to the page."
 excerpt: "You don’t need elaborate setups. A few gentle cues can turn journaling from a task into a calming personal ritual you come back to."
 date: 2025-06-13 08:50:00 +0000
