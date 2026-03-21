@@ -148,10 +148,10 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center footer-copy">
+      <div class="col-12">
+        <div class="footer-line">
         Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
-      </div>
-      <div class="col-12 footer-links-wrap">
+          <span class="footer-sep" aria-hidden="true">|</span>
         <div class="footer-links" aria-label="Footer links">
           <a target="_blank" rel="noopener noreferrer" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Theme by WowThemes</a>
           <span class="footer-sep" aria-hidden="true">|</span>
@@ -162,6 +162,7 @@
         <a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a>
           <span class="footer-sep" aria-hidden="true">|</span>
           <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </div>
         </div>
       </div>
     </div>

@@ -539,22 +539,20 @@ blockquote {
   color: var(--accent);
 }
 
-.footer-copy {
-  margin-bottom: 8px;
-}
-
-.footer-links-wrap {
-  display: flex;
-  justify-content: center;
-}
-
-.footer-links {
+.footer-line {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 4px 10px;
   text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 10px;
 }
 
 @media (max-width: 576px) {
