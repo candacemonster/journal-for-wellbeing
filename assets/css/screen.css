@@ -557,7 +557,8 @@ blockquote {
   margin-left: 0;
 }
 
-.share ul li i.fa {
+.share .share-icon {
+  display: inline-block;
   border: 1px solid var(--border);
   width: 32px;
   height: 32px;
@@ -565,9 +566,12 @@ blockquote {
   text-align: center;
   border-radius: 50%;
   transition: var(--transition);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: lowercase;
 }
 
-.share ul li i.fa:hover {
+.share .share-icon:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
@@ -862,7 +866,7 @@ img {
   font-size: 30px;
 }
 
-.pointerup i.fa {
+.pointerup .pointerup-symbol {
   color: var(--border);
 }
 
