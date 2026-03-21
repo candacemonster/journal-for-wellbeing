@@ -1,6 +1,7 @@
 # Site
 name: "Journal for Wellbeing"
 title: "Journal for Wellbeing"
+tagline: "Mindful Journaling, Prompts & Wellness"
 description: "Journal for Wellbeing is your quiet space for mindful journaling, emotional resilience, and self-discovery. Gentle prompts, honest essays, and tools to help you reconnect with yourself through the healing power of writing."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -22,11 +23,13 @@ authors:
   willow_pages:
     display_name: "Willow Pages"         
     bio: >
-      Curator of mindful writing and gentle prompts. 
-      Believes six honest lines can change an afternoon.
+      Writer behind Journal for Wellbeing. I've used journaling through anxiety,
+      fatigue, and emotional uncertainty for years — and found that a few honest
+      lines a day slowly change how you relate to yourself. No credentials, just
+      a long practice and a genuine belief in the page.
     # avatar: ""   # 300×300 px square
     email: "journalforwellbeing@gmail.com"
-    web: "https://journalforwellbeing.com"
+    web: "https://journalforwellbeing.com/about/"
     # twitter: "journal4well"
     # instagram: "journalforwellbeing"
     # mastodon: "https://indieweb.social/@journaler"
@@ -77,7 +80,7 @@ exclude:
   - site/
 # Misc
 future: false
-show_author_box: false
+show_author_box: true
 sass:
   style: compressed
   sass_dir: _sass

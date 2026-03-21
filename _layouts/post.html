@@ -35,9 +35,9 @@ post_class: post-template
         {% endif %}
 
         {% if site.lazyimages == "enabled" %}
-          <img class="featured-image img-fluid lazyimg" data-src="{{ img_src }}" alt="{{ page.title }}">
+          <img class="featured-image img-fluid lazyimg" data-src="{{ img_src }}" alt="{{ page.title }}" width="1000" height="750">
         {% else %}
-          <img class="featured-image img-fluid" src="{{ img_src }}" alt="{{ page.title }}">
+          <img class="featured-image img-fluid" src="{{ img_src }}" alt="{{ page.title }}" width="1000" height="750">
         {% endif %}
       {% endif %}
 
@@ -118,7 +118,7 @@ post_class: post-template
                   <a href="{{ author.twitter }}" class="btn follow" target="_blank" rel="noopener noreferrer">Follow</a>
                 {% endif %}
               </h5>
-              <p class="author-description">{{ author.description }}</p>
+              <p class="author-description">{{ author.bio }}</p>
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ post_class: post-template
           <div class="col-md-4 mb-4">
             <a href="{{ rpost.url | relative_url }}" class="link-dark" style="text-decoration:none;">
               {% if rpost.image %}
-              <img src="{{ site.baseurl }}/{{ rpost.image }}" alt="{{ rpost.title }}" class="img-fluid mb-2" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover;width:100%;">
+              <img src="{{ site.baseurl }}/{{ rpost.image }}" alt="{{ rpost.title }}" class="img-fluid mb-2" width="800" height="450" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover;width:100%;">
               {% endif %}
               <div style="font-size:0.88rem;font-weight:600;color:var(--text);line-height:1.4;">{{ rpost.title }}</div>
               <div style="font-size:0.78rem;color:var(--text-muted);margin-top:4px;">{{ rpost.date | date: "%b %-d, %Y" }}</div>
