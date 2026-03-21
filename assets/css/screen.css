@@ -1133,13 +1133,26 @@ iframe {
 .adsense-container {
   margin: 20px 0;
   clear: both;
-  min-height: 100px; /* reserves space before ad fills in — reduces CLS */
+  min-height: 280px;
 }
 
 .adsense-post {
   margin: 30px 0;
   clear: both;
-  min-height: 100px;
+  min-height: 280px;
+}
+
+.adsense-slot {
+  width: 100%;
+  min-height: 280px;
+}
+
+@media (min-width: 768px) {
+  .adsense-container,
+  .adsense-post,
+  .adsense-slot {
+    min-height: 250px;
+  }
 }
 
 .adsense-container ins.adsbygoogle[data-ad-status="unfilled"],

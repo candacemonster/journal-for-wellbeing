@@ -1,13 +1,11 @@
 {% if site.adsense == "enabled" %}
-  <div class="adsense-container">
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-layout="in-article"
-         data-ad-format="fluid"
-         data-ad-client="{{ site.adsense-data-ad-client }}"
-         data-ad-slot="{{ site.adsense-data-ad-slot }}"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
+  <ins class="adsbygoogle adsense-slot"
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="{{ site.adsense-data-ad-client }}"
+    data-ad-slot="{{ site.adsense-data-ad-slot }}"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 {% endif %}
