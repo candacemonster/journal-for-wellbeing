@@ -8,8 +8,7 @@ If you'd like to get in touch, use the form below or email [journalforwellbeing@
 
 We welcome all thoughtful messages, questions, and kind conversations.
 
-<!-- Contact Form (Formspree — replace YOUR_FORM_ID after creating a free account at formspree.io) -->
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="mt-4">
+<form action="https://formspree.io/f/xnjgypgp" method="POST" class="mt-4">
   <div class="form-group mb-3">
     <label for="contact-name">Your name</label>
     <input type="text" name="name" id="contact-name" class="form-control" placeholder="Willow" required>
