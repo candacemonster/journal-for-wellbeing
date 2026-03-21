@@ -34,11 +34,8 @@ post_class: post-template
           {% assign img_src = site.baseurl | append: '/' | append: page.image %}
         {% endif %}
 
-        {% if site.lazyimages == "enabled" %}
-          <img class="featured-image img-fluid lazyimg" data-src="{{ img_src }}" alt="{{ page.title }}" width="1000" height="750">
-        {% else %}
-          <img class="featured-image img-fluid" src="{{ img_src }}" alt="{{ page.title }}" width="1000" height="750">
-        {% endif %}
+        <!-- Hero image always loads eagerly — it is the LCP element -->
+        <img class="featured-image img-fluid" src="{{ img_src }}" alt="{{ page.title }}" width="1000" height="750" fetchpriority="high" decoding="async">
       {% endif %}
 
       <!-- Post Content -->
