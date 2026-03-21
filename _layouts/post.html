@@ -86,7 +86,7 @@ post_class: post-template
         <ul class="tags mb-4">
           {% assign sortedCategories = page.categories | sort %}
           {% for category in sortedCategories %}
-            <li><a href="{{site.baseurl}}/categories#{{ category | replace: ' ', '-' }}">{{ category }}</a></li>
+            <li><a href="{{site.baseurl}}/categories/#{{ category | replace: ' ', '-' }}">{{ category }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -96,7 +96,7 @@ post_class: post-template
         <ul class="tags">
           {% assign sortedTags = page.tags | sort %}
           {% for tag in sortedTags %}
-            <li><a href="{{site.baseurl}}/tags#{{ tag | replace: ' ', '-' }}">#{{ tag }}</a></li>
+            <li><a href="{{site.baseurl}}/tags/#{{ tag | replace: ' ', '-' }}">#{{ tag }}</a></li>
           {% endfor %}
         </ul>
       </div>
