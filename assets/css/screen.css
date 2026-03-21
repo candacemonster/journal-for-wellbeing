@@ -552,8 +552,22 @@ blockquote {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4px 10px;
   width: 100%;
+  margin: 0 auto;
+}
+
+.footer-links > * {
+  margin: 2px 5px;
+}
+
+@supports (gap: 1rem) {
+  .footer-links {
+    gap: 4px 10px;
+  }
+
+  .footer-links > * {
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
