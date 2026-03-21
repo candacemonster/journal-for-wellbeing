@@ -148,19 +148,21 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-sm-6 text-center text-lg-left">
+      <div class="col-12 text-center footer-copy">
         Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
       </div>
-      <div class="col-md-6 col-sm-6 text-center text-lg-right">
-        <a target="_blank" rel="noopener noreferrer" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
-        &nbsp;|&nbsp;
+      <div class="col-12 footer-links-wrap">
+        <div class="footer-links" aria-label="Footer links">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Theme by WowThemes</a>
+          <span class="footer-sep" aria-hidden="true">|</span>
         <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>
-        &nbsp;|&nbsp;
+          <span class="footer-sep" aria-hidden="true">|</span>
         <a href="{{ '/terms/' | relative_url }}">Terms of Use</a>
-        &nbsp;|&nbsp;
+          <span class="footer-sep" aria-hidden="true">|</span>
         <a href="{{ '/disclaimer/' | relative_url }}">Disclaimer</a>
-        &nbsp;|&nbsp;
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+          <span class="footer-sep" aria-hidden="true">|</span>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </div>
       </div>
     </div>
   </div>
