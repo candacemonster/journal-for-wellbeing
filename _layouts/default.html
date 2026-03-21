@@ -104,7 +104,7 @@
     <div class="container">
       <!-- AdSense (below header on all pages) -->
       {% if site.adsense == "enabled" %}
-        <div class="adsense-container mb-4 text-center">
+        <div class="adsense-container mb-4 text-center d-none d-md-block" aria-hidden="true">
           {% include adsense-under-header.html %}
         </div>
       {% endif %}
@@ -178,11 +178,7 @@
   {% if site.lazyimages == "enabled" %}
   <script defer src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
   {% endif %}
-  {% if page.layout == 'post' %}
-    <script async id="dsq-count-scr" src="https://{{site.disqus}}.disqus.com/count.js"></script>
-    {% include article-schema.html %}
-  {% endif %}
-  {% if page.url == "/" or page.url contains "zen-garden" %}
+  {% if page.url contains "zen-garden" %}
   {% include sound-bath-player.html %}
   {% endif %}
 
