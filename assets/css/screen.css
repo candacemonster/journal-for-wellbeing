@@ -934,24 +934,47 @@ iframe {
   border-radius: 0;
   background-image: url(../images/jumbotron.jpg);
   background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.jumbotron.fortags:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(33, 20, 12, 0.58) 0%, rgba(33, 20, 12, 0.28) 45%, rgba(20, 12, 8, 0.50) 100%);
+  pointer-events: none;
+}
+
+.jumbotron.fortags .d-md-flex,
+.jumbotron.fortags .col-md-4,
+.jumbotron.fortags .col-md-8 {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron.fortags h2 {
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
 }
 
 .jumbotron.fortags a {
   padding: 6px 14px 7px;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.35);
+  background: rgba(18, 12, 10, 0.58);
+  border: 1px solid rgba(255,255,255,0.55);
   border-radius: var(--radius-pill);
   color: #fff;
   font-weight: 500;
   text-transform: lowercase;
   font-size: 0.82rem;
   display: inline-block;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(2px);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   transition: var(--transition);
 }
 
 .jumbotron.fortags a:hover {
-  background: rgba(255,255,255,0.3);
+  background: rgba(30, 20, 14, 0.78);
 }
 
 .layout-page .jumbotron.fortags {
